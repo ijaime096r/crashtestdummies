@@ -1,3 +1,5 @@
+const PASSWORD = "tren2026"
+
 let preguntas = []
 let test = []
 
@@ -5,6 +7,34 @@ let actual = 0
 let aciertos = 0
 
 let respondida = false
+
+function login() {
+
+    const clave = document.getElementById("clave").value
+
+    if (clave === PASSWORD) {
+
+        localStorage.setItem("acceso", "ok")
+
+        iniciarApp()
+
+    } else {
+
+        alert("Contraseña incorrecta")
+
+    }
+
+}
+
+function iniciarApp() {
+
+    document.getElementById("login").style.display = "none"
+
+    document.getElementById("app").style.display = "block"
+
+    cargar()
+
+}
 
 async function cargar() {
 
@@ -129,4 +159,12 @@ document.addEventListener("keydown", function(event) {
 
 })
 
-cargar()
+window.onload = function() {
+
+    if (localStorage.getItem("acceso") === "ok") {
+
+        iniciarApp()
+
+    }
+
+}
