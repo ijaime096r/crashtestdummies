@@ -1,169 +1,359 @@
-<!DOCTYPE html>
-<html>
+const PASSWORD = "tren2026"
 
-<head>
+let preguntas = []
+let test = []
+let falladas = []
 
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
+let actual = 0
+let aciertos = 0
 
-<title>Test ferroviario</title>
+let respondida = false
+let modo = "entrenamiento"
 
-<style>
+let tiempoRestante = 0
+let temporizador = null
 
-body {
+let respuestasUsuario = []
 
-    font-family: Arial;
-    margin: 20px;
-    text-align: center;
 
-}
+function login() {
 
-#login {
+    const clave = document.getElementById("clave").value
 
-    max-width: 400px;
-    margin: auto;
+    if (clave === PASSWORD) {
 
-}
+        localStorage.setItem("acceso","ok")
 
-#login input {
+        iniciarApp()
 
-    width: 100%;
-    padding: 12px;
-    margin-top: 10px;
+    } else {
 
-}
+        alert("Contraseña incorrecta")
 
-#app {
-
-    display: none;
+    }
 
 }
 
-#menu {
 
-    margin-bottom: 20px;
+function iniciarApp() {
 
-}
+    document.getElementById("login").style.display = "none"
+    document.getElementById("app").style.display = "block"
 
-#menu button {
-
-    width: auto;
-    padding: 8px 12px;
-    margin: 4px;
-    font-size: 14px;
+    cargar()
 
 }
 
-#configExamen {
 
-    margin-top: 10px;
+async function cargar() {
 
-}
+    const respuesta = await fetch("preguntas.json")
 
-#timer {
-
-    font-weight: bold;
-    color: red;
-    margin-bottom: 15px;
+    preguntas = await respuesta.json()
 
 }
 
-#pregunta {
 
-    font-size: 20px;
-    margin-bottom: 20px;
+function modoEntrenamiento() {
 
-}
+    modo = "entrenamiento"
 
-.opcion {
+    document.getElementById("configExamen").style.display = "none"
 
-    display: block;
-    width: 100%;
-    padding: 14px;
-    margin: 10px 0;
-    font-size: 16px;
+    iniciarTest(20)
 
 }
 
-.correcta {
 
-    background-color: #8fd694;
+function mostrarConfigExamen() {
 
-}
-
-.incorrecta {
-
-    background-color: #f28b82;
+    document.getElementById("configExamen").style.display = "block"
 
 }
 
-.seleccionada {
 
-    background-color: #d0e4ff;
+function iniciarExamen() {
+
+    const minutos = parseInt(document.getElementById("tiempoExamen").value)
+
+    if (!minutos || minutos <= 0) {
+
+        alert("Tiempo no válido")
+
+        return
+
+    }
+
+    modo = "examen"
+
+    tiempoRestante = minutos * 60
+
+    iniciarTest(50)
+
+    iniciarTemporizador()
 
 }
 
-#siguiente {
 
-    margin-top: 20px;
-    padding: 12px;
+function modoFalladas() {
+
+    modo = "falladas"
+
+    document.getElementById("configExamen").style.display = "none"
+
+    if (falladas.length === 0) {
+
+        alert("No hay preguntas falladas")
+
+        return
+
+    }
+
+    test = [...falladas]
+
+    actual = 0
+    aciertos = 0
+    respuestasUsuario = []
+
+    mostrar()
 
 }
 
-</style>
 
-</head>
+function iniciarTest(numero) {
 
-<body>
+    if (preguntas.length === 0) {
 
-<div id="login">
+        alert("Las preguntas todavía no se han cargado")
 
-<h2>Acceso</h2>
+        return
 
-<input type="password" id="clave" placeholder="Contraseña">
+    }
 
-<button onclick="login()">Entrar</button>
+    actual = 0
+    aciertos = 0
+    respuestasUsuario = []
 
-</div>
+    test = [...preguntas]
 
-<div id="app">
+    test.sort(() => Math.random() - 0.5)
 
-<h1>Test ferroviario</h1>
+    test = test.slice(0, numero)
 
-<div id="menu">
+    mostrar()
 
-<button onclick="modoEntrenamiento()">Entrenamiento</button>
+}
 
-<button onclick="mostrarConfigExamen()">Examen</button>
 
-<button onclick="modoFalladas()">Falladas</button>
+function iniciarTemporizador() {
 
-</div>
+    clearInterval(temporizador)
 
-<div id="configExamen" style="display:none">
+    temporizador = setInterval(function(){
 
-Tiempo (minutos)
+        tiempoRestante--
 
-<input type="number" id="tiempoExamen" value="30">
+        const m = Math.floor(tiempoRestante/60)
+        const s = tiempoRestante%60
 
-<button onclick="iniciarExamen()">Comenzar examen</button>
+        document.getElementById("timer").innerText =
+            "Tiempo: " + m + ":" + s.toString().padStart(2,"0")
 
-</div>
+        if (tiempoRestante <= 0) {
 
-<div id="info"></div>
+            clearInterval(temporizador)
 
-<div id="timer"></div>
+            terminarExamen()
 
-<div id="pregunta"></div>
+        }
 
-<div id="opciones"></div>
+    },1000)
 
-<button id="siguiente" onclick="siguiente()">Siguiente</button>
+}
 
-</div>
 
-<script src="script.js"></script>
+function terminarExamen() {
 
-</body>
+    clearInterval(temporizador)
 
-</html>
+    mostrarRevision()
+
+}
+
+
+function mostrar() {
+
+    respondida = false
+
+    const p = test[actual]
+
+    document.getElementById("info").innerText =
+        "Pregunta " + (actual+1) + " / " + test.length
+
+    document.getElementById("pregunta").innerText = p.pregunta
+
+    const contenedor = document.getElementById("opciones")
+
+    contenedor.innerHTML = ""
+
+    for (let i=0;i<p.opciones.length;i++) {
+
+        const boton = document.createElement("button")
+
+        boton.className = "opcion"
+
+        boton.innerText = p.opciones[i]
+
+        boton.onclick = function(){
+
+            if (respondida) return
+
+            respondida = true
+
+            respuestasUsuario[actual] = i
+
+            const botones = contenedor.children
+
+            if (modo === "examen") {
+
+                botones[i].classList.add("seleccionada")
+
+            }
+
+            if (modo !== "examen") {
+
+                for (let j=0;j<botones.length;j++) {
+
+                    if (j === p.correcta) {
+
+                        botones[j].classList.add("correcta")
+
+                    }
+
+                }
+
+                if (i !== p.correcta) {
+
+                    botones[i].classList.add("incorrecta")
+
+                }
+
+            }
+
+            if (i === p.correcta) {
+
+                aciertos++
+
+            } else {
+
+                falladas.push(p)
+
+            }
+
+        }
+
+        contenedor.appendChild(boton)
+
+    }
+
+}
+
+
+function siguiente() {
+
+    if (!respondida) {
+
+        alert("Primero debes responder")
+
+        return
+
+    }
+
+    actual++
+
+    if (actual >= test.length) {
+
+        terminarExamen()
+
+        return
+
+    }
+
+    mostrar()
+
+}
+
+
+function mostrarRevision() {
+
+    const contenedor = document.getElementById("opciones")
+
+    document.getElementById("pregunta").innerText = "Revisión del examen"
+
+    document.getElementById("info").innerText =
+        "Aciertos: " + aciertos + " de " + test.length
+
+    contenedor.innerHTML = ""
+
+    for (let i=0;i<test.length;i++) {
+
+        const p = test[i]
+
+        const bloque = document.createElement("div")
+
+        bloque.style.marginBottom = "20px"
+
+        const titulo = document.createElement("div")
+        titulo.innerText = (i+1) + ". " + p.pregunta
+
+        bloque.appendChild(titulo)
+
+        for (let j=0;j<p.opciones.length;j++) {
+
+            const linea = document.createElement("div")
+
+            linea.innerText = p.opciones[j]
+
+            if (j === p.correcta) {
+
+                linea.style.backgroundColor = "#8fd694"
+
+            }
+
+            if (respuestasUsuario[i] === j && j !== p.correcta) {
+
+                linea.style.backgroundColor = "#f28b82"
+
+            }
+
+            bloque.appendChild(linea)
+
+        }
+
+        contenedor.appendChild(bloque)
+
+    }
+
+}
+
+
+document.addEventListener("keydown", function(e){
+
+    if (e.key === "Enter") {
+
+        siguiente()
+
+    }
+
+})
+
+
+window.addEventListener("DOMContentLoaded", function(){
+
+    if (localStorage.getItem("acceso") === "ok") {
+
+        iniciarApp()
+
+    }
+
+})
