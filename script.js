@@ -57,9 +57,11 @@ function modoEntrenamiento() {
 
     modo = "entrenamiento"
 
-    iniciarTest(20)
+    clearInterval(temporizador)
 
     document.getElementById("timer").innerText = ""
+
+    iniciarTest(20)
 
 }
 
@@ -68,7 +70,17 @@ function modoExamen() {
 
     modo = "examen"
 
-    const minutos = prompt("Introduce el tiempo del examen en minutos")
+    const entrada = prompt("Introduce el tiempo del examen en minutos")
+
+    const minutos = parseInt(entrada)
+
+    if (isNaN(minutos) || minutos <= 0) {
+
+        alert("Tiempo no válido")
+
+        return
+
+    }
 
     tiempoRestante = minutos * 60
 
@@ -82,6 +94,10 @@ function modoExamen() {
 function modoFalladas() {
 
     modo = "falladas"
+
+    clearInterval(temporizador)
+
+    document.getElementById("timer").innerText = ""
 
     if (falladas.length === 0) {
 
@@ -146,8 +162,10 @@ function iniciarTemporizador() {
 
 function terminarExamen() {
 
+    clearInterval(temporizador)
+
     alert(
-        "Tiempo terminado\n\nAciertos: " +
+        "Resultado\n\nAciertos: " +
         aciertos +
         " de " +
         test.length
