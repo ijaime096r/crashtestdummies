@@ -1,4 +1,4 @@
-const PASSWORD = "canarias"
+const PASSWORD = "tren2026"
 
 let preguntas = []
 let test = []
@@ -7,6 +7,7 @@ let actual = 0
 let aciertos = 0
 
 let respondida = false
+
 
 function login() {
 
@@ -26,6 +27,7 @@ function login() {
 
 }
 
+
 function iniciarApp() {
 
     document.getElementById("login").style.display = "none"
@@ -35,6 +37,7 @@ function iniciarApp() {
     cargar()
 
 }
+
 
 async function cargar() {
 
@@ -48,6 +51,7 @@ async function cargar() {
 
 }
 
+
 function generarTest() {
 
     test = [...preguntas]
@@ -57,6 +61,7 @@ function generarTest() {
     test = test.slice(0, 20)
 
 }
+
 
 function mostrar() {
 
@@ -117,6 +122,7 @@ function mostrar() {
 
 }
 
+
 function siguiente() {
 
     if (!respondida) {
@@ -149,6 +155,7 @@ function siguiente() {
 
 }
 
+
 document.addEventListener("keydown", function(event) {
 
     if (event.key === "Enter") {
@@ -159,7 +166,8 @@ document.addEventListener("keydown", function(event) {
 
 })
 
-window.onload = function() {
+
+window.addEventListener("DOMContentLoaded", function() {
 
     if (localStorage.getItem("acceso") === "ok") {
 
@@ -167,4 +175,4 @@ window.onload = function() {
 
     }
 
-}
+})
