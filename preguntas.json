@@ -1,6 +1,6 @@
 [
   {
-    "pregunta": "¿Qué color indica parada?",
+    "pregunta": "¿Qué color indica parada en una señal ferroviaria?",
     "opciones": [
       "Rojo",
       "Verde",
@@ -18,5 +18,15 @@
       "Libro de estación"
     ],
     "correcta": 0
+  },
+  {
+    "pregunta": "¿Qué color indica vía libre?",
+    "opciones": [
+      "Rojo",
+      "Verde",
+      "Azul",
+      "Blanco"
+    ],
+    "correcta": 1
   }
 ]
