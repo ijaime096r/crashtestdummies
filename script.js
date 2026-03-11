@@ -7,6 +7,7 @@ let aciertos = 0
 async function cargar() {
 
     const respuesta = await fetch("preguntas.json")
+
     preguntas = await respuesta.json()
 
     generarTest()
@@ -17,13 +18,10 @@ async function cargar() {
 
 function generarTest() {
 
-    // copiamos el array
     test = [...preguntas]
 
-    // mezclamos preguntas
     test.sort(() => Math.random() - 0.5)
 
-    // elegimos 20 preguntas
     test = test.slice(0, 20)
 
 }
@@ -32,10 +30,15 @@ function mostrar() {
 
     const p = test[actual]
 
+    document.getElementById("info").innerText =
+        "Pregunta " + (actual + 1) + " / " + test.length +
+        " | Aciertos: " + aciertos
+
     document.getElementById("pregunta").innerText =
-        "Pregunta " + (actual + 1) + ":\n\n" + p.pregunta
+        p.pregunta
 
     const contenedor = document.getElementById("opciones")
+
     contenedor.innerHTML = ""
 
     for (let i = 0; i < p.opciones.length; i++) {
@@ -74,7 +77,12 @@ function siguiente() {
 
     if (actual >= test.length) {
 
-        alert("Test terminado. Aciertos: " + aciertos + " de " + test.length)
+        alert(
+            "Test terminado\n\nAciertos: " +
+            aciertos +
+            " de " +
+            test.length
+        )
 
         actual = 0
         aciertos = 0
