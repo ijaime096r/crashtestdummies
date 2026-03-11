@@ -40,18 +40,18 @@ function login() {
 
 }
 
-
 function iniciarApp() {
+
+    clearInterval(temporizador)
 
     document.getElementById("login").style.display = "none"
     document.getElementById("app").style.display = "block"
 
     cargarEstadisticas()
-
+    mostrarEstadisticas()
     cargar()
 
 }
-
 
 function cargarEstadisticas() {
 
