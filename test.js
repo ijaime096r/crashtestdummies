@@ -182,4 +182,40 @@ document.addEventListener("keydown",function(e){
 
     if(e.key==="Enter") siguiente()
 
-})
+}
+                         
+function mostrarConfigExamen(){
+
+    const bloque = document.getElementById("configExamen")
+
+    if(bloque.style.display === "none"){
+
+        bloque.style.display = "block"
+
+    }else{
+
+        bloque.style.display = "none"
+
+    }
+
+}
+
+function iniciarExamen(){
+
+    const minutos = parseInt(
+        document.getElementById("tiempoExamen").value
+    )
+
+    if(!minutos || minutos <= 0){
+
+        alert("Tiempo no válido")
+        return
+
+    }
+
+    modo = "examen"
+
+    iniciarTest(50)
+
+}
+                         )
