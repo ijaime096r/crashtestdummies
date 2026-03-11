@@ -1,4 +1,4 @@
-const PASSWORD = "canarias"
+const PASSWORD = "tren2026"
 
 let preguntas = []
 let test = []
@@ -9,6 +9,9 @@ let aciertos = 0
 
 let respondida = false
 let modo = "entrenamiento"
+
+let tiempoRestante = 0
+let temporizador = null
 
 
 function login() {
@@ -56,6 +59,8 @@ function modoEntrenamiento() {
 
     iniciarTest(20)
 
+    document.getElementById("timer").innerText = ""
+
 }
 
 
@@ -63,7 +68,13 @@ function modoExamen() {
 
     modo = "examen"
 
+    const minutos = prompt("Introduce el tiempo del examen en minutos")
+
+    tiempoRestante = minutos * 60
+
     iniciarTest(50)
+
+    iniciarTemporizador()
 
 }
 
@@ -106,6 +117,45 @@ function iniciarTest(numero) {
 }
 
 
+function iniciarTemporizador() {
+
+    clearInterval(temporizador)
+
+    temporizador = setInterval(function() {
+
+        tiempoRestante--
+
+        const minutos = Math.floor(tiempoRestante / 60)
+        const segundos = tiempoRestante % 60
+
+        document.getElementById("timer").innerText =
+            "Tiempo: " + minutos + ":" + segundos.toString().padStart(2,"0")
+
+        if (tiempoRestante <= 0) {
+
+            clearInterval(temporizador)
+
+            terminarExamen()
+
+        }
+
+    }, 1000)
+
+}
+
+
+function terminarExamen() {
+
+    alert(
+        "Tiempo terminado\n\nAciertos: " +
+        aciertos +
+        " de " +
+        test.length
+    )
+
+}
+
+
 function mostrar() {
 
     respondida = false
@@ -134,7 +184,7 @@ function mostrar() {
 
             respondida = true
 
-            if (modo === "entrenamiento" || modo === "falladas") {
+            if (modo !== "examen") {
 
                 const botones = contenedor.children
 
@@ -189,12 +239,7 @@ function siguiente() {
 
     if (actual >= test.length) {
 
-        alert(
-            "Resultado\n\nAciertos: " +
-            aciertos +
-            " de " +
-            test.length
-        )
+        terminarExamen()
 
         return
 
