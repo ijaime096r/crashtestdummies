@@ -6,8 +6,6 @@ let falladas = []
 
 let actual = 0
 let aciertos = 0
-
-let respondida = false
 let modo = "entrenamiento"
 
 let tiempoRestante = 0
@@ -21,6 +19,7 @@ let estadisticas = {
     fallos: 0
 }
 
+let fallosPorPregunta = {}
 
 function login() {
 
@@ -29,7 +28,6 @@ function login() {
     if (clave === PASSWORD) {
 
         localStorage.setItem("acceso","ok")
-
         iniciarApp()
 
     } else {
@@ -48,6 +46,7 @@ function iniciarApp() {
     document.getElementById("app").style.display = "block"
 
     cargarEstadisticas()
+    cargarFallos()
     mostrarEstadisticas()
     cargar()
 
@@ -57,32 +56,28 @@ function cargarEstadisticas() {
 
     const datos = localStorage.getItem("estadisticas")
 
-    if (datos) {
-
-        estadisticas = JSON.parse(datos)
-
-    }
+    if (datos) estadisticas = JSON.parse(datos)
 
 }
 
-
 function guardarEstadisticas() {
 
-    localStorage.setItem(
-        "estadisticas",
-        JSON.stringify(estadisticas)
-    )
+    localStorage.setItem("estadisticas", JSON.stringify(estadisticas))
+
+}
+
+function cargarFallos() {
+
+    const datos = localStorage.getItem("fallosPreguntas")
+
+    if (datos) fallosPorPregunta = JSON.parse(datos)
 
 }
 
 function mostrarEstadisticas() {
 
     const porcentaje = estadisticas.respondidas > 0
-        ? Math.round(
-            estadisticas.aciertos /
-            estadisticas.respondidas *
-            100
-        )
+        ? Math.round(estadisticas.aciertos / estadisticas.respondidas * 100)
         : 0
 
     document.getElementById("estadisticas").innerText =
@@ -95,50 +90,39 @@ function mostrarEstadisticas() {
 async function cargar() {
 
     const respuesta = await fetch("preguntas.json")
-
     preguntas = await respuesta.json()
 
 }
-
 
 function mezclarArray(array) {
 
     for (let i = array.length - 1; i > 0; i--) {
 
         const j = Math.floor(Math.random() * (i + 1))
-
         const temp = array[i]
-
         array[i] = array[j]
-
         array[j] = temp
 
     }
 
 }
 
-
 function mezclarRespuestas(pregunta) {
 
     const correcta = pregunta.correcta
 
-    const opciones = pregunta.opciones.map((texto, index) => {
+    const opciones = pregunta.opciones.map((texto,index)=>{
 
-        return {
-            texto: texto,
-            correcta: index === correcta
-        }
+        return {texto:texto, correcta:index===correcta}
 
     })
 
     mezclarArray(opciones)
 
-    pregunta.opciones = opciones.map(o => o.texto)
-
-    pregunta.correcta = opciones.findIndex(o => o.correcta)
+    pregunta.opciones = opciones.map(o=>o.texto)
+    pregunta.correcta = opciones.findIndex(o=>o.correcta)
 
 }
-
 
 function iniciarTest(numero) {
 
@@ -150,13 +134,9 @@ function iniciarTest(numero) {
 
     mezclarArray(test)
 
-    test = test.slice(0, numero)
+    test = test.slice(0,numero)
 
-    for (let p of test) {
-
-        mezclarRespuestas(p)
-
-    }
+    for (let p of test) mezclarRespuestas(p)
 
     crearNavegacion()
 
@@ -164,40 +144,33 @@ function iniciarTest(numero) {
 
 }
 
-
 function modoEntrenamiento() {
 
     modo = "entrenamiento"
-
     iniciarTest(20)
 
 }
 
-
 function mostrarConfigExamen() {
 
-    document.getElementById("configExamen").style.display = "block"
+    document.getElementById("configExamen").style.display="block"
 
 }
 
-
 function iniciarExamen() {
 
-    const minutos = parseInt(
-        document.getElementById("tiempoExamen").value
-    )
+    const minutos = parseInt(document.getElementById("tiempoExamen").value)
 
     if (!minutos || minutos <= 0) {
 
         alert("Tiempo no válido")
-
         return
 
     }
 
-    modo = "examen"
+    modo="examen"
 
-    tiempoRestante = minutos * 60
+    tiempoRestante = minutos*60
 
     iniciarTest(50)
 
@@ -205,56 +178,74 @@ function iniciarExamen() {
 
 }
 
-
 function modoFalladas() {
 
-    modo = "falladas"
+    modo="falladas"
 
-    if (falladas.length === 0) {
+    if (falladas.length===0) {
 
         alert("No hay preguntas falladas")
-
         return
 
     }
 
     test = JSON.parse(JSON.stringify(falladas))
 
-    for (let p of test) {
+    for (let p of test) mezclarRespuestas(p)
 
-        mezclarRespuestas(p)
-
-    }
-
-    actual = 0
-    aciertos = 0
-    respuestasUsuario = []
+    actual=0
+    aciertos=0
+    respuestasUsuario=[]
 
     crearNavegacion()
-
     mostrar()
 
 }
 
+function modoRepasoInteligente() {
+
+    modo="repaso"
+
+    const copia = JSON.parse(JSON.stringify(preguntas))
+
+    copia.sort(function(a,b){
+
+        const fa = fallosPorPregunta[a.pregunta] || 0
+        const fb = fallosPorPregunta[b.pregunta] || 0
+
+        return fb-fa
+
+    })
+
+    test = copia.slice(0,20)
+
+    for (let p of test) mezclarRespuestas(p)
+
+    actual=0
+    aciertos=0
+    respuestasUsuario=[]
+
+    crearNavegacion()
+    mostrar()
+
+}
 
 function crearNavegacion() {
 
     const nav = document.getElementById("navegacion")
 
-    nav.innerHTML = ""
+    nav.innerHTML=""
 
     for (let i=0;i<test.length;i++) {
 
         const b = document.createElement("button")
 
-        b.className = "botonPregunta"
+        b.className="botonPregunta"
+        b.innerText=i+1
 
-        b.innerText = i+1
+        b.onclick=function(){
 
-        b.onclick = function(){
-
-            actual = i
-
+            actual=i
             mostrar()
 
         }
@@ -265,18 +256,15 @@ function crearNavegacion() {
 
 }
 
-
 function actualizarNavegacion() {
 
-    const botones = document
-        .getElementById("navegacion")
-        .children
+    const botones=document.getElementById("navegacion").children
 
     for (let i=0;i<botones.length;i++) {
 
         botones[i].classList.remove("respondida")
 
-        if (respuestasUsuario[i] !== undefined) {
+        if (respuestasUsuario[i]!==undefined) {
 
             botones[i].classList.add("respondida")
 
@@ -286,27 +274,23 @@ function actualizarNavegacion() {
 
 }
 
-
 function iniciarTemporizador() {
 
     clearInterval(temporizador)
 
-    temporizador = setInterval(function(){
+    temporizador=setInterval(function(){
 
         tiempoRestante--
 
-        const m = Math.floor(tiempoRestante/60)
-        const s = tiempoRestante%60
+        const m=Math.floor(tiempoRestante/60)
+        const s=tiempoRestante%60
 
-        document.getElementById("timer").innerText =
-            "Tiempo: " +
-            m + ":" +
-            s.toString().padStart(2,"0")
+        document.getElementById("timer").innerText=
+            "Tiempo: "+m+":"+s.toString().padStart(2,"0")
 
-        if (tiempoRestante <= 0) {
+        if (tiempoRestante<=0) {
 
             clearInterval(temporizador)
-
             terminarExamen()
 
         }
@@ -315,72 +299,40 @@ function iniciarTemporizador() {
 
 }
 
-
 function mostrar() {
 
-    respondida = false
+    const p=test[actual]
 
-    const p = test[actual]
+    document.getElementById("info").innerText=
+        "Pregunta "+(actual+1)+" / "+test.length
 
-    document.getElementById("info").innerText =
-        "Pregunta " +
-        (actual+1) +
-        " / " +
-        test.length
+    document.getElementById("pregunta").innerText=p.pregunta
 
-    document.getElementById("pregunta").innerText =
-        p.pregunta
+    const contenedor=document.getElementById("opciones")
 
-    const contenedor =
-        document.getElementById("opciones")
-
-    contenedor.innerHTML = ""
+    contenedor.innerHTML=""
 
     for (let i=0;i<p.opciones.length;i++) {
 
-        const boton = document.createElement("button")
+        const boton=document.createElement("button")
 
-        boton.className = "opcion"
+        boton.className="opcion"
 
-        boton.innerText = p.opciones[i]
+        boton.innerText=p.opciones[i]
 
-        boton.onclick = function(){
+        boton.onclick=function(){
 
-            respuestasUsuario[actual] = i
+            respuestasUsuario[actual]=i
 
-            const botones = contenedor.children
+            const botones=contenedor.children
 
-            for (let b of botones) {
-
-                b.classList.remove("seleccionada")
-
-            }
+            for (let b of botones) b.classList.remove("seleccionada")
 
             botones[i].classList.add("seleccionada")
 
-            if (modo !== "examen") {
-
-                for (let j=0;j<botones.length;j++) {
-
-                    if (j === p.correcta) {
-
-                        botones[j].classList.add("correcta")
-
-                    }
-
-                }
-
-                if (i !== p.correcta) {
-
-                    botones[i].classList.add("incorrecta")
-
-                }
-
-            }
-
             estadisticas.respondidas++
 
-            if (i === p.correcta) {
+            if (i===p.correcta) {
 
                 aciertos++
                 estadisticas.aciertos++
@@ -390,10 +342,21 @@ function mostrar() {
                 estadisticas.fallos++
                 falladas.push(p)
 
+                const id=p.pregunta
+
+                if (!fallosPorPregunta[id]) fallosPorPregunta[id]=0
+
+                fallosPorPregunta[id]++
+
+                localStorage.setItem(
+                    "fallosPreguntas",
+                    JSON.stringify(fallosPorPregunta)
+                )
+
             }
 
             guardarEstadisticas()
-
+            mostrarEstadisticas()
             actualizarNavegacion()
 
         }
@@ -404,15 +367,13 @@ function mostrar() {
 
 }
 
-
 function siguiente() {
 
     actual++
 
-    if (actual >= test.length) {
+    if (actual>=test.length) {
 
         terminarExamen()
-
         return
 
     }
@@ -421,67 +382,48 @@ function siguiente() {
 
 }
 
-
 function terminarExamen() {
 
     clearInterval(temporizador)
-
     mostrarRevision()
 
 }
 
-
 function mostrarRevision() {
 
-    const contenedor =
-        document.getElementById("opciones")
+    const contenedor=document.getElementById("opciones")
 
-    document.getElementById("pregunta").innerText =
-        "Revisión del examen"
+    document.getElementById("pregunta").innerText="Revisión del examen"
 
-    document.getElementById("info").innerText =
-        "Aciertos: " +
-        aciertos +
-        " de " +
-        test.length
+    document.getElementById("info").innerText=
+        "Aciertos: "+aciertos+" de "+test.length
 
-    contenedor.innerHTML = ""
+    contenedor.innerHTML=""
 
     for (let i=0;i<test.length;i++) {
 
-        const p = test[i]
+        const p=test[i]
 
-        const bloque = document.createElement("div")
+        const bloque=document.createElement("div")
 
-        bloque.style.marginBottom = "20px"
+        bloque.style.marginBottom="20px"
 
-        const titulo = document.createElement("div")
+        const titulo=document.createElement("div")
 
-        titulo.innerText =
-            (i+1) + ". " + p.pregunta
+        titulo.innerText=(i+1)+". "+p.pregunta
 
         bloque.appendChild(titulo)
 
         for (let j=0;j<p.opciones.length;j++) {
 
-            const linea = document.createElement("div")
+            const linea=document.createElement("div")
 
-            linea.innerText = p.opciones[j]
+            linea.innerText=p.opciones[j]
 
-            if (j === p.correcta) {
+            if (j===p.correcta) linea.style.backgroundColor="#8fd694"
 
-                linea.style.backgroundColor = "#8fd694"
-
-            }
-
-            if (
-                respuestasUsuario[i] === j &&
-                j !== p.correcta
-            ) {
-
-                linea.style.backgroundColor = "#f28b82"
-
-            }
+            if (respuestasUsuario[i]===j && j!==p.correcta)
+                linea.style.backgroundColor="#f28b82"
 
             bloque.appendChild(linea)
 
@@ -493,13 +435,8 @@ function mostrarRevision() {
 
 }
 
+window.addEventListener("DOMContentLoaded",function(){
 
-window.addEventListener("DOMContentLoaded", function(){
-
-    if (localStorage.getItem("acceso") === "ok") {
-
-        iniciarApp()
-
-    }
+    if (localStorage.getItem("acceso")==="ok") iniciarApp()
 
 })
