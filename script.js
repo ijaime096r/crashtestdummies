@@ -119,4 +119,14 @@ function siguiente() {
 
 }
 
+document.addEventListener("keydown", function(event) {
+
+    if (event.key === "Enter") {
+
+        siguiente()
+
+    }
+
+})
+
 cargar()
