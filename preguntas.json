@@ -1,0 +1,22 @@
+[
+  {
+    "pregunta": "¿Qué color indica parada?",
+    "opciones": [
+      "Rojo",
+      "Verde",
+      "Amarillo",
+      "Blanco"
+    ],
+    "correcta": 0
+  },
+  {
+    "pregunta": "¿Qué documento regula la circulación ferroviaria?",
+    "opciones": [
+      "RCF",
+      "Manual técnico",
+      "Norma interna",
+      "Libro de estación"
+    ],
+    "correcta": 0
+  }
+]
