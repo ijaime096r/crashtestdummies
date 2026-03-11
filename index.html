@@ -24,6 +24,37 @@ h1 {
 
 }
 
+#login {
+
+    max-width: 400px;
+    margin: auto;
+
+}
+
+#login input {
+
+    width: 100%;
+    padding: 12px;
+    margin-top: 10px;
+    font-size: 16px;
+
+}
+
+#login button {
+
+    width: 100%;
+    padding: 12px;
+    margin-top: 10px;
+    font-size: 16px;
+
+}
+
+#app {
+
+    display: none;
+
+}
+
 #info {
 
     font-weight: bold;
@@ -72,6 +103,18 @@ button {
 
 <body>
 
+<div id="login">
+
+<h2>Acceso al test</h2>
+
+<input type="password" id="clave" placeholder="Contraseña">
+
+<button onclick="login()">Entrar</button>
+
+</div>
+
+<div id="app">
+
 <h1>Test ferroviario</h1>
 
 <div id="info"></div>
@@ -81,6 +124,8 @@ button {
 <div id="opciones"></div>
 
 <button id="siguiente" onclick="siguiente()">Siguiente pregunta</button>
+
+</div>
 
 <script src="script.js"></script>
 
