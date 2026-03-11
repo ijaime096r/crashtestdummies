@@ -1,200 +1,152 @@
-const PASSWORD = "tren2026"
+<!DOCTYPE html>
+<html>
 
-let preguntas = []
-let test = []
+<head>
 
-let actual = 0
-let aciertos = 0
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
 
-let respondida = false
-let modo = "entrenamiento"
+<title>Tests ferroviarios</title>
 
+<style>
 
-function login() {
+body {
 
-    const clave = document.getElementById("clave").value
-
-    if (clave === PASSWORD) {
-
-        localStorage.setItem("acceso", "ok")
-
-        iniciarApp()
-
-    } else {
-
-        alert("Contraseña incorrecta")
-
-    }
+    font-family: Arial;
+    margin: 20px;
+    text-align: center;
 
 }
 
+#login {
 
-function iniciarApp() {
-
-    document.getElementById("login").style.display = "none"
-
-    document.getElementById("app").style.display = "block"
-
-    cargar()
+    max-width: 400px;
+    margin: auto;
 
 }
 
+#login input {
 
-async function cargar() {
-
-    const respuesta = await fetch("preguntas.json")
-
-    preguntas = await respuesta.json()
-
-}
-
-
-function modoEntrenamiento() {
-
-    modo = "entrenamiento"
-
-    iniciarTest(20)
+    width: 100%;
+    padding: 12px;
+    margin-top: 10px;
+    font-size: 16px;
 
 }
 
+#login button {
 
-function modoExamen() {
-
-    modo = "examen"
-
-    iniciarTest(50)
-
-}
-
-
-function iniciarTest(numero) {
-
-    actual = 0
-    aciertos = 0
-
-    test = [...preguntas]
-
-    test.sort(() => Math.random() - 0.5)
-
-    test = test.slice(0, numero)
-
-    mostrar()
+    width: 100%;
+    padding: 12px;
+    margin-top: 10px;
+    font-size: 16px;
 
 }
 
+#app {
 
-function mostrar() {
-
-    respondida = false
-
-    const p = test[actual]
-
-    document.getElementById("info").innerText =
-        "Pregunta " + (actual + 1) + " / " + test.length
-
-    document.getElementById("pregunta").innerText =
-        p.pregunta
-
-    const contenedor = document.getElementById("opciones")
-
-    contenedor.innerHTML = ""
-
-    for (let i = 0; i < p.opciones.length; i++) {
-
-        const boton = document.createElement("button")
-
-        boton.innerText = p.opciones[i]
-
-        boton.onclick = function() {
-
-            if (respondida) return
-
-            respondida = true
-
-            if (modo === "entrenamiento") {
-
-                const botones = contenedor.children
-
-                for (let j = 0; j < botones.length; j++) {
-
-                    if (j === p.correcta) {
-
-                        botones[j].classList.add("correcta")
-
-                    }
-
-                }
-
-                if (i !== p.correcta) {
-
-                    botones[i].classList.add("incorrecta")
-
-                }
-
-            }
-
-            if (i === p.correcta) {
-
-                aciertos++
-
-            }
-
-        }
-
-        contenedor.appendChild(boton)
-
-    }
+    display: none;
 
 }
 
+#menu {
 
-function siguiente() {
-
-    if (!respondida) {
-
-        alert("Primero debes responder la pregunta")
-
-        return
-
-    }
-
-    actual++
-
-    if (actual >= test.length) {
-
-        alert(
-            "Resultado\n\nAciertos: " +
-            aciertos +
-            " de " +
-            test.length
-        )
-
-        return
-
-    }
-
-    mostrar()
+    margin-bottom: 30px;
 
 }
 
+#menu button {
 
-document.addEventListener("keydown", function(event) {
+    padding: 15px;
+    margin: 10px;
+    font-size: 16px;
 
-    if (event.key === "Enter") {
+}
 
-        siguiente()
+#info {
 
-    }
+    font-weight: bold;
+    margin-bottom: 20px;
 
-})
+}
 
+#pregunta {
 
-window.addEventListener("DOMContentLoaded", function() {
+    font-size: 20px;
+    margin-bottom: 20px;
 
-    if (localStorage.getItem("acceso") === "ok") {
+}
 
-        iniciarApp()
+button {
 
-    }
+    display: block;
+    width: 100%;
+    padding: 15px;
+    margin: 10px 0;
+    font-size: 16px;
 
-})
+}
+
+.correcta {
+
+    background-color: #8fd694;
+
+}
+
+.incorrecta {
+
+    background-color: #f28b82;
+
+}
+
+#siguiente {
+
+    margin-top: 25px;
+
+}
+
+</style>
+
+</head>
+
+<body>
+
+<div id="login">
+
+<h2>Acceso al test</h2>
+
+<input type="password" id="clave" placeholder="Contraseña">
+
+<button onclick="login()">Entrar</button>
+
+</div>
+
+<div id="app">
+
+<h1>Test ferroviario</h1>
+
+<div id="menu">
+
+<button onclick="modoEntrenamiento()">Modo entrenamiento</button>
+
+<button onclick="modoExamen()">Modo examen</button>
+
+<button onclick="modoFalladas()">Repasar falladas</button>
+
+</div>
+
+<div id="info"></div>
+
+<div id="pregunta"></div>
+
+<div id="opciones"></div>
+
+<button id="siguiente" onclick="siguiente()">Siguiente pregunta</button>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+
+</html>
