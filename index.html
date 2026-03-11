@@ -1,150 +1,200 @@
-<!DOCTYPE html>
-<html>
+const PASSWORD = "tren2026"
 
-<head>
+let preguntas = []
+let test = []
 
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
+let actual = 0
+let aciertos = 0
 
-<title>Tests ferroviarios</title>
+let respondida = false
+let modo = "entrenamiento"
 
-<style>
 
-body {
+function login() {
 
-    font-family: Arial;
-    margin: 20px;
-    text-align: center;
+    const clave = document.getElementById("clave").value
 
-}
+    if (clave === PASSWORD) {
 
-#login {
+        localStorage.setItem("acceso", "ok")
 
-    max-width: 400px;
-    margin: auto;
+        iniciarApp()
 
-}
+    } else {
 
-#login input {
+        alert("Contraseña incorrecta")
 
-    width: 100%;
-    padding: 12px;
-    margin-top: 10px;
-    font-size: 16px;
+    }
 
 }
 
-#login button {
 
-    width: 100%;
-    padding: 12px;
-    margin-top: 10px;
-    font-size: 16px;
+function iniciarApp() {
 
-}
+    document.getElementById("login").style.display = "none"
 
-#app {
+    document.getElementById("app").style.display = "block"
 
-    display: none;
+    cargar()
 
 }
 
-#menu {
 
-    margin-bottom: 30px;
+async function cargar() {
 
-}
+    const respuesta = await fetch("preguntas.json")
 
-#menu button {
-
-    padding: 15px;
-    margin: 10px;
-    font-size: 16px;
+    preguntas = await respuesta.json()
 
 }
 
-#info {
 
-    font-weight: bold;
-    margin-bottom: 20px;
+function modoEntrenamiento() {
 
-}
+    modo = "entrenamiento"
 
-#pregunta {
-
-    font-size: 20px;
-    margin-bottom: 20px;
+    iniciarTest(20)
 
 }
 
-button {
 
-    display: block;
-    width: 100%;
-    padding: 15px;
-    margin: 10px 0;
-    font-size: 16px;
+function modoExamen() {
 
-}
+    modo = "examen"
 
-.correcta {
-
-    background-color: #8fd694;
+    iniciarTest(50)
 
 }
 
-.incorrecta {
 
-    background-color: #f28b82;
+function iniciarTest(numero) {
+
+    actual = 0
+    aciertos = 0
+
+    test = [...preguntas]
+
+    test.sort(() => Math.random() - 0.5)
+
+    test = test.slice(0, numero)
+
+    mostrar()
 
 }
 
-#siguiente {
 
-    margin-top: 25px;
+function mostrar() {
+
+    respondida = false
+
+    const p = test[actual]
+
+    document.getElementById("info").innerText =
+        "Pregunta " + (actual + 1) + " / " + test.length
+
+    document.getElementById("pregunta").innerText =
+        p.pregunta
+
+    const contenedor = document.getElementById("opciones")
+
+    contenedor.innerHTML = ""
+
+    for (let i = 0; i < p.opciones.length; i++) {
+
+        const boton = document.createElement("button")
+
+        boton.innerText = p.opciones[i]
+
+        boton.onclick = function() {
+
+            if (respondida) return
+
+            respondida = true
+
+            if (modo === "entrenamiento") {
+
+                const botones = contenedor.children
+
+                for (let j = 0; j < botones.length; j++) {
+
+                    if (j === p.correcta) {
+
+                        botones[j].classList.add("correcta")
+
+                    }
+
+                }
+
+                if (i !== p.correcta) {
+
+                    botones[i].classList.add("incorrecta")
+
+                }
+
+            }
+
+            if (i === p.correcta) {
+
+                aciertos++
+
+            }
+
+        }
+
+        contenedor.appendChild(boton)
+
+    }
 
 }
 
-</style>
 
-</head>
+function siguiente() {
 
-<body>
+    if (!respondida) {
 
-<div id="login">
+        alert("Primero debes responder la pregunta")
 
-<h2>Acceso al test</h2>
+        return
 
-<input type="password" id="clave" placeholder="Contraseña">
+    }
 
-<button onclick="login()">Entrar</button>
+    actual++
 
-</div>
+    if (actual >= test.length) {
 
-<div id="app">
+        alert(
+            "Resultado\n\nAciertos: " +
+            aciertos +
+            " de " +
+            test.length
+        )
 
-<h1>Test ferroviario</h1>
+        return
 
-<div id="menu">
+    }
 
-<button onclick="modoEntrenamiento()">Modo entrenamiento</button>
+    mostrar()
 
-<button onclick="modoExamen()">Modo examen</button>
+}
 
-</div>
 
-<div id="info"></div>
+document.addEventListener("keydown", function(event) {
 
-<div id="pregunta"></div>
+    if (event.key === "Enter") {
 
-<div id="opciones"></div>
+        siguiente()
 
-<button id="siguiente" onclick="siguiente()">Siguiente pregunta</button>
+    }
 
-</div>
+})
 
-<script src="script.js"></script>
 
-</body>
+window.addEventListener("DOMContentLoaded", function() {
 
-</html>
+    if (localStorage.getItem("acceso") === "ok") {
+
+        iniciarApp()
+
+    }
+
+})
