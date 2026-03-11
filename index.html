@@ -10,94 +10,41 @@
 
 <style>
 
-body {
-    font-family: Arial;
-    margin: 20px;
-    text-align: center;
-}
+body { font-family: Arial; margin:20px; text-align:center }
 
-#login {
-    max-width: 400px;
-    margin: auto;
-}
+#login { max-width:400px; margin:auto }
 
-#login input {
-    width: 100%;
-    padding: 12px;
-    margin-top: 10px;
-}
+#login input { width:100%; padding:12px; margin-top:10px }
 
-#app {
-    display: none;
-}
+#app { display:none }
 
-#menu {
-    margin-bottom: 15px;
-}
-
-#menu button {
-    padding: 8px 12px;
-    margin: 4px;
-    font-size: 14px;
-}
+#menu button { padding:8px 12px; margin:4px }
 
 #estadisticas {
-    margin-bottom: 15px;
-    font-size: 14px;
-    background: #f4f4f4;
-    padding: 8px;
-    border-radius: 6px;
-}
-
-#configExamen {
-    margin-top: 10px;
-}
-
-#timer {
-    font-weight: bold;
-    color: red;
-    margin-bottom: 15px;
-}
-
-#pregunta {
-    font-size: 20px;
-    margin-bottom: 20px;
+    margin-bottom:15px;
+    background:#f4f4f4;
+    padding:8px;
+    border-radius:6px;
 }
 
 .opcion {
-    display: block;
-    width: 100%;
-    padding: 14px;
-    margin: 10px 0;
-    font-size: 16px;
+    display:block;
+    width:100%;
+    padding:14px;
+    margin:10px 0;
 }
 
-.correcta {
-    background-color: #8fd694;
-}
-
-.incorrecta {
-    background-color: #f28b82;
-}
-
-.seleccionada {
-    background-color: #d0e4ff;
-}
-
-#navegacion {
-    margin-bottom: 15px;
-}
+.correcta { background:#8fd694 }
+.incorrecta { background:#f28b82 }
+.seleccionada { background:#d0e4ff }
 
 .botonPregunta {
-    width: 30px;
-    height: 30px;
-    margin: 2px;
-    font-size: 12px;
+    width:30px;
+    height:30px;
+    margin:2px;
 }
 
-.respondida {
-    background-color: #a0c4ff;
-}
+.respondida { background:#a0c4ff }
 
 </style>
 
@@ -124,16 +71,12 @@ body {
 <div id="menu">
 
 <button onclick="modoEntrenamiento()">Entrenamiento</button>
-
 <button onclick="mostrarConfigExamen()">Examen</button>
-
 <button onclick="modoFalladas()">Falladas</button>
-
 <button onclick="modoRepasoInteligente()">Repaso inteligente</button>
 
 <button onclick="resetEstadisticas()">Reset estadísticas</button>
-
-<button onclick="resetRepaso()">Reset repaso inteligente</button>
+<button onclick="resetRepaso()">Reset repaso</button>
 
 </div>
 
@@ -148,7 +91,6 @@ Tiempo (minutos)
 </div>
 
 <div id="info"></div>
-
 <div id="timer"></div>
 
 <div id="navegacion"></div>
@@ -161,7 +103,9 @@ Tiempo (minutos)
 
 </div>
 
-<script src="script.js"></script>
+<script src="stats.js"></script>
+<script src="test.js"></script>
+<script src="app.js"></script>
 
 </body>
 
