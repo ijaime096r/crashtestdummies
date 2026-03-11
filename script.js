@@ -15,6 +15,12 @@ let temporizador = null
 
 let respuestasUsuario = []
 
+let estadisticas = {
+    respondidas: 0,
+    aciertos: 0,
+    fallos: 0
+}
+
 
 function login() {
 
@@ -40,7 +46,32 @@ function iniciarApp() {
     document.getElementById("login").style.display = "none"
     document.getElementById("app").style.display = "block"
 
+    cargarEstadisticas()
+
     cargar()
+
+}
+
+
+function cargarEstadisticas() {
+
+    const datos = localStorage.getItem("estadisticas")
+
+    if (datos) {
+
+        estadisticas = JSON.parse(datos)
+
+    }
+
+}
+
+
+function guardarEstadisticas() {
+
+    localStorage.setItem(
+        "estadisticas",
+        JSON.stringify(estadisticas)
+    )
 
 }
 
@@ -54,11 +85,73 @@ async function cargar() {
 }
 
 
+function mezclarArray(array) {
+
+    for (let i = array.length - 1; i > 0; i--) {
+
+        const j = Math.floor(Math.random() * (i + 1))
+
+        const temp = array[i]
+
+        array[i] = array[j]
+
+        array[j] = temp
+
+    }
+
+}
+
+
+function mezclarRespuestas(pregunta) {
+
+    const correcta = pregunta.correcta
+
+    const opciones = pregunta.opciones.map((texto, index) => {
+
+        return {
+            texto: texto,
+            correcta: index === correcta
+        }
+
+    })
+
+    mezclarArray(opciones)
+
+    pregunta.opciones = opciones.map(o => o.texto)
+
+    pregunta.correcta = opciones.findIndex(o => o.correcta)
+
+}
+
+
+function iniciarTest(numero) {
+
+    actual = 0
+    aciertos = 0
+    respuestasUsuario = []
+
+    test = JSON.parse(JSON.stringify(preguntas))
+
+    mezclarArray(test)
+
+    test = test.slice(0, numero)
+
+    for (let p of test) {
+
+        mezclarRespuestas(p)
+
+    }
+
+    crearNavegacion()
+
+    mostrar()
+
+}
+
+
 function modoEntrenamiento() {
 
     modo = "entrenamiento"
-
-    document.getElementById("configExamen").style.display = "none"
 
     iniciarTest(20)
 
@@ -74,7 +167,9 @@ function mostrarConfigExamen() {
 
 function iniciarExamen() {
 
-    const minutos = parseInt(document.getElementById("tiempoExamen").value)
+    const minutos = parseInt(
+        document.getElementById("tiempoExamen").value
+    )
 
     if (!minutos || minutos <= 0) {
 
@@ -107,30 +202,17 @@ function modoFalladas() {
 
     }
 
-    test = [...falladas]
+    test = JSON.parse(JSON.stringify(falladas))
+
+    for (let p of test) {
+
+        mezclarRespuestas(p)
+
+    }
 
     actual = 0
     aciertos = 0
     respuestasUsuario = []
-
-    crearNavegacion()
-
-    mostrar()
-
-}
-
-
-function iniciarTest(numero) {
-
-    actual = 0
-    aciertos = 0
-    respuestasUsuario = []
-
-    test = [...preguntas]
-
-    test.sort(() => Math.random() - 0.5)
-
-    test = test.slice(0, numero)
 
     crearNavegacion()
 
@@ -170,7 +252,9 @@ function crearNavegacion() {
 
 function actualizarNavegacion() {
 
-    const botones = document.getElementById("navegacion").children
+    const botones = document
+        .getElementById("navegacion")
+        .children
 
     for (let i=0;i<botones.length;i++) {
 
@@ -199,7 +283,9 @@ function iniciarTemporizador() {
         const s = tiempoRestante%60
 
         document.getElementById("timer").innerText =
-            "Tiempo: " + m + ":" + s.toString().padStart(2,"0")
+            "Tiempo: " +
+            m + ":" +
+            s.toString().padStart(2,"0")
 
         if (tiempoRestante <= 0) {
 
@@ -214,15 +300,6 @@ function iniciarTemporizador() {
 }
 
 
-function terminarExamen() {
-
-    clearInterval(temporizador)
-
-    mostrarRevision()
-
-}
-
-
 function mostrar() {
 
     respondida = false
@@ -230,11 +307,16 @@ function mostrar() {
     const p = test[actual]
 
     document.getElementById("info").innerText =
-        "Pregunta " + (actual+1) + " / " + test.length
+        "Pregunta " +
+        (actual+1) +
+        " / " +
+        test.length
 
-    document.getElementById("pregunta").innerText = p.pregunta
+    document.getElementById("pregunta").innerText =
+        p.pregunta
 
-    const contenedor = document.getElementById("opciones")
+    const contenedor =
+        document.getElementById("opciones")
 
     contenedor.innerHTML = ""
 
@@ -252,21 +334,15 @@ function mostrar() {
 
             const botones = contenedor.children
 
-            if (modo === "examen") {
+            for (let b of botones) {
 
-                for (let k=0;k<botones.length;k++) {
-
-                    botones[k].classList.remove("seleccionada")
-
-                }
-
-                botones[i].classList.add("seleccionada")
+                b.classList.remove("seleccionada")
 
             }
 
-            if (modo !== "examen") {
+            botones[i].classList.add("seleccionada")
 
-                respondida = true
+            if (modo !== "examen") {
 
                 for (let j=0;j<botones.length;j++) {
 
@@ -286,11 +362,21 @@ function mostrar() {
 
             }
 
+            estadisticas.respondidas++
+
             if (i === p.correcta) {
 
                 aciertos++
+                estadisticas.aciertos++
+
+            } else {
+
+                estadisticas.fallos++
+                falladas.push(p)
 
             }
+
+            guardarEstadisticas()
 
             actualizarNavegacion()
 
@@ -320,14 +406,28 @@ function siguiente() {
 }
 
 
+function terminarExamen() {
+
+    clearInterval(temporizador)
+
+    mostrarRevision()
+
+}
+
+
 function mostrarRevision() {
 
-    const contenedor = document.getElementById("opciones")
+    const contenedor =
+        document.getElementById("opciones")
 
-    document.getElementById("pregunta").innerText = "Revisión del examen"
+    document.getElementById("pregunta").innerText =
+        "Revisión del examen"
 
     document.getElementById("info").innerText =
-        "Aciertos: " + aciertos + " de " + test.length
+        "Aciertos: " +
+        aciertos +
+        " de " +
+        test.length
 
     contenedor.innerHTML = ""
 
@@ -340,7 +440,9 @@ function mostrarRevision() {
         bloque.style.marginBottom = "20px"
 
         const titulo = document.createElement("div")
-        titulo.innerText = (i+1) + ". " + p.pregunta
+
+        titulo.innerText =
+            (i+1) + ". " + p.pregunta
 
         bloque.appendChild(titulo)
 
@@ -356,7 +458,10 @@ function mostrarRevision() {
 
             }
 
-            if (respuestasUsuario[i] === j && j !== p.correcta) {
+            if (
+                respuestasUsuario[i] === j &&
+                j !== p.correcta
+            ) {
 
                 linea.style.backgroundColor = "#f28b82"
 
