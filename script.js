@@ -4,6 +4,8 @@ let test = []
 let actual = 0
 let aciertos = 0
 
+let respondida = false
+
 async function cargar() {
 
     const respuesta = await fetch("preguntas.json")
@@ -28,6 +30,8 @@ function generarTest() {
 
 function mostrar() {
 
+    respondida = false
+
     const p = test[actual]
 
     document.getElementById("info").innerText =
@@ -49,6 +53,10 @@ function mostrar() {
 
         boton.onclick = function() {
 
+            if (respondida) return
+
+            respondida = true
+
             if (i === p.correcta) {
 
                 aciertos++
@@ -61,8 +69,6 @@ function mostrar() {
 
             }
 
-            siguiente()
-
         }
 
         contenedor.appendChild(boton)
@@ -72,6 +78,14 @@ function mostrar() {
 }
 
 function siguiente() {
+
+    if (!respondida) {
+
+        alert("Primero debes responder la pregunta")
+
+        return
+
+    }
 
     actual++
 
