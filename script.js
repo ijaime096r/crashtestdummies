@@ -1,1 +1,169 @@
+<!DOCTYPE html>
+<html>
 
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<title>Test ferroviario</title>
+
+<style>
+
+body {
+
+    font-family: Arial;
+    margin: 20px;
+    text-align: center;
+
+}
+
+#login {
+
+    max-width: 400px;
+    margin: auto;
+
+}
+
+#login input {
+
+    width: 100%;
+    padding: 12px;
+    margin-top: 10px;
+
+}
+
+#app {
+
+    display: none;
+
+}
+
+#menu {
+
+    margin-bottom: 20px;
+
+}
+
+#menu button {
+
+    width: auto;
+    padding: 8px 12px;
+    margin: 4px;
+    font-size: 14px;
+
+}
+
+#configExamen {
+
+    margin-top: 10px;
+
+}
+
+#timer {
+
+    font-weight: bold;
+    color: red;
+    margin-bottom: 15px;
+
+}
+
+#pregunta {
+
+    font-size: 20px;
+    margin-bottom: 20px;
+
+}
+
+.opcion {
+
+    display: block;
+    width: 100%;
+    padding: 14px;
+    margin: 10px 0;
+    font-size: 16px;
+
+}
+
+.correcta {
+
+    background-color: #8fd694;
+
+}
+
+.incorrecta {
+
+    background-color: #f28b82;
+
+}
+
+.seleccionada {
+
+    background-color: #d0e4ff;
+
+}
+
+#siguiente {
+
+    margin-top: 20px;
+    padding: 12px;
+
+}
+
+</style>
+
+</head>
+
+<body>
+
+<div id="login">
+
+<h2>Acceso</h2>
+
+<input type="password" id="clave" placeholder="Contraseña">
+
+<button onclick="login()">Entrar</button>
+
+</div>
+
+<div id="app">
+
+<h1>Test ferroviario</h1>
+
+<div id="menu">
+
+<button onclick="modoEntrenamiento()">Entrenamiento</button>
+
+<button onclick="mostrarConfigExamen()">Examen</button>
+
+<button onclick="modoFalladas()">Falladas</button>
+
+</div>
+
+<div id="configExamen" style="display:none">
+
+Tiempo (minutos)
+
+<input type="number" id="tiempoExamen" value="30">
+
+<button onclick="iniciarExamen()">Comenzar examen</button>
+
+</div>
+
+<div id="info"></div>
+
+<div id="timer"></div>
+
+<div id="pregunta"></div>
+
+<div id="opciones"></div>
+
+<button id="siguiente" onclick="siguiente()">Siguiente</button>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+
+</html>
