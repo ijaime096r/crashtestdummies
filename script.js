@@ -20,7 +20,7 @@ function login() {
 
     if (clave === PASSWORD) {
 
-        localStorage.setItem("acceso", "ok")
+        localStorage.setItem("acceso","ok")
 
         iniciarApp()
 
@@ -36,7 +36,6 @@ function login() {
 function iniciarApp() {
 
     document.getElementById("login").style.display = "none"
-
     document.getElementById("app").style.display = "block"
 
     cargar()
@@ -57,30 +56,33 @@ function modoEntrenamiento() {
 
     modo = "entrenamiento"
 
-    clearInterval(temporizador)
-
-    document.getElementById("timer").innerText = ""
+    document.getElementById("configExamen").style.display = "none"
 
     iniciarTest(20)
 
 }
 
 
-function modoExamen() {
+function mostrarConfigExamen() {
 
-    modo = "examen"
+    document.getElementById("configExamen").style.display = "block"
 
-    const entrada = prompt("Introduce el tiempo del examen en minutos")
+}
 
-    const minutos = parseInt(entrada)
 
-    if (isNaN(minutos) || minutos <= 0) {
+function iniciarExamen() {
+
+    const minutos = parseInt(document.getElementById("tiempoExamen").value)
+
+    if (!minutos || minutos <= 0) {
 
         alert("Tiempo no válido")
 
         return
 
     }
+
+    modo = "examen"
 
     tiempoRestante = minutos * 60
 
@@ -95,13 +97,11 @@ function modoFalladas() {
 
     modo = "falladas"
 
-    clearInterval(temporizador)
-
-    document.getElementById("timer").innerText = ""
+    document.getElementById("configExamen").style.display = "none"
 
     if (falladas.length === 0) {
 
-        alert("No hay preguntas falladas todavía")
+        alert("No hay preguntas falladas")
 
         return
 
@@ -118,6 +118,14 @@ function modoFalladas() {
 
 
 function iniciarTest(numero) {
+
+    if (preguntas.length === 0) {
+
+        alert("Las preguntas todavía no se han cargado")
+
+        return
+
+    }
 
     actual = 0
     aciertos = 0
@@ -137,15 +145,15 @@ function iniciarTemporizador() {
 
     clearInterval(temporizador)
 
-    temporizador = setInterval(function() {
+    temporizador = setInterval(function(){
 
         tiempoRestante--
 
-        const minutos = Math.floor(tiempoRestante / 60)
-        const segundos = tiempoRestante % 60
+        const m = Math.floor(tiempoRestante/60)
+        const s = tiempoRestante%60
 
         document.getElementById("timer").innerText =
-            "Tiempo: " + minutos + ":" + segundos.toString().padStart(2,"0")
+            "Tiempo: " + m + ":" + s.toString().padStart(2,"0")
 
         if (tiempoRestante <= 0) {
 
@@ -155,7 +163,7 @@ function iniciarTemporizador() {
 
         }
 
-    }, 1000)
+    },1000)
 
 }
 
@@ -181,32 +189,33 @@ function mostrar() {
     const p = test[actual]
 
     document.getElementById("info").innerText =
-        "Pregunta " + (actual + 1) + " / " + test.length
+        "Pregunta " + (actual+1) + " / " + test.length
 
-    document.getElementById("pregunta").innerText =
-        p.pregunta
+    document.getElementById("pregunta").innerText = p.pregunta
 
     const contenedor = document.getElementById("opciones")
 
     contenedor.innerHTML = ""
 
-    for (let i = 0; i < p.opciones.length; i++) {
+    for (let i=0;i<p.opciones.length;i++) {
 
         const boton = document.createElement("button")
 
+        boton.className = "opcion"
+
         boton.innerText = p.opciones[i]
 
-        boton.onclick = function() {
+        boton.onclick = function(){
 
             if (respondida) return
 
             respondida = true
 
+            const botones = contenedor.children
+
             if (modo !== "examen") {
 
-                const botones = contenedor.children
-
-                for (let j = 0; j < botones.length; j++) {
+                for (let j=0;j<botones.length;j++) {
 
                     if (j === p.correcta) {
 
@@ -247,7 +256,7 @@ function siguiente() {
 
     if (!respondida) {
 
-        alert("Primero debes responder la pregunta")
+        alert("Primero debes responder")
 
         return
 
@@ -268,9 +277,9 @@ function siguiente() {
 }
 
 
-document.addEventListener("keydown", function(event) {
+document.addEventListener("keydown", function(e){
 
-    if (event.key === "Enter") {
+    if (e.key === "Enter") {
 
         siguiente()
 
@@ -279,7 +288,7 @@ document.addEventListener("keydown", function(event) {
 })
 
 
-window.addEventListener("DOMContentLoaded", function() {
+window.addEventListener("DOMContentLoaded", function(){
 
     if (localStorage.getItem("acceso") === "ok") {
 
