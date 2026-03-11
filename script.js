@@ -75,6 +75,22 @@ function guardarEstadisticas() {
 
 }
 
+function mostrarEstadisticas() {
+
+    const porcentaje = estadisticas.respondidas > 0
+        ? Math.round(
+            estadisticas.aciertos /
+            estadisticas.respondidas *
+            100
+        )
+        : 0
+
+    document.getElementById("estadisticas").innerText =
+        "Respondidas: " + estadisticas.respondidas +
+        " | Aciertos: " + estadisticas.aciertos +
+        " | Fallos: " + estadisticas.fallos +
+        " | % acierto: " + porcentaje + "%"
+}
 
 async function cargar() {
 
