@@ -2,6 +2,7 @@ const PASSWORD = "tren2026"
 
 let preguntas = []
 let test = []
+let falladas = []
 
 let actual = 0
 let aciertos = 0
@@ -67,6 +68,28 @@ function modoExamen() {
 }
 
 
+function modoFalladas() {
+
+    modo = "falladas"
+
+    if (falladas.length === 0) {
+
+        alert("No hay preguntas falladas todavía")
+
+        return
+
+    }
+
+    test = [...falladas]
+
+    actual = 0
+    aciertos = 0
+
+    mostrar()
+
+}
+
+
 function iniciarTest(numero) {
 
     actual = 0
@@ -111,7 +134,7 @@ function mostrar() {
 
             respondida = true
 
-            if (modo === "entrenamiento") {
+            if (modo === "entrenamiento" || modo === "falladas") {
 
                 const botones = contenedor.children
 
@@ -136,6 +159,10 @@ function mostrar() {
             if (i === p.correcta) {
 
                 aciertos++
+
+            } else {
+
+                falladas.push(p)
 
             }
 
