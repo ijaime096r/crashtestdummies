@@ -57,15 +57,25 @@ function mostrar() {
 
             respondida = true
 
-            if (i === p.correcta) {
+            const botones = contenedor.children
 
-                aciertos++
+            for (let j = 0; j < botones.length; j++) {
 
-                alert("Correcta")
+                if (j === p.correcta) {
+
+                    botones[j].classList.add("correcta")
+
+                }
+
+            }
+
+            if (i !== p.correcta) {
+
+                botones[i].classList.add("incorrecta")
 
             } else {
 
-                alert("Incorrecta")
+                aciertos++
 
             }
 
