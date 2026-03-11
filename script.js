@@ -99,8 +99,6 @@ function modoFalladas() {
 
     modo = "falladas"
 
-    document.getElementById("configExamen").style.display = "none"
-
     if (falladas.length === 0) {
 
         alert("No hay preguntas falladas")
@@ -115,20 +113,14 @@ function modoFalladas() {
     aciertos = 0
     respuestasUsuario = []
 
+    crearNavegacion()
+
     mostrar()
 
 }
 
 
 function iniciarTest(numero) {
-
-    if (preguntas.length === 0) {
-
-        alert("Las preguntas todavía no se han cargado")
-
-        return
-
-    }
 
     actual = 0
     aciertos = 0
@@ -140,7 +132,57 @@ function iniciarTest(numero) {
 
     test = test.slice(0, numero)
 
+    crearNavegacion()
+
     mostrar()
+
+}
+
+
+function crearNavegacion() {
+
+    const nav = document.getElementById("navegacion")
+
+    nav.innerHTML = ""
+
+    for (let i=0;i<test.length;i++) {
+
+        const b = document.createElement("button")
+
+        b.className = "botonPregunta"
+
+        b.innerText = i+1
+
+        b.onclick = function(){
+
+            actual = i
+
+            mostrar()
+
+        }
+
+        nav.appendChild(b)
+
+    }
+
+}
+
+
+function actualizarNavegacion() {
+
+    const botones = document.getElementById("navegacion").children
+
+    for (let i=0;i<botones.length;i++) {
+
+        botones[i].classList.remove("respondida")
+
+        if (respuestasUsuario[i] !== undefined) {
+
+            botones[i].classList.add("respondida")
+
+        }
+
+    }
 
 }
 
@@ -206,21 +248,25 @@ function mostrar() {
 
         boton.onclick = function(){
 
-            if (respondida) return
-
-            respondida = true
-
             respuestasUsuario[actual] = i
 
             const botones = contenedor.children
 
             if (modo === "examen") {
 
+                for (let k=0;k<botones.length;k++) {
+
+                    botones[k].classList.remove("seleccionada")
+
+                }
+
                 botones[i].classList.add("seleccionada")
 
             }
 
             if (modo !== "examen") {
+
+                respondida = true
 
                 for (let j=0;j<botones.length;j++) {
 
@@ -244,11 +290,9 @@ function mostrar() {
 
                 aciertos++
 
-            } else {
-
-                falladas.push(p)
-
             }
+
+            actualizarNavegacion()
 
         }
 
@@ -260,14 +304,6 @@ function mostrar() {
 
 
 function siguiente() {
-
-    if (!respondida) {
-
-        alert("Primero debes responder")
-
-        return
-
-    }
 
     actual++
 
@@ -335,17 +371,6 @@ function mostrarRevision() {
     }
 
 }
-
-
-document.addEventListener("keydown", function(e){
-
-    if (e.key === "Enter") {
-
-        siguiente()
-
-    }
-
-})
 
 
 window.addEventListener("DOMContentLoaded", function(){
