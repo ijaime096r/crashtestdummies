@@ -139,7 +139,6 @@ function iniciarTest(numero) {
     for (let p of test) mezclarRespuestas(p)
 
     crearNavegacion()
-
     mostrar()
 
 }
@@ -317,7 +316,6 @@ function mostrar() {
         const boton=document.createElement("button")
 
         boton.className="opcion"
-
         boton.innerText=p.opciones[i]
 
         boton.onclick=function(){
@@ -432,6 +430,36 @@ function mostrarRevision() {
         contenedor.appendChild(bloque)
 
     }
+
+}
+
+function resetEstadisticas() {
+
+    if (!confirm("¿Seguro que quieres borrar todas las estadísticas?")) return
+
+    estadisticas = {
+        respondidas: 0,
+        aciertos: 0,
+        fallos: 0
+    }
+
+    fallosPorPregunta = {}
+    falladas = []
+
+    localStorage.removeItem("estadisticas")
+    localStorage.removeItem("fallosPreguntas")
+
+    mostrarEstadisticas()
+
+}
+
+function resetRepaso() {
+
+    if (!confirm("¿Borrar historial de repaso inteligente?")) return
+
+    fallosPorPregunta = {}
+
+    localStorage.removeItem("fallosPreguntas")
 
 }
 
