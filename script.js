@@ -7,6 +7,7 @@ let actual = 0
 let aciertos = 0
 
 let respondida = false
+let modo = "entrenamiento"
 
 
 function login() {
@@ -45,20 +46,39 @@ async function cargar() {
 
     preguntas = await respuesta.json()
 
-    generarTest()
+}
 
-    mostrar()
+
+function modoEntrenamiento() {
+
+    modo = "entrenamiento"
+
+    iniciarTest(20)
 
 }
 
 
-function generarTest() {
+function modoExamen() {
+
+    modo = "examen"
+
+    iniciarTest(50)
+
+}
+
+
+function iniciarTest(numero) {
+
+    actual = 0
+    aciertos = 0
 
     test = [...preguntas]
 
     test.sort(() => Math.random() - 0.5)
 
-    test = test.slice(0, 20)
+    test = test.slice(0, numero)
+
+    mostrar()
 
 }
 
@@ -70,8 +90,7 @@ function mostrar() {
     const p = test[actual]
 
     document.getElementById("info").innerText =
-        "Pregunta " + (actual + 1) + " / " + test.length +
-        " | Aciertos: " + aciertos
+        "Pregunta " + (actual + 1) + " / " + test.length
 
     document.getElementById("pregunta").innerText =
         p.pregunta
@@ -92,23 +111,29 @@ function mostrar() {
 
             respondida = true
 
-            const botones = contenedor.children
+            if (modo === "entrenamiento") {
 
-            for (let j = 0; j < botones.length; j++) {
+                const botones = contenedor.children
 
-                if (j === p.correcta) {
+                for (let j = 0; j < botones.length; j++) {
 
-                    botones[j].classList.add("correcta")
+                    if (j === p.correcta) {
+
+                        botones[j].classList.add("correcta")
+
+                    }
+
+                }
+
+                if (i !== p.correcta) {
+
+                    botones[i].classList.add("incorrecta")
 
                 }
 
             }
 
-            if (i !== p.correcta) {
-
-                botones[i].classList.add("incorrecta")
-
-            } else {
+            if (i === p.correcta) {
 
                 aciertos++
 
@@ -138,16 +163,13 @@ function siguiente() {
     if (actual >= test.length) {
 
         alert(
-            "Test terminado\n\nAciertos: " +
+            "Resultado\n\nAciertos: " +
             aciertos +
             " de " +
             test.length
         )
 
-        actual = 0
-        aciertos = 0
-
-        generarTest()
+        return
 
     }
 
