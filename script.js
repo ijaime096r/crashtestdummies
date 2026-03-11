@@ -1,4 +1,4 @@
-const PASSWORD = "tren2026"
+const PASSWORD = "canarias"
 
 let preguntas = []
 let test = []
