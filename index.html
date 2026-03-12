@@ -1,111 +1,87 @@
 <!DOCTYPE html>
-<html>
+<html lang="es">
 
 <head>
 
 <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
 
-<title>Test ferroviario</title>
+<title>Crash Test Dummies</title>
 
-<style>
-
-body { font-family: Arial; margin:20px; text-align:center }
-
-#login { max-width:400px; margin:auto }
-
-#login input { width:100%; padding:12px; margin-top:10px }
-
-#app { display:none }
-
-#menu button { padding:8px 12px; margin:4px }
-
-#estadisticas {
-    margin-bottom:15px;
-    background:#f4f4f4;
-    padding:8px;
-    border-radius:6px;
-}
-
-.opcion {
-    display:block;
-    width:100%;
-    padding:14px;
-    margin:10px 0;
-}
-
-.correcta { background:#8fd694 }
-.incorrecta { background:#f28b82 }
-.seleccionada { background:#d0e4ff }
-
-.botonPregunta {
-    width:30px;
-    height:30px;
-    margin:2px;
-}
-
-.respondida { background:#a0c4ff }
-
-</style>
+<link rel="stylesheet" href="styles.css">
 
 </head>
 
+
 <body>
 
-<div id="login">
+<h1>Crash Test Dummies</h1>
 
-<h2>Acceso</h2>
-
-<input type="password" id="clave" placeholder="Contraseña">
-
-<button onclick="login()">Entrar</button>
-
-</div>
-
-<div id="app">
-
-<h1>Test ferroviario</h1>
-
-<div id="estadisticas"></div>
 
 <div id="menu">
 
 <button onclick="modoEntrenamiento()">Entrenamiento</button>
-<button onclick="mostrarConfigExamen()">Examen</button>
+
 <button onclick="modoFalladas()">Falladas</button>
+
 <button onclick="modoRepasoInteligente()">Repaso inteligente</button>
 
-<button onclick="resetEstadisticas()">Reset estadísticas</button>
-<button onclick="resetRepaso()">Reset repaso</button>
+<button onclick="mostrarConfigExamen()">Examen</button>
 
 </div>
 
+
 <div id="configExamen" style="display:none">
 
-Tiempo (minutos)
+<p>Duración del examen (minutos)</p>
 
-<input type="number" id="tiempoExamen" value="30">
+<input id="tiempoExamen" type="number" value="30">
 
 <button onclick="iniciarExamen()">Comenzar examen</button>
 
 </div>
 
-<div id="info"></div>
-<div id="timer"></div>
 
-<div id="navegacion"></div>
+<div id="estadisticas">
 
-<div id="pregunta"></div>
-
-<div id="opciones"></div>
-
-<button onclick="siguiente()">Siguiente</button>
+<p id="stats"></p>
 
 </div>
 
-<script src="stats.js"></script>
+
+<div id="timer"></div>
+
+
+<div id="info"></div>
+
+
+<div id="pregunta"></div>
+
+
+<div id="opciones"></div>
+
+
+<div id="controles">
+
+<button onclick="siguiente()">Siguiente</button>
+
+<button onclick="finalizarExamen()">Finalizar test</button>
+
+</div>
+
+
+<div id="navegacion"></div>
+
+
+<script src="estadisticas.js"></script>
+
 <script src="test.js"></script>
-<script src="app.js"></script>
+
+<script>
+
+cargarPreguntas()
+
+</script>
+
 
 </body>
 
