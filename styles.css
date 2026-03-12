@@ -1,0 +1,194 @@
+body{
+
+font-family: Arial, sans-serif
+
+background-color: #f4f4f4
+
+text-align: center
+
+margin: 0
+
+padding: 20px
+
+}
+
+
+h1{
+
+margin-bottom: 20px
+
+}
+
+
+#menu button{
+
+margin: 5px
+
+padding: 10px 20px
+
+font-size: 16px
+
+cursor: pointer
+
+}
+
+
+#configExamen{
+
+margin-top: 15px
+
+}
+
+
+#info{
+
+margin-top: 20px
+
+font-weight: bold
+
+}
+
+
+#pregunta{
+
+margin-top: 20px
+
+font-size: 20px
+
+max-width: 800px
+
+margin-left: auto
+
+margin-right: auto
+
+}
+
+
+#opciones{
+
+margin-top: 20px
+
+display: flex
+
+flex-direction: column
+
+align-items: center
+
+gap: 10px
+
+}
+
+
+.opcion{
+
+width: 600px
+
+max-width: 90%
+
+padding: 12px
+
+font-size: 16px
+
+cursor: pointer
+
+border: 1px solid #ccc
+
+background-color: white
+
+}
+
+
+.opcion:hover{
+
+background-color: #eaeaea
+
+}
+
+
+.correcta{
+
+background-color: #8fd694
+
+}
+
+
+.incorrecta{
+
+background-color: #f28c8c
+
+}
+
+
+.seleccionada{
+
+border: 2px solid #333
+
+}
+
+
+#controles{
+
+margin-top: 20px
+
+}
+
+
+#controles button{
+
+padding: 10px 20px
+
+font-size: 16px
+
+margin: 5px
+
+cursor: pointer
+
+}
+
+
+#navegacion{
+
+margin-top: 30px
+
+display: flex
+
+flex-wrap: wrap
+
+justify-content: center
+
+gap: 5px
+
+}
+
+
+.botonPregunta{
+
+width: 35px
+
+height: 35px
+
+border: 1px solid #999
+
+background-color: white
+
+cursor: pointer
+
+}
+
+
+.botonPregunta.respondida{
+
+background-color: #d3e5ff
+
+}
+
+
+#timer{
+
+font-size: 18px
+
+font-weight: bold
+
+margin-top: 15px
+
+}
