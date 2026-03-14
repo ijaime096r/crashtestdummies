@@ -89,14 +89,11 @@ let correcta = preguntas[indice].correcta
 
 let botones = document.querySelectorAll("#respuestas button")
 
-// bloquear todos los botones
 botones.forEach(b => b.disabled = true)
-
-// marcar colores
 
 if (opcion === correcta) {
 
-botones[opcion].style.backgroundColor = "#8fd694"
+botones[opcion].classList.add("correcta")
 
 aciertos++
 
@@ -104,9 +101,9 @@ aciertos++
 
 else {
 
-botones[opcion].style.backgroundColor = "#f28b82"
+botones[opcion].classList.add("incorrecta")
 
-botones[correcta].style.backgroundColor = "#8fd694"
+botones[correcta].classList.add("correcta")
 
 }
 
