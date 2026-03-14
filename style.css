@@ -49,3 +49,9 @@ background-color: #8fd694;
 background-color: #f28b82;
 
 }
+
+button:hover:not(:disabled) {
+
+background-color: #e8e8e8;
+
+}
