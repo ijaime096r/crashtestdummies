@@ -54,27 +54,41 @@ function mostrarPregunta() {
 
 let p = preguntas[indice]
 
+// crear copia de opciones con su índice original
+let opciones = p.opciones.map((texto, i) => {
+
+return {
+texto: texto,
+indiceOriginal: i
+}
+
+})
+
+// mezclar
+opciones = mezclar(opciones)
+
 document.getElementById("pregunta").textContent = p.pregunta
 
 let contenedor = document.getElementById("respuestas")
 
 contenedor.innerHTML = ""
 
-for (let i = 0; i < p.opciones.length; i++) {
+
+opciones.forEach(op => {
 
 let boton = document.createElement("button")
 
-boton.textContent = p.opciones[i]
+boton.textContent = op.texto
 
 boton.onclick = function () {
 
-comprobar(i)
+comprobar(op.indiceOriginal)
 
 }
 
 contenedor.appendChild(boton)
 
-}
+})
 
 actualizarInfo()
 
@@ -136,5 +150,23 @@ function actualizarInfo() {
 let texto = "Pregunta " + (indice + 1) + " / " + preguntas.length + " | Aciertos: " + aciertos
 
 document.getElementById("info").textContent = texto
+
+}
+
+// mezclar preguntas
+
+function mezclar(array) {
+
+for (let i = array.length - 1; i > 0; i--) {
+
+let j = Math.floor(Math.random() * (i + 1))
+
+let temp = array[i]
+array[i] = array[j]
+array[j] = temp
+
+}
+
+return array
 
 }
