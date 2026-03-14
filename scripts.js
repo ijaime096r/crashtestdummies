@@ -73,16 +73,17 @@ let contenedor = document.getElementById("respuestas")
 
 contenedor.innerHTML = ""
 
-
-opciones.forEach(op => {
+opciones.forEach((op, posicion) => {
 
 let boton = document.createElement("button")
 
 boton.textContent = op.texto
 
+boton.dataset.indiceOriginal = op.indiceOriginal
+
 boton.onclick = function () {
 
-comprobar(op.indiceOriginal)
+comprobar(boton)
 
 }
 
@@ -97,7 +98,7 @@ actualizarInfo()
 
 // comprobar respuesta
 
-function comprobar(opcion) {
+function comprobar(botonSeleccionado) {
 
 let correcta = preguntas[indice].correcta
 
@@ -105,9 +106,11 @@ let botones = document.querySelectorAll("#respuestas button")
 
 botones.forEach(b => b.disabled = true)
 
-if (opcion === correcta) {
+let indiceSeleccionado = parseInt(botonSeleccionado.dataset.indiceOriginal)
 
-botones[opcion].classList.add("correcta")
+if (indiceSeleccionado === correcta) {
+
+botonSeleccionado.classList.add("correcta")
 
 aciertos++
 
@@ -115,9 +118,17 @@ aciertos++
 
 else {
 
-botones[opcion].classList.add("incorrecta")
+botonSeleccionado.classList.add("incorrecta")
 
-botones[correcta].classList.add("correcta")
+botones.forEach(b => {
+
+if (parseInt(b.dataset.indiceOriginal) === correcta) {
+
+b.classList.add("correcta")
+
+}
+
+})
 
 }
 
