@@ -11,7 +11,13 @@ if (!user) {
 
 window.location.href = "login.html"
 
+return
+
 }
+
+// si hay usuario cargamos el test
+
+cargarPreguntas()
 
 })
 
@@ -25,6 +31,8 @@ let aciertos = 0
 
 // cargar preguntas
 
+function cargarPreguntas() {
+
 fetch("preguntas.json")
 
 .then(res => res.json())
@@ -36,6 +44,8 @@ preguntas = data
 mostrarPregunta()
 
 })
+
+}
 
 
 // mostrar pregunta
