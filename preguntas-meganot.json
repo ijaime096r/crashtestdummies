@@ -978,7 +978,7 @@
       "Estudiamos los atípicos y actuamos acorde.",
       "Eliminamos C por correlación."
     ],
-    "correcta": -1
+    "correcta": 2
   },
   {
     "pregunta": "La diagonal principal de una matriz de confusión representa los:",
@@ -1059,7 +1059,7 @@
       "Borramos aquella menos correlada con la variable objetivo.",
       "Las conservamos porque tienen una correlación inferior a 0.8."
     ],
-    "correcta": -1
+    "correcta": 1
   },
   {
     "pregunta": "Permite codificar columnas con texto no categórico:",
@@ -1942,5 +1942,32 @@
       "Aprendizaje únicamente con datos etiquetados."
     ],
     "correcta": 1
-  }
+  },
+  {
+	 "pregunta": "Si una columna tiene más del 50% de valores nulos:",
+	 "opciones": [
+	  "Eliminación de valores nulos.",
+	  "Predicción de valores nulos.",
+	  "Eliminación de la columna por baja variabilidad."
+    ],
+    "correcta": 2
+  },
+	{
+	  "pregunta": "Si la cantidad de nulos es inferior al 5%:",
+	  "opciones": [
+		"Eliminar datos nulos.",
+		"Imputar.",
+		"Eliminar columna."
+	  ],
+    "correcta": 0
+  },
+{
+	  "pregunta": "Si Media > Mediana:",
+	  "opciones": [
+		"Sesgo positivo.",
+		"Sesgo negativo.",
+		"Distribución uniforme."
+	  ],
+    "correcta": 0
+  }    
 ]
