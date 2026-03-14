@@ -184,3 +184,14 @@ array[j] = temp
 return array
 
 }
+
+// Pasar a la siguiente pregunta con intro
+document.addEventListener("keydown", function(event) {
+
+if (event.key === "Enter") {
+
+document.getElementById("siguiente").click()
+
+}
+
+})
