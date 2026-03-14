@@ -5970,5 +5970,15 @@
       "Sujetar la catenaria"
     ],
     "correcta": 0
+  },
+  {
+    "pregunta": "¿Qué función2 tiene el balasto en la vía ferroviaria?",
+    "opciones": [
+      "Distribuir cargas y permitir el drenaje",
+      "Transmitir energía eléctrica",
+      "Guiar el tren",
+      "Sujetar la catenaria"
+    ],
+    "correcta": 0
   }
 ]
