@@ -1,0 +1,302 @@
+[
+  {
+    "pregunta": "Si el 6 % del precio de un mueble se debe a los impuestos, ¿cuál sería el coste de los impuestos para un mueble que cuesta 2.800 €? [1]",
+    "opciones": [
+      "192 €",
+      "158 €",
+      "168 €",
+      "200 €"
+    ],
+    "correcta": 2
+  },
+  {
+    "pregunta": "En la cultura del antiguo Egipto existían diversas ______ que actualmente se considerarían ______. Uno de estos casos sería el de ______ a sus faraones y sellarlos en pirámides junto a sus ______. [1]",
+    "opciones": [
+      "costumbres / arcaicas / momificar / pertenencias",
+      "cultos / difíciles / mantener / alcaldes",
+      "reglas / actuales / volar / objetos",
+      "lluvias / invisibles / enterrar / familiares"
+    ],
+    "correcta": 0
+  },
+  {
+    "pregunta": "Según la Ley Orgánica 3/2007, ¿qué se considera discriminación indirecta por razón de sexo? [2]",
+    "opciones": [
+      "Situación en que se encuentra una persona tratada de manera menos favorable por su sexo",
+      "Comportamiento verbal o físico de naturaleza sexual",
+      "Situación en que una disposición aparentemente neutra pone a personas de un sexo en desventaja particular",
+      "Condicionamiento de un derecho a la aceptación de acoso"
+    ],
+    "correcta": 2
+  },
+  {
+    "pregunta": "En la ejecución de soldaduras aluminotérmicas (NAV 3-3-2.1), ¿con qué herramienta se realizarán siempre los cortes de los carriles en vía? [3]",
+    "opciones": [
+      "Soplete oxiacetilénico",
+      "Sierra mecánica",
+      "Disco abrasivo",
+      "Cizalla hidráulica"
+    ],
+    "correcta": 2
+  },
+  {
+    "pregunta": "De acuerdo con la NAV 7-1-6.0, ¿cuál es la velocidad mínima que debe poder alcanzar una desguarnecedora en modo circulación autopropulsado? [4]",
+    "opciones": [
+      "50 km/h",
+      "60 km/h",
+      "80 km/h",
+      "100 km/h"
+    ],
+    "correcta": 0
+  },
+  {
+    "pregunta": "Según el RCF, ¿qué es un Puesto de Bloqueo (PB)? [5]",
+    "opciones": [
+      "Instalación de carácter técnico que permite la banalización de la circulación",
+      "Sector de vías, agujas y señales de una estación",
+      "Instalación de carácter provisional situada en plena vía, que permite la intervención temporal en el bloqueo",
+      "Centro específico encargado de la gestión del tráfico"
+    ],
+    "correcta": 2
+  },
+  {
+    "pregunta": "Según la Ley Orgánica 3/2007, ¿qué porcentaje no debe superarse, ni ser inferior, para entender que hay una composición equilibrada de mujeres y hombres? [6]",
+    "opciones": [
+      "Máximo 50% y mínimo 50%",
+      "Máximo 60% y mínimo 40%",
+      "Máximo 70% y mínimo 30%",
+      "Máximo 75% y mínimo 25%"
+    ],
+    "correcta": 1
+  },
+  {
+    "pregunta": "De acuerdo con el RCF, ¿cuál es la definición de 'Vagones'? [7]",
+    "opciones": [
+      "Vehículos ferroviarios autopropulsados para mantenimiento",
+      "Vehículos ferroviarios sin tracción propia habilitados para el transporte de mercancías",
+      "Unidad de tracción capaz de desplazarse por sí misma",
+      "Vehículo que permite el cambio de ancho de rodadura"
+    ],
+    "correcta": 1
+  },
+  {
+    "pregunta": "En la normativa NAV 7-1-0.7, sobre vía sin balasto, ¿cuándo se utilizarán bloques técnicos? [8]",
+    "opciones": [
+      "En estaciones de clasificación de mercancías exclusivamente",
+      "En zonas críticas de transición entre obra de tierra y estructuras, donde hay riesgo de asientos de la plataforma",
+      "Para soportar los cables de comunicaciones y catenaria",
+      "En los tramos donde el carril va soldado con aluminotermia"
+    ],
+    "correcta": 1
+  },
+  {
+    "pregunta": "Según la norma NAV 3-3-2.1 de soldadura, ¿cómo y cuándo se retira la cubeta de recogida de corindón (escoria)? [9]",
+    "opciones": [
+      "Una vez iniciada la solidificación del acero y cuando la escoria recogida está totalmente en estado sólido",
+      "Inmediatamente tras finalizar la colada, en estado líquido",
+      "Después de enfriarse el carril por debajo de 300°C",
+      "Antes de proceder a romper el crisol con la maza"
+    ],
+    "correcta": 0
+  },
+  {
+    "pregunta": "Según el cuadernillo de examen para el perfil Programador, de acuerdo con el Glosario de términos de ciberseguridad (INCIBE), ¿qué es el 'phishing'? [10]",
+    "opciones": [
+      "Técnica para aumentar velocidad de red",
+      "Método de cifrado asimétrico",
+      "Ataque de suplantación de identidad",
+      "Acceso por terminal remoto"
+    ],
+    "correcta": 2
+  },
+  {
+    "pregunta": "Según el cuadernillo de examen para Delineante, en el uso del software AutoCAD, ¿qué es una plantilla de dibujo (archivo .DWT)? [11]",
+    "opciones": [
+      "Un archivo de imagen para fondos",
+      "Un archivo de configuración de impresión",
+      "Un archivo de texto con comandos",
+      "Un archivo base con configuraciones predefinidas para nuevos dibujos"
+    ],
+    "correcta": 3
+  },
+  {
+    "pregunta": "En el RCF, ¿qué significa la marcha 'A la vista'? [12]",
+    "opciones": [
+      "Avanzar regulando la velocidad de acuerdo con la longitud de vía que se visualiza por delante, para poder detener el tren ante cualquier obstáculo",
+      "Circular sin exceder los 30 km/h y bajo responsabilidad del centro de control",
+      "Marcha exclusiva para maniobras en el interior de talleres",
+      "Marcha donde el maquinista delega la velocidad en el sistema ASFA"
+    ],
+    "correcta": 0
+  },
+  {
+    "pregunta": "De acuerdo con el RCF, ¿cuál de los siguientes sistemas es un 'Sistema de repetición de señales en cabina con ciertas funciones de control sobre el tren'? [13]",
+    "opciones": [
+      "ATP",
+      "ASFA",
+      "ATO",
+      "CTC"
+    ],
+    "correcta": 1
+  },
+  {
+    "pregunta": "Según la Ley Orgánica 3/2007, todo trato desfavorable a las mujeres relacionado con el embarazo o la maternidad constituye: [14]",
+    "opciones": [
+      "Acoso por razón de sexo",
+      "Discriminación indirecta",
+      "Discriminación directa por razón de sexo",
+      "Infracción leve sin consecuencias civiles"
+    ],
+    "correcta": 2
+  },
+  {
+    "pregunta": "Según la normativa NAV 7-1-6.0, ¿qué son los 'Estabilizadores'? [15]",
+    "opciones": [
+      "Máquinas que perfilan el balasto y limpian las traviesas",
+      "Máquinas que reponen el balasto bajo el emparrillado",
+      "Máquinas que aplican una vibración horizontal junto a una carga vertical, generando un asentamiento vertical",
+      "Trenes de renovación completa de vía que cambian carriles y traviesas"
+    ],
+    "correcta": 2
+  },
+  {
+    "pregunta": "Según la normativa de soldadura NAV 3-3-2.1, ¿cuál es el tiempo aproximado considerado a efectos de petición de intervalos de trabajo para la ejecución y enfriamiento de la soldadura? [16]",
+    "opciones": [
+      "30 minutos",
+      "1 hora y 20 minutos",
+      "2 horas y 45 minutos",
+      "4 horas"
+    ],
+    "correcta": 1
+  },
+  {
+    "pregunta": "De acuerdo con la norma de vía sin balasto (NAV 7-1-0.7), si se utiliza un sistema pre-hormigonado de apoyo continuo, el emparrillado de vía se montará con pórticos de nivelación cada: [17]",
+    "opciones": [
+      "1,80 metros",
+      "5,00 metros",
+      "10,00 metros",
+      "No requiere pórticos de nivelación"
+    ],
+    "correcta": 0
+  },
+  {
+    "pregunta": "Según la Ley Orgánica 3/2007, ¿cuándo es obligatorio elaborar un plan de igualdad en una empresa? (Redacción original de la Ley aplicable al temario) [18]",
+    "opciones": [
+      "Sólo en empresas de titularidad pública",
+      "Siempre, para cualquier empresa independientemente de su tamaño",
+      "En empresas de más de doscientos cincuenta trabajadores o trabajadoras",
+      "En empresas con un porcentaje de mujeres inferior al 20%"
+    ],
+    "correcta": 2
+  },
+  {
+    "pregunta": "Según el cuadernillo de examen para el perfil Factor de Entrada, en una estación de alta velocidad, ¿cómo se llama el área acotada en el vestíbulo donde se controlan los equipajes? [19]",
+    "opciones": [
+      "De tránsito interior",
+      "De intermodalidad",
+      "De flujo de viajeros",
+      "De embarque"
+    ],
+    "correcta": 3
+  },
+  {
+    "pregunta": "En el RCF, ¿qué se entiende por 'Material Rodante Auxiliar'? [20]",
+    "opciones": [
+      "Trenes destinados exclusivamente al transporte de mercancías peligrosas",
+      "Maquinaria de vía y resto de vehículos utilizados en servicios del mantenimiento de la infraestructura, incluyendo grúas y trenes taller",
+      "Locomotoras de reserva aparcadas en estaciones principales",
+      "Vagones de pasajeros sin tracción propia"
+    ],
+    "correcta": 1
+  },
+  {
+    "pregunta": "En la soldadura aluminotérmica (NAV 3-3-2.1), antes de utilizar la carga aluminotérmica, se debe: [21]",
+    "opciones": [
+      "Mezclarla con arena húmeda para evitar igniciones espontáneas",
+      "Calentarla con un soplete",
+      "Homogeneizarla convenientemente apretándola varias veces con la mano",
+      "Verterla directamente sin revisar el embalaje"
+    ],
+    "correcta": 2
+  },
+  {
+    "pregunta": "Según la Ley Orgánica 3/2007, ¿qué son las 'Unidades de Igualdad'? [22]",
+    "opciones": [
+      "Organismos obligatorios en los comités de empresa de empresas de más de 50 trabajadores",
+      "Unidades en cada Ministerio responsables de garantizar el derecho a la igualdad entre mujeres y hombres (relacionado con el Art. 77)",
+      "Juzgados especiales para tratar casos de discriminación laboral por sexo",
+      "Direcciones Generales de las Comunidades Autónomas encargadas de las subvenciones"
+    ],
+    "correcta": 1
+  },
+  {
+    "pregunta": "Según la NAV 7-1-6.0, ¿cuál es la velocidad mínima que debe poder alcanzar una perfiladora en modo circulación autopropulsado? [4]",
+    "opciones": [
+      "50 km/h",
+      "60 km/h",
+      "80 km/h",
+      "100 km/h"
+    ],
+    "correcta": 1
+  },
+  {
+    "pregunta": "De acuerdo al cuadernillo de examen de Ayudante Ferroviario, ¿cuáles son las tres partes básicas de una retroexcavadora? [23]",
+    "opciones": [
+      "Cazo, bivalva y pluma",
+      "Tolva, brazo y eje",
+      "Cazo, brazo y pluma",
+      "Frente, medio y brazo"
+    ],
+    "correcta": 2
+  },
+  {
+    "pregunta": "De acuerdo al cuadernillo de examen de Ayudante Ferroviario, ¿qué es un 'bulldozer'? [24]",
+    "opciones": [
+      "Una motoniveladora pequeña",
+      "Un tipo de excavadora bivalva",
+      "Un tractor con hoja frontal recta para excavar superficialmente mediante empuje",
+      "Un tractor con escarificador incorporado como equipo de trabajo"
+    ],
+    "correcta": 2
+  },
+  {
+    "pregunta": "De acuerdo con el RCF, ¿cuál es el significado de BCA? [13]",
+    "opciones": [
+      "Bloqueo de Control Automático",
+      "Bloqueo Continuo Auxiliar",
+      "Boletín de Conducción Autorizada",
+      "Barrera de Control de Acceso"
+    ],
+    "correcta": 0
+  },
+  {
+    "pregunta": "Según la NAV 3-3-2.1, para realizar el precalentamiento con 'aire forzado', ¿qué mezcla de gases se debe utilizar? [25]",
+    "opciones": [
+      "Aire inducido y propano",
+      "Oxígeno y propano",
+      "Acetileno y aire puro",
+      "Metano y oxígeno"
+    ],
+    "correcta": 1
+  },
+  {
+    "pregunta": "En la NAV 7-1-0.7 sobre diseño de vía sin balasto, para asegurar el aislamiento eléctrico carril-tierra y carril-carril, los requisitos se expresan en términos de: [26]",
+    "opciones": [
+      "Resistencia a compresión en megapascales (MPa)",
+      "Capacidad en microfaradios (µF)",
+      "Tensión de ruptura en kilovoltios (kV)",
+      "Resistencia de los sistemas de sujeción en ohmios (Ω)"
+    ],
+    "correcta": 3
+  },
+  {
+    "pregunta": "Según el cuadernillo de examen para Oficial de Telecomunicaciones, ¿en qué caso quedará invalidada la orden de marcha de un tren con BLA si se rebasó la señal de salida? [27]",
+    "opciones": [
+      "Tren que quede detenido en un apeadero",
+      "Tren directo que quede detenido en una estación",
+      "Tren de mercancías que circule con 10 minutos de retraso",
+      "Tren que quede detenido ante la señal de entrada de una estación"
+    ],
+    "correcta": 1
+  }
+]
