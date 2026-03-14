@@ -1,21 +1,20 @@
 // control de autenticación
 
 import { auth } from "./firebase.js"
-
 import { onAuthStateChanged } from "https://www.gstatic.com/firebasejs/10.12.2/firebase-auth.js"
 
+let usuarioActual = null
 
 onAuthStateChanged(auth, (user) => {
 
 if (!user) {
 
 window.location.href = "login.html"
-
 return
 
 }
 
-// si hay usuario cargamos el test
+usuarioActual = user.email
 
 cargarPreguntas()
 
@@ -33,14 +32,18 @@ let aciertos = 0
 
 function cargarPreguntas() {
 
-fetch("preguntas.json")
+let nombreUsuario = usuarioActual.split("@")[0]
+
+let archivo = "preguntas-" + nombreUsuario + ".json"
+
+fetch(archivo)
 
 .then(res => res.json())
 
 .then(data => {
 
 preguntas = mezclar(data)
-  
+
 mostrarPregunta()
 
 })
