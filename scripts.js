@@ -39,8 +39,8 @@ fetch("preguntas.json")
 
 .then(data => {
 
-preguntas = data
-
+preguntas = mezclar(data)
+  
 mostrarPregunta()
 
 })
