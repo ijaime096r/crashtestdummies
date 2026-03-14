@@ -5370,5 +5370,605 @@
       "Desguarnecedora"
     ],
     "correcta": 0
+  },
+  {
+    "pregunta": "Según la NAV 7-1-6.0, ¿qué máquina está destinada a realizar el bateo de la vía para corregir defectos de alineación y nivel?",
+    "opciones": [
+      "Bateadora",
+      "Perfiladora",
+      "Estabilizadora",
+      "Desguarnecedora"
+    ],
+    "correcta": 0
+  },
+  {
+    "pregunta": "Según la NAV 7-1-6.0, ¿qué máquina redistribuye el balasto después del bateo para formar correctamente la banqueta?",
+    "opciones": [
+      "Perfiladora",
+      "Bateadora",
+      "Estabilizadora",
+      "Desguarnecedora"
+    ],
+    "correcta": 0
+  },
+  {
+    "pregunta": "Según la NAV 7-1-6.0, ¿qué máquina aplica vibraciones horizontales y carga vertical para consolidar la vía?",
+    "opciones": [
+      "Estabilizadora dinámica",
+      "Bateadora",
+      "Perfiladora",
+      "Desguarnecedora"
+    ],
+    "correcta": 0
+  },
+  {
+    "pregunta": "Según la NAV 7-1-6.0, ¿qué máquina permite excavar el balasto bajo la vía para renovarlo?",
+    "opciones": [
+      "Desguarnecedora",
+      "Perfiladora",
+      "Bateadora",
+      "Estabilizadora"
+    ],
+    "correcta": 0
+  },
+  {
+    "pregunta": "En la NAV 3-3-2.1, ¿qué tipo de soldadura se utiliza habitualmente para unir carriles en vía?",
+    "opciones": [
+      "Soldadura aluminotérmica",
+      "Soldadura por arco",
+      "Soldadura TIG",
+      "Soldadura MIG"
+    ],
+    "correcta": 0
+  },
+  {
+    "pregunta": "Según la NAV 3-3-2.1, el esmerilado final de la soldadura debe realizarse:",
+    "opciones": [
+      "Con la soldadura en frío y la vía en estado de recepción",
+      "Con la soldadura en caliente",
+      "Durante la colada del acero",
+      "Antes del precalentamiento"
+    ],
+    "correcta": 0
+  },
+  {
+    "pregunta": "Según el RCF, ¿qué se entiende por cantón de bloqueo?",
+    "opciones": [
+      "Tramo de vía en el que solo puede haber un tren simultáneamente",
+      "Tramo donde se permite el adelantamiento",
+      "Zona de mantenimiento ferroviario",
+      "Zona de maniobras en estaciones"
+    ],
+    "correcta": 0
+  },
+  {
+    "pregunta": "Según el RCF, ¿qué sistema permite controlar remotamente las instalaciones de varias estaciones desde un puesto central?",
+    "opciones": [
+      "Control de Tráfico Centralizado",
+      "ASFA",
+      "ERTMS",
+      "ATP"
+    ],
+    "correcta": 0
+  },
+  {
+    "pregunta": "Según la NAV 7-1-0.7, ¿qué característica define la vía sin balasto?",
+    "opciones": [
+      "La vía se apoya directamente sobre una losa o estructura rígida",
+      "Utiliza balasto de mayor tamaño",
+      "Requiere más mantenimiento que la vía convencional",
+      "Se utiliza solo en estaciones"
+    ],
+    "correcta": 0
+  },
+  {
+    "pregunta": "En la vía sin balasto, ¿qué elemento asegura el aislamiento eléctrico entre carril y estructura?",
+    "opciones": [
+      "Sistema de sujeción aislante",
+      "Balasto",
+      "Subbalasto",
+      "Traviesa metálica"
+    ],
+    "correcta": 0
+  },
+  {
+    "pregunta": "Según la Ley 31/1995, ¿quién es responsable de garantizar la seguridad y salud de los trabajadores?",
+    "opciones": [
+      "El empresario",
+      "El delegado sindical",
+      "La inspección de trabajo",
+      "El encargado de obra"
+    ],
+    "correcta": 0
+  },
+  {
+    "pregunta": "Según el RCF, ¿qué es un enclavamiento?",
+    "opciones": [
+      "Sistema que asegura la dependencia entre señales y aparatos de vía para garantizar itinerarios seguros",
+      "Sistema de freno automático del tren",
+      "Sistema de control de velocidad",
+      "Sistema de telecomunicaciones ferroviarias"
+    ],
+    "correcta": 0
+  },
+  {
+    "pregunta": "En la NAV 3-3-2.1, el precalentamiento de la soldadura se realiza para:",
+    "opciones": [
+      "Eliminar humedad y asegurar la correcta fusión del acero",
+      "Reducir el peso del carril",
+      "Aumentar la velocidad del tren",
+      "Evitar la oxidación del balasto"
+    ],
+    "correcta": 0
+  },
+  {
+    "pregunta": "Según el RCF, ¿qué significa ASFA?",
+    "opciones": [
+      "Anuncio de Señales y Frenado Automático",
+      "Autorización de Señales Ferroviarias Automáticas",
+      "Sistema Automático Ferroviario Avanzado",
+      "Alineación Segura de Frenado Automático"
+    ],
+    "correcta": 0
+  },
+  {
+    "pregunta": "Según el RCF, ¿qué es una bifurcación?",
+    "opciones": [
+      "Punto donde una línea se divide en dos o confluyen varias",
+      "Zona de mantenimiento",
+      "Zona de carga de mercancías",
+      "Zona de estacionamiento de trenes"
+    ],
+    "correcta": 0
+  },
+  {
+    "pregunta": "Según la NAV 7-1-6.0, ¿qué máquina se utiliza para rectificar el perfil del carril?",
+    "opciones": [
+      "Tren de amolado",
+      "Bateadora",
+      "Perfiladora",
+      "Desguarnecedora"
+    ],
+    "correcta": 0
+  },
+  {
+    "pregunta": "En la vía ferroviaria, ¿qué elemento transmite la carga del carril al balasto?",
+    "opciones": [
+      "Traviesa",
+      "Subrasante",
+      "Talud",
+      "Catenaria"
+    ],
+    "correcta": 0
+  },
+  {
+    "pregunta": "¿Qué material compone habitualmente el balasto ferroviario?",
+    "opciones": [
+      "Piedra triturada",
+      "Arena",
+      "Arcilla",
+      "Hormigón"
+    ],
+    "correcta": 0
+  },
+  {
+    "pregunta": "Según la NAV 7-1-6.0, ¿qué función tienen los cepillos de una perfiladora?",
+    "opciones": [
+      "Limpiar la superficie de las traviesas",
+      "Cortar carriles",
+      "Soldar carriles",
+      "Medir el ancho de vía"
+    ],
+    "correcta": 0
+  },
+  {
+    "pregunta": "Según el RCF, ¿qué es un puesto de bloqueo?",
+    "opciones": [
+      "Instalación que interviene en el sistema de bloqueo de trenes",
+      "Taller de reparación de locomotoras",
+      "Zona de estacionamiento de trenes",
+      "Centro de mantenimiento de balasto"
+    ],
+    "correcta": 0
+  },
+  {
+    "pregunta": "Según la NAV 7-1-6.0, ¿qué máquina puede realizar el bateo en aparatos de vía gracias a la movilidad transversal de sus grupos de bateo?",
+    "opciones": [
+      "Bateadora de desvíos",
+      "Perfiladora",
+      "Estabilizadora dinámica",
+      "Tren de amolado"
+    ],
+    "correcta": 0
+  },
+  {
+    "pregunta": "En la estructura de la vía convencional, ¿qué capa se sitúa inmediatamente bajo el balasto?",
+    "opciones": [
+      "Subbalasto",
+      "Traviesa",
+      "Subrasante",
+      "Plataforma"
+    ],
+    "correcta": 0
+  },
+  {
+    "pregunta": "Según el RCF, ¿qué es una estación telemandada?",
+    "opciones": [
+      "Aquella cuyo control y accionamiento se realiza desde otro punto mediante telemando",
+      "Una estación sin personal permanente",
+      "Una estación exclusiva de mercancías",
+      "Una estación con control manual de agujas"
+    ],
+    "correcta": 0
+  },
+  {
+    "pregunta": "¿Qué función principal tiene el subbalasto?",
+    "opciones": [
+      "Mejorar el reparto de cargas y el drenaje",
+      "Sujetar directamente el carril",
+      "Transmitir energía eléctrica",
+      "Guiar las ruedas del tren"
+    ],
+    "correcta": 0
+  },
+  {
+    "pregunta": "Según el RCF, ¿qué sistema de protección de tren se basa en balizas instaladas en la vía?",
+    "opciones": [
+      "ASFA",
+      "LZB",
+      "CTC",
+      "BAB"
+    ],
+    "correcta": 0
+  },
+  {
+    "pregunta": "En el mantenimiento de vía, ¿qué operación se realiza para corregir defectos de nivel y alineación?",
+    "opciones": [
+      "Bateo",
+      "Amolado",
+      "Soldadura",
+      "Fresado"
+    ],
+    "correcta": 0
+  },
+  {
+    "pregunta": "Según la NAV 3-3-2.1, la finalidad del precalentamiento del carril antes de la soldadura es:",
+    "opciones": [
+      "Eliminar humedad y preparar el metal base",
+      "Reducir la longitud del carril",
+      "Aumentar la velocidad del tren",
+      "Compactar el balasto"
+    ],
+    "correcta": 0
+  },
+  {
+    "pregunta": "Según el RCF, ¿qué es un enclavamiento electrónico?",
+    "opciones": [
+      "Sistema que asegura itinerarios seguros mediante control electrónico",
+      "Sistema mecánico de señalización",
+      "Sistema manual de cambio de agujas",
+      "Sistema de ventilación de túneles"
+    ],
+    "correcta": 0
+  },
+  {
+    "pregunta": "¿Qué máquina ferroviaria se utiliza para eliminar defectos superficiales del carril?",
+    "opciones": [
+      "Tren de amolado",
+      "Bateadora",
+      "Perfiladora",
+      "Desguarnecedora"
+    ],
+    "correcta": 0
+  },
+  {
+    "pregunta": "Según la Ley 31/1995, los trabajadores tienen derecho a:",
+    "opciones": [
+      "Una protección eficaz en materia de seguridad y salud",
+      "Elegir libremente el horario de trabajo",
+      "Decidir las inversiones de la empresa",
+      "Modificar el contrato de trabajo"
+    ],
+    "correcta": 0
+  },
+  {
+    "pregunta": "En un desvío ferroviario, ¿qué elemento dirige las ruedas hacia una u otra vía?",
+    "opciones": [
+      "Agujas",
+      "Balasto",
+      "Subbalasto",
+      "Traviesas"
+    ],
+    "correcta": 0
+  },
+  {
+    "pregunta": "Según el RCF, ¿qué significa LTV?",
+    "opciones": [
+      "Limitación Temporal de Velocidad",
+      "Línea de Tracción Variable",
+      "Longitud Total de Vagones",
+      "Liberación Técnica de Vía"
+    ],
+    "correcta": 0
+  },
+  {
+    "pregunta": "¿Qué elemento mantiene la separación correcta entre los carriles?",
+    "opciones": [
+      "Traviesas",
+      "Balasto",
+      "Talud",
+      "Subrasante"
+    ],
+    "correcta": 0
+  },
+  {
+    "pregunta": "Según la NAV 7-1-6.0, ¿qué máquina se utiliza para retirar balasto contaminado?",
+    "opciones": [
+      "Desguarnecedora",
+      "Bateadora",
+      "Estabilizadora",
+      "Perfiladora"
+    ],
+    "correcta": 0
+  },
+  {
+    "pregunta": "¿Qué ancho de vía corresponde al estándar europeo?",
+    "opciones": [
+      "1435 mm",
+      "1668 mm",
+      "1000 mm",
+      "1520 mm"
+    ],
+    "correcta": 0
+  },
+  {
+    "pregunta": "¿Qué ancho de vía se utiliza tradicionalmente en la red convencional española?",
+    "opciones": [
+      "1668 mm",
+      "1435 mm",
+      "1000 mm",
+      "1520 mm"
+    ],
+    "correcta": 0
+  },
+  {
+    "pregunta": "Según el RCF, ¿qué es un cantón de bloqueo?",
+    "opciones": [
+      "Tramo de vía en el que solo puede haber un tren simultáneamente",
+      "Zona de carga de mercancías",
+      "Zona de mantenimiento",
+      "Tramo donde pueden circular varios trenes"
+    ],
+    "correcta": 0
+  },
+  {
+    "pregunta": "Según la NAV 7-1-0.7, ¿dónde se utiliza principalmente la vía sin balasto?",
+    "opciones": [
+      "En líneas de alta velocidad y túneles",
+      "En estaciones de mercancías",
+      "En vías industriales",
+      "En apartaderos"
+    ],
+    "correcta": 0
+  },
+  {
+    "pregunta": "¿Qué material constituye habitualmente los carriles ferroviarios?",
+    "opciones": [
+      "Acero laminado",
+      "Hierro fundido",
+      "Aluminio",
+      "Cobre"
+    ],
+    "correcta": 0
+  },
+  {
+    "pregunta": "Según el RCF, ¿qué es el Control de Tráfico Centralizado?",
+    "opciones": [
+      "Sistema que permite controlar remotamente las instalaciones de varias estaciones",
+      "Sistema de frenado automático",
+      "Sistema de ventilación de túneles",
+      "Sistema de alimentación eléctrica"
+    ],
+    "correcta": 0
+  },
+  {
+    "pregunta": "Según la NAV 7-1-6.0, ¿qué máquina se utiliza para compactar lateralmente el balasto tras el bateo?",
+    "opciones": [
+      "Estabilizadora dinámica",
+      "Perfiladora",
+      "Desguarnecedora",
+      "Tren de amolado"
+    ],
+    "correcta": 0
+  },
+  {
+    "pregunta": "¿Qué elemento de la vía está en contacto directo con las ruedas del tren?",
+    "opciones": [
+      "Carril",
+      "Traviesa",
+      "Balasto",
+      "Subbalasto"
+    ],
+    "correcta": 0
+  },
+  {
+    "pregunta": "Según el RCF, ¿qué es una derivación particular?",
+    "opciones": [
+      "Infraestructura ferroviaria ajena a la RFIG conectada con ella",
+      "Zona de mantenimiento de locomotoras",
+      "Apartadero exclusivo de viajeros",
+      "Tramo de vía en túnel"
+    ],
+    "correcta": 0
+  },
+  {
+    "pregunta": "En un aparato de vía, ¿qué elemento mantiene la continuidad del carril en el cruce?",
+    "opciones": [
+      "Corazón",
+      "Balasto",
+      "Subbalasto",
+      "Traviesa"
+    ],
+    "correcta": 0
+  },
+  {
+    "pregunta": "Según el RCF, ¿qué significa BAB?",
+    "opciones": [
+      "Bloqueo Automático en vía Banalizada",
+      "Bloqueo Auxiliar Básico",
+      "Bloqueo Automático Básico",
+      "Banda Automática de Bloqueo"
+    ],
+    "correcta": 0
+  },
+  {
+    "pregunta": "¿Qué operación ferroviaria consiste en eliminar irregularidades del carril mediante abrasión?",
+    "opciones": [
+      "Amolado",
+      "Bateo",
+      "Soldadura",
+      "Perfilado"
+    ],
+    "correcta": 0
+  },
+  {
+    "pregunta": "Según la NAV 3-3-2.1, el esmerilado de acabado se realiza:",
+    "opciones": [
+      "Con la soldadura ya enfriada",
+      "Durante la colada del acero",
+      "Antes del precalentamiento",
+      "Mientras se vierte el metal"
+    ],
+    "correcta": 0
+  },
+  {
+    "pregunta": "¿Qué función tienen las traviesas en la vía ferroviaria?",
+    "opciones": [
+      "Transmitir las cargas al balasto y mantener el ancho de vía",
+      "Guiar la rueda del tren",
+      "Proteger el balasto de la lluvia",
+      "Sujetar la catenaria"
+    ],
+    "correcta": 0
+  },
+  {
+    "pregunta": "Según el RCF, ¿qué significa ERTMS?",
+    "opciones": [
+      "Sistema europeo de gestión del tráfico ferroviario",
+      "Sistema eléctrico de regulación de tracción",
+      "Sistema automático de frenado",
+      "Sistema de enclavamiento mecánico"
+    ],
+    "correcta": 0
+  },
+  {
+    "pregunta": "¿Qué material se utiliza habitualmente en las traviesas modernas?",
+    "opciones": [
+      "Hormigón",
+      "Granito",
+      "Aluminio",
+      "Cobre"
+    ],
+    "correcta": 0
+  },
+  {
+    "pregunta": "¿Qué máquina ferroviaria puede limpiar la superficie del balasto y redistribuirlo?",
+    "opciones": [
+      "Perfiladora",
+      "Bateadora",
+      "Tren de amolado",
+      "Locomotora de maniobras"
+    ],
+    "correcta": 0
+  },
+  {
+    "pregunta": "Según el RCF, ¿qué es una estación?",
+    "opciones": [
+      "Instalación ferroviaria donde pueden efectuarse cruces, adelantamientos o estacionamientos de trenes",
+      "Zona exclusiva de mantenimiento",
+      "Zona de control de catenaria",
+      "Tramo de línea sin señalización"
+    ],
+    "correcta": 0
+  },
+  {
+    "pregunta": "¿Qué elemento del sistema de sujeción fija el carril a la traviesa?",
+    "opciones": [
+      "Clip elástico",
+      "Balasto",
+      "Subbalasto",
+      "Talud"
+    ],
+    "correcta": 0
+  },
+  {
+    "pregunta": "Según la NAV 7-1-0.7, una vía sin balasto se caracteriza por:",
+    "opciones": [
+      "Apoyarse sobre una estructura rígida como losa de hormigón",
+      "Utilizar balasto de mayor tamaño",
+      "No tener carriles",
+      "No utilizar traviesas"
+    ],
+    "correcta": 0
+  },
+  {
+    "pregunta": "¿Qué máquina ferroviaria puede renovar completamente carriles y traviesas?",
+    "opciones": [
+      "Tren de renovación de vía",
+      "Perfiladora",
+      "Bateadora",
+      "Estabilizadora"
+    ],
+    "correcta": 0
+  },
+  {
+    "pregunta": "Según el RCF, ¿qué significa ATP?",
+    "opciones": [
+      "Protección automática del tren",
+      "Autorización técnica de paso",
+      "Alineación total de plataforma",
+      "Anulación temporal de paso"
+    ],
+    "correcta": 0
+  },
+  {
+    "pregunta": "¿Qué componente transmite las cargas del tren desde la vía al terreno natural?",
+    "opciones": [
+      "Subrasante",
+      "Carril",
+      "Traviesa",
+      "Balasto"
+    ],
+    "correcta": 0
+  },
+  {
+    "pregunta": "Según el RCF, ¿qué se entiende por marcha a la vista?",
+    "opciones": [
+      "Circular regulando la velocidad para poder detener el tren ante cualquier obstáculo visible",
+      "Circular siempre a 30 km/h",
+      "Circular únicamente en estaciones",
+      "Circular con autorización escrita"
+    ],
+    "correcta": 0
+  },
+  {
+    "pregunta": "¿Qué elemento evita el desplazamiento lateral del carril en la vía?",
+    "opciones": [
+      "Sistema de sujeción",
+      "Talud",
+      "Subbalasto",
+      "Catenaria"
+    ],
+    "correcta": 0
+  },
+  {
+    "pregunta": "¿Qué función tiene el balasto en la vía ferroviaria?",
+    "opciones": [
+      "Distribuir cargas y permitir el drenaje",
+      "Transmitir energía eléctrica",
+      "Guiar el tren",
+      "Sujetar la catenaria"
+    ],
+    "correcta": 0
   }
 ]
