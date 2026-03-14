@@ -168,7 +168,7 @@
       "Generar etiquetas para cada píxel.",
       "Reducir la resolución espacial de las características extraídas."
     ],
-    "correcta": 3
+    "correcta": 2
   },
   {
     "pregunta": "¿Cuál es la diferencia entre un autoencoder y un clasificador supervisado?",
@@ -177,7 +177,7 @@
       "El autoencoder utiliza datos etiquetados para clasificar.",
       "El autoencoder es no supervisado y se enfoca en la reconstrucción de datos."
     ],
-    "correcta": 3
+    "correcta": 2
   },
   {
     "pregunta": "¿Cuál es la principal diferencia entre un modelo supervisado y uno no supervisado?",
@@ -186,7 +186,7 @@
       "El modelo supervisado se entrena con datos etiquetados, mientras que el no supervisado no utiliza etiquetas.",
       "El modelo supervisado no necesita optimización."
     ],
-    "correcta": 2
+    "correcta": 1
   },
   {
     "pregunta": "¿Cuál es una característica clave de las redes neuronales profundas?",
@@ -195,7 +195,7 @@
       "Sólo una capa de entrada.",
       "Basadas en árboles de decisión."
     ],
-    "correcta": 1
+    "correcta": 0
   },
   {
     "pregunta": "¿Qué caracteriza a un modelo generativo en Deep Learning?",
@@ -204,7 +204,7 @@
       "Es un modelo que genera nuevos datos similares a los de entrenamiento.",
       "Es un modelo que clasifica datos en categorías predeterminadas."
     ],
-    "correcta": 2
+    "correcta": 1
   },
   {
     "pregunta": "¿Qué es el aprendizaje supervisado?",
@@ -213,16 +213,16 @@
       "Un algoritmo que agrupa datos no etiquetados.",
       "Un tipo de aprendizaje en el que el modelo se entrena con datos etiquetados."
     ],
-    "correcta": 3
+    "correcta": 2
   },
   {
-    "pregunta": "¿Qué es el backpropagation en redes neuronales?",
+    "pregunta": "¿Qué es el backpropagation\" en redes neuronales?\"",
     "opciones": [
       "Es el algoritmo que ajusta los pesos de la red minimizando el error.",
       "Es un método para normalizar los datos de entrada.",
       "Es un algoritmo para reducir la dimensionalidad."
     ],
-    "correcta": 1
+    "correcta": 0
   },
   {
     "pregunta": "¿Qué es el Deep Learning?",
@@ -231,34 +231,34 @@
       "Un método de aprendizaje supervisado.",
       "Una rama del aprendizaje automático basada en redes neuronales."
     ],
-    "correcta": 3
+    "correcta": 2
   },
   {
-    "pregunta": "¿Qué es el entrenamiento en una red neuronal?",
+    "pregunta": "¿Qué es el entrenamiento\" en una red neuronal?\"",
     "opciones": [
       "La generación de predicciones a partir de los datos.",
       "El proceso de ajustar los pesos para minimizar el error en los datos de entrenamiento.",
       "La normalización de los datos de entrada."
     ],
-    "correcta": 2
+    "correcta": 1
   },
   {
-    "pregunta": "¿Qué es el overfitting en el aprendizaje automático?",
+    "pregunta": "¿Qué es el overfitting\" en el aprendizaje automático?\"",
     "opciones": [
       "Cuando el modelo se ajusta demasiado a los datos de entrenamiento y falla en generalizar.",
       "Cuando el modelo no aprende lo suficiente de los datos de entrenamiento.",
       "Cuando el modelo no puede procesar los datos debido a su tamaño."
     ],
-    "correcta": 1
+    "correcta": 0
   },
   {
-    "pregunta": "¿Qué es la función de activación ReLU en redes neuronales?",
+    "pregunta": "¿Qué es la función de activación ReLU\" en redes neuronales?\"",
     "opciones": [
       "Es una función que convierte los valores negativos en cero y deja pasar los positivos.",
       "Es una técnica para normalizar los datos de entrada.",
       "Es una función que convierte todos los valores en probabilidades."
     ],
-    "correcta": 1
+    "correcta": 0
   },
   {
     "pregunta": "¿Qué es la normalización en el preprocesamiento de datos?",
@@ -267,7 +267,7 @@
       "Escalar las características de los datos a un rango común.",
       "Eliminar valores nulos de los datos."
     ],
-    "correcta": 2
+    "correcta": 1
   },
   {
     "pregunta": "¿Qué es un autoencoder?",
@@ -276,7 +276,7 @@
       "Un algoritmo para la detección de objetos.",
       "Un modelo de clasificación supervisada."
     ],
-    "correcta": 1
+    "correcta": 0
   },
   {
     "pregunta": "¿Qué es una red neuronal recurrente (RNN)?",
@@ -285,7 +285,7 @@
       "Una red neuronal diseñada para trabajar con datos secuenciales.",
       "Un tipo de red convolucional."
     ],
-    "correcta": 2
+    "correcta": 1
   },
   {
     "pregunta": "¿Qué función tiene el optimizador en el entrenamiento de redes neuronales?",
@@ -294,16 +294,16 @@
       "Generar la predicción final del modelo.",
       "Dividir los datos en subconjuntos para entrenamiento."
     ],
-    "correcta": 1
+    "correcta": 0
   },
   {
-    "pregunta": "¿Qué función tiene el softmax en la capa de salida de una red neuronal?",
+    "pregunta": "¿Qué función tiene el softmax\" en la capa de salida de una red neuronal?\"",
     "opciones": [
       "Aplicar regularización a la red.",
       "Reducir el error de predicción.",
       "Convertir las salidas de la red en probabilidades."
     ],
-    "correcta": 3
+    "correcta": 2
   },
   {
     "pregunta": "¿Qué función tiene la capa convolucional en una red neuronal?",
@@ -312,7 +312,7 @@
       "Clasificar los datos.",
       "Extraer características espaciales de los datos."
     ],
-    "correcta": 3
+    "correcta": 2
   },
   {
     "pregunta": "¿Qué mide la precisión en un modelo de clasificación?",
@@ -321,7 +321,7 @@
       "El tiempo de entrenamiento del modelo.",
       "El porcentaje de predicciones correctas."
     ],
-    "correcta": 3
+    "correcta": 2
   },
   {
     "pregunta": "¿Qué representa un mapa de calor en el análisis de redes neuronales?",
@@ -330,25 +330,25 @@
       "Muestra las áreas de una imagen donde la red presta más atención.",
       "Un gráfico que compara el rendimiento de diferentes modelos."
     ],
-    "correcta": 2
+    "correcta": 1
   },
   {
-    "pregunta": "¿Qué se entiende por batch en el contexto del entrenamiento de redes neuronales?",
+    "pregunta": "¿Qué se entiende por batch\" en el contexto del entrenamiento de redes neuronales?\"",
     "opciones": [
       "Un subconjunto de datos utilizado en una iteración de entrenamiento.",
       "Un conjunto completo de datos de entrenamiento.",
       "Una técnica de regularización."
     ],
-    "correcta": 1
+    "correcta": 0
   },
   {
-    "pregunta": "¿Qué significa aplanar una imagen en el contexto de redes neuronales?",
+    "pregunta": "¿Qué significa aplanar\" una imagen en el contexto de redes neuronales?\"",
     "opciones": [
       "Convertir una imagen 2D en un vector 1D para que pueda pasar por capas completamente conectadas.",
       "Eliminar el color de la imagen.",
       "Reducir la resolución de la imagen."
     ],
-    "correcta": 1
+    "correcta": 0
   },
   {
     "pregunta": "¿Qué técnica se utiliza comúnmente para prevenir el sobreajuste en redes neuronales?",
@@ -357,7 +357,7 @@
       "Dropout.",
       "Normalización."
     ],
-    "correcta": 2
+    "correcta": 1
   },
   {
     "pregunta": "¿Qué tipo de redes neuronales se utilizan comúnmente para procesamiento de imágenes?",
@@ -366,7 +366,7 @@
       "Redes neuronales convolucionales (CNN).",
       "Redes neuronales feedforward."
     ],
-    "correcta": 2
+    "correcta": 1
   },
   {
     "pregunta": "¿Cuál es la función de un modelo de resumen en NLP?",
@@ -375,7 +375,7 @@
       "Reducir el contenido de un texto manteniendo su significado.",
       "Extraer entidades nombradas."
     ],
-    "correcta": 2
+    "correcta": 1
   },
   {
     "pregunta": "¿Cuál es la ventaja principal de usar embeddings en modelos de NLP?",
@@ -384,7 +384,7 @@
       "Permiten reducir la cantidad de datos necesarios.",
       "Son más rápidos que los métodos tradicionales."
     ],
-    "correcta": 1
+    "correcta": 0
   },
   {
     "pregunta": "¿Qué es el aprendizaje supervisado en el contexto de NLP?",
@@ -393,7 +393,7 @@
       "Un método de clustering no supervisado.",
       "Una técnica para reducir la dimensionalidad."
     ],
-    "correcta": 1
+    "correcta": 0
   },
   {
     "pregunta": "¿Qué es el aprendizaje supervisado en NLP?",
@@ -402,7 +402,7 @@
       "Un modelo de reducción dimensional.",
       "Un método para encontrar relaciones no visibles en datos sin etiquetar."
     ],
-    "correcta": 1
+    "correcta": 0
   },
   {
     "pregunta": "¿Qué es el preprocesamiento de texto?",
@@ -411,7 +411,7 @@
       "El proceso de limpiar y transformar texto para hacerlo adecuado para el análisis.",
       "La técnica de reducir las dimensiones del texto."
     ],
-    "correcta": 2
+    "correcta": 1
   },
   {
     "pregunta": "¿Qué es el preprocesamiento en el análisis de texto?",
@@ -420,7 +420,7 @@
       "Un método para clasificar textos.",
       "Una técnica para dividir los datos en subconjuntos."
     ],
-    "correcta": 1
+    "correcta": 0
   },
   {
     "pregunta": "¿Qué es la matriz de confusión en la evaluación de modelos de clasificación?",
@@ -429,7 +429,7 @@
       "Una tabla que muestra los verdaderos positivos, falsos positivos, verdaderos negativos y falsos negativos.",
       "Una técnica para clasificar documentos."
     ],
-    "correcta": 2
+    "correcta": 1
   },
   {
     "pregunta": "¿Qué es la regularización en modelos de clasificación?",
@@ -438,7 +438,7 @@
       "Una técnica para aumentar el número de características.",
       "Una técnica para prevenir el sobreajuste del modelo."
     ],
-    "correcta": 3
+    "correcta": 2
   },
   {
     "pregunta": "¿Qué es la tokenización de palabras?",
@@ -447,7 +447,7 @@
       "Es una técnica de clasificación no supervisada.",
       "Es una técnica para reducir el tamaño del conjunto de datos."
     ],
-    "correcta": 1
+    "correcta": 0
   },
   {
     "pregunta": "¿Qué es la tokenización en procesamiento de texto?",
@@ -456,7 +456,7 @@
       "Dividir el texto en unidades más pequeñas como palabras o frases.",
       "Extraer entidades nombradas de un texto."
     ],
-    "correcta": 2
+    "correcta": 1
   },
   {
     "pregunta": "¿Qué es un corpus en el procesamiento de lenguaje natural?",
@@ -465,7 +465,7 @@
       "Una representación numérica de las palabras.",
       "Una técnica de clasificación supervisada."
     ],
-    "correcta": 1
+    "correcta": 0
   },
   {
     "pregunta": "¿Qué es un embedding en el contexto de NLP?",
@@ -474,7 +474,7 @@
       "Una representación densa de palabras en un espacio continuo.",
       "Una técnica de clasificación."
     ],
-    "correcta": 2
+    "correcta": 1
   },
   {
     "pregunta": "¿Qué es un modelo de clasificación de texto supervisado?",
@@ -483,7 +483,7 @@
       "Un modelo entrenado con ejemplos etiquetados para clasificar nuevos textos.",
       "Un modelo que agrupa textos no etiquetados."
     ],
-    "correcta": 2
+    "correcta": 1
   },
   {
     "pregunta": "¿Qué mide el recall en un modelo de clasificación?",
@@ -492,7 +492,7 @@
       "La proporción de verdaderos positivos respecto a los positivos reales.",
       "La cantidad de falsos negativos generados."
     ],
-    "correcta": 2
+    "correcta": 1
   },
   {
     "pregunta": "¿Qué representa la precisión en un modelo de clasificación?",
@@ -501,7 +501,7 @@
       "La cantidad de falsos negativos generados.",
       "El porcentaje de predicciones correctas respecto al total."
     ],
-    "correcta": 3
+    "correcta": 2
   },
   {
     "pregunta": "A la hora de crear un embedding propio, se debe:",
@@ -555,7 +555,7 @@
       "Utilizar varias capas (convolucionales, de pooling...) para codificar una imagen.",
       "Crear una imagen a partir de sí misma."
     ],
-    "correcta": 1
+    "correcta": 0
   },
   {
     "pregunta": "Un embedding es una representación vectorial de un texto donde:",
@@ -573,7 +573,7 @@
       "Puede resolver cualquier tarea.",
       "Se ha entrenado con información genérica de la tarea a realizar."
     ],
-    "correcta": 3
+    "correcta": 2
   },
   {
     "pregunta": "Un Modelo Grande del Lenguaje es un modelo:",
@@ -1248,7 +1248,7 @@
       "K-Means.",
       "DBSCAN."
     ],
-    "correcta": 1
+    "correcta": 0
   },
   {
     "pregunta": "¿Cuál es el objetivo principal de las máquinas de soporte vectorial (SVM)?",
@@ -1257,16 +1257,16 @@
       "Encontrar un hiperplano óptimo que separe las clases.",
       "Generar un modelo con múltiples capas."
     ],
-    "correcta": 2
+    "correcta": 1
   },
   {
-    "pregunta": "¿Cuál es el propósito del preprocesamiento de datos?",
+    "pregunta": "¿Cuál es el propósito del preprocesamiento\" de datos?\"",
     "opciones": [
       "Limpia y transforma los datos para hacerlos más adecuados para los modelos.",
       "Genera nuevos datos a partir de los existentes.",
       "Elimina las filas duplicadas de los conjuntos de datos."
     ],
-    "correcta": 1
+    "correcta": 0
   },
   {
     "pregunta": "¿Cuál es la principal diferencia entre clasificación y regresión?",
@@ -1275,7 +1275,7 @@
       "La regresión utiliza árboles de decisión, la clasificación no.",
       "La clasificación predice categorías, la regresión predice valores numéricos."
     ],
-    "correcta": 3
+    "correcta": 2
   },
   {
     "pregunta": "¿Qué caracteriza a los algoritmos de aprendizaje no supervisado?",
@@ -1284,16 +1284,16 @@
       "Utilizan etiquetas para predecir categorías.",
       "No requieren etiquetas en los datos para aprender."
     ],
-    "correcta": 3
+    "correcta": 2
   },
   {
-    "pregunta": "¿Qué caracteriza a los modelos de aprendizaje por refuerzo?",
+    "pregunta": "¿Qué caracteriza a los modelos de aprendizaje por refuerzo\"?\"",
     "opciones": [
       "Utilizan solo técnicas de clustering.",
       "Aprenden tomando decisiones en un entorno y recibiendo retroalimentación en forma de recompensas.",
       "Aprenden usando solo datos etiquetados."
     ],
-    "correcta": 2
+    "correcta": 1
   },
   {
     "pregunta": "¿Qué caracteriza a los modelos ensemble?",
@@ -1302,16 +1302,16 @@
       "Combinan múltiples modelos para mejorar el rendimiento general.",
       "Son aplicables solo en problemas de regresión."
     ],
-    "correcta": 2
+    "correcta": 1
   },
   {
-    "pregunta": "¿Qué caracteriza a una red neuronal convolucional?",
+    "pregunta": "¿Qué caracteriza a una red neuronal convolucional\"?\"",
     "opciones": [
       "Está diseñada para trabajar con datos que tienen una estructura de rejilla, como imágenes.",
       "Es un método de reducción de dimensionalidad.",
       "Es un tipo de algoritmo supervisado."
     ],
-    "correcta": 1
+    "correcta": 0
   },
   {
     "pregunta": "¿Qué caracteriza a una red neuronal profunda?",
@@ -1320,7 +1320,7 @@
       "Utiliza sólo una capa de entrada.",
       "Tiene múltiples capas ocultas."
     ],
-    "correcta": 3
+    "correcta": 2
   },
   {
     "pregunta": "¿Qué es el algoritmo K-Nearest Neighbors (KNN)?",
@@ -1329,7 +1329,7 @@
       "Un algoritmo que utiliza árboles de decisión.",
       "Un algoritmo de clasificación basado en la proximidad a los vecinos más cercanos."
     ],
-    "correcta": 3
+    "correcta": 2
   },
   {
     "pregunta": "¿Qué es el hiperplano en SVM?",
@@ -1338,16 +1338,16 @@
       "Es un algoritmo de reducción de dimensionalidad.",
       "Es una técnica de normalización de datos."
     ],
-    "correcta": 1
+    "correcta": 0
   },
   {
-    "pregunta": "¿Qué es el sobreajuste en un modelo de aprendizaje automático?",
+    "pregunta": "¿Qué es el sobreajuste\" en un modelo de aprendizaje automático?\"",
     "opciones": [
       "Es cuando el modelo aprende patrones específicos del conjunto de entrenamiento que no generalizan bien.",
       "Es cuando el modelo no es capaz de aprender patrones complejos.",
       "Es cuando el modelo clasifica incorrectamente el conjunto de datos."
     ],
-    "correcta": 1
+    "correcta": 0
   },
   {
     "pregunta": "¿Qué es un árbol de decisión?",
@@ -1356,7 +1356,7 @@
       "Un método de agrupamiento.",
       "Un modelo predictivo que utiliza una estructura de árbol para tomar decisiones."
     ],
-    "correcta": 3
+    "correcta": 2
   },
   {
     "pregunta": "¿Qué es un perceptrón en el contexto de redes neuronales?",
@@ -1365,16 +1365,16 @@
       "Una técnica para reducir el sobreajuste.",
       "Un modelo de clasificación basado en árboles."
     ],
-    "correcta": 1
+    "correcta": 0
   },
   {
-    "pregunta": "¿Qué es una neuronas de entrada en una red neuronal?",
+    "pregunta": "¿Qué es una neuronas de entrada\" en una red neuronal?\"",
     "opciones": [
       "Son las neuronas que generan la salida final.",
       "Son las neuronas que calculan la activación.",
       "Son las neuronas que reciben directamente los datos de entrada."
     ],
-    "correcta": 3
+    "correcta": 2
   },
   {
     "pregunta": "¿Qué función tiene una capa de activación en una red neuronal?",
@@ -1383,7 +1383,7 @@
       "Introduce no linealidad en el modelo.",
       "Combina las salidas de las neuronas."
     ],
-    "correcta": 2
+    "correcta": 1
   },
   {
     "pregunta": "¿Qué método utiliza el algoritmo de árboles de decisión para dividir nodos?",
@@ -1392,7 +1392,7 @@
       "Criterios como la entropía o el índice Gini.",
       "Algoritmos de distancia."
     ],
-    "correcta": 2
+    "correcta": 1
   },
   {
     "pregunta": "¿Qué parámetro es clave en el algoritmo KNN?",
@@ -1401,7 +1401,7 @@
       "El número de vecinos k.",
       "El número de dimensiones."
     ],
-    "correcta": 2
+    "correcta": 1
   },
   {
     "pregunta": "¿Qué se entiende por Máquinas de Vectores Soporte (SVM)?",
@@ -1410,7 +1410,7 @@
       "Una técnica para optimizar redes neuronales.",
       "Un método de clustering."
     ],
-    "correcta": 1
+    "correcta": 0
   },
   {
     "pregunta": "¿Qué ventaja ofrece el aprendizaje semisupervisado?",
@@ -1419,7 +1419,7 @@
       "Es aplicable únicamente en tareas de clustering.",
       "Utiliza tanto datos etiquetados como no etiquetados para mejorar el rendimiento."
     ],
-    "correcta": 3
+    "correcta": 2
   },
   {
     "pregunta": "¿Qué ventaja principal tiene el DBSCAN sobre KMeans?",
@@ -1428,7 +1428,7 @@
       "No requiere que se especifique el número de clusters.",
       "Es más rápido en grandes conjuntos de datos."
     ],
-    "correcta": 2
+    "correcta": 1
   },
   {
     "pregunta": "¿Qué tipo de agrupamiento es KMeans?",
@@ -1437,7 +1437,7 @@
       "Basado en centroides.",
       "Por densidad."
     ],
-    "correcta": 2
+    "correcta": 1
   },
   {
     "pregunta": "¿Qué métrica es común en los algoritmos de agrupamiento?",
@@ -1446,7 +1446,7 @@
       "Distancia Manhattan.",
       "Distancia Jaccard."
     ],
-    "correcta": 2
+    "correcta": 1
   },
   {
     "pregunta": "¿Qué es un dendograma en el contexto del agrupamiento jerárquico?",
@@ -1455,7 +1455,7 @@
       "Un gráfico que muestra las uniones entre grupos de datos.",
       "Un tipo de métrica de distancia."
     ],
-    "correcta": 2
+    "correcta": 1
   },
   {
     "pregunta": "¿Qué métrica se usa en DBSCAN para determinar si un punto es parte de un cluster?",
@@ -1464,7 +1464,7 @@
       "La distancia máxima dentro del cluster.",
       "La densidad de puntos en su vecindad."
     ],
-    "correcta": 3
+    "correcta": 2
   },
   {
     "pregunta": "¿Qué es un agente en el aprendizaje por refuerzo?",
@@ -1473,7 +1473,7 @@
       "Es una métrica que evalúa el rendimiento.",
       "Es el modelo que toma decisiones en el entorno."
     ],
-    "correcta": 3
+    "correcta": 2
   },
   {
     "pregunta": "¿Cómo se detectan los valores atípicos en DBSCAN?",
@@ -1482,7 +1482,7 @@
       "Se identifican los puntos que no pertenecen a ningún grupo.",
       "Se calculan las distancias entre puntos."
     ],
-    "correcta": 2
+    "correcta": 1
   },
   {
     "pregunta": "¿Qué técnica permite medir la distancia entre puntos en KMeans?",
@@ -1491,7 +1491,7 @@
       "Distancia euclidiana.",
       "Distancia de Hamming."
     ],
-    "correcta": 2
+    "correcta": 1
   },
   {
     "pregunta": "¿Qué caracteriza al aprendizaje no supervisado?",
@@ -1500,7 +1500,7 @@
       "No requiere ejemplos etiquetados.",
       "Usa ejemplos con etiquetas."
     ],
-    "correcta": 2
+    "correcta": 1
   },
   {
     "pregunta": "¿Qué ocurre si el número de clusters (k) es demasiado alto en KMeans?",
@@ -1509,7 +1509,7 @@
       "Los centroides se calculan más rápido.",
       "Se obtiene una mejor agrupación."
     ],
-    "correcta": 1
+    "correcta": 0
   },
   {
     "pregunta": "¿Qué ocurre si eps es muy grande en DBSCAN?",
@@ -1518,7 +1518,7 @@
       "Se generan muchos clusters pequeños.",
       "No se forman clusters."
     ],
-    "correcta": 1
+    "correcta": 0
   },
   {
     "pregunta": "¿Cuál es el objetivo del algoritmo KMeans?",
@@ -1527,7 +1527,7 @@
       "Agrupar datos en k grupos basados en la proximidad.",
       "Reducir la dimensionalidad de los datos."
     ],
-    "correcta": 2
+    "correcta": 1
   },
   {
     "pregunta": "¿Cuál es una característica clave del agrupamiento jerárquico aglomerativo?",
@@ -1536,7 +1536,7 @@
       "Separa los clusters hasta que cada punto es un cluster individual.",
       "Elige un número fijo de clusters al inicio."
     ],
-    "correcta": 1
+    "correcta": 0
   },
   {
     "pregunta": "¿Qué método de enlace en el agrupamiento jerárquico aglomerativo mide la distancia máxima entre puntos de dos clusters?",
@@ -1545,7 +1545,7 @@
       "Enlace promedio.",
       "Enlace completo."
     ],
-    "correcta": 3
+    "correcta": 2
   },
   {
     "pregunta": "¿Cuál es el hiperparámetro clave de DBSCAN?",
@@ -1554,7 +1554,7 @@
       "El rango de aceptación (eps).",
       "La distancia euclidiana."
     ],
-    "correcta": 2
+    "correcta": 1
   },
   {
     "pregunta": "¿Cuál es el objetivo del agrupamiento jerárquico?",
@@ -1563,16 +1563,16 @@
       "Crear una jerarquía de grupos mediante divisiones o fusiones sucesivas.",
       "Asignar cada dato a su propio cluster inicial."
     ],
-    "correcta": 2
+    "correcta": 1
   },
   {
-    "pregunta": "¿Qué representa la maldición de la dimensionalidad?",
+    "pregunta": "¿Qué representa la \"maldición de la dimensionalidad\"?",
     "opciones": [
       "Más dimensiones resultan en mejores agrupaciones.",
       "A mayor número de dimensiones, más difícil es agrupar correctamente.",
       "No afecta los modelos de agrupación."
     ],
-    "correcta": 2
+    "correcta": 1
   },
   {
     "pregunta": "¿Qué algoritmo usa DBSCAN para detectar densidad en los datos?",
@@ -1581,16 +1581,16 @@
       "Algoritmo basado en centroide.",
       "Algoritmo basado en distancia."
     ],
-    "correcta": 1
+    "correcta": 0
   },
   {
-    "pregunta": "¿Qué caracteriza a un punto ruido en DBSCAN?",
+    "pregunta": "¿Qué caracteriza a un \"punto ruido\" en DBSCAN?",
     "opciones": [
       "Es parte de un cluster denso.",
       "Es un punto central de un cluster.",
       "No pertenece a ningún cluster."
     ],
-    "correcta": 3
+    "correcta": 2
   },
   {
     "pregunta": "¿Qué técnica es útil para reducir la dimensionalidad de los datos sin perder interpretabilidad?",
@@ -1599,16 +1599,16 @@
       "Imputación de valores nulos.",
       "PCA."
     ],
-    "correcta": 1
+    "correcta": 0
   },
   {
-    "pregunta": "¿Qué representa la maldición de la dimensionalidad?",
+    "pregunta": "¿Qué representa la \"maldición de la dimensionalidad\"?",
     "opciones": [
       "El entrenamiento con datos irrelevantes.",
       "El uso de demasiadas columnas categóricas.",
       "El incremento de las dimensiones de los datos dificulta el entrenamiento del modelo."
     ],
-    "correcta": 3
+    "correcta": 2
   },
   {
     "pregunta": "¿Cuál es el objetivo principal del preprocesamiento de datos?",
@@ -1617,7 +1617,7 @@
       "Generar nuevos datos sintéticos.",
       "Preparar los datos para que los modelos puedan procesarlos de forma óptima."
     ],
-    "correcta": 3
+    "correcta": 2
   },
   {
     "pregunta": "¿Qué se hace con los datos atípicos en una estrategia permisiva?",
@@ -1626,7 +1626,7 @@
       "Se eliminan automáticamente.",
       "Se mantienen y el modelo los tiene en cuenta."
     ],
-    "correcta": 3
+    "correcta": 2
   },
   {
     "pregunta": "¿Cuál es la función de un análisis de variabilidad en un conjunto de datos?",
@@ -1635,7 +1635,7 @@
       "Determinar la cantidad de información contenida en una columna.",
       "Aumentar la precisión de las predicciones."
     ],
-    "correcta": 2
+    "correcta": 1
   },
   {
     "pregunta": "¿Qué describe mejor el proceso de imputación de valores nulos?",
@@ -1644,7 +1644,7 @@
       "Eliminar todas las filas con valores nulos.",
       "Sustituir los valores faltantes por estadísticos como la media."
     ],
-    "correcta": 3
+    "correcta": 2
   },
   {
     "pregunta": "¿Qué técnica es adecuada para manejar columnas con poca variabilidad?",
@@ -1653,7 +1653,7 @@
       "Aumentar su variabilidad artificialmente.",
       "Imputar valores."
     ],
-    "correcta": 1
+    "correcta": 0
   },
   {
     "pregunta": "¿Cómo se puede tratar un conjunto de datos con muchas columnas categóricas?",
@@ -1662,7 +1662,7 @@
       "Convertirlas en variables numéricas sin codificación.",
       "Aplicando técnicas de codificación."
     ],
-    "correcta": 3
+    "correcta": 2
   },
   {
     "pregunta": "¿Qué representa un outlier o valor atípico en un conjunto de datos?",
@@ -1671,7 +1671,7 @@
       "Un valor que está repetido varias veces.",
       "Un valor que está significativamente alejado de otros valores de la misma característica."
     ],
-    "correcta": 3
+    "correcta": 2
   },
   {
     "pregunta": "¿Cuál es el principal problema al tener valores nulos en los datos?",
@@ -1680,25 +1680,25 @@
       "Se sustituyen automáticamente por la media.",
       "Son interpretados como 0."
     ],
-    "correcta": 1
+    "correcta": 0
   },
   {
-    "pregunta": "¿Cuál es el propósito principal de la biblioteca random en Python?",
+    "pregunta": "¿Cuál es el propósito principal de la biblioteca random\" en Python?\"",
     "opciones": [
       "Manejo de vectores.",
       "Manipulación de texto.",
       "Generar números aleatorios."
     ],
-    "correcta": 3
+    "correcta": 2
   },
   {
-    "pregunta": "¿Qué se logra con el uso de la biblioteca numpy?",
+    "pregunta": "¿Qué se logra con el uso de la biblioteca \"numpy\"?",
     "opciones": [
       "Generar números aleatorios.",
       "Procesamiento de texto.",
       "Manejo eficiente de vectores multidimensionales."
     ],
-    "correcta": 3
+    "correcta": 2
   },
   {
     "pregunta": "¿Qué es Google Colab?",
@@ -1707,16 +1707,16 @@
       "Un entorno en la nube para ejecutar Python.",
       "Un IDE local."
     ],
-    "correcta": 2
+    "correcta": 1
   },
   {
-    "pregunta": "¿Cuál es la función principal de un modelo de Visión por Computador?",
+    "pregunta": "¿Cuál es la función principal de un modelo de Visión por Computador\"?\"",
     "opciones": [
       "Analizar y entender imágenes.",
       "Detectar anomalías en datos tabulares.",
       "Procesar lenguaje natural."
     ],
-    "correcta": 1
+    "correcta": 0
   },
   {
     "pregunta": "¿Cuál es la diferencia entre IA débil y IA fuerte?",
@@ -1725,7 +1725,7 @@
       "IA fuerte es más rápida.",
       "IA débil utiliza menos datos."
     ],
-    "correcta": 1
+    "correcta": 0
   },
   {
     "pregunta": "¿Qué describe mejor el aprendizaje por refuerzo?",
@@ -1734,7 +1734,7 @@
       "El modelo no utiliza retroalimentación.",
       "El modelo recibe retroalimentación para mejorar."
     ],
-    "correcta": 3
+    "correcta": 2
   },
   {
     "pregunta": "¿Qué módulo es esencial para cálculos numéricos en Python?",
@@ -1743,7 +1743,7 @@
       "math.",
       "random."
     ],
-    "correcta": 1
+    "correcta": 0
   },
   {
     "pregunta": "¿Qué se describe como aprendizaje por refuerzo?",
@@ -1752,28 +1752,28 @@
       "El modelo aprende mediante recompensas y castigos.",
       "El modelo no utiliza datos etiquetados."
     ],
-    "correcta": 2
+    "correcta": 1
   },
   {
-    "pregunta": "¿Cuál es la principal función de numpy en Python?",
+    "pregunta": "¿Cuál es la principal función de \"numpy\" en Python?",
     "opciones": [
       "Análisis de texto.",
       "Manejo de vectores multidimensionales.",
       "Desarrollo web."
     ],
-    "correcta": 2
+    "correcta": 1
   },
   {
-    "pregunta": "¿Qué tipo de problema resuelve principalmente pandas en Python?",
+    "pregunta": "¿Qué tipo de problema resuelve principalmente pandas\" en Python?\"",
     "opciones": [
       "Generación de gráficos.",
       "Manipulación y análisis de datos tabulares.",
       "Procesamiento de texto."
     ],
-    "correcta": 2
+    "correcta": 1
   },
   {
-    "pregunta": "¿Qué es Google Colab?",
+    "pregunta": "¿Qué es \"Google Colab\"?",
     "opciones": [
       "Una biblioteca de visualización.",
       "Un sistema operativo.",
@@ -1788,7 +1788,7 @@
       "El uso de datos etiquetados en el supervisado.",
       "La cantidad de datos necesarios."
     ],
-    "correcta": 2
+    "correcta": 1
   },
   {
     "pregunta": "¿Qué rama de la IA se enfoca en el análisis de imágenes?",
@@ -1797,7 +1797,7 @@
       "IA sobre datos estructurales.",
       "Procesamiento de Texto."
     ],
-    "correcta": 1
+    "correcta": 0
   },
   {
     "pregunta": "¿Cuál es la principal ventaja de Python en IA?",
@@ -1806,7 +1806,7 @@
       "Simplicidad y amplia biblioteca.",
       "Mejor manejo de memoria."
     ],
-    "correcta": 2
+    "correcta": 1
   },
   {
     "pregunta": "¿Qué librería de Python se utiliza para trabajar con grandes volúmenes de datos tabulares?",
@@ -1815,7 +1815,7 @@
       "pandas.",
       "random."
     ],
-    "correcta": 2
+    "correcta": 1
   },
   {
     "pregunta": "¿Qué lenguaje de programación es conocido por su facilidad para la inteligencia artificial?",
@@ -1824,7 +1824,7 @@
       "Python.",
       "Java."
     ],
-    "correcta": 2
+    "correcta": 1
   },
   {
     "pregunta": "¿Qué plataforma en línea se usa comúnmente para ejecutar Python en la nube?",
@@ -1833,25 +1833,25 @@
       "Visual Studio.",
       "Jupyter Notebook."
     ],
-    "correcta": 1
+    "correcta": 0
   },
   {
-    "pregunta": "¿Cuál es el uso principal de la librería math en Python?",
+    "pregunta": "¿Cuál es el uso principal de la librería \"math\" en Python?",
     "opciones": [
       "Manipular arreglos de datos.",
       "Realizar operaciones matemáticas.",
       "Generar gráficos."
     ],
-    "correcta": 2
+    "correcta": 1
   },
   {
-    "pregunta": "¿Qué es el perceptrón?",
+    "pregunta": "¿Qué es el \"perceptrón\"?",
     "opciones": [
       "Un algoritmo de clustering.",
       "Un modelo de regresión.",
       "La primera red neuronal."
     ],
-    "correcta": 3
+    "correcta": 2
   },
   {
     "pregunta": "¿Qué es un transformer en el contexto de IA?",
@@ -1860,7 +1860,7 @@
       "Una técnica de clustering.",
       "Un modelo avanzado para el procesamiento de lenguaje natural."
     ],
-    "correcta": 3
+    "correcta": 2
   },
   {
     "pregunta": "¿Cuál de las siguientes opciones describe mejor el aprendizaje supervisado?",
@@ -1869,25 +1869,25 @@
       "El modelo aprende sin datos etiquetados.",
       "El modelo se basa en la retroalimentación de sus decisiones."
     ],
-    "correcta": 1
+    "correcta": 0
   },
   {
-    "pregunta": "¿Qué es pandas?",
+    "pregunta": "¿Qué es \"pandas\"?",
     "opciones": [
       "Un entorno de programación.",
       "Una herramienta de desarrollo web.",
       "Una biblioteca para manipulación de datos en Python."
     ],
-    "correcta": 3
+    "correcta": 2
   },
   {
-    "pregunta": "¿Qué tipo de red se considera el perceptrón?",
+    "pregunta": "¿Qué tipo de red se considera el \"perceptrón\"?",
     "opciones": [
       "Una técnica de reducción dimensional.",
       "Una red neuronal simple.",
       "Un modelo de clustering."
     ],
-    "correcta": 2
+    "correcta": 1
   },
   {
     "pregunta": "¿Qué módulo es utilizado para crear gráficos y manejar datos en IA?",
@@ -1896,7 +1896,7 @@
       "numpy.",
       "Google Colab."
     ],
-    "correcta": 1
+    "correcta": 0
   },
   {
     "pregunta": "¿Cuál es el principal lenguaje de programación utilizado en IA?",
@@ -1905,7 +1905,7 @@
       "R.",
       "Python."
     ],
-    "correcta": 3
+    "correcta": 2
   },
   {
     "pregunta": "¿Qué se entiende por aprendizaje no supervisado?",
@@ -1914,16 +1914,16 @@
       "El modelo usa etiquetas para aprender.",
       "El modelo aprende mediante recompensas y castigos."
     ],
-    "correcta": 1
+    "correcta": 0
   },
   {
-    "pregunta": "¿Qué maneja principalmente la biblioteca pandas en Python?",
+    "pregunta": "¿Qué maneja principalmente la biblioteca \"pandas\" en Python?",
     "opciones": [
       "Desarrollo web.",
       "Manipulación de datos.",
       "Programación de sistemas."
     ],
-    "correcta": 2
+    "correcta": 1
   },
   {
     "pregunta": "¿Cuál de las siguientes opciones es una librería para la manipulación de datos en Python?",
@@ -1932,7 +1932,7 @@
       "random.",
       "pandas."
     ],
-    "correcta": 3
+    "correcta": 2
   },
   {
     "pregunta": "¿Qué se describe como aprendizaje semi-supervisado?",
@@ -1941,6 +1941,6 @@
       "Una combinación de datos etiquetados y no etiquetados.",
       "Aprendizaje únicamente con datos etiquetados."
     ],
-    "correcta": 2
+    "correcta": 1
   }
 ]
