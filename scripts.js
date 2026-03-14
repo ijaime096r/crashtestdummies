@@ -56,11 +56,9 @@ let p = preguntas[indice]
 
 document.getElementById("pregunta").textContent = p.pregunta
 
-
 let contenedor = document.getElementById("respuestas")
 
 contenedor.innerHTML = ""
-
 
 for (let i = 0; i < p.opciones.length; i++) {
 
