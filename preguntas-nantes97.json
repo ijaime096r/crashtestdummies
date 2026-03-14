@@ -298,5 +298,2711 @@
       "Tren que quede detenido ante la señal de entrada de una estación"
     ],
     "correcta": 1
+  },
+
+  {
+    "pregunta": "En una serie lógica de figuras psicotécnicas donde un elemento (como un banderín anclado a un rectángulo) rota 90 grados en sentido horario en cada paso (estando primero a la izquierda, luego arriba, luego a la derecha...), ¿cuál sería la posición correcta esperada en el cuarto paso? [1]",
+    "opciones": [
+      "En la parte inferior, apuntando hacia abajo",
+      "En la parte superior, apuntando hacia arriba",
+      "En el centro, apuntando en diagonal",
+      "En la parte izquierda, apuntando hacia la izquierda"
+    ],
+    "correcta": 0
+  },
+  {
+    "pregunta": "Según la Ley Orgánica 3/2007, los actos y las cláusulas de los negocios jurídicos que constituyan o causen discriminación por razón de sexo darán lugar a responsabilidad y se considerarán: [2]",
+    "opciones": [
+      "Anulables a petición de parte",
+      "Válidos pero con sanción económica",
+      "Nulos y sin efecto",
+      "Suspensivos temporalmente"
+    ],
+    "correcta": 2
+  },
+  {
+    "pregunta": "De acuerdo con el artículo 8 de la Ley Orgánica 3/2007, ¿qué constituye todo trato desfavorable a las mujeres relacionado con el embarazo o la maternidad? [3]",
+    "opciones": [
+      "Acoso laboral de segundo grado",
+      "Discriminación indirecta",
+      "Discriminación directa por razón de sexo",
+      "Infracción disciplinaria leve"
+    ],
+    "correcta": 2
+  },
+  {
+    "pregunta": "Según la Ley Orgánica 3/2007, ¿cómo se considera el trato adverso o efecto negativo a una persona como consecuencia de haber presentado una queja para impedir su discriminación? [3]",
+    "opciones": [
+      "Discriminación por razón de sexo (Indemnidad frente a represalias)",
+      "Despido procedente",
+      "Conflicto laboral común",
+      "Circunstancia eximente"
+    ],
+    "correcta": 0
+  },
+  {
+    "pregunta": "Según el RCF, ¿cómo se denomina al punto de una línea donde comienza otra o confluyen varias, disponiendo de señales de entrada a efectos de gestión y regulación del tráfico? [4]",
+    "opciones": [
+      "Cantonamiento",
+      "Puesto de Bloqueo",
+      "Bifurcación",
+      "Estación de clasificación"
+    ],
+    "correcta": 2
+  },
+  {
+    "pregunta": "Según el RCF, una infraestructura ferroviaria ajena a la RFIG, pero conectada con esta, se denomina: [5]",
+    "opciones": [
+      "Vía de mango",
+      "Derivación particular",
+      "Apartadero logístico",
+      "Vía de estacionamiento"
+    ],
+    "correcta": 1
+  },
+  {
+    "pregunta": "Según el RCF, ¿qué significan las siglas LTV? [6]",
+    "opciones": [
+      "Límite de Tránsito de Vagones",
+      "Línea de Tracción Variable",
+      "Limitación Temporal de Velocidad máxima",
+      "Liberación de Trenes en Vía"
+    ],
+    "correcta": 2
+  },
+  {
+    "pregunta": "En el RCF, ¿a qué corresponden las siglas MRA? [7]",
+    "opciones": [
+      "Material Rodante Auxiliar",
+      "Mando de Red de Alta velocidad",
+      "Máquina de Reposición Automática",
+      "Mantenimiento Regular de Agujas"
+    ],
+    "correcta": 0
+  },
+  {
+    "pregunta": "En el proceso de soldeo aluminotérmico (NAV 3-3-2.1), como norma general, ¿qué procedimiento de cala NO se admitirá salvo casos excepcionales y con visto bueno de la Dirección Técnica? [8]",
+    "opciones": [
+      "Cala estrecha",
+      "Cala media",
+      "Cala ancha",
+      "Cala corta"
+    ],
+    "correcta": 2
+  },
+  {
+    "pregunta": "Según la norma NAV 3-3-2.1, el equipo básico para efectuar el proceso de soldeo aluminotérmico debe estar constituido por un mínimo de: [9]",
+    "opciones": [
+      "Un soldador y dos vigilantes de obra",
+      "Dos operarios (el soldador habilitado y su ayudante habitual)",
+      "Tres operarios especializados en tracción",
+      "Un único operario si cuenta con permiso clase A"
+    ],
+    "correcta": 1
+  },
+  {
+    "pregunta": "De acuerdo con la NAV 3-3-2.1, ¿cuál es el intervalo de temperatura ambiente recomendado para la ejecución de las soldaduras aluminotérmicas? [10]",
+    "opciones": [
+      "Entre 0ºC y +15ºC",
+      "Entre +10ºC y +40ºC",
+      "Entre +5ºC y +30ºC",
+      "Entre -5ºC y +25ºC"
+    ],
+    "correcta": 2
+  },
+  {
+    "pregunta": "Según la NAV 7-1-0.7, ¿cómo se transmiten los esfuerzos verticales en los sistemas de vía sin balasto apoyados simplemente sobre el pavimento (Tipología 2)? [11]",
+    "opciones": [
+      "Directamente al pavimento",
+      "A través de una gruesa capa de balasto",
+      "Mediante tirantes tensores anclados a la pared",
+      "Exclusivamente a través de las canaletas"
+    ],
+    "correcta": 0
+  },
+  {
+    "pregunta": "Según la NAV 7-1-0.7 sobre diseño y montaje de vía sin balasto, en las mediciones topográficas de planta, la tolerancia para la desviación de ángulos será de: [12]",
+    "opciones": [
+      "dα=±1 miligon=10''= 3''",
+      "dα=±5 miligon",
+      "dα=±2 miligon",
+      "dα=±0,5 miligon"
+    ],
+    "correcta": 0
+  },
+  {
+    "pregunta": "En el montaje de vía sin balasto (NAV 7-1-0.7), para sistemas de apoyo continuo, si el elastómero se presenta como perfiles o tiras prefabricadas que encapsulan el carril, ¿cómo se unen al pavimento? [13]",
+    "opciones": [
+      "De manera solidaria, antes del hormigonado del pavimento",
+      "Se fijan con tornillos después del curado",
+      "Quedan flotantes sin unión alguna",
+      "Se inyectan a presión una vez finalizada la vía"
+    ],
+    "correcta": 0
+  },
+  {
+    "pregunta": "Según la NAV 7-1-6.0 sobre maquinaria pesada, ¿qué elementos de una perfiladora de balasto dejan limpias las caras superiores de las traviesas y sus sujeciones? [14]",
+    "opciones": [
+      "Los arados frontales",
+      "Los cepillos",
+      "Las cribas vibratorias",
+      "Las tejas de excavación"
+    ],
+    "correcta": 1
+  },
+  {
+    "pregunta": "De acuerdo con la norma NAV 7-1-6.0, ¿qué tipo de bateadora está diseñada para batear la vía pero no los aparatos de vía, actuando a ambos lados de cada carril en posiciones fijas? [15]",
+    "opciones": [
+      "Bateadora de línea",
+      "Bateadora de desvíos",
+      "Bateadora universal",
+      "Bateadora estabilizadora"
+    ],
+    "correcta": 0
+  },
+  {
+    "pregunta": "Según la NAV 7-1-6.0, ¿qué parámetro de control específico deben registrar digitalmente los estabilizadores o herramientas de compactado para controlar el asiento producido? [16]",
+    "opciones": [
+      "La temperatura del aceite hidráulico",
+      "El número de inserciones por minuto",
+      "Las flechas de nivelación promediadas o de ambos hilos de la vía estabilizada",
+      "El ancho de vía en modo dinámico"
+    ],
+    "correcta": 2
+  },
+  {
+    "pregunta": "De acuerdo con la NAV 7-1-6.0, las máquinas desguarnecedoras proyectadas para la depuración del balasto deben ir equipadas con varios sistemas, entre ellos: [17]",
+    "opciones": [
+      "Sistema automático de soldadura eléctrica",
+      "Sistema de compactado dinámico lateral",
+      "Sistema de medición de la profundidad de excavación",
+      "Sistema inyector de resinas"
+    ],
+    "correcta": 2
+  },
+  {
+    "pregunta": "Extraída del examen oficial: Según el Reglamento de Circulación Ferroviaria, ¿qué ordena la señal de rebase autorizado FF8B (color superior rojo, inferior blanco) en el caso de un tren? [18, 19]",
+    "opciones": [
+      "Continuar el avance con marcha a la vista hasta llegar al punto de estacionamiento o señal siguiente",
+      "Parar ante la señal y seguidamente reanudar el avance con marcha de maniobras, si nada se opone, hasta llegar al punto de estacionamiento, la señal siguiente, o el anterior vehículo...",
+      "Iniciar o continuar el movimiento, pero no autoriza a circular hasta la estación siguiente",
+      "Esperar la autorización de rebase por radiotelefonía antes de avanzar"
+    ],
+    "correcta": 1
+  },
+  {
+    "pregunta": "Extraída del examen oficial: La integración del transporte por ferrocarril en Europa exige compatibilidad técnica a través de las ETI. ¿Cuál de los siguientes sistemas de protección del tren cumple con esta compatibilidad? [20, 21]",
+    "opciones": [
+      "LZB",
+      "ASFA",
+      "ERTMS",
+      "Bloqueo Automático"
+    ],
+    "correcta": 2
+  },
+  {
+    "pregunta": "Extraída del examen oficial: Según la Ley Orgánica 3/2007, ¿cómo se denomina al órgano colegiado responsable de la coordinación de las políticas y medidas adoptadas por los departamentos ministeriales con la finalidad de garantizar el derecho a la igualdad entre mujeres y hombres? [20, 22]",
+    "opciones": [
+      "Órgano Paritario de Igualdad entre mujeres y hombres",
+      "Comisión Interministerial de Igualdad entre mujeres y hombres",
+      "Órgano Colegiado de Igualdad entre mujeres y hombres",
+      "Comisión Ejecutiva para la Promoción y el Desarrollo de la Igualdad"
+    ],
+    "correcta": 1
+  },
+  {
+    "pregunta": "De acuerdo con el artículo 69 de la Ley Orgánica 3/2007, la obligación de cumplir el principio de igualdad en el suministro de bienes o servicios afecta a: [23]",
+    "opciones": [
+      "Exclusivamente a las Administraciones Públicas",
+      "Solo a las empresas privadas con más de 250 trabajadores",
+      "Todas las personas físicas o jurídicas que, en el sector público o privado, suministren bienes o servicios disponibles para el público",
+      "Solo al sector educativo y sanitario"
+    ],
+    "correcta": 2
+  },
+  {
+    "pregunta": "Según el RCF, ¿qué es un Puesto Local de Operaciones (PLO)? [24]",
+    "opciones": [
+      "Instalación desde la que se puede ejercer el mando de varios enclavamientos que forman parte de un CTC",
+      "Centro específico encargado de la gestión del tráfico a nivel nacional",
+      "Instalación desde la que se ejerce el mando local de un determinado enclavamiento, que puede incluir una o más estaciones",
+      "Intersección entre una vía férrea y un camino"
+    ],
+    "correcta": 2
+  },
+  {
+    "pregunta": "En la reglamentación ferroviaria (RCF), ¿qué indican las siglas BAB? [25]",
+    "opciones": [
+      "Bloqueo Automático Básico",
+      "Bloqueo Automático de vía Banalizada",
+      "Boletín de Autorización de Bloqueo",
+      "Bloqueo Avanzado de Bifurcación"
+    ],
+    "correcta": 1
+  },
+  {
+    "pregunta": "De manera excepcional, si se sueldan por aluminotermia dos carriles de diferente grado de acero (NAV 3-3-2.1), ¿qué carga aluminotérmica se debe utilizar? [26]",
+    "opciones": [
+      "La correspondiente al acero de mayor grado",
+      "La correspondiente al acero de menor grado",
+      "Una carga especial mezclada al 50% de cada tipo",
+      "No se permite en ningún caso soldar carriles de distinto grado"
+    ],
+    "correcta": 1
+  },
+  {
+    "pregunta": "Según la norma de soldadura NAV 3-3-2.1, el corindón (escoria) caliente recogido en la cubeta puede explosionar proyectándose si entra en contacto con: [27]",
+    "opciones": [
+      "Arena seca",
+      "Agua o elementos húmedos",
+      "Aceite hidráulico exclusivamente",
+      "Gases inertes"
+    ],
+    "correcta": 1
+  },
+  {
+    "pregunta": "En el replanteo para vía sin balasto (NAV 7-1-0.7), en plataforma de tierras, la red secundaria estará formada por hitos de centrado forzoso constituidos por: [28]",
+    "opciones": [
+      "Un tubo de PVC de 0,20 m de diámetro y 1,20 m de altura relleno de hormigón",
+      "Un pilar de acero inoxidable de 2 metros de altura",
+      "Una estaca de madera tratada de 50 cm hincada en el terreno",
+      "Un bloque de granito prefabricado anclado con resina"
+    ],
+    "correcta": 0
+  },
+  {
+    "pregunta": "Durante el montaje de vía sin balasto (metodología top-down), ¿con qué tolerancia se dejarán a escuadra las juntas de los dos hilos de la vía (NAV 7-1-0.7)? [29]",
+    "opciones": [
+      "± 10 mm",
+      "± 20 mm",
+      "± 30 mm",
+      "± 50 mm"
+    ],
+    "correcta": 2
+  },
+  {
+    "pregunta": "Extraída del examen oficial: Según el temario de Interpretación de planos mecánicos, ¿cuáles son las dos partes fundamentales que componen un plano? [30, 31]",
+    "opciones": [
+      "Escalas y materiales",
+      "Vistas y capas",
+      "Vistas y acotaciones",
+      "Polilíneas y bloques"
+    ],
+    "correcta": 2
+  },
+  {
+    "pregunta": "Extraída del examen oficial: En el programa AutoCAD, ¿qué espacios de trabajo distintos presenta AutoCAD para dibujar por defecto? [30, 32]",
+    "opciones": [
+      "AutoCAD básico / Elementos 3D básicos / Dibujo y anotación",
+      "AutoCAD básico / Modelado 3D / Dibujo y anotación",
+      "Modelado 3D / Elementos 3D básicos / Dibujo y anotación",
+      "AutoCAD básico / Modelado 3D / Elementos 3D básicos"
+    ],
+    "correcta": 2
+  },
+[
+  {
+    "pregunta": "Según el cuadernillo de examen de la convocatoria, en Excel, ¿qué función se usa para sumar un rango de celdas?",
+    "opciones": [
+      "PROMEDIO",
+      "CONTAR",
+      "SUMA",
+      "MAX"
+    ],
+    "correcta": 2
+  },
+  {
+    "pregunta": "Según el Reglamento de Circulación Ferroviaria (RCF), ¿qué se entiende por 'Coches'?",
+    "opciones": [
+      "Vehículos con tracción térmica o eléctrica para viajeros",
+      "Vehículos ferroviarios sin tracción propia habilitados para el transporte de viajeros, así como los complementarios para su servicio",
+      "Vagones de mercancías adaptados temporalmente",
+      "Automotores acoplados en mando múltiple"
+    ],
+    "correcta": 1
+  },
+  {
+    "pregunta": "Según el RCF, ¿qué significan las siglas ASFA?",
+    "opciones": [
+      "Aviso de Señales y Freno Automático",
+      "Anuncio de Señales y Frenado Automático",
+      "Autorización de Salida y Frenado Automático",
+      "Anuncio de Señales y Frenado Auxiliar"
+    ],
+    "correcta": 1
+  },
+  {
+    "pregunta": "Según el RCF, ¿cómo se denomina al Sistema de Control del Tráfico Ferroviario con Supervisión Continua cuyas siglas son LZB?",
+    "opciones": [
+      "Limitación Zonal de Bloqueo",
+      "Linienzugbeeinflussung",
+      "Línea de Zona Banalizada",
+      "Lazo Zonal de Balizas"
+    ],
+    "correcta": 1
+  },
+  {
+    "pregunta": "De acuerdo con el RCF y extraída del cuadernillo de examen oficial, ¿cómo se da la orden de marcha a un tren cuando se circula en BCA?",
+    "opciones": [
+      "Con la orden de la señal de salida si existe y no hay que considerarla inexistente y la señal de paso si procede",
+      "Con la orden de la señal de salida si existe y no hay que considerarla inexistente",
+      "La orden de marcha se da con cualquier valor de la distancia límite superior a 0",
+      "La orden de marcha se da con cualquier valor de la velocidad límite superior a 0"
+    ],
+    "correcta": 3
+  },
+  {
+    "pregunta": "En el proceso de soldadura aluminotérmica (NAV 3-3-2.1), si se utiliza un sistema de precalentamiento con aire forzado, ¿qué mezcla de gases se debe utilizar?",
+    "opciones": [
+      "Aire inducido y propano",
+      "Oxígeno y propano",
+      "Oxígeno y acetileno",
+      "Propano y nitrógeno"
+    ],
+    "correcta": 1
+  },
+  {
+    "pregunta": "Según la norma NAV 3-3-2.1, si tras ejecutar una soldadura aparece una 'fisura transversal del perfil' (código 421 del Catálogo de la UIC), ¿qué medida inmediata debe tomarse?",
+    "opciones": [
+      "Amolar la zona hasta una profundidad de 0,5 mm",
+      "Esmerilar en frío y aplicar resinas epoxi",
+      "Embridarla hasta su sustitución por un cupón",
+      "Anotarlo en el parte y revisar a los 6 meses"
+    ],
+    "correcta": 2
+  },
+  {
+    "pregunta": "De acuerdo con la norma NAV 7-1-0.7, ¿a qué corresponde la 'Tipología 1' de sistemas de vía sin balasto?",
+    "opciones": [
+      "Sistemas de carril embebido integrados en el pavimento o sobre elemento prefabricado",
+      "Sistemas apoyados simplemente sobre el pavimento",
+      "Sistemas integrados de apoyo discreto tipo bloque de hormigón",
+      "Sistemas de sujeción de apoyo directo sobre el pavimento"
+    ],
+    "correcta": 0
+  },
+  {
+    "pregunta": "Según la NAV 7-1-0.7, en el cálculo dinámico de las acciones longitudinales por tracción del tren, la fuerza de arranque (Q1k) se define con la fórmula Q1k = α · 33 L(m), siempre y cuando la longitud de aplicación (L) cumpla la condición:",
+    "opciones": [
+      "L ≤ 10 m",
+      "L ≤ 30 m",
+      "L ≤ 100 m",
+      "L ≤ 300 m"
+    ],
+    "correcta": 1
+  },
+  {
+    "pregunta": "Según la norma NAV 7-1-6.0, ¿cuál es la velocidad mínima que debe poder alcanzar un 'tren fresador' en modo circulación autopropulsado por la red?",
+    "opciones": [
+      "50 km/h",
+      "60 km/h",
+      "80 km/h",
+      "100 km/h"
+    ],
+    "correcta": 1
+  },
+  {
+    "pregunta": "Según la NAV 7-1-6.0, los sistemas de bateo deberán introducirse en el balasto asegurando que, al menos, la parte superior del bate se introduzca por debajo de la cara inferior de la traviesa una distancia de:",
+    "opciones": [
+      "Entre 5 y 10 mm",
+      "Entre 10 y 15 mm",
+      "Entre 15 y 20 mm",
+      "Entre 25 y 30 mm"
+    ],
+    "correcta": 2
+  },
+  {
+    "pregunta": "Según la Ley 31/1995 de Prevención de Riesgos Laborales, ¿qué se entenderá por 'equipo de trabajo'?",
+    "opciones": [
+      "Cualquier máquina, aparato, instrumento o instalación utilizada en el trabajo",
+      "El conjunto de EPIs (Equipos de Protección Individual) asignados a un operario",
+      "La cuadrilla de trabajadores que realiza una tarea conjunta",
+      "Las herramientas de mano exclusivamente"
+    ],
+    "correcta": 0
+  },
+  {
+    "pregunta": "De acuerdo con el RD 2395/2004 por el que se aprueba el Estatuto de ADIF, corresponde a esta entidad pública empresarial:",
+    "opciones": [
+      "La construcción con fondos propios de las infraestructuras de las comunidades autónomas",
+      "La prestación exclusiva de servicios comerciales de transporte de viajeros",
+      "El otorgamiento definitivo de todas las licencias de empresa ferroviaria",
+      "La elaboración y publicación de la declaración sobre la red"
+    ],
+    "correcta": 3
+  },
+  {
+    "pregunta": "Extraída del cuadernillo de examen oficial para ayudantes ferroviarios: ¿Qué es un 'bulldozer'?",
+    "opciones": [
+      "Una motoniveladora pequeña",
+      "Un tipo de excavadora bivalva",
+      "Un tractor con hoja frontal recta para excavar superficialmente mediante empuje",
+      "Un tractor con escarificador incorporado como equipo de trabajo"
+    ],
+    "correcta": 2
+  },
+  {
+    "pregunta": "Extraída del cuadernillo de examen oficial: En 1804, ¿quién realizó, por primera vez en la historia, un vehículo capaz de circular por unas vías utilizando la fuerza motriz de una máquina de vapor colocada sobre el primer vehículo?",
+    "opciones": [
+      "James Watt",
+      "Richard Trevithick",
+      "Thomas Newcomen",
+      "Luís Díez Fernández"
+    ],
+    "correcta": 1
+  },
+  {
+    "pregunta": "Según el RCF, ¿qué se entiende exactamente por 'Furgón'?",
+    "opciones": [
+      "Vehículo especialmente diseñado para circular en trenes de viajeros transportando mercancías",
+      "Vehículo ferroviario sin tracción propia habilitado para viajeros",
+      "Vagón de mercancías pesadas adaptado para transportar balasto",
+      "Coche cama de un tren nocturno"
+    ],
+    "correcta": 0
+  },
+  {
+    "pregunta": "En la preparación de la cala para soldadura aluminotérmica (NAV 3-3-2.1), la tolerancia en el ancho de la cala NO permite una falsa escuadra superior a:",
+    "opciones": [
+      "1 milímetro (en la cabeza o en el patín)",
+      "2 milímetros (solo en el patín)",
+      "3 milímetros (en cualquier parte del carril)",
+      "5 milímetros (en la cabeza)"
+    ],
+    "correcta": 0
+  },
+  {
+    "pregunta": "Según la NAV 3-3-2.1, la puesta en servicio de una soldadura aluminotérmica (incluyendo trenes de trabajos y retirada de tensores) es posible siempre que se respete, desde la terminación de aquélla, un transcurso de tiempo mínimo de:",
+    "opciones": [
+      "30 minutos",
+      "50 minutos",
+      "1 hora y 20 minutos",
+      "2 horas"
+    ],
+    "correcta": 1
+  },
+  {
+    "pregunta": "Extraída del examen oficial: Mientras la realización de las prácticas de la Licencia de Conducción, ¿cómo se actuará en los supuestos de que exista alguna situación degradada de circulación o que pueda poner en riesgo la seguridad?",
+    "opciones": [
+      "El RC del PM decidirá, ponderando las circunstancias, si el alumno puede seguir",
+      "El Maquinista titular decidirá si el alumno sigue con la conducción o se hace cargo él",
+      "El alumno seguirá siendo responsable de la circulación bajo la supervisión del Maquinista titular",
+      "El maquinista titular se hará cargo de la conducción de manera inmediata hasta que remitan las causas"
+    ],
+    "correcta": 3
+  },
+  {
+    "pregunta": "Extraída del examen oficial: Según el RCF, la protección de emergencia se podrá realizar indistintamente a través de cualquiera de los medios siguientes, EXCEPTO (señale la INCORRECTA):",
+    "opciones": [
+      "Accionando desde la cabina de conducción de otro tren los dispositivos a este fin",
+      "Haciendo la señal de atención especial, sobre todo en trayectos con vía doble o múltiple",
+      "Poniendo las señales fijas o pantallas de BCA y ERTMS en indicación de parada",
+      "Avisando al maquinista afectado mediante la radiotelefonía"
+    ],
+    "correcta": 1
+  },
+  {
+    "pregunta": "Extraída del examen oficial (prueba de idioma): 'She said she _____ the letter last week.'",
+    "opciones": [
+      "sends",
+      "will send",
+      "has sent",
+      "sent"
+    ],
+    "correcta": 3
+  },
+  {
+    "pregunta": "Extraída del examen oficial: Según los Fundamentos de Informática, ¿cuál de las siguientes estructuras básicas de control de flujo es de tipo repetitiva?",
+    "opciones": [
+      "SI-ENTONCES-SI_NO",
+      "MIENTRAS",
+      "SI-ENTONCES",
+      "BLOQUE"
+    ],
+    "correcta": 1
+  },
+  {
+    "pregunta": "Según el artículo 1.1.1.3 del RCF, ¿cómo se define el 'Punto de una línea donde comienza otra o confluyen varias, disponiendo de señales de entrada a efectos de gestión y regulación del tráfico ferroviario'?",
+    "opciones": [
+      "Puesto de Banalización (PBA)",
+      "Puesto de Cantonamiento (PCA)",
+      "Bifurcación",
+      "Derivación particular"
+    ],
+    "correcta": 2
+  },
+  {
+    "pregunta": "De acuerdo con el RCF, las estaciones de servicio intermitente denominadas 'NC':",
+    "opciones": [
+      "Permiten la circulación de trenes mientras están cerradas",
+      "Permiten la realización de trabajos de mantenimiento en todo caso",
+      "No permiten la circulación de trenes ni la realización de trabajos mientras están cerradas",
+      "Son exclusivas de la Red de Ancho Métrico (RAM)"
+    ],
+    "correcta": 2
+  },
+  {
+    "pregunta": "Según la norma NAV 3-3-2.1 sobre la preparación de la carga aluminotérmica, respecto a la mezcla de elementos de dos kits distintos:",
+    "opciones": [
+      "Se permite si ambos carriles son del mismo grado de dureza",
+      "Se permite únicamente añadiendo arena limpia",
+      "No se deben mezclar nunca elementos de dos kits destinados a perfiles y/o durezas diferentes",
+      "Es obligatorio mezclarlos en calas superiores a 35 mm"
+    ],
+    "correcta": 2
+  },
+  {
+    "pregunta": "De acuerdo con la norma NAV 7-1-6.0, las perfiladoras podrán dotarse, de forma opcional, de un elemento para almacenar el balasto retirado por los cepillos y verterlo en zonas con déficit. ¿Cuál es ese elemento?",
+    "opciones": [
+      "Un arado delantero de doble hoja",
+      "Una criba vibratoria adicional",
+      "Una tolva",
+      "Un depósito de compactación dinámica"
+    ],
+    "correcta": 2
+  },
+  {
+    "pregunta": "Según la Ley 31/1995 (Prevención de Riesgos Laborales), ¿a quién corresponde la obligación de 'Informar de inmediato a su superior jerárquico directo, y a los trabajadores designados (...) acerca de cualquier situación que entrañe un riesgo para la seguridad y la salud'?",
+    "opciones": [
+      "A cada trabajador, con arreglo a su formación y siguiendo las instrucciones del empresario",
+      "Exclusivamente a los delegados de prevención sindicales",
+      "A los inspectores de trabajo y seguridad social",
+      "Al servicio de prevención ajeno contratado"
+    ],
+    "correcta": 0
+  },
+  {
+    "pregunta": "Según las disposiciones del RD 2395/2004, a efectos de lo dispuesto en el Estatuto de los Trabajadores, se entenderá que existe sucesión de empresas entre:",
+    "opciones": [
+      "RENFE Operadora y el Administrador de Infraestructuras Ferroviarias",
+      "La entidad pública empresarial Gestor de Infraestructuras Ferroviarias (GIF) y la entidad pública empresarial ADIF",
+      "El Ministerio de Fomento y la Agencia Estatal de Seguridad Ferroviaria (AESF)",
+      "Feve y Renfe Mercancías"
+    ],
+    "correcta": 1
+  },
+  {
+    "pregunta": "De acuerdo con la NAV 7-1-0.7, en la generación de listados de trazado topográfico, el 'azimut' se expresa en:",
+    "opciones": [
+      "Grados sexagesimales (°)",
+      "Grados centesimales (cc)",
+      "Radianes (rad)",
+      "Milésimas artilleras (mil)"
+    ],
+    "correcta": 1
+  },
+  {
+    "pregunta": "Extraída del examen oficial (prueba de inglés): 'You should take a _____ if you have a headache.'",
+    "opciones": [
+      "tablet",
+      "towel",
+      "sandwich",
+      "map"
+    ],
+    "correcta": 0
+  },
+  [
+  {
+    "pregunta": "En una serie lógica donde un triángulo alterna su color interior entre blanco y negro en cada paso, y además se desplaza por las esquinas de un cuadrado en sentido antihorario, si en la primera figura el triángulo es blanco y está en la esquina superior derecha, ¿cómo será y dónde estará en la tercera figura?",
+    "opciones": [
+      "Blanco, en la esquina inferior izquierda",
+      "Negro, en la esquina inferior izquierda",
+      "Blanco, en la esquina inferior derecha",
+      "Negro, en la esquina superior izquierda"
+    ],
+    "correcta": 0
+  },
+  {
+    "pregunta": "Según el artículo 1.1.1.3 del RCF, ¿qué se entiende por 'Bifurcación'?",
+    "opciones": [
+      "Instalación de carácter provisional situada en plena vía",
+      "Sector de vías, agujas y señales de una estación",
+      "Punto de una línea donde comienza otra o confluyen varias, disponiendo de señales de entrada a efectos de gestión",
+      "Tramo de vía en el que no puede haber más de un tren simultáneamente"
+    ],
+    "correcta": 2
+  },
+  {
+    "pregunta": "Según las definiciones del RCF, ¿qué subsistema ferroviario incluye los sistemas de protección del tren, comunicación por radio y detección del tren?",
+    "opciones": [
+      "Control de Tráfico Centralizado (CTC)",
+      "Control, Mando y Señalización (CMS)",
+      "Sistema de Gestión de la Seguridad (SGS)",
+      "Puesto Regional de Operaciones (PRO)"
+    ],
+    "correcta": 1
+  },
+  {
+    "pregunta": "En el contexto del RCF, ¿cuál es la definición precisa de 'Estación telemandada'?",
+    "opciones": [
+      "La que no interviene permanentemente en el bloqueo y cuyas señales permiten el paso",
+      "Instalación provisional en plena vía gestionada por radiotelefonía",
+      "Aquella cuyo control y accionamiento de sus instalaciones se realiza a distancia",
+      "Estación exclusiva para la clasificación de trenes de mercancías"
+    ],
+    "correcta": 2
+  },
+  {
+    "pregunta": "Según el RCF, ¿qué significan las siglas PAET?",
+    "opciones": [
+      "Puesto de Avance y Estacionamiento de Trenes",
+      "Punto de Acceso y Estacionamiento Temporal",
+      "Puesto Auxiliar de Entrada de Trenes",
+      "Puesto de Adelantamiento y Estacionamiento de Trenes"
+    ],
+    "correcta": 3
+  },
+  {
+    "pregunta": "Según el RCF (Marcha de maniobras), ¿qué velocidad máxima no debe exceder el maquinista si la locomotora va empujando el tren?",
+    "opciones": [
+      "10 km/h",
+      "20 km/h",
+      "30 km/h",
+      "40 km/h"
+    ],
+    "correcta": 1
+  },
+  {
+    "pregunta": "Según el RCF, considerando su función, ¿cómo se denomina a la parada comercial que tiene por objeto exclusivamente la bajada de viajeros?",
+    "opciones": [
+      "Parada ocasional",
+      "Parada técnica",
+      "Parada restringida",
+      "Parada momentánea"
+    ],
+    "correcta": 2
+  },
+  {
+    "pregunta": "Según el RCF, ¿cómo se denomina a la detención que efectúa el Maquinista por propia iniciativa en plena vía o, por anormalidad, en cualquier lugar?",
+    "opciones": [
+      "Detención inmediata",
+      "Detención incidental",
+      "Detención accidental",
+      "Detención prescrita"
+    ],
+    "correcta": 2
+  },
+  {
+    "pregunta": "En el proceso de soldadura aluminotérmica (NAV 3-3-2.1), la alineación en planta de los carriles se realizará por la cara activa de sus cabezas, ¿al menos en qué longitud?",
+    "opciones": [
+      "0,5 metros",
+      "1 metro",
+      "2 metros",
+      "5 metros"
+    ],
+    "correcta": 1
+  },
+  {
+    "pregunta": "De acuerdo con la norma NAV 3-3-2.1, ¿qué modalidad de precalentamiento utiliza exclusivamente Adif para el soldeo aluminotérmico?",
+    "opciones": [
+      "Precalentamiento de cala ancha",
+      "Precalentamiento largo",
+      "Precalentamiento medio",
+      "Precalentamiento corto (PC)"
+    ],
+    "correcta": 3
+  },
+  {
+    "pregunta": "A efectos de petición de intervalos de trabajo para una soldadura aluminotérmica en vía, ¿qué tiempo aproximado se considera como referencia para la ejecución y el enfriamiento (NAV 3-3-2.1)?",
+    "opciones": [
+      "45 minutos",
+      "1 hora",
+      "1 hora y 20 minutos",
+      "2 horas y 30 minutos"
+    ],
+    "correcta": 2
+  },
+  {
+    "pregunta": "Según la norma NAV 3-3-2.1, ¿en qué estado debe encontrarse la soldadura aluminotérmica para realizar el esmerilado de acabado o terminación?",
+    "opciones": [
+      "En caliente, inmediatamente tras retirar la mazarota",
+      "En frío y con las características de la vía en estado de recepción",
+      "A más de 300ºC comprobado con tiza termocrómica",
+      "Indiferentemente, siempre que se use una muela abrasiva automática"
+    ],
+    "correcta": 1
+  },
+  {
+    "pregunta": "En el replanteo para vía sin balasto (NAV 7-1-0.7), al finalizar la obra, ¿qué se debe hacer con los puntos fijos materializados mediante cuadradillos o perfiles metálicos?",
+    "opciones": [
+      "Serán retirados por el contratista",
+      "Quedarán en obra incluso al finalizar los trabajos",
+      "Se sustituirán obligatoriamente por hitos de hormigón",
+      "Se nivelarán con el patín del carril"
+    ],
+    "correcta": 1
+  },
+  {
+    "pregunta": "Antes del vertido del hormigón en sistemas de vía sin balasto (NAV 7-1-0.7), ¿cuál es la tolerancia exigida para el 'Ancho de vía' cuando el control geométrico se realiza con medios topográficos?",
+    "opciones": [
+      "± 1 mm",
+      "± 2 mm",
+      "± 5 mm",
+      "± 10 mm"
+    ],
+    "correcta": 1
+  },
+  {
+    "pregunta": "Según la NAV 7-1-6.0 sobre maquinaria pesada, ¿qué tipo de bateadora está diseñada para actuar en posiciones variables respecto al eje de la vía, pudiendo desplazar transversalmente o inclinar sus grupos de bateo?",
+    "opciones": [
+      "Bateadora de línea continua",
+      "Bateadora puntual",
+      "Bateadora de desvíos",
+      "Estabilizadora dinámica"
+    ],
+    "correcta": 2
+  },
+  {
+    "pregunta": "De acuerdo con la norma NAV 7-1-6.0, ¿cuál es la función principal de los trenes de renovación completa de vía?",
+    "opciones": [
+      "Amolar el perfil del carril a más de 80 km/h para eliminar defectos",
+      "Retirar carriles y traviesas antiguos, nivelar el balasto e instalar los nuevos elementos en producción en cadena",
+      "Estabilizar dinámicamente la vía aplicando vibración horizontal a frecuencias establecidas",
+      "Realizar soldaduras eléctricas de carril en planta móvil"
+    ],
+    "correcta": 1
+  },
+  {
+    "pregunta": "Según el RCF, ¿quién debe comunicar al Administrador de Infraestructuras que un tren está dispuesto para acceder a la RFIG o iniciar su recorrido?",
+    "opciones": [
+      "El Responsable de Circulación",
+      "El Maquinista del tren",
+      "La Empresa Ferroviaria (EF)",
+      "La Agencia Estatal de Seguridad Ferroviaria (AESF)"
+    ],
+    "correcta": 2
+  },
+  {
+    "pregunta": "Según el RCF, en relación a la capacidad de frenado, ¿cuánto tiempo como mínimo no perderá su eficacia el freno automático de un tren tras ser apretado al máximo?",
+    "opciones": [
+      "30 minutos",
+      "60 minutos",
+      "120 minutos",
+      "240 minutos"
+    ],
+    "correcta": 2
+  },
+  {
+    "pregunta": "Extraída de examen oficial: Cuando se realicen trabajos en líneas de vía doble o múltiple, ¿cuál será la velocidad máxima permitida en la línea NO afectada por los trabajos?",
+    "opciones": [
+      "160 km/h, reduciéndose a 120 km/h cuando los trabajos se realicen en túneles y viaductos",
+      "120 km/h, reduciéndose a 100 km/h cuando los trabajos se realicen en túneles y viaductos",
+      "La que determinen los servicios de Mantenimiento de Adif",
+      "No tienen ninguna limitación"
+    ],
+    "correcta": 0
+  },
+  {
+    "pregunta": "Extraída de examen oficial: Realizando un movimiento de retroceso con un tren convencional en un tramo con P.N. automáticos, ¿qué prescripciones de circulación deberá cumplimentar el maquinista?",
+    "opciones": [
+      "Retrocederá efectuando parada antes de llegar a los P.N. comprobando que está protegido",
+      "Retrocederá a 20 km/h, efectuando parada antes de llegar a los P.N. comprobando que está protegido",
+      "Queda prohibido el retroceso de un tren convencional empujado en un tramo en el que existan PN automáticos, salvo que se sitúe personal habilitado conocedor de la infraestructura en cabeza",
+      "Este tipo de movimiento está prohibido en cualquier circunstancia"
+    ],
+    "correcta": 2
+  },
+  {
+    "pregunta": "En el replanteo topográfico de vía sin balasto (NAV 7-1-0.7), ¿cuáles son las dimensiones recomendadas para los bulones metálicos que se empotran con resina epoxi?",
+    "opciones": [
+      "Entre 2 y 3 cm de diámetro y 5 cm de longitud",
+      "Entre 1 y 1,5 cm de diámetro y 7 a 10 cm de longitud",
+      "Entre 5 cm de diámetro y 20 cm de longitud",
+      "Entre 0,5 cm de diámetro y 3 cm de longitud"
+    ],
+    "correcta": 1
+  },
+  {
+    "pregunta": "Extraída de examen oficial: Entre las señales fijas fundamentales, de acuerdo con el lugar en que están instaladas, existe la señal preavanzada, que es:",
+    "opciones": [
+      "La situada delante de la señal avanzada en líneas con BLA en las que se circule a velocidades superiores a 160 km/h",
+      "La situada delante de la señal avanzada en líneas con BA en las que se circule a velocidades superiores a 160 km/h",
+      "La situada delante de la señal avanzada en líneas con BLA en las que se circule a velocidades superiores a 100 km/h",
+      "La situada delante de la señal avanzada en líneas en todos los bloqueos en los que se circule a velocidades superiores a 160 km/h"
+    ],
+    "correcta": 0
+  },
+  {
+    "pregunta": "Extraída de examen oficial: Teniendo en cuenta las prescripciones indicadas en el RCF, ¿puede reanudar la marcha un Maquinista que solicitó un Socorro por desaparición de las causas que motivaron la petición de socorro?",
+    "opciones": [
+      "Sí, el Maquinista comunicará al RC que le iba a enviar los medios de Socorro, que reanudará la marcha por desaparición de las causas",
+      "No, no puede reanudar la marcha",
+      "Sí, el Maquinista anulará dicha petición y solicitará autorización para reanudar la marcha, mediante el telefonema",
+      "Sólo podrá reanudar la marcha si el RC de circulación que le aceptó la solicitud de Socorro se lo comunica"
+    ],
+    "correcta": 2
+  },
+  {
+    "pregunta": "Extraída de examen oficial: Según la Ley 38/2015 del sector ferroviario, la utilización durante la conducción, contraviniendo la normativa aplicable, de cualquier dispositivo que disminuya la atención a la conducción será considerado:",
+    "opciones": [
+      "Falta leve",
+      "Falta grave",
+      "Falta muy leve",
+      "Falta muy grave"
+    ],
+    "correcta": 3
+  },
+  {
+    "pregunta": "De acuerdo con la norma NAV 3-3-2.1, para dejar constancia de la realización de la soldadura, obligatoriamente todas las soldaduras deben llevar:",
+    "opciones": [
+      "El logotipo troquelado de Adif",
+      "La marca del soldador que las ha realizado, bien haya sido en taller o en vía",
+      "La fecha de caducidad del crisol utilizada",
+      "El número de lote de la carga térmica"
+    ],
+    "correcta": 1
+  },
+  {
+    "pregunta": "Según la NAV 7-1-6.0 sobre maquinaria pesada, ¿en cuál de los siguientes supuestos se permite emplear bateadoras SIN sistema de registro digital de geometría?",
+    "opciones": [
+      "En líneas de Alta Velocidad equipadas con ERTMS",
+      "En vías de apartado de toda la red",
+      "En cualquier vía de ancho ibérico (1.668 mm)",
+      "En vías con velocidad de diseño superior a 200 km/h"
+    ],
+    "correcta": 1
+  },
+  {
+    "pregunta": "Según el RCF, un tramo de vía en el que, en condiciones normales de circulación, no puede haber más de un tren de forma simultánea, se denomina:",
+    "opciones": [
+      "Puesto de Bloqueo",
+      "Cantón de bloqueo",
+      "Circuito de vía",
+      "Banda de regulación"
+    ],
+    "correcta": 1
+  },
+  {
+    "pregunta": "En el RCF, dentro de los acrónimos y abreviaturas, ¿qué significa 'LTV'?",
+    "opciones": [
+      "Línea de Tracción Variable",
+      "Limitación Temporal de Velocidad máxima",
+      "Longitud Total de Vehículos",
+      "Liberación Transitoria de Vía"
+    ],
+    "correcta": 1
+  },
+  {
+    "pregunta": "Según el Estatuto de ADIF (RD 2395/2004), ¿qué operaciones abarca el concepto de 'mantenimiento de infraestructura ferroviaria'?",
+    "opciones": [
+      "Únicamente la reparación de vías en caso de descarrilamiento",
+      "El conjunto de las operaciones de conservación, reparación, reposición y actualización tecnológica de elementos para preservar las infraestructuras",
+      "La construcción y puesta en servicio de nuevas estaciones de Alta Velocidad",
+      "La gestión comercial exclusiva de locales y aparcamientos en estaciones"
+    ],
+    "correcta": 1
+  },
+  {
+    "pregunta": "Extraída de examen oficial: Según la Orden FOM/2872/2010 de personal ferroviario, para el personal de infraestructura se establecen, en función del tipo de actividad que se vaya a realizar, las siguientes habilitaciones:",
+    "opciones": [
+      "De Encargado de Trabajos, de Piloto de Seguridad, de Operador de Maquinaria de infraestructura y de Cargador",
+      "De Encargado de Trabajos, de Piloto de Seguridad, de Operador de Maquinaria de infraestructura",
+      "De Encargado de Trabajos, de Piloto de Seguridad, de Operador de Maquinaria de infraestructura y de Responsable de operaciones del Cargue",
+      "De Encargado de Trabajos, de Piloto de Seguridad y de Operador de Vehículos para Trabajos"
+    ],
+    "correcta": 1
+  },
+[
+  {
+    "pregunta": "Según la Declaración sobre la Red 2026 de Adif (incluida en la prueba de Conocimiento General), ¿cuáles son los distintos anchos de vía de la red ferroviaria gestionada por Adif?",
+    "opciones": [
+      "Ancho ibérico y ancho estándar, si bien algunas secciones cuentan con el denominado tercer carril.",
+      "Ancho ibérico, ancho estándar y ancho métrico, si bien algunas secciones cuentan con el denominado tercer carril.",
+      "Ancho estándar y ancho métrico, si bien algunas secciones cuentan con el denominado tercer carril.",
+      "Ancho de vía ancho, ancho estándar y ancho ibérico, si bien algunas secciones cuentan con el denominado tercer carril."
+    ],
+    "correcta": 1
+  },
+  {
+    "pregunta": "¿Según la Ley 53/1984, en caso de compatibilidad de actividades públicas, qué requisito de los siguiente es necesario para su autorización?",
+    "opciones": [
+      "Que la retribución de la segunda actividad que se solicita no sea superior a la primera.",
+      "Que el grupo de cotización en seguridad social de la segunda actividad sea el mismo.",
+      "Que la suma de total no supere la retribución de un Director General según Presupuestos Generales.",
+      "Que el solicitante no tenga infracciones tributarias abiertas."
+    ],
+    "correcta": 2
+  },
+  {
+    "pregunta": "Según se recoge en el Real Decreto Legislativo 5/2015, por el que se aprueba el EBEP, con relación a las órdenes e instrucciones de sus superiores, el empleado público deberá:",
+    "opciones": [
+      "Obedecer todas las instrucciones y órdenes profesionales recibidas, pues de lo contrario podrá ser sancionado.",
+      "Obedecer las instrucciones y órdenes profesionales de sus superiores, salvo que constituyan una infracción manifiesta del ordenamiento jurídico.",
+      "Obedecer aquellas instrucciones y órdenes profesionales recibidas, siempre que se las hayan hecho llegar por escrito.",
+      "Obedecer todas las instrucciones y órdenes profesionales recibidas, salvo que se encuentre de vacaciones."
+    ],
+    "correcta": 1
+  },
+  {
+    "pregunta": "Según su Estatuto, ¿por qué está integrado el patrimonio de ADIF?",
+    "opciones": [
+      "El conjunto de bienes, derechos y obligaciones de los que sea titular.",
+      "La infraestructura ferroviaria que forma parte de la Red Ferroviaria de Interés General.",
+      "La infraestructura y superestructura ferroviarias de alta velocidad y de red convencional.",
+      "La infraestructura y superestructura ferroviarias y las estaciones y dependencias adscritas al ferrocarril."
+    ],
+    "correcta": 0
+  },
+  {
+    "pregunta": "Según el artículo 14.2 de la Ley 31/1995, ¿quién es responsable de garantizar la seguridad y salud de los trabajadores en todos los aspectos relacionados con el trabajo?",
+    "opciones": [
+      "Los servicios de prevención ajenos.",
+      "La Inspección de Trabajo y Seguridad Social.",
+      "El empresario.",
+      "El delegado de prevención."
+    ],
+    "correcta": 2
+  },
+  {
+    "pregunta": "¿Cuáles son recursos económicos del ADIF conforme a su Estatuto?",
+    "opciones": [
+      "Los derivados del transporte de viajeros.",
+      "Los derivados del transporte de mercancías.",
+      "Las tasas por la venta billetes.",
+      "Los cánones que perciba por la utilización de las infraestructuras ferroviarias."
+    ],
+    "correcta": 3
+  },
+  {
+    "pregunta": "¿Qué función le corresponde a los administradores generales de infraestructuras ferroviarias según la Ley 38/2015, del Sector Ferroviario?",
+    "opciones": [
+      "La administración de todas las infraestructuras ferroviarias independientemente de su titularidad.",
+      "La elaboración, aprobación y publicación de la declaración sobre la red.",
+      "La construcción con fondos propios de las infraestructuras ferroviarias de las comunidades autónomas.",
+      "La prestación de servicios comerciales de transporte ferroviario en la Red de Interés General."
+    ],
+    "correcta": 1
+  },
+  {
+    "pregunta": "A efectos de definiciones del Reglamento de Circulación Ferroviaria (RCF), una banda de regulación es:",
+    "opciones": [
+      "Instalación de carácter provisional situada en plena vía.",
+      "Sector de vías, agujas y señales de una estación.",
+      "Tramo de línea, línea o conjunto de líneas a cargo de un mismo Responsable de Circulación de un PM.",
+      "Infraestructura ferroviaria ajena a la RFIG, conectada con esta."
+    ],
+    "correcta": 2
+  },
+  {
+    "pregunta": "Según el RCF, ¿qué se entiende por Cantón de bloqueo?",
+    "opciones": [
+      "Instalación de carácter provisional situada en plena vía.",
+      "Tramo de vía en el que, en condiciones normales de circulación, no puede haber más de un tren de forma simultánea.",
+      "Punto de una línea donde comienza otra o confluyen varias.",
+      "Instalación de señalización situada en plena vía que permite dividir la longitud del cantón."
+    ],
+    "correcta": 1
+  },
+  {
+    "pregunta": "En el contexto del RCF, ¿qué definición corresponde a la denominación de 'Coches'?",
+    "opciones": [
+      "Vehículos ferroviarios con tracción propia para el transporte de viajeros.",
+      "Vehículos ferroviarios sin tracción propia habilitados para el transporte de mercancías.",
+      "Vehículos ferroviarios sin tracción propia habilitados para el transporte de viajeros, así como los vehículos complementarios para su servicio.",
+      "Maquinaria de vía y resto de vehículos utilizados en servicios de mantenimiento."
+    ],
+    "correcta": 2
+  },
+  {
+    "pregunta": "Según las definiciones del RCF, ¿qué es el Control de Tráfico Centralizado (CTC)?",
+    "opciones": [
+      "Sistema que permite realizar desde un puesto central, el control y accionamiento remoto de las instalaciones de un conjunto de estaciones y trayectos.",
+      "Sistema de Control del Tráfico Ferroviario con Supervisión Continua.",
+      "Centro específico del AI encargado de la gestión y regulación del tráfico en tiempo real.",
+      "Instalación desde la que se ejerce el mando local de un determinado enclavamiento."
+    ],
+    "correcta": 0
+  },
+  {
+    "pregunta": "Según el RCF, ¿cómo se define un Enclavamiento?",
+    "opciones": [
+      "Dispositivo que permite el control de varias locomotoras desde una cabina.",
+      "Sistema que permite establecer itinerarios seguros para la circulación de los trenes en el ámbito de estaciones, estableciendo una relación de dependencia entre aparatos de vía y señales.",
+      "Instalación ferroviaria que facilita el cambio de ancho de la rodadura.",
+      "Subsistema ferroviario que incluye los sistemas de protección del tren, comunicación y detección."
+    ],
+    "correcta": 1
+  },
+  {
+    "pregunta": "De acuerdo con el RCF, una 'Derivación particular' se define como:",
+    "opciones": [
+      "Un sector de vías, agujas y señales de una estación.",
+      "Una infraestructura ferroviaria consistente en una instalación de vías y sus aparatos asociados.",
+      "Una infraestructura ferroviaria ajena a la RFIG, pero conectada con esta.",
+      "Un puesto de banalización temporal."
+    ],
+    "correcta": 2
+  },
+  {
+    "pregunta": "Según la norma NAV 3-3-2.1 para la ejecución de soldaduras aluminotérmicas, el rango de temperatura ambiente recomendado es:",
+    "opciones": [
+      "Entre 0ºC y +15ºC",
+      "Entre -5ºC y +25ºC",
+      "Entre +5ºC y +30ºC",
+      "Entre +10ºC y +40ºC"
+    ],
+    "correcta": 2
+  },
+  {
+    "pregunta": "En la ejecución de soldaduras aluminotérmicas (NAV 3-3-2.1), la neutralización y homogeneización de tensiones residuales generadas por el proceso se realizará conforme a lo indicado en la norma:",
+    "opciones": [
+      "NAV 7-1-3.4",
+      "NAV 3-4-3.0",
+      "NAV 7-1-4.1",
+      "NAV 3-3-2.6"
+    ],
+    "correcta": 2
+  },
+  {
+    "pregunta": "Según la norma NAV 3-3-2.1, el esmerilado de terminación o acabado debe realizarse siempre cuando:",
+    "opciones": [
+      "La soldadura está en caliente, inmediatamente tras retirar la mazarota.",
+      "La temperatura de la vía alcance los 300ºC comprobado con tiza termocrómica.",
+      "Las características de la vía se encuentren en estado de recepción y la soldadura se ha enfriado hasta la temperatura ambiente.",
+      "El acero de aportación haya alcanzado el 50% de sus características mecánicas."
+    ],
+    "correcta": 2
+  },
+  {
+    "pregunta": "De acuerdo con la NAV 3-3-2.1, en la comprobación geométrica, la longitud máxima afectada por la muela abrasiva (esmerilado de terminación) en la alineación vertical (alzado) será de:",
+    "opciones": [
+      "300 mm",
+      "400 mm",
+      "500 mm",
+      "600 mm"
+    ],
+    "correcta": 3
+  },
+  {
+    "pregunta": "En el procedimiento de soldadura aluminotérmica (NAV 3-3-2.1), la tolerancia máxima permitida en la medición horizontal para el escalón lateral en el patín (d) para todo tipo de carril es:",
+    "opciones": [
+      "≤ 0,5 mm",
+      "≤ 1,0 mm",
+      "≤ 1,5 mm",
+      "≤ 2,0 mm"
+    ],
+    "correcta": 2
+  },
+  {
+    "pregunta": "Según la NAV 7-1-0.7 sobre diseño y montaje de vía sin balasto, la 'Tipología 1' corresponde a:",
+    "opciones": [
+      "Sistemas integrados, independientemente, en el pavimento.",
+      "Sistemas apoyados simplemente sobre el pavimento.",
+      "Sistemas de carril embebido integrados en el pavimento o sobre elemento prefabricado.",
+      "Sistemas integrados, monolíticamente, en el pavimento."
+    ],
+    "correcta": 2
+  },
+  {
+    "pregunta": "En el diseño de vía sin balasto (NAV 7-1-0.7), para el cálculo dinámico de las acciones externas, ¿qué valor de referencia se adopta para el coeficiente dinámico (kd) en cargas verticales dinámicas?",
+    "opciones": [
+      "kd = 1,15",
+      "kd = 1,20",
+      "kd = 1,35",
+      "kd = 1,50"
+    ],
+    "correcta": 3
+  },
+  {
+    "pregunta": "Según la NAV 7-1-0.7, en vías de apoyo continuo (carril embebido), el patín se coloca centrado en el fondo de la canaleta. Para evitar derivaciones de corriente, la distancia entre el patín y la canaleta debe ser:",
+    "opciones": [
+      "Al menos 5 mm",
+      "Al menos 10 mm (recomendable 15 mm)",
+      "Exactamente 5 mm",
+      "Exactamente 20 mm"
+    ],
+    "correcta": 1
+  },
+  {
+    "pregunta": "En la implantación de la red básica topográfica para el montaje de vía sin balasto (NAV 7-1-0.7), ¿cuál es la longitud máxima que deben tener los lados formados por los hitos topográficos?",
+    "opciones": [
+      "500 m",
+      "1.000 m",
+      "1.500 m (excepcionalmente 2.000 m)",
+      "2.500 m"
+    ],
+    "correcta": 2
+  },
+  {
+    "pregunta": "Según la normativa NAV 7-1-0.7, en la generación de listados de trazado topográfico, el azimut se expresará en:",
+    "opciones": [
+      "Grados sexagesimales (º)",
+      "Radianes (rad)",
+      "Milésimas artilleras (mil)",
+      "Grados centesimales (cc)"
+    ],
+    "correcta": 3
+  },
+  {
+    "pregunta": "De acuerdo con la norma NAV 7-1-6.0, disponer de un 'Perfilómetro de carril controlado por ordenador' es obligatorio en qué tipo de maquinaria pesada de vía?",
+    "opciones": [
+      "Bateadoras y Perfiladoras",
+      "Desguarnecedoras y Estabilizadoras",
+      "Tren amolador y Tren fresador",
+      "Planta móvil de soldadura y Tren carrilero"
+    ],
+    "correcta": 2
+  },
+  {
+    "pregunta": "En la norma NAV 7-1-6.0, ¿cuál se define como la función de los 'Trenes de renovación completa' de vía?",
+    "opciones": [
+      "Amolar el perfil del carril a más de 80 km/h para corregir defectos",
+      "Nivelar y alinear la vía mediante un sistema de bates vibratorios profundos",
+      "Retirar carriles y traviesas antiguos, nivelar el balasto, y colocar nuevas traviesas e instalar carriles en producción en cadena",
+      "Sustituir el sistema de electrificación de manera mecanizada en vía general"
+    ],
+    "correcta": 2
+  },
+  {
+    "pregunta": "Según la NAV 7-1-6.0, ¿qué hacen los Estabilizadores dinámicos?",
+    "opciones": [
+      "Máquinas que recogen el balasto sobrante y lo acumulan en una tolva interna",
+      "Máquinas que aplican una vibración horizontal junto a una carga vertical simulando el paso de trenes para asentar la vía",
+      "Máquinas que limpian la cara superior de las traviesas y sus sujeciones mediante cepillos rotativos",
+      "Equipos específicamente destinados a la soldadura eléctrica en vía"
+    ],
+    "correcta": 1
+  },
+  {
+    "pregunta": "Para realizar procesos de soldadura eléctrica en planta móvil (NAV 7-1-6.0), es requisito técnico OBLIGATORIO que el equipo cuente con un:",
+    "opciones": [
+      "Ordenador de control de parámetros de soldeo",
+      "Perfilómetro láser 3D de alta resolución",
+      "Tacógrafo digital inalterable integrado en la cabina",
+      "Sistema autónomo de inyección de resinas elásticas"
+    ],
+    "correcta": 0
+  },
+  {
+    "pregunta": "Según el artículo 1.5.1.10 del RCF, al hablar de Velocidad Máxima, ¿qué margen de tolerancia se admite (sobre lo observado por el maquinista en su lector) antes de considerarlo un rebase?",
+    "opciones": [
+      "Hasta 3 km/h durante no más de 10 segundos",
+      "Hasta 5 km/h durante no más de 20 segundos",
+      "Hasta 10 km/h durante no más de 30 segundos",
+      "Hasta 15 km/h únicamente en tramos de pendiente descendente"
+    ],
+    "correcta": 1
+  },
+  {
+    "pregunta": "Extraída del cuadernillo de examen oficial de Ayudante Ferroviario: El moleteado:",
+    "opciones": [
+      "Permite la obtención de una superficie plana perpendicular al eje de rotación de la pieza.",
+      "Permite la realización de taladros coaxiales al eje de rotación de la pieza.",
+      "Permite la obtención de roscas, tornillos en el caso de roscado exterior y tuercas en el caso de roscado interior.",
+      "Se utiliza para marcar con una geometría estriada alguna de las superficies de revolución de la pieza."
+    ],
+    "correcta": 3
+  },
+  {
+    "pregunta": "Extraída del cuadernillo de examen oficial (Conocimiento General): Según la Ley Orgánica 3/2007, estarán obligadas al cumplimiento del principio de igualdad de trato y evitar discriminaciones en la transacción de bienes:",
+    "opciones": [
+      "Todas las personas físicas o jurídicas que, en el sector público o en el privado, suministren bienes o servicios disponibles para el público, ofrecidos fuera del ámbito de la vida privada y familiar.",
+      "Las personas físicas que, en el sector público o privado, suministren bienes ofrecidos dentro del ámbito familiar.",
+      "Todas las personas físicas o jurídicas que, en el sector público, suministren bienes exclusivamente a la Administración.",
+      "Todas las empresas con más de 250 trabajadores que suministren servicios al público en general."
+    ],
+    "correcta": 0
+  },
+  {
+    "pregunta": "Extraída de examen oficial (Inglés): 'Where are these people? A: Have you found everything you were looking for? B: Yes, thanks. Just these bananas and some milk. A: That’s €3.60, please.'",
+    "opciones": [
+      "At the bank.",
+      "At the greengrocer’s.",
+      "At the supermarket.",
+      "At the library."
+    ],
+    "correcta": 2
+  },
+  {
+    "pregunta": "Extraída de examen oficial (Inglés): 'There isn’t ______ sugar in my coffee.'",
+    "opciones": [
+      "no",
+      "any",
+      "some",
+      "a"
+    ],
+    "correcta": 1
+  },
+  {
+    "pregunta": "Extraída de examen oficial (Inglés): 'What does this sign mean? PUSH TO OPEN'",
+    "opciones": [
+      "Pull the door.",
+      "Push the door.",
+      "Lock the door.",
+      "Close the door."
+    ],
+    "correcta": 1
+  },
+  {
+    "pregunta": "Extraída de examen oficial (Inglés): 'I need to book a hotel room for two______.'",
+    "opciones": [
+      "persons",
+      "people",
+      "humans",
+      "child"
+    ],
+    "correcta": 1
+  },
+  {
+    "pregunta": "Extraída de examen oficial (Inglés): 'Which is closest in meaning? Peter forgot his umbrella, so he got wet in the rain.'",
+    "opciones": [
+      "Peter didn’t get wet because he had no umbrella.",
+      "Peter remembered to take his umbrella.",
+      "Peter was wet because he didn’t take his umbrella.",
+      "Peter got wet, and he bought an umbrella."
+    ],
+    "correcta": 2
+  },
+  {
+    "pregunta": "Según el capítulo II de la Declaración sobre la Red 2026 de Adif (Conocimiento General), ¿qué parámetros deben considerarse para determinar la carga máxima remolcable para cada locomotora?",
+    "opciones": [
+      "La rampa característica más desfavorable de la línea y la carga máxima del remolque, en función de la rampa característica resultante.",
+      "La rampa característica más desfavorable del recorrido del tren y la carga máxima del remolque, en función de la rampa característica resultante.",
+      "La carga máxima de la locomotora, atendiendo a las especificaciones del fabricante, y la rampa característica más desfavorable de la línea.",
+      "La rampa característica más desfavorable del recorrido del tren y la carga máxima de las locomotoras, en función de la rampa característica resultante."
+    ],
+    "correcta": 1
+  },
+  {
+    "pregunta": "Según el Capítulo I de la Declaración sobre la Red 2026 de Adif (Conocimiento General), ¿cuáles son los principales agentes del sector ferroviario en España?",
+    "opciones": [
+      "El Ministerio de Transportes y Movilidad Sostenible y los órganos colegiados adscritos al mismo (CIAF, CCTMP, CNTT, FRC), la Comisión Nacional de los Mercados y de la Competencia, la Agencia Estatal de Seguridad Ferroviaria y los administradores de infraestructuras Adif y Adif-Alta Velocidad.",
+      "El Ministerio de Transportes y Movilidad Sostenible y los órganos colegiados adscritos al mismo (CIAF, CCTMP, CNTT, FRC), la Comisión Nacional de los Mercados y de la Competencia, la Agencia Estatal de Seguridad Ferroviaria y los administradores de infraestructuras Adif y Adif-Alta Velocidad (excluyendo a la AESF).",
+      "El Ministerio de Transportes y Movilidad Sostenible y los órganos colegiados adscritos al mismo (CIAF, CCTMP, CNTT, FRC), la Comisión Nacional de los Mercados y de la Competencia, la Dirección General de Carreteras y los administradores de infraestructuras Adif y Adif-Alta Velocidad.",
+      "El Ministerio de Transportes y Movilidad Sostenible y los órganos colegiados adscritos al mismo (CIAF, CCTMP, FRC), la Dirección General de Ferrocarriles, la Agencia Estatal de Seguridad Ferroviaria y los administradores de infraestructuras Adif y Adif-Alta Velocidad."
+    ],
+    "correcta": 0
+  },
+  {
+    "pregunta": "En las preguntas específicas para Ayudante Ferroviario de Vía, ¿qué es una fresadora?",
+    "opciones": [
+      "Una máquina - herramienta de rotación multifilo.",
+      "Un útil de corte.",
+      "Una máquina - herramienta de traslación unifilo.",
+      "Una máquina - herramienta de traslación multifilo."
+    ],
+    "correcta": 0
+  },
+  {
+    "pregunta": "En Maquinaria de obra civil (Ayudante Ferroviario Vía), ¿qué es un desmonte?",
+    "opciones": [
+      "Es el movimiento de tierras por debajo del plano de arranque de la excavación.",
+      "Es el movimiento de tierras desde las zonas de préstamo.",
+      "Es el movimiento de todas las tierras que se encuentran por encima de la rasante del plano de construcción.",
+      "Es el movimiento de tierras una vez aplicado el coeficiente de esponjamiento."
+    ],
+    "correcta": 2
+  },
+  {
+    "pregunta": "Extraída de examen oficial (Ayudante Ferroviario Vía): ¿Qué es una mandrinadora?",
+    "opciones": [
+      "Un útil de corte.",
+      "Una máquina - herramienta de traslación multifilo.",
+      "Una máquina - herramienta de traslación monofilo.",
+      "Una máquina - herramienta de rotación monofilo."
+    ],
+    "correcta": 3
+  },
+  {
+    "pregunta": "Extraída de examen oficial (Ayudante Ferroviario Vía): Los materiales empleados en la fabricación de herramientas que presentan la máxima dureza son los:",
+    "opciones": [
+      "Aceros rápidos.",
+      "Carburos metálicos.",
+      "Materiales cerámicos.",
+      "Materiales diamantados."
+    ],
+    "correcta": 3
+  },
+  {
+    "pregunta": "Según el RCF (1.5.1.13), ¿qué se entiende por un cantón de bloqueo en el sistema BCA?",
+    "opciones": [
+      "Como la parte de la vía comprendida entre dos estaciones colaterales abiertas.",
+      "Como la parte de vía comprendida entre dos señales consecutivas de bloqueo.",
+      "Como el tramo de vía comprendido entre señales que pueden presentar la indicación de parada y en el que solo puede haber un tren.",
+      "Como la parte de cada una de las vías comprendida entre pantallas de LZB o ERTMS N2, o señales que puedan presentar la indicación de parada."
+    ],
+    "correcta": 3
+  },
+  {
+    "pregunta": "Según el RCF (1.5.1.13), se considera que un cantón de bloqueo está libre cuando:",
+    "opciones": [
+      "El tren ha rebasado la señal de entrada de la estación.",
+      "No está establecida la EVB y el último tren lo ha liberado totalmente.",
+      "El maquinista comunica su llegada mediante radiotelefonía GSM-R.",
+      "Han transcurrido al menos 10 minutos desde el paso del último convoy."
+    ],
+    "correcta": 1
+  },
+  {
+    "pregunta": "Según el RCF (1.5.1.14), en el sistema de Bloqueo Telefónico (BT), ¿cómo se asegura el bloqueo de los trenes?",
+    "opciones": [
+      "Por medio de las señales luminosas que protegen los cantones y el sentido de circulación.",
+      "Mediante la señalización en cabina respetando rigurosamente las velocidades.",
+      "Con la petición, concesión de la vía y el aviso de llegada de los trenes, por medio de telefonemas.",
+      "Mediante la ocupación y liberación de los circuitos de vía de audiofrecuencia."
+    ],
+    "correcta": 2
+  },
+  {
+    "pregunta": "En la norma NAV 3-3-2.1 (Soldadura aluminotérmica), la bibliografía hace referencia a una norma específica para la 'Neutralización y homogeneización de tensiones del carril en la vía sin juntas'. ¿Cuál es?",
+    "opciones": [
+      "NAV 3-4-3.0",
+      "NAV 7-1-3.4",
+      "NAV 7-1-4.1",
+      "NAV 3-3-2.2"
+    ],
+    "correcta": 2
+  },
+  {
+    "pregunta": "En los terraplenes para vía sin balasto, según la NAV 7-1-0.7 (Tabla 4), ¿cuál debe ser el contenido máximo de materia orgánica en los suelos constituyentes?",
+    "opciones": [
+      "< 0,2%",
+      "< 0,5%",
+      "< 1,0%",
+      "< 2,0%"
+    ],
+    "correcta": 1
+  },
+  {
+    "pregunta": "En la ejecución de terraplenes para vía sin balasto (NAV 7-1-0.7), el ensayo Proctor Modificado (PM) debe alcanzar una densidad mínima del:",
+    "opciones": [
+      "95%",
+      "98%",
+      "100%",
+      "105%"
+    ],
+    "correcta": 2
+  },
+  {
+    "pregunta": "Según la norma NAV 7-1-0.7, la vida útil de diseño exigida para los sistemas de vía sin balasto es de al menos:",
+    "opciones": [
+      "25 años",
+      "50 años",
+      "75 años",
+      "100 años"
+    ],
+    "correcta": 1
+  },
+  {
+    "pregunta": "En los requerimientos de la maquinaria pesada (NAV 7-1-6.0), en el anejo de aparatos de vía, un desvío tipo DSH-P1-60E1-500-0,09-CC-D-TC tiene asignado el plano número:",
+    "opciones": [
+      "B16.6000.00",
+      "B16.6004.00",
+      "P16.6001.00",
+      "P16.6005.00"
+    ],
+    "correcta": 1
+  },
+  {
+    "pregunta": "De acuerdo con el artículo 62 de la Ley Orgánica 3/2007 (Igualdad), las empresas deberán negociar con los representantes de los trabajadores:",
+    "opciones": [
+      "Un convenio colectivo exclusivo para la plantilla femenina.",
+      "Un Protocolo de actuación frente al acoso sexual y al acoso por razón de sexo.",
+      "Un Informe de impacto de género anual de carácter público.",
+      "Un plan de vacaciones equitativo y preferente."
+    ],
+    "correcta": 1
+  },
+  {
+    "pregunta": "Extraída del examen oficial (Conocimiento General): Según la Ley 38/2015, del Sector Ferroviario, ¿qué medidas se pueden adoptar en el caso de ejecución de obras no autorizadas en zona de protección de la infraestructura ferroviaria?",
+    "opciones": [
+      "Imponer multas al responsable por el cuádruple del valor de la obra ilegal ejecutada.",
+      "Paralizar la actividad ilegal hasta que no se obtenga autorización municipal.",
+      "Ordenar la demolición de las obras o instalaciones prohibidas.",
+      "Permitir la continuación de las obras de manera cautelar."
+    ],
+    "correcta": 2
+  },
+  {
+    "pregunta": "Extraída del examen oficial (Conocimiento General): ¿Qué efecto tiene la aprobación de un estudio informativo sobre una infraestructura ferroviaria según la Ley 38/2015, del Sector Ferroviario?",
+    "opciones": [
+      "Implica la declaración de utilidad pública y necesidad de ocupación temporal de los terrenos a los solos efectos de la ocupación temporal de los terrenos para toma de datos y realización de prospecciones para la redacción de los proyectos.",
+      "Exime de la evaluación ambiental del proyecto en todos los casos.",
+      "Implica la autorización inmediata e incondicional para iniciar las obras.",
+      "Permite la adjudicación directa de capacidad de infraestructura a operadoras privadas."
+    ],
+    "correcta": 0
+  },
+  {
+    "pregunta": "Extraída del examen oficial (Conocimiento General): La integración del transporte por ferrocarril en Europa exige compatibilidad técnica. ¿Cuál de los siguientes sistemas de protección del tren cumple con esta compatibilidad ETI?",
+    "opciones": [
+      "LZB",
+      "ASFA",
+      "ERTMS",
+      "Bloqueo Automático"
+    ],
+    "correcta": 2
+  },
+  {
+    "pregunta": "Extraída del examen oficial (Conocimiento General): Según la Ley Orgánica 3/2007, estarán obligadas al cumplimiento del principio de igualdad de trato en el acceso a bienes y servicios:",
+    "opciones": [
+      "Todas las personas físicas o jurídicas que, en el sector público o en el privado, suministren bienes o servicios disponibles para el público, ofrecidos fuera del ámbito de la vida privada y familiar.",
+      "Las personas físicas que, en el sector público o en el privado, suministren bienes o servicios disponibles para la Administración Pública, ofrecidos exclusivamente de forma online.",
+      "Todas las personas físicas o jurídicas que suministren bienes o servicios disponibles para el público, ofrecidos dentro del estricto ámbito de la vida privada y familiar.",
+      "Únicamente las grandes corporaciones y Administraciones Públicas."
+    ],
+    "correcta": 0
+  },
+  {
+    "pregunta": "En el glosario de acrónimos y abreviaturas del RCF (Libro 1), ¿qué significan las siglas 'PAET'?",
+    "opciones": [
+      "Puesto de Avance y Estacionamiento de Trenes.",
+      "Puesto de Adelantamiento y Estacionamiento de Trenes.",
+      "Parada Auxiliar de Estacionamiento de Trenes.",
+      "Puesto Automático de Entrada de Trenes."
+    ],
+    "correcta": 1
+  },
+  {
+    "pregunta": "En el glosario de acrónimos y abreviaturas del RCF (Libro 1), ¿qué indican las siglas 'PBA'?",
+    "opciones": [
+      "Puesto de Banalización Automática.",
+      "Puesto de Bloqueo Auxiliar.",
+      "Puesto de Banalización.",
+      "Paso a Nivel con Barreras Automáticas."
+    ],
+    "correcta": 2
+  },
+  {
+    "pregunta": "De acuerdo con el índice de la norma NAV 7-1-0.7 sobre diseño y montaje de vía sin balasto, la capa intermedia entre la vía y la plataforma puede tener distintas naturalezas. ¿Cuál de las siguientes NO es una capa de apoyo tratada en este diseño?",
+    "opciones": [
+      "Pavimento continuo de hormigón armado.",
+      "Pavimentos asfálticos.",
+      "Capas base.",
+      "Capa de balasto de compensación elástica."
+    ],
+    "correcta": 3
+  },
+  {
+    "pregunta": "Según la NAV 7-1-0.7 (Tabla 10), en la ejecución de pavimentos de hormigón, si el sistema de vía se diseña con elementos prefabricados NO integrados en el pavimento, ¿a qué tipología corresponde?",
+    "opciones": [
+      "Tipología 1",
+      "Tipología 2",
+      "Tipología 3",
+      "Tipología 4"
+    ],
+    "correcta": 1
+  },
+  {
+    "pregunta": "En los requisitos de maquinaria pesada de vía (NAV 7-1-6.0, Anejo 2), ¿cuál es el peso total aproximado de un desvío tipo DSH-PAV-60E1-1500-0,042-CRM-D-TC?",
+    "opciones": [
+      "52.392,90 Kg",
+      "73.859,70 Kg",
+      "126.406,05 Kg",
+      "272.484,68 Kg"
+    ],
+    "correcta": 2
+  },
+  {
+    "pregunta": "En las preguntas del cuadernillo de examen para Ayudantes Ferroviarios de Vía, sobre las operaciones de mecanizado, el 'moleteado' se define como:",
+    "opciones": [
+      "Una técnica para obtener roscas interiores (tuercas).",
+      "Un método para realizar taladros coaxiales de alta precisión.",
+      "Una operación que se utiliza para marcar con una geometría estriada alguna de las superficies de revolución de la pieza.",
+      "Un procedimiento para la eliminación de material por medios puramente físico-químicos."
+    ],
+    "correcta": 2
+  },
+[
+  {
+    "pregunta": "En una serie lógica de figuras (basada en la imagen del test psicotécnico de la convocatoria) se muestra un cuadrado con una línea diagonal y un semicírculo apoyado en uno de sus bordes. En el primer paso, la diagonal va de arriba-izquierda a abajo-derecha (\\) y el semicírculo está en el borde izquierdo. En el segundo paso, la diagonal es inversa (/) y el semicírculo está en el borde superior. En el tercer paso, la diagonal vuelve a ser (\\) y el semicírculo pasa al borde derecho. ¿Cuál será la figura en el cuarto paso?",
+    "opciones": [
+      "Diagonal de abajo-izquierda a arriba-derecha (/), con el semicírculo en el borde inferior.",
+      "Diagonal de arriba-izquierda a abajo-derecha (\\), con el semicírculo en el borde inferior.",
+      "Diagonal de abajo-izquierda a arriba-derecha (/), con el semicírculo en el borde derecho.",
+      "Diagonal de arriba-izquierda a abajo-derecha (\\), con el semicírculo en el borde superior."
+    ],
+    "correcta": 0
+  },
+  {
+    "pregunta": "Extraída de examen oficial (Conocimiento General): Según el artículo 16.2 de la Ley 31/1995, ¿qué debe hacer el empresario respecto a la evaluación de riesgos laborales?",
+    "opciones": [
+      "Delegar la evaluación en los trabajadores.",
+      "Evaluar solo los riesgos nuevos que aparezcan.",
+      "Realizar una evaluación inicial de los riesgos, actualizarla cuando cambien las condiciones de trabajo y revisarla si se han producido daños a la salud.",
+      "Evaluar los riesgos una vez al año."
+    ],
+    "correcta": 2
+  },
+  {
+    "pregunta": "Extraída de examen oficial (Conocimiento General): Según la Ley 38/2015, del Sector Ferroviario, ¿en qué zonas se pueden realizar actividades industriales relacionadas con el ferrocarril?",
+    "opciones": [
+      "En las zonas de reserva ferroviaria.",
+      "En las zonas de dominio ferroviario privado.",
+      "En las zonas de especial protección industrial.",
+      "En las zonas de servicio ferroviario."
+    ],
+    "correcta": 3
+  },
+  {
+    "pregunta": "Extraída de examen oficial (Conocimiento General): Según el Estatuto del ADIF, ¿a quién le corresponde el control e inspección de las zonas de protección de la infraestructura ferroviaria?",
+    "opciones": [
+      "Al Administrador de Infraestructuras Ferroviarias.",
+      "Al Ministerio de Fomento.",
+      "Al Ministerio del Interior.",
+      "A los operadores ferroviarios."
+    ],
+    "correcta": 0
+  },
+  {
+    "pregunta": "En el Reglamento de Circulación Ferroviaria (Libro 1), dentro de los acrónimos y abreviaturas, ¿qué significan las siglas 'BOI'?",
+    "opciones": [
+      "Boletín de Órdenes e Informaciones.",
+      "Boletín Oficial de Infraestructuras.",
+      "Bloqueo Operativo Interno.",
+      "Base de Operaciones e Intervención."
+    ],
+    "correcta": 0
+  },
+  {
+    "pregunta": "En el Reglamento de Circulación Ferroviaria (Libro 1), dentro de los acrónimos y abreviaturas, ¿qué significan las siglas 'CSV'?",
+    "opciones": [
+      "Control de Señalización Variable.",
+      "Cambio Significativo de Velocidad.",
+      "Cantón de Seguridad Vial.",
+      "Circuito de Supervisión Visual."
+    ],
+    "correcta": 1
+  },
+  {
+    "pregunta": "Según el artículo 1.1.1.7 del RCF, cuando los sistemas de protección del tren instalados en la infraestructura y en la cabina de conducción no sean compatibles entre sí, o alguno de ellos no esté operativo, ¿cuál será la velocidad máxima de circulación?",
+    "opciones": [
+      "100 km/h.",
+      "120 km/h.",
+      "160 km/h.",
+      "200 km/h."
+    ],
+    "correcta": 1
+  },
+  {
+    "pregunta": "Según el artículo 1.1.1.7 del RCF, en el caso de ausencia o inoperatividad del sistema de protección del tren instalado en la infraestructura, la velocidad máxima de circulación será:",
+    "opciones": [
+      "80 km/h.",
+      "100 km/h.",
+      "120 km/h.",
+      "140 km/h."
+    ],
+    "correcta": 2
+  },
+  {
+    "pregunta": "Según el RCF (artículo 1.5.1.13), el cantón de bloqueo en BSL (Bloqueo de Señalización Lateral) se define como:",
+    "opciones": [
+      "La parte de la vía comprendida entre dos estaciones colaterales abiertas.",
+      "El tramo de vía comprendido entre señales que pueden presentar la indicación de parada y en el que solo puede haber un tren.",
+      "La parte de vía comprendida entre dos señales consecutivas de bloqueo.",
+      "La parte de cada una de las vías comprendida entre pantallas de LZB o ERTMS N2."
+    ],
+    "correcta": 1
+  },
+  {
+    "pregunta": "De acuerdo con el RCF (artículo 1.1.1.5), ¿quiénes deberán establecer en sus Sistemas de Gestión de la Seguridad (SGS) las reglas internas y los procedimientos que garanticen un tráfico de trenes y maniobras seguro, eficiente y puntual?",
+    "opciones": [
+      "Solo los Administradores de Infraestructura (AI).",
+      "Exclusivamente las Empresas Ferroviarias (EF).",
+      "Los Administradores de Infraestructura (AI) y las Empresas Ferroviarias (EF).",
+      "La Agencia Estatal de Seguridad Ferroviaria (AESF)."
+    ],
+    "correcta": 2
+  },
+  {
+    "pregunta": "Según el Anejo 1 (Normativa de referencia) de la NAV 7-1-0.7, sobre diseño y montaje de vía sin balasto, para el cálculo dinámico de la interacción vía-estructura en puentes, ¿qué recomendación de la UIC se especifica?",
+    "opciones": [
+      "UIC 774-3",
+      "UIC 71",
+      "UIC 505-1",
+      "UIC 600"
+    ],
+    "correcta": 0
+  },
+  {
+    "pregunta": "De acuerdo con la norma NAV 7-1-0.7 sobre diseño de vía sin balasto, ¿a qué tipología general corresponde la 'Tipología 5'?",
+    "opciones": [
+      "Sistemas de carril embebido integrados en el pavimento.",
+      "Sistemas apoyados simplemente sobre el pavimento.",
+      "Sistemas de sujeción de apoyo directo sobre el pavimento.",
+      "Sistemas integrados monolíticamente en el pavimento."
+    ],
+    "correcta": 3
+  },
+  {
+    "pregunta": "Según la NAV 7-1-0.7, en relación con las labores de replanteo, los hitos de la red secundaria en el interior de un túnel (pernos murales) se materializarán típicamente mediante:",
+    "opciones": [
+      "Un tubo de PVC relleno de hormigón hincado en la plataforma.",
+      "Una estaca de madera hincada en el suelo.",
+      "Un perno metálico empotrado en el hastial del túnel con resina epoxi.",
+      "Un bloque de granito apoyado libremente en la solera."
+    ],
+    "correcta": 2
+  },
+  {
+    "pregunta": "Según la norma NAV 7-1-6.0 sobre requisitos de maquinaria pesada, ¿cuál es el peso aproximado de un desvío tipo DSH-P1-60E1-250-0,110-CR-D-TC (Plano B16.6000.00)?",
+    "opciones": [
+      "52.392,90 Kg",
+      "59.929,43 Kg",
+      "69.936,38 Kg",
+      "126.406,05 Kg"
+    ],
+    "correcta": 0
+  },
+  {
+    "pregunta": "De acuerdo con la NAV 7-1-6.0, ¿cuál es el peso total aproximado del desvío tipo DSIH-AV4(FTA)-60E1-17000-1:50-CCM-D-TC (Plano P16.9474.00)?",
+    "opciones": [
+      "126.406,05 Kg",
+      "132.191,70 Kg",
+      "272.484,68 Kg",
+      "59.929,43 Kg"
+    ],
+    "correcta": 2
+  },
+  {
+    "pregunta": "Extraída de examen oficial (Prueba de Idioma Inglés): 'If it rains, we ______ stay home.'",
+    "opciones": [
+      "will",
+      "would",
+      "can",
+      "must"
+    ],
+    "correcta": 0
+  },
+  {
+    "pregunta": "Extraída de examen oficial (Prueba de Idioma Inglés): Where are you likely to hear this? 'Would you like a window or aisle seat?'",
+    "opciones": [
+      "At the bank.",
+      "At the dentist.",
+      "On a bus.",
+      "At the airport check-in."
+    ],
+    "correcta": 3
+  },
+  {
+    "pregunta": "Extraída de examen oficial (Prueba de Idioma Inglés): 'The hotel was very ______. We had a view of the sea and fresh towels every day.'",
+    "opciones": [
+      "noisy",
+      "cheap",
+      "comfortable",
+      "delicious"
+    ],
+    "correcta": 2
+  },
+  {
+    "pregunta": "Extraída de examen oficial (Prueba de Idioma Inglés): 'If you have a toothache, you should see a ______.'",
+    "opciones": [
+      "driver",
+      "pilot",
+      "builder",
+      "dentist"
+    ],
+    "correcta": 3
+  },
+  {
+    "pregunta": "Según la norma NAV 3-3-2.1 (Soldadura aluminotérmica), entre la normativa de referencia citada para la auscultación interna del carril (NAV 3-0-5.1), ¿qué método principal se emplea?",
+    "opciones": [
+      "Líquidos penetrantes.",
+      "Partículas magnéticas.",
+      "Auscultación mediante ultrasonidos.",
+      "Radiografía de rayos X."
+    ],
+    "correcta": 2
+  },
+  {
+    "pregunta": "Según el Estatuto de la entidad pública empresarial ADIF (RD 2395/2004), ¿en qué artículo se regulan explícitamente las 'Cuentas anuales' de la entidad?",
+    "opciones": [
+      "Artículo 42.",
+      "Artículo 41.",
+      "Artículo 43.",
+      "Artículo 44."
+    ],
+    "correcta": 0
+  },
+  {
+    "pregunta": "Según el índice del Estatuto de ADIF (RD 2395/2004), ¿qué artículo trata específicamente sobre el 'Régimen tributario' de la entidad?",
+    "opciones": [
+      "Artículo 41.",
+      "Artículo 42.",
+      "Artículo 43.",
+      "Artículo 44."
+    ],
+    "correcta": 3
+  },
+  {
+    "pregunta": "Extraída de examen oficial (Perfil Oficial de Telecomunicaciones): Según el RD 346/2011 en una ICT para la captación, adaptación y distribución de señales de radiodifusión y televisión, los mástiles de antena:",
+    "opciones": [
+      "Deberán estar conectados, si es posible, a la toma de tierra del edificio.",
+      "No deben estar conectados nunca a la toma de tierra del edificio.",
+      "Deberán estar conectados a la toma de tierra del edificio a través del camino más largo posible, con cable de, al menos, 25 mm² de sección.",
+      "Deberán estar conectados a la toma de tierra del edificio a través del camino más corto posible, con cable de, al menos, 25 mm² de sección."
+    ],
+    "correcta": 3
+  },
+  {
+    "pregunta": "Extraída de examen oficial (Perfil Programador): Según lo dispuesto en el Glosario de términos de ciberseguridad (INCIBE), ¿qué es una contraseña?",
+    "opciones": [
+      "Un sistema operativo.",
+      "Un código numérico único.",
+      "Clave secreta.",
+      "Una dirección IP."
+    ],
+    "correcta": 2
+  },
+  {
+    "pregunta": "Extraída de examen oficial (Perfil Programador): Según el contenido de Fundamentos de informática, ¿qué representación tiene el número decimal 56 en el sistema binario?",
+    "opciones": [
+      "100111",
+      "111000",
+      "000111",
+      "100010"
+    ],
+    "correcta": 1
+  },
+  {
+    "pregunta": "Extraída de examen oficial (Perfil Delineante): Según el documento de Sistemas de Coordenadas, ¿qué es la distancia euclídea?",
+    "opciones": [
+      "La hipotenusa de un triángulo rectángulo.",
+      "La suma de los catetos de un triángulo rectángulo.",
+      "La longitud del cateto más corto de un triángulo rectángulo.",
+      "La longitud del cateto más largo de un triángulo rectángulo."
+    ],
+    "correcta": 0
+  },
+  {
+    "pregunta": "Extraída de examen oficial (Perfil Oficial Administrativo): De las siguientes aplicaciones, ¿cuál está enfocada a la gestión de tareas de un equipo?",
+    "opciones": [
+      "Excel.",
+      "PowerApps.",
+      "Planner.",
+      "Edge."
+    ],
+    "correcta": 2
+  },
+  {
+    "pregunta": "Extraída de examen oficial (Perfil Controlador): Según el RD 524/2023, Norma Básica de Protección Civil, ¿cada cuánto tiempo debe realizarse una memoria sobre la aplicación y funcionamiento de los planes de protección civil?",
+    "opciones": [
+      "6 meses.",
+      "5 años.",
+      "1 año.",
+      "3 años."
+    ],
+    "correcta": 2
+  },
+  {
+    "pregunta": "Extraída de examen oficial (Perfil Controlador): Según el Real Decreto 513/2017, Reglamento de instalaciones de protección contra incendios, ¿cuál es la caducidad máxima de una manta ignífuga?",
+    "opciones": [
+      "10 años.",
+      "5 años.",
+      "15 años.",
+      "20 años."
+    ],
+    "correcta": 3
+  },
+  {
+    "pregunta": "Extraída de examen oficial (Perfil Maquinista): ¿En qué posición irá el cambiador de régimen en un tren de mercancías circulando en vías de ancho métrico con la siguiente composición: 1500 toneladas y 400 metros de longitud y a qué velocidad máxima podrá circular dicho tren?",
+    "opciones": [
+      "Régimen Mercancías y a 30 km/h.",
+      "Régimen Viajeros y a 30 km/h.",
+      "Régimen Viajeros y a 50 km/h.",
+      "Régimen Viajeros y a 70 km/h."
+    ],
+    "correcta": 2
+  },
+  {
+    "pregunta": "Extraída de examen oficial: Realizando un movimiento de retroceso con un tren convencional en un tramo con P.N. automáticos, ¿qué prescripciones de circulación deberá cumplimentar el maquinista?",
+    "opciones": [
+      "Retrocederá efectuando parada antes de llegar a los P.N. comprobando que está protegido.",
+      "Retrocederá a 20 km/h, efectuando parada antes de llegar a los P.N.",
+      "Queda prohibido el retroceso de un tren convencional empujado en un tramo en el que existan PN automáticos, salvo en el caso de que pueda situarse personal habilitado conocedor de la infraestructura en cabeza en el sentido del movimiento.",
+      "Este tipo de movimiento está prohibido bajo cualquier circunstancia."
+    ],
+    "correcta": 2
+  },
+  {
+    "pregunta": "Extraída de examen oficial: En 1804, ¿quién realizó, por primera vez en la historia, un vehículo capaz de circular por unas vías utilizando la fuerza motriz de una máquina de vapor colocada sobre el primer vehículo, remolcando 5 vagones cargados con 10 toneladas de hierro y setenta personas?",
+    "opciones": [
+      "James Watt.",
+      "Richard Trevithick.",
+      "Thomas Newcomen.",
+      "Luís Díez Fernández."
+    ],
+    "correcta": 1
+  },
+  {
+    "pregunta": "Según el Reglamento de Circulación Ferroviaria (Libro 1), ¿cómo se define el término 'Telefonema'?",
+    "opciones": [
+      "Comunicación verbal sin registro grabado y sin formato específico.",
+      "Comunicación reglamentaria en los procesos de circulación, caracterizada por un formato preestablecido, identificada mediante un número secuencial, la hora de transmisión y la identificación del emisor.",
+      "Boletín de Órdenes e Informaciones escrito entregado en mano al maquinista.",
+      "Sistema de repetición de señales en cabina gestionado directamente por el PM."
+    ],
+    "correcta": 1
+  },
+  {
+    "pregunta": "Según el RCF, ¿qué se entiende por 'Tracción dual'?",
+    "opciones": [
+      "Tracción de un tren por varias locomotoras gobernadas independientemente.",
+      "Sistema de tracción de un vehículo que le permite funcionar alternativamente con tracción térmica o eléctrica.",
+      "Vehículo con dos motores térmicos de diferente potencia integrados en paralelo.",
+      "Tren remolcado simultáneamente por la cabeza y empujado por la cola."
+    ],
+    "correcta": 1
+  },
+  {
+    "pregunta": "En el glosario del RCF, ¿qué significan las siglas 'ATO'?",
+    "opciones": [
+      "Anuncio de Trenes Ocasionales.",
+      "Aviso de Trabajo Operativo.",
+      "Automatic Train Operation (Sistema de Operación Automática de Trenes).",
+      "Automatic Train Protection (Sistema de Protección Automática de Trenes)."
+    ],
+    "correcta": 2
+  },
+  {
+    "pregunta": "Según el glosario del RCF, ¿a qué corresponden las siglas 'DMI'?",
+    "opciones": [
+      "Dirección de Mantenimiento de Infraestructura.",
+      "Driver Machine Interface (Equipo que presenta información en pantalla al maquinista).",
+      "Declaración de Maniobras de Intervención.",
+      "Dispositivo de Mando Integrado."
+    ],
+    "correcta": 1
+  },
+  {
+    "pregunta": "Según el RCF (artículo 1.5.1.13), de los siguientes sistemas de bloqueo, ¿cuáles se consideran bloqueos de tipo 'Nominal'?",
+    "opciones": [
+      "BCA, BSL, BLA y BA.",
+      "Únicamente el Bloqueo Telefónico (BT).",
+      "Bloqueo de Control Manual (BCM) y Bloqueo Telefónico (BT).",
+      "Cualquier sistema provisional operado por señales manuales."
+    ],
+    "correcta": 0
+  },
+  {
+    "pregunta": "En el RCF, dentro de las tipologías de Bloqueo Automático, ¿qué significan las siglas 'BLAB'?",
+    "opciones": [
+      "Bloqueo Lateral Automático Básico.",
+      "Bloqueo de Liberación Automática de vía Banalizada.",
+      "Boletín Local de Autorización de Bloqueo.",
+      "Bloqueo Lógico de Aparatos de Bifurcación."
+    ],
+    "correcta": 1
+  },
+  {
+    "pregunta": "En la documentación de referencia de la norma NAV 7-1-0.7 sobre vía sin balasto, ¿qué aspecto regulan las normas de la familia UNE-EN 16432 (Partes 1 y 2)?",
+    "opciones": [
+      "Sistemas electrónicos de detección de tren.",
+      "Auscultación mediante ultrasonidos en vía.",
+      "Aplicaciones ferroviarias. Sistemas de vía sin balasto.",
+      "Interoperabilidad del subsistema infraestructura general."
+    ],
+    "correcta": 2
+  },
+  {
+    "pregunta": "Según la bibliografía normativa (NAV 7-1-0.7), ¿qué norma de Adif rige los 'Parámetros de geometría de vía'?",
+    "opciones": [
+      "NAV 3-0-5.2",
+      "UNE-EN 15273",
+      "NAP 1-2-1.0",
+      "NAV 3-4-3.0"
+    ],
+    "correcta": 0
+  },
+  {
+    "pregunta": "En la NAV 7-1-6.0 (Anejo 2: Tipologías de armamento y aparatos de vía), ¿cuál es el peso aproximado de un panel de cambio (Nº 670 A20 - Nº 676 026) en un desvío tipo DSH-P1-60E1-250-0,110-CR-D-TC?",
+    "opciones": [
+      "13.576,13 Kg",
+      "18.147,53 Kg",
+      "7.097,98 Kg",
+      "52.392,90 Kg"
+    ],
+    "correcta": 1
+  },
+  {
+    "pregunta": "De acuerdo con la NAV 7-1-6.0 (Anejo 2), para el desvío tipo DSH-P1-60E1-318-0,09-CR-D-TC (plano P16.6001.00), el peso total aproximado de todos los paneles es de:",
+    "opciones": [
+      "52.392,90 Kg",
+      "69.936,38 Kg",
+      "59.929,43 Kg",
+      "73.859,70 Kg"
+    ],
+    "correcta": 2
+  },
+  {
+    "pregunta": "Extraída de examen oficial (Perfil Controlador): Según el Real Decreto 513/2017, Reglamento de instalaciones de protección contra incendios, la instalación de equipos y sistemas se realizará por empresas instaladoras que deben estar:",
+    "opciones": [
+      "Registradas como empresas mantenedoras ante el órgano competente de la Comunidad Autónoma.",
+      "Debidamente habilitadas ante el órgano competente del Ministerio de Industria y Turismo.",
+      "Debidamente habilitadas ante el órgano competente de la Comunidad Autónoma.",
+      "Debidamente habilitadas por la Agencia Estatal de Seguridad Ferroviaria."
+    ],
+    "correcta": 2
+  },
+  {
+    "pregunta": "Extraída de examen oficial (Perfil Controlador): Según el RD 524/2023, Norma Básica de Protección Civil, ¿cada cuánto tiempo debe realizarse una memoria sobre la aplicación y funcionamiento de los planes de protección civil?",
+    "opciones": [
+      "6 meses.",
+      "5 años.",
+      "1 año.",
+      "3 años."
+    ],
+    "correcta": 2
+  },
+  {
+    "pregunta": "Extraída de examen oficial (Perfil Administrativo): Según lo establecido en la Ley 6/2020, reguladora de determinados aspectos de los servicios electrónicos de confianza. Cuando un firmante fallece, ¿qué sucede con su certificado digital?",
+    "opciones": [
+      "Será utilizado por los herederos para la gestión de la herencia.",
+      "Se modificará el certificado para indicar que el firmante ha fallecido.",
+      "El prestador de servicios electrónicos extinguirá la vigencia del certificado.",
+      "El certificado se quedará activo sin fecha de caducidad."
+    ],
+    "correcta": 2
+  },
+  {
+    "pregunta": "Extraída de examen oficial (Perfil Administrativo): Según lo establecido en la Ley 6/2020, de servicios electrónicos de confianza, ¿quién tiene la potestad sancionadora en el caso de infracciones muy graves?",
+    "opciones": [
+      "La persona titular de la Secretaría de Estado de Digitalización e inteligencia Artificial.",
+      "La persona titular del Ministerio de Asuntos Económicos y Transformación digital.",
+      "La persona titular de la presidencia del gobierno.",
+      "Un juez de instrucción."
+    ],
+    "correcta": 1
+  },
+  {
+    "pregunta": "Extraída de examen oficial (Perfil Administrativo): ¿Cuál de las siguientes afirmaciones es correcta sobre la relación entre Microsoft Teams y Sharepoint?",
+    "opciones": [
+      "Los equipos de Teams llevan asociado un sitio Sharepoint.",
+      "Teams y Sharepoint son aplicaciones independientes que no guardan relación.",
+      "Cada canal de Teams lleva asociado su propio sitio de Sharepoint.",
+      "Todos los sitios de Sharepoint están asociados a equipos de Teams."
+    ],
+    "correcta": 0
+  },
+  {
+    "pregunta": "Extraída de examen oficial (Perfil Programador): Según el Glosario de términos de ciberseguridad (INCIBE), ¿cómo se denomina el tipo de contraseña que contiene características que dificultan de forma clara su revelación?",
+    "opciones": [
+      "Contraseña de un solo uso.",
+      "Contraseña predeterminada.",
+      "Contraseña débil.",
+      "Contraseña robusta."
+    ],
+    "correcta": 3
+  },
+  {
+    "pregunta": "Extraída de examen oficial (Perfil Programador): Según lo dispuesto en el Glosario de términos de ciberseguridad (INCIBE), ¿qué es un cortafuegos?",
+    "opciones": [
+      "Dispositivo que limpia hardware.",
+      "Programa que protege frente a incendios.",
+      "Sistema de seguridad compuesto o bien de programas (software) o de dispositivos.",
+      "Red social segura."
+    ],
+    "correcta": 2
+  },
+  {
+    "pregunta": "Extraída de examen oficial (Perfil Programador): Según el contenido de Fundamentos de informática, ¿cuál será la salida del siguiente código en Python?: p = [1-4]; resultado = 0; for i in range(len(p)): resultado += i; print (resultado)",
+    "opciones": [
+      "6.",
+      "20.",
+      "10.",
+      "Se genera un error."
+    ],
+    "correcta": 0
+  },
+  {
+    "pregunta": "Extraída de examen oficial (Perfil Oficial de Telecomunicaciones): Según el temario del Real Decreto 346/2011, en el caso de interconexión de cables de FO, la conexión entre el panel común de conectores de salida de la red del edificio y los repartidores de conectores de entrada de los diferentes operadores se realizará:",
+    "opciones": [
+      "Mediante cordones o latiguillos de fibra óptica.",
+      "Soldando la FO en ambos extremos con el fin de minimizar las pérdidas de potencia óptica.",
+      "Soldando la FO sólo en el extremo del panel común de la red del edificio.",
+      "Soldando la FO sólo en el extremo del repartidor de los operadores."
+    ],
+    "correcta": 0
+  },
+  {
+    "pregunta": "Extraída de examen oficial (Perfil Oficial de Telecomunicaciones): Según el RD 346/2011 en una ICT para el acceso a los servicios de telecomunicaciones, se llama Punto de Interconexión a aquel que:",
+    "opciones": [
+      "Realiza la unión entre cada una de las redes de alimentación de los operadores del servicio y las redes de distribución de la ICT de la edificación.",
+      "Realiza la unión entre redes de operadores públicos de comunicaciones electrónicas.",
+      "Realiza la unión entre las ICTs de diferentes edificios.",
+      "Realiza la unión entre dos redes de dispersión dentro del mismo edificio."
+    ],
+    "correcta": 0
+  },
+  {
+    "pregunta": "Extraída de examen oficial (Perfil Oficial de Telecomunicaciones): Según el temario del Real Decreto 346/2011, el punto de acceso de usuario de cada una de las acometidas de pares trenzados de la red de dispersión se terminará en:",
+    "opciones": [
+      "Una roseta hembra miniatura de ocho vías (RJ45).",
+      "Un distribuidor inductivo de dos salidas simétrico terminadas en un conector tipo F hembra.",
+      "Una regleta de dos niveles y cuatro hilos por nivel.",
+      "Una roseta con conexión por tornillos para fiabilizar la conexión de la instalación."
+    ],
+    "correcta": 0
+  },
+  {
+    "pregunta": "Extraída de examen oficial (Perfil Factor de Entrada): De acuerdo con el Manual Explotación y Mantenimiento de Estaciones de Viajeros, para el control de la iluminación, la comprobación se realizará por observación visual. ¿Qué porcentaje no podrá nunca superarse, si el porcentaje de puntos de luz averiados se concentran en una misma área?",
+    "opciones": [
+      "20 %",
+      "5 %",
+      "10 %",
+      "15 %"
+    ],
+    "correcta": 2
+  },
+  {
+    "pregunta": "Extraída de examen oficial (Perfil Factor de Entrada): De acuerdo con el Manual de Conceptos Básicos de Estaciones de Viajeros, en estaciones de alta velocidad, ¿cómo se llama el área que, por motivos de seguridad, se acota la parte del vestíbulo que da al acceso a los andenes y se controlan los equipajes de los viajeros?",
+    "opciones": [
+      "De tránsito interior.",
+      "De flujo de viajeros.",
+      "De embarque.",
+      "De intermodalidad."
+    ],
+    "correcta": 2
+  },
+  {
+    "pregunta": "Pregunta de serie lógica espacial (Psicotécnico): Si un elemento principal (ej: una flecha) gira 45 grados en el sentido de las agujas del reloj en cada paso consecutivo, y en la posición inicial (paso 1) está apuntando a las 12 en punto, ¿hacia dónde apuntará en el quinto paso?",
+    "opciones": [
+      "A las 3 en punto.",
+      "A las 4:30.",
+      "A las 6 en punto.",
+      "A las 1:30."
+    ],
+    "correcta": 2
+  },
+  {
+    "pregunta": "Pregunta de analogía verbal (Psicotécnico): Completa la siguiente analogía. 'Estación' es a 'Tren' lo que 'Puerto' es a...",
+    "opciones": [
+      "Barco.",
+      "Avión.",
+      "Mar.",
+      "Muelle."
+    ],
+    "correcta": 0
+  },
+  {
+    "pregunta": "Extraída de examen oficial (Ayudante Ferroviario Vía): En el mecanizado de piezas, el moleteado:",
+    "opciones": [
+      "Permite la obtención de una superficie plana perpendicular al eje de rotación de la pieza.",
+      "Permite la realización de taladros coaxiales al eje de rotación de la pieza.",
+      "Permite la obtención de roscas, tornillos en el caso de roscado exterior y tuercas.",
+      "Se utiliza para marcar con una geometría estriada alguna de las superficies de revolución de la pieza."
+    ],
+    "correcta": 3
+  },
+  {
+    "pregunta": "De acuerdo con el índice del Estatuto de la entidad pública empresarial ADIF (RD 2395/2004), ¿de qué trata el Artículo 43?",
+    "opciones": [
+      "Variación del presupuesto.",
+      "Cuentas anuales.",
+      "Aplicación de resultados.",
+      "Régimen tributario."
+    ],
+    "correcta": 2
+  },
+  {
+    "pregunta": "Revisando la estructura y el índice de la Ley 53/1984 de Incompatibilidades del personal al servicio de las Administraciones Públicas, ¿cuál es la disposición referida al final del articulado general que antecede inmediatamente a las 'Disposiciones adicionales'?",
+    "opciones": [
+      "Artículo quince.",
+      "Artículo veinte.",
+      "Disposición transitoria primera.",
+      "Disposición final tercera."
+    ],
+    "correcta": 1
+  },
+  {
+    "pregunta": "Según el Reglamento de Circulación Ferroviaria (RCF), ¿cómo se define el término 'Plena vía'? [7]",
+    "opciones": [
+      "Tramo de vía en el que, en condiciones normales, no puede haber más de un tren simultáneamente",
+      "Parte de la vía comprendida entre las señales de entrada de dos estaciones colaterales, fuera del dominio de ambas estaciones",
+      "Infraestructura ferroviaria ajena a la RFIG, pero conectada con esta",
+      "Sector de vías, agujas y señales de una estación"
+    ],
+    "correcta": 1
+  },
+  {
+    "pregunta": "En el RCF, ¿qué característica define a un 'Tren reversible'? [8]",
+    "opciones": [
+      "Que dispone de un sistema de tracción que le permite funcionar alternativamente con tracción térmica o eléctrica",
+      "Que no efectúa parada en ninguna estación de su recorrido",
+      "Que es capaz de desplazarse en ambos sentidos con independencia del lugar que ocupe el vehículo tractor, gobernándose siempre desde la cabina situada en primer lugar",
+      "Que su tracción y gobierno están en un lugar distinto del primer vehículo en sentido de la marcha"
+    ],
+    "correcta": 2
+  },
+  {
+    "pregunta": "Según el artículo 1.5.1.9 del RCF, ¿en cuál de los siguientes casos quedará invalidada la orden de marcha de un tren? [9]",
+    "opciones": [
+      "Tren de mercancías que circula con más de 10 minutos de retraso sobre su horario",
+      "Tren directo que quede detenido en una estación",
+      "Tren parado que salga inmediatamente después de recibir la orden de marcha",
+      "Tren que deba retroceder por indicación expresa de una señal de maniobras"
+    ],
+    "correcta": 1
+  },
+  {
+    "pregunta": "De acuerdo con el RCF (artículo 1.5.1.1), ¿cómo se clasifican las señales fijas según su función? [10, 11]",
+    "opciones": [
+      "Principales, secundarias, de maniobras y de paso a nivel",
+      "Luminosas, mecánicas, acústicas y portátiles",
+      "De entrada, de salida, avanzadas y preavanzadas",
+      "Fundamentales, Indicadoras, De Velocidad Máxima y De Limitación Temporal de Velocidad Máxima"
+    ],
+    "correcta": 3
+  },
+  {
+    "pregunta": "Según el RCF (artículo 1.5.1.6), ¿cuándo se considera que una parada notificada al Maquinista después de la salida del tren de su estación de origen tiene la consideración de 'prescrita'? [12]",
+    "opciones": [
+      "Desde el momento de su notificación",
+      "Únicamente si la parada dura más de 5 minutos",
+      "Cuando se registra oficialmente en el boletín de órdenes",
+      "Solo cuando implica el cruce o adelantamiento de otro tren"
+    ],
+    "correcta": 0
+  },
+  {
+    "pregunta": "En el control geométrico de una soldadura aluminotérmica (NAV 3-3-2.1), ¿cuál es la tolerancia máxima permitida para el escalón lateral en el patín (medición horizontal) para cualquier tipo de carril? [13]",
+    "opciones": [
+      "≤ 0,5 mm",
+      "≤ 1,0 mm",
+      "≤ 1,5 mm",
+      "≤ 2,0 mm"
+    ],
+    "correcta": 2
+  },
+  {
+    "pregunta": "Según la norma de soldadura NAV 3-3-2.1, al realizar el desbaste de la mazarota, ¿a qué altura debe quedar la pipa respecto al cordón de soldadura antes del esmerilado de terminación? [14]",
+    "opciones": [
+      "A ras de la superficie de rodadura (0 mm)",
+      "Entre 2 y 12 milímetros por encima del cordón de soldadura",
+      "A menos de 0,5 milímetros",
+      "Entre 15 y 20 milímetros"
+    ],
+    "correcta": 1
+  },
+  {
+    "pregunta": "De acuerdo con la NAV 7-1-0.7 sobre vía sin balasto, ¿cuáles son las fases iniciales del replanteo de la vía? [15]",
+    "opciones": [
+      "Nivelación longitudinal, alineación, peralte y soldadura",
+      "Red básica, red secundaria, comprobación de la traza y encaje del trazado",
+      "Hormigonado, vibrado, curado y desencofrado",
+      "Colocación de pórticos, ajuste de husillos, y medición de flechas"
+    ],
+    "correcta": 1
+  },
+  {
+    "pregunta": "En la implantación de la red secundaria de topografía en plataforma de tierras (NAV 7-1-0.7), los hitos de centrado forzoso (HCF) se materializan con un tubo de PVC relleno de hormigón. ¿Cuáles son sus dimensiones? [16]",
+    "opciones": [
+      "0,10 m de diámetro y 0,50 m de altura",
+      "0,20 m de diámetro y 1,20 m de altura",
+      "0,30 m de diámetro y 2,00 m de altura",
+      "0,15 m de diámetro y 1,00 m de altura"
+    ],
+    "correcta": 1
+  },
+  {
+    "pregunta": "De acuerdo con el encaje del trazado en vía sin balasto (NAV 7-1-0.7), cuando se genera el listado de coordenadas y geometría, ¿cuándo el signo del radio de curvatura es positivo? [17]",
+    "opciones": [
+      "Cuando el peralte es superior a 50 mm",
+      "Cuando la alineación gira hacia la izquierda en el sentido creciente de la kilometración",
+      "Cuando la alineación gira hacia la derecha en el sentido creciente de la kilometración",
+      "Cuando se trata de una curva de transición tipo clotoide"
+    ],
+    "correcta": 2
+  },
+  {
+    "pregunta": "En el diseño de transiciones entre vía de balasto y estructuras soportando vía sin balasto (NAV 7-1-0.7), si se dispone una cuña de transición, ¿cuál se recomienda que sea su longitud mínima? [18]",
+    "opciones": [
+      "5,0 m",
+      "10,0 m",
+      "15,0 m",
+      "25,0 m"
+    ],
+    "correcta": 2
+  },
+  {
+    "pregunta": "Según la norma NAV 7-1-6.0 sobre maquinaria pesada, ¿cuál es la función principal de las máquinas 'Estabilizadoras'? [19]",
+    "opciones": [
+      "Retirar los carriles y traviesas antiguos e instalar los nuevos en cadena",
+      "Amolar el perfil del carril para eliminar defectos de desgaste",
+      "Limpiar la cara superior de las traviesas y recoger el balasto sobrante",
+      "Aplicar una vibración horizontal junto a una carga vertical simulando el paso de trenes para generar el asentamiento y compactar la vía"
+    ],
+    "correcta": 3
+  },
+  {
+    "pregunta": "Según las tablas de pesos de aparatos de vía de la NAV 7-1-6.0 (Anejo 2), ¿qué tipo de carril emplea el desvío tipo DSH-PAV-60E1-1500-0,042-CRM-D-TC? [20]",
+    "opciones": [
+      "54E1",
+      "60E1",
+      "UIC 54",
+      "RN 45"
+    ],
+    "correcta": 1
+  },
+  {
+    "pregunta": "De acuerdo con el Estatuto de la entidad pública empresarial ADIF (RD 2395/2004), ¿en qué artículo específico se regula el concepto de 'Cuentas anuales'? [21]",
+    "opciones": [
+      "Artículo 41",
+      "Artículo 42",
+      "Artículo 43",
+      "Artículo 44"
+    ],
+    "correcta": 1
+  },
+  {
+    "pregunta": "A efectos de la sucesión de empresas descrita en la Disposición adicional segunda del Estatuto de ADIF (RD 2395/2004), ¿a qué entidad extinguió y subrogó el ADIF al crearse, asumiendo a sus trabajadores? [22, 23]",
+    "opciones": [
+      "RENFE Operadora",
+      "FEVE",
+      "Gestor de Infraestructuras Ferroviarias (GIF)",
+      "Agencia Estatal de Seguridad Ferroviaria (AESF)"
+    ],
+    "correcta": 2
+  },
+  {
+    "pregunta": "Según el artículo 60 de la Ley Orgánica 3/2007 (Igualdad), en la adjudicación de plazas para participar en los cursos de formación del sector público, ¿qué preferencia se otorga a quienes se hayan incorporado procedentes del permiso de maternidad o paternidad? [24]",
+    "opciones": [
+      "Preferencia absoluta e indefinida",
+      "Preferencia durante un año",
+      "Preferencia durante tres años",
+      "Exención directa del requisito de formación"
+    ],
+    "correcta": 1
+  },
+  {
+    "pregunta": "Según la Ley Orgánica 3/2007 (Artículo 222), ¿qué ocurre con la prestación por desempleo si el trabajador pasa a la situación de maternidad o paternidad? [25]",
+    "opciones": [
+      "La sigue cobrando simultáneamente junto a la de maternidad/paternidad",
+      "Se le suspenderá la prestación por desempleo y pasará a percibir la prestación por maternidad o por paternidad",
+      "Pierde el derecho a la prestación por desempleo definitivamente",
+      "Se le reduce la prestación por desempleo al 50%"
+    ],
+    "correcta": 1
+  },
+  {
+    "pregunta": "Revisando la estructura de la Ley 53/1984 de Incompatibilidades del personal al servicio de las Administraciones Públicas, ¿cuántas 'Disposiciones adicionales' incluye su índice original consolidado? [26-28]",
+    "opciones": [
+      "Tres",
+      "Cinco",
+      "Nueve",
+      "Quince"
+    ],
+    "correcta": 2
+  },
+  {
+    "pregunta": "Según las Bases de tu Convocatoria de ingreso (PNI25/06), en el procedimiento de admisión, ¿cuál es el plazo otorgado a las personas interesadas para realizar alegaciones o subsanar la falta de documentación tras la publicación de la relación PROVISIONAL de admitidos y excluidos? [5]",
+    "opciones": [
+      "3 días hábiles",
+      "5 días hábiles",
+      "10 días hábiles",
+      "15 días naturales"
+    ],
+    "correcta": 2
+  },
+  {
+    "pregunta": "Según el documento de Preguntas Frecuentes (FAQ) y las Bases de la Convocatoria, ¿qué nivel de idioma castellano deben acreditar las personas cuyo idioma nativo no sea el castellano para ser admitidas? [29]",
+    "opciones": [
+      "Nivel A2",
+      "Nivel B1 o superior del Marco Común Europeo de Referencia para las Lenguas",
+      "Nivel B2",
+      "Nivel C1"
+    ],
+    "correcta": 1
+  },
+  {
+    "pregunta": "De acuerdo con las Bases de la Convocatoria, en la fase de adjudicación de plazas, ¿quiénes conforman el 'TURNO PREVIO' que tiene prioridad? [6]",
+    "opciones": [
+      "Los participantes externos con mayor nota en la fase de oposición",
+      "Los trabajadores/as cuyo período inicial de excedencia voluntaria sin reserva de puesto haya finalizado",
+      "Los trabajadores/as cesados en RENFE o Adif como consecuencia de incapacidad permanente que hayan recuperado su capacidad laboral (parcial o total)",
+      "El resto de participantes de nuevo ingreso"
+    ],
+    "correcta": 2
+  },
+  {
+    "pregunta": "Extraída de examen oficial (Conocimiento Específico 1101/2020): Según el Reglamento de Circulación Ferroviaria, ¿qué indica el fondo azul en las señales tipo FI10 de los postes kilométricos y hectométricos? [30, 31]",
+    "opciones": [
+      "Que el punto está en una vía de apartado",
+      "Que el punto está en una vía general",
+      "Que es una señal de Alta Velocidad",
+      "Que el punto está en un ramal"
+    ],
+    "correcta": 1
+  },
+  {
+    "pregunta": "Extraída de examen oficial (Prueba de idioma inglés): 'They ______ my friends.' [2]",
+    "opciones": [
+      "is",
+      "be",
+      "are",
+      "am"
+    ],
+    "correcta": 2
+  },
+  {
+    "pregunta": "Extraída de examen oficial (Prueba de idioma inglés): 'I ______ my homework before dinner.' [2]",
+    "opciones": [
+      "finishes",
+      "finishing",
+      "finished",
+      "am finish"
+    ],
+    "correcta": 2
+  },
+  {
+    "pregunta": "Extraída de examen oficial (Perfil Delineante): Según el documento de Interpretación de planos mecánicos, el perfil de una rosca puede ser de varios tipos. ¿Cuál es la aplicación de la Rosca con dientes de sierra? [3]",
+    "opciones": [
+      "Se usa para tubos roscados y accesorios con uniones roscadas sin junta",
+      "Se usa para reducir en gran medida la acumulación de tensiones mecánicas y es resistente a los golpes",
+      "Se utiliza cuando la componente radial del esfuerzo se puede despreciar y los esfuerzos axiales son importantes en el sentido del flanco vertical",
+      "Se usa en instalaciones hidráulicas, conducciones y fontanería"
+    ],
+    "correcta": 2
+  },
+  {
+    "pregunta": "Extraída de examen oficial (Perfil Programador): Según los Fundamentos de seguridad Informática (UOC), ¿qué información es necesaria para acceder a las cabeceras de un paquete de datos en claro? [32]",
+    "opciones": [
+      "Ninguna",
+      "Clave pública",
+      "Protocolo de transporte",
+      "Clave privada"
+    ],
+    "correcta": 0
+  },
+  {
+    "pregunta": "Extraída de examen oficial (Perfil Programador): Según el contenido de Fundamentos de informática, ¿qué afirmación sobre el modelo relacional de implementación de bases de datos es correcta? [4]",
+    "opciones": [
+      "Es un modelo poco habitual de implementación de bases de datos",
+      "Se manejan los conceptos de clave primaria (primary key) y clave ajena (foreign key)",
+      "Una tabla está formada por un número variable de columnas y uno fijo de filas",
+      "La clave primaria siempre va asociada a una única columna"
+    ],
+    "correcta": 1
+  },
+  {
+    "pregunta": "Extraída de examen oficial (Perfil Programador): Según el contenido de Fundamentos de informática, ¿qué definición sobre la dirección IP es correcta? [4]",
+    "opciones": [
+      "Se identifica con cuatro enteros separados por puntos, cada uno entre 0 y 999",
+      "Es un entero de 32 bits agrupado en 4 grupos de 8 bits",
+      "Se identifica con cuatro enteros separados por puntos, cada uno entre 0 y 512",
+      "Es un entero de 64 bits agrupado en 4 grupos de 16 bits"
+    ],
+    "correcta": 1
+  },
+  {
+    "pregunta": "Pregunta lógica espacial de entrenamiento psicotécnico: Si un bloque tridimensional se gira 90 grados hacia la derecha sobre su eje vertical, y luego 90 grados hacia adelante sobre su eje horizontal transversal. Si en la posición inicial la cara superior era azul y la frontal roja, ¿qué color tiene ahora la cara superior? [33]",
+    "opciones": [
+      "Azul",
+      "Roja",
+      "El color que originalmente estaba en la cara posterior",
+      "El color que originalmente estaba en la cara lateral izquierda"
+    ],
+    "correcta": 3
+  },
+  {
+    "pregunta": "Según la NAV 7-1-0.7 (Diseño y montaje de vía sin balasto), si se supera la tolerancia geométrica en la nivelación tras el montaje definitivo de la vía (hormigonado), ¿qué estrategia técnica permite corregir el asiento remanente si lo admite el sistema? [34]",
+    "opciones": [
+      "Levantar el carril y verter balasto de nivelación",
+      "Usar la capacidad de ajuste en nivelación del sistema de sujeción elástica",
+      "Demoler la solera por completo y rehacerla",
+      "Cortar el carril y soldar un cupón de diferente altura"
+    ],
+    "correcta": 1
+  },
+  {
+    "pregunta": "Según el Reglamento de Circulación Ferroviaria (RCF), ¿cómo se define a la 'Empresa Ferroviaria (EF)'?",
+    "opciones": [
+      "La entidad encargada de la construcción y mantenimiento de las líneas férreas y sus estaciones.",
+      "La titular de una licencia cuya actividad principal consista en prestar servicios de transporte de mercancías o viajeros por ferrocarril, debiendo aportar en todo caso la tracción.",
+      "Cualquier empresa subcontratada por el Administrador de Infraestructuras para el mantenimiento de la superestructura.",
+      "La autoridad nacional responsable de emitir las certificaciones de seguridad para operar en la RFIG."
+    ],
+    "correcta": 1
+  },
+  {
+    "pregunta": "En el glosario del RCF, ¿qué se entiende por 'Tren empujado'?",
+    "opciones": [
+      "Tren remolcado simultáneamente por la cabeza y empujado por la cola.",
+      "Tren de trabajos que avanza a paso de hombre impulsado por maquinaria de vía ligera.",
+      "Es aquel cuya tracción y gobierno están en un lugar distinto del primer vehículo en sentido de la marcha.",
+      "Tren que excepcionalmente debe retroceder hasta la estación anterior por avería en la vía."
+    ],
+    "correcta": 2
+  },
+  {
+    "pregunta": "En las abreviaturas y acrónimos del RCF, ¿qué sistema de protección se define con las siglas EBICAB?",
+    "opciones": [
+      "Sistema de Control del Tráfico Ferroviario con Supervisión Continua equivalente al LZB.",
+      "Sistema de protección automática de trenes con supervisión continua.",
+      "Equipo que presenta información en pantalla al maquinista en la cabina.",
+      "Estación de Bloqueo Intermitente Controlada Automáticamente por Balizas."
+    ],
+    "correcta": 1
+  },
+  {
+    "pregunta": "Según el RCF, ¿cuándo debe la Empresa Ferroviaria (EF) comunicar al Administrador de Infraestructura que un tren está 'dispuesto para circular'?",
+    "opciones": [
+      "Únicamente cuando el tren circula con un retraso superior a 15 minutos.",
+      "Cuando el tren esté dispuesto para acceder a la RFIG (o iniciar su recorrido si ya está en ella).",
+      "Tras rebasar la señal de avanzada de la estación de origen.",
+      "Antes de realizar las pruebas de frenado obligatorias en talleres."
+    ],
+    "correcta": 1
+  },
+  {
+    "pregunta": "En el RCF, ¿en qué caso se debe realizar obligatoriamente una 'Prueba de continuidad' del freno automático?",
+    "opciones": [
+      "Cuando se cambie la locomotora de cabeza, por una nueva o procedente de cola.",
+      "Antes de la salida del tren de la estación origen de la composición para asegurar la estanqueidad general.",
+      "Cuando se unan dos ramas, sin modificar sus composiciones.",
+      "Cuando se agreguen vehículos intermedios a la composición."
+    ],
+    "correcta": 2
+  },
+  {
+    "pregunta": "En la soldadura aluminotérmica (NAV 3-3-2.1), durante la retirada del crisol y la mazarota, ¿qué prohibición expresa existe para el carril de grado R350HT?",
+    "opciones": [
+      "Está prohibido utilizar maza para retirar la mazarota, debiendo usarse cizalla hidráulica.",
+      "Está prohibido desmoldar la parte baja de los moldes.",
+      "Está prohibido retirar la escoria antes de que la temperatura descienda de los 100ºC.",
+      "Está prohibido el uso de tensores mecánicos para recuperar la vía."
+    ],
+    "correcta": 1
+  },
+  {
+    "pregunta": "Según la NAV 3-3-2.1, en las líneas de alta velocidad, ¿qué carácter tiene la verificación por ultrasonidos de las soldaduras realizadas en actuaciones en el marco del mantenimiento?",
+    "opciones": [
+      "Opcional, a criterio del jefe de equipo.",
+      "Obligatorio.",
+      "Excepcional, sólo si se detectan porosidades visuales.",
+      "Aleatorio, en un 10% de las soldaduras."
+    ],
+    "correcta": 1
+  },
+  {
+    "pregunta": "De acuerdo con la norma NAV 3-3-2.1, durante la reacción de la carga aluminotérmica en el crisol, ¿en qué estado se encuentran el hierro y la alúmina al terminar la reacción?",
+    "opciones": [
+      "En estado sólido pastoso.",
+      "En estado líquido, en forma de escoria o corindón.",
+      "Totalmente gasificados.",
+      "En estado cristalizado y frío."
+    ],
+    "correcta": 1
+  },
+  {
+    "pregunta": "En el replanteo topográfico para el montaje de vía sin balasto (NAV 7-1-0.7), la red básica se establecerá como base para el replanteo general de toda la obra. ¿Qué longitud máxima deben tener sus lados?",
+    "opciones": [
+      "250 m",
+      "500 m",
+      "1.500 m (y excepcionalmente 2.000 m)",
+      "3.000 m"
+    ],
+    "correcta": 2
+  },
+  {
+    "pregunta": "Según la NAV 7-1-0.7, en la generación de los listados de trazado topográfico, ¿cuándo se considera que un acuerdo vertical es positivo?",
+    "opciones": [
+      "Cuando es cóncavo.",
+      "Cuando la pendiente es ascendente ininterrumpida.",
+      "Cuando el peralte de la curva supera los 100 mm.",
+      "Cuando es convexo."
+    ],
+    "correcta": 3
+  },
+  {
+    "pregunta": "En la transición entre túnel y estructuras soportando vía sin balasto (NAV 7-1-0.7), se recomienda que la cuña de transición cubra la longitud que recorre un bogie en 0,5 segundos. ¿Cuál es la longitud mínima absoluta que debe tener?",
+    "opciones": [
+      "5,0 m",
+      "10,0 m",
+      "15,0 m",
+      "20,0 m"
+    ],
+    "correcta": 2
+  },
+  {
+    "pregunta": "De acuerdo con la norma NAV 7-1-6.0 sobre maquinaria pesada, ¿cuál es la velocidad mínima que debe poder alcanzar una máquina Desguarnecedora en modo circulación autopropulsado por la red?",
+    "opciones": [
+      "50 km/h",
+      "60 km/h",
+      "80 km/h",
+      "100 km/h"
+    ],
+    "correcta": 0
+  },
+  {
+    "pregunta": "Según la NAV 7-1-6.0, ¿cuál de las siguientes tareas forma parte de la función principal de los trenes de renovación completa de vía?",
+    "opciones": [
+      "Amolar el perfil del carril a velocidades superiores a 80 km/h.",
+      "Retirar carriles y traviesas antiguos, nivelar el balasto e instalar las traviesas y carriles nuevos en cadena.",
+      "Aplicar una vibración horizontal junto a carga vertical para asentar el balasto.",
+      "Realizar soldaduras eléctricas continuas en la vía."
+    ],
+    "correcta": 1
+  },
+  {
+    "pregunta": "En la Ley Orgánica 3/2007 (Art. 64), ¿con qué periodicidad mínima tendrá derecho a recibir información la representación de los trabajadores relativa a la aplicación en la empresa de la igualdad de trato y oportunidades?",
+    "opciones": [
+      "Al menos mensualmente.",
+      "Al menos trimestralmente.",
+      "Al menos semestralmente.",
+      "Al menos anualmente."
+    ],
+    "correcta": 3
+  },
+  {
+    "pregunta": "Según la Disposición adicional segunda del Estatuto de ADIF (RD 2395/2004), a efectos del Estatuto de los Trabajadores, ¿entre qué entidades se considerará que existe sucesión de empresas?",
+    "opciones": [
+      "Entre FEVE y ADIF.",
+      "Entre la entidad pública empresarial Gestor de Infraestructuras Ferroviarias (GIF) y el ADIF.",
+      "Entre RENFE Operadora y ADIF.",
+      "Entre el Ministerio de Fomento y ADIF Alta Velocidad."
+    ],
+    "correcta": 1
+  },
+  {
+    "pregunta": "Extraída de las plantillas de examen oficial: ¿Cuándo mencionamos condiciones de marcha especiales, nos estamos refiriendo a:",
+    "opciones": [
+      "Las marchas que figuran en el CVM.",
+      "La marcha determinada para los trenes que figuran en el horario de los trenes.",
+      "La marcha de maniobras y la marcha a la vista.",
+      "La marcha determinada para los trenes que no figuran en el horario de los trenes."
+    ],
+    "correcta": 2
+  },
+  {
+    "pregunta": "Extraída de las plantillas de examen oficial: En Excel, ¿qué función se usa para sumar un rango de celdas?",
+    "opciones": [
+      "PROMEDIO",
+      "CONTAR",
+      "SUMA",
+      "MAX"
+    ],
+    "correcta": 2
+  },
+  {
+    "pregunta": "Extraída de las plantillas de examen oficial: En 1804, ¿quién realizó, por primera vez en la historia, un vehículo capaz de circular por unas vías utilizando la fuerza motriz de una máquina de vapor colocada sobre el primer vehículo, remolcando 5 vagones cargados con 10 toneladas de hierro y setenta personas?",
+    "opciones": [
+      "James Watt.",
+      "Richard Trevithick.",
+      "Thomas Newcomen.",
+      "Luís Díez Fernández."
+    ],
+    "correcta": 1
+  },
+  {
+    "pregunta": "Extraída de las plantillas de examen oficial: ¿Qué significa la falta del cartelón FI15AO ('ASFA CONV') o FI15AP ('ASFA AV') de la Resolución 8/2022 de la AESF Cartelones adicionales al RCF?",
+    "opciones": [
+      "Exime al maquinista de realizar el cambio de modo en el equipo ASFA embarcado.",
+      "No exime de realizar el proceso de cambio de modo en el equipo ASFA embarcado.",
+      "Indica una avería en el sistema ASFA.",
+      "Permite al maquinista elegir el modo ASFA."
+    ],
+    "correcta": 1
+  },
+  {
+    "pregunta": "Extraída de examen oficial (Inglés): 'They ______ my friends.'",
+    "opciones": [
+      "is",
+      "be",
+      "are",
+      "am"
+    ],
+    "correcta": 2
+  },
+  {
+    "pregunta": "Extraída de examen oficial (Inglés): You see this in a café: NO SMOKING. What must you do?",
+    "opciones": [
+      "Smoke.",
+      "Not smoke.",
+      "Request permission to smoke.",
+      "Leave."
+    ],
+    "correcta": 1
+  },
+  {
+    "pregunta": "Extraída de las plantillas de examen oficial: Según el RCF, la protección de emergencia se podrá realizar indistintamente a través de cualquiera de los medios siguientes: (Marque la INCORRECTA)",
+    "opciones": [
+      "Accionando desde la cabina de conducción de otro tren los dispositivos a este fin.",
+      "Haciendo la señal de atención especial, sobre todo en trayectos con vía doble o múltiple.",
+      "Poniendo las señales fijas o pantallas de BCA y ERTMS en indicación de parada.",
+      "Avisando al maquinista afectado mediante la radiotelefonía."
+    ],
+    "correcta": 1
+  },
+  {
+    "pregunta": "Pregunta de entrenamiento Psicotécnico (Series Lógicas Espaciales): En una serie lógica, un punto negro se desplaza por los seis vértices de un hexágono regular en sentido horario, avanzando un vértice en cada paso. Si en la primera figura el punto está en el vértice superior, ¿en qué posición se encontrará en la cuarta figura?",
+    "opciones": [
+      "En el vértice superior.",
+      "En el vértice inferior derecho.",
+      "En el vértice inferior.",
+      "En el vértice inferior izquierdo."
+    ],
+    "correcta": 2
+  },
+  {
+    "pregunta": "Pregunta de entrenamiento Psicotécnico (Analogías Verbales): 'Balasto' es a 'Vía férrea' lo que 'Asfalto' es a...",
+    "opciones": [
+      "Carretera",
+      "Túnel",
+      "Coche",
+      "Señalización"
+    ],
+    "correcta": 0
+  },
+  {
+    "pregunta": "En el RCF, ¿qué prueba de frenado tiene por objeto asegurar el buen funcionamiento, al apretar y aflojar, del freno de cada vehículo que se agregue a la composición?",
+    "opciones": [
+      "Prueba completa.",
+      "Prueba parcial.",
+      "Prueba de continuidad.",
+      "Verificación del acoplamiento."
+    ],
+    "correcta": 1
+  },
+  {
+    "pregunta": "Según la norma de soldadura NAV 3-3-2.1, para la preparación de la carga aluminotérmica, la bolsa debe estar perfectamente cerrada, sin deterioros por golpes y sin trazas de:",
+    "opciones": [
+      "Grasa industrial.",
+      "Arena silícea.",
+      "Humedad.",
+      "Óxido exterior."
+    ],
+    "correcta": 2
+  },
+  {
+    "pregunta": "De acuerdo con el replanteo topográfico de vía sin balasto (NAV 7-1-0.7), ¿qué modelo geoidal se debe adaptar al marco de referencia vertical dado por la REDNAP?",
+    "opciones": [
+      "ETRS89",
+      "EGM08-REDNAP",
+      "WGS84",
+      "ED50"
+    ],
+    "correcta": 1
+  },
+  {
+    "pregunta": "En la tabla de requisitos mínimos para el traslado de maquinaria (NAV 7-1-6.0), ¿cuál es la velocidad mínima que debe poder alcanzar una Estabilizadora autopropulsada?",
+    "opciones": [
+      "50 km/h",
+      "60 km/h",
+      "80 km/h",
+      "100 km/h"
+    ],
+    "correcta": 1
+  },
+  {
+    "pregunta": "Revisando el índice del Estatuto de ADIF (RD 2395/2004), ¿en qué artículo se regula la 'Aplicación de resultados'?",
+    "opciones": [
+      "Artículo 41.",
+      "Artículo 42.",
+      "Artículo 43.",
+      "Artículo 44."
+    ],
+    "correcta": 2
+  },
+  {
+    "pregunta": "Extraída de las plantillas de examen oficial: Según el documento de Interpretación de planos mecánicos, el perfil de una rosca puede ser de varios tipos dependiendo de su aplicación. ¿Cuál es la aplicación de la Rosca con dientes de sierra?",
+    "opciones": [
+      "Se usa para tubos roscados y accesorios con uniones roscadas sin junta.",
+      "Se usa para reducir en gran media la acumulación de tensiones mecánicas. Es muy resistente a esfuerzos importantes y también a los golpes.",
+      "Se utiliza cuando la componente radial del esfuerzo se puede despreciar y los esfuerzos axiales son importantes en el sentido del flanco vertical.",
+      "Se usa en instalaciones hidráulicas, conducciones y fontanería."
+    ],
+    "correcta": 2
   }
-]
+]  
+  
