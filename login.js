@@ -17,7 +17,9 @@ window.location.href = "index.html"
 
 })
 
-.catch(() => {
+.catch((error) => {
+
+console.error(error)
 
 document.getElementById("error").textContent = "Usuario o contraseña incorrectos"
 
