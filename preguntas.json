@@ -1,32 +1,22 @@
 [
-  {
-    "pregunta": "¿Qué color indica parada en una señal ferroviaria?",
-    "opciones": [
-      "Rojo",
-      "Verde",
-      "Amarillo",
-      "Blanco"
-    ],
-    "correcta": 0
-  },
-  {
-    "pregunta": "¿Qué documento regula la circulación ferroviaria?",
-    "opciones": [
-      "RCF",
-      "Manual técnico",
-      "Norma interna",
-      "Libro de estación"
-    ],
-    "correcta": 0
-  },
-  {
-    "pregunta": "¿Qué color indica vía libre?",
-    "opciones": [
-      "Rojo",
-      "Verde",
-      "Azul",
-      "Blanco"
-    ],
-    "correcta": 1
-  }
+{
+"pregunta": "¿Qué documento regula la circulación ferroviaria?",
+"opciones": [
+"RCF",
+"Manual técnico",
+"Norma interna",
+"Libro de estación"
+],
+"correcta": 0
+},
+{
+"pregunta": "¿Qué significa RCF?",
+"opciones": [
+"Reglamento de Circulación Ferroviaria",
+"Registro de Control Ferroviario",
+"Regla de Conducción Ferroviaria",
+"Reglamento Central Ferroviario"
+],
+"correcta": 0
+}
 ]
