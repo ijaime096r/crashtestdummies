@@ -600,7 +600,6 @@
     ],
     "correcta": 2
   },
-[
   {
     "pregunta": "Según el cuadernillo de examen de la convocatoria, en Excel, ¿qué función se usa para sumar un rango de celdas?",
     "opciones": [
@@ -1202,7 +1201,6 @@
     ],
     "correcta": 1
   },
-[
   {
     "pregunta": "Según la Declaración sobre la Red 2026 de Adif (incluida en la prueba de Conocimiento General), ¿cuáles son los distintos anchos de vía de la red ferroviaria gestionada por Adif?",
     "opciones": [
@@ -1803,7 +1801,6 @@
     ],
     "correcta": 2
   },
-[
   {
     "pregunta": "En una serie lógica de figuras (basada en la imagen del test psicotécnico de la convocatoria) se muestra un cuadrado con una línea diagonal y un semicírculo apoyado en uno de sus bordes. En el primer paso, la diagonal va de arriba-izquierda a abajo-derecha (\\) y el semicírculo está en el borde izquierdo. En el segundo paso, la diagonal es inversa (/) y el semicírculo está en el borde superior. En el tercer paso, la diagonal vuelve a ser (\\) y el semicírculo pasa al borde derecho. ¿Cuál será la figura en el cuarto paso?",
     "opciones": [
@@ -3005,4 +3002,3 @@
     "correcta": 2
   }
 ]  
-  
