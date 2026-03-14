@@ -2998,5 +2998,2377 @@
       "Se usa en instalaciones hidráulicas, conducciones y fontanería."
     ],
     "correcta": 2
+  },
+  {
+    "pregunta": "¿Cuál es el objetivo principal de la norma ADIF sobre maquinaria pesada de vía?",
+    "opciones": [
+      "Regular el transporte de viajeros en la red ferroviaria",
+      "Definir los requisitos que debe cumplir la maquinaria utilizada en trabajos de vía",
+      "Establecer los salarios del personal ferroviario",
+      "Regular la venta de billetes en estaciones"
+    ],
+    "correcta": 1
+  },
+  {
+    "pregunta": "¿Qué máquina se utiliza para sustituir o renovar el balasto bajo la vía?",
+    "opciones": [
+      "Bateadora",
+      "Perfiladora",
+      "Desguarnecedora",
+      "Estabilizadora"
+    ],
+    "correcta": 2
+  },
+  {
+    "pregunta": "¿Cuál es la función principal de una perfiladora de balasto?",
+    "opciones": [
+      "Distribuir correctamente la banqueta de balasto",
+      "Soldar carriles",
+      "Medir la temperatura del carril",
+      "Transportar traviesas"
+    ],
+    "correcta": 0
+  },
+  {
+    "pregunta": "¿Qué tipo de maquinaria se utiliza para corregir la geometría de la vía compactando el balasto bajo las traviesas?",
+    "opciones": [
+      "Perfiladora",
+      "Bateadora",
+      "Desguarnecedora",
+      "Amoladora"
+    ],
+    "correcta": 1
+  },
+  {
+    "pregunta": "¿Cuál es el ancho de vía tradicional utilizado en gran parte de la red ferroviaria española?",
+    "opciones": [
+      "Ancho métrico",
+      "Ancho ibérico",
+      "Ancho estándar",
+      "Ancho internacional reducido"
+    ],
+    "correcta": 1
+  },
+  {
+    "pregunta": "Según la Ley de Prevención de Riesgos Laborales, ¿quién tiene la responsabilidad principal de garantizar la seguridad y salud de los trabajadores?",
+    "opciones": [
+      "El empresario",
+      "Los sindicatos",
+      "Los trabajadores",
+      "La inspección de trabajo"
+    ],
+    "correcta": 0
+  },
+  {
+    "pregunta": "¿Qué organismo regula los procedimientos de autorización de los vehículos ferroviarios para circular por la Red Ferroviaria de Interés General?",
+    "opciones": [
+      "Ministerio de Defensa",
+      "Agencia Estatal de Seguridad Ferroviaria",
+      "Ayuntamientos",
+      "Renfe Operadora"
+    ],
+    "correcta": 1
+  },
+  {
+    "pregunta": "¿Cuál es la función principal de una estabilizadora de vía?",
+    "opciones": [
+      "Soldar carriles",
+      "Compactar el balasto y mejorar la estabilidad de la vía tras el bateo",
+      "Transportar balasto",
+      "Cortar carriles"
+    ],
+    "correcta": 1
+  },
+  {
+    "pregunta": "Según el Estatuto Básico del Empleado Público, los empleados públicos deben actuar de acuerdo con principios como:",
+    "opciones": [
+      "Neutralidad, objetividad y servicio al interés general",
+      "Competencia comercial",
+      "Beneficio económico personal",
+      "Exclusividad empresarial"
+    ],
+    "correcta": 0
+  },
+  {
+    "pregunta": "¿Qué tipo de soldadura se utiliza habitualmente para unir carriles en vía?",
+    "opciones": [
+      "Soldadura aluminotérmica",
+      "Soldadura por arco doméstica",
+      "Soldadura plástica",
+      "Soldadura mecánica en frío"
+    ],
+    "correcta": 0
+  },
+  {
+    "pregunta": "¿Qué elemento de la superestructura de vía sirve como apoyo directo del carril y distribuye las cargas al balasto?",
+    "opciones": [
+      "Traviesa",
+      "Placa base",
+      "Aguja",
+      "Catenaria"
+    ],
+    "correcta": 0
+  },
+  {
+    "pregunta": "¿Cuál es la función principal del balasto en una vía ferroviaria?",
+    "opciones": [
+      "Conducir electricidad",
+      "Soportar y estabilizar la vía distribuyendo cargas",
+      "Lubricar los carriles",
+      "Reducir la temperatura del carril"
+    ],
+    "correcta": 1
+  },
+  {
+    "pregunta": "¿Qué máquina se utiliza para amolar o rectificar el perfil del carril?",
+    "opciones": [
+      "Tren de amolado",
+      "Desguarnecedora",
+      "Perfiladora",
+      "Estabilizadora"
+    ],
+    "correcta": 0
+  },
+  {
+    "pregunta": "¿Cuál es el objetivo de la compactación del balasto tras el bateo?",
+    "opciones": [
+      "Reducir la temperatura del carril",
+      "Aumentar la estabilidad de la vía",
+      "Eliminar la catenaria",
+      "Reducir la velocidad de los trenes"
+    ],
+    "correcta": 1
+  },
+  {
+    "pregunta": "¿Qué organismo público español gestiona la infraestructura ferroviaria?",
+    "opciones": [
+      "RENFE",
+      "ADIF",
+      "AENA",
+      "INE"
+    ],
+    "correcta": 1
+  },
+  {
+    "pregunta": "Según la Ley 31/1995 de Prevención de Riesgos Laborales, los trabajadores tienen derecho a:",
+    "opciones": [
+      "Interrumpir su actividad si existe riesgo grave e inminente",
+      "Modificar el horario de trabajo libremente",
+      "Elegir el salario",
+      "Designar al director de la empresa"
+    ],
+    "correcta": 0
+  },
+  {
+    "pregunta": "¿Qué máquina ferroviaria se utiliza para retirar balasto contaminado y sustituirlo por balasto nuevo?",
+    "opciones": [
+      "Bateadora",
+      "Desguarnecedora",
+      "Perfiladora",
+      "Amoladora"
+    ],
+    "correcta": 1
+  },
+  {
+    "pregunta": "¿Cuál es la finalidad principal del mantenimiento de la geometría de vía?",
+    "opciones": [
+      "Reducir el peso de los trenes",
+      "Garantizar seguridad y confort en la circulación",
+      "Aumentar el tamaño del balasto",
+      "Reducir el número de estaciones"
+    ],
+    "correcta": 1
+  },
+  {
+    "pregunta": "Según el Estatuto Básico del Empleado Público, el acceso al empleo público se basa en los principios de:",
+    "opciones": [
+      "Igualdad, mérito y capacidad",
+      "Antigüedad y jerarquía",
+      "Productividad y mercado",
+      "Edad y experiencia mínima"
+    ],
+    "correcta": 0
+  },
+  {
+    "pregunta": "¿Qué componente fija el carril a la traviesa?",
+    "opciones": [
+      "Sujeción",
+      "Balasto",
+      "Catenaria",
+      "Desvío"
+    ],
+    "correcta": 0
+  },
+  {
+    "pregunta": "¿Qué tipo de vía utiliza balasto como elemento de soporte principal?",
+    "opciones": [
+      "Vía en placa",
+      "Vía en balasto",
+      "Vía elevada",
+      "Vía urbana ligera"
+    ],
+    "correcta": 1
+  },
+  {
+    "pregunta": "¿Qué ley regula la igualdad efectiva entre mujeres y hombres en España?",
+    "opciones": [
+      "Ley Orgánica 3/2007",
+      "Ley 31/1995",
+      "Ley 53/1984",
+      "Ley 39/2015"
+    ],
+    "correcta": 0
+  },
+  {
+    "pregunta": "¿Cuál es el principal objetivo del balasto en la vía ferroviaria?",
+    "opciones": [
+      "Servir de soporte estable y distribuir las cargas de los trenes",
+      "Aumentar la velocidad de los trenes",
+      "Evitar la oxidación de los carriles",
+      "Reducir el ruido en estaciones"
+    ],
+    "correcta": 0
+  },
+  {
+    "pregunta": "¿Qué máquina se utiliza para compactar el balasto bajo las traviesas y corregir la geometría de la vía?",
+    "opciones": [
+      "Perfiladora",
+      "Bateadora",
+      "Desguarnecedora",
+      "Amoladora"
+    ],
+    "correcta": 1
+  },
+  {
+    "pregunta": "¿Qué elemento de la vía une los carriles con las traviesas?",
+    "opciones": [
+      "Sujeciones",
+      "Balasto",
+      "Catenaria",
+      "Traviesa metálica"
+    ],
+    "correcta": 0
+  },
+  {
+    "pregunta": "¿Cuál es la función principal de la desguarnecedora?",
+    "opciones": [
+      "Soldar carriles",
+      "Renovar o limpiar el balasto bajo la vía",
+      "Medir la temperatura del carril",
+      "Transportar material"
+    ],
+    "correcta": 1
+  },
+  {
+    "pregunta": "¿Qué máquina se encarga de dar forma correcta a la banqueta de balasto tras los trabajos de mantenimiento?",
+    "opciones": [
+      "Perfiladora",
+      "Bateadora",
+      "Estabilizadora",
+      "Tren de amolado"
+    ],
+    "correcta": 0
+  },
+  {
+    "pregunta": "¿Qué ancho de vía se utiliza en la mayoría de la red convencional española?",
+    "opciones": [
+      "Ancho métrico",
+      "Ancho ibérico",
+      "Ancho estándar",
+      "Ancho reducido"
+    ],
+    "correcta": 1
+  },
+  {
+    "pregunta": "¿Qué ley española regula la prevención de riesgos laborales?",
+    "opciones": [
+      "Ley 31/1995",
+      "Ley 3/2007",
+      "Ley 53/1984",
+      "Ley 39/2015"
+    ],
+    "correcta": 0
+  },
+  {
+    "pregunta": "¿Qué organismo es responsable de la gestión de la infraestructura ferroviaria en España?",
+    "opciones": [
+      "RENFE",
+      "ADIF",
+      "AENA",
+      "Ministerio de Defensa"
+    ],
+    "correcta": 1
+  },
+  {
+    "pregunta": "Según la Ley de Prevención de Riesgos Laborales, ¿quién debe garantizar la seguridad y salud de los trabajadores?",
+    "opciones": [
+      "El empresario",
+      "El trabajador",
+      "El sindicato",
+      "El ayuntamiento"
+    ],
+    "correcta": 0
+  },
+  {
+    "pregunta": "¿Qué proceso se utiliza habitualmente para unir carriles en vía?",
+    "opciones": [
+      "Soldadura aluminotérmica",
+      "Soldadura eléctrica doméstica",
+      "Soldadura plástica",
+      "Unión mecánica simple"
+    ],
+    "correcta": 0
+  },
+  {
+    "pregunta": "¿Qué máquina ferroviaria se utiliza para rectificar el perfil del carril?",
+    "opciones": [
+      "Tren de amolado",
+      "Perfiladora",
+      "Desguarnecedora",
+      "Bateadora"
+    ],
+    "correcta": 0
+  },
+  {
+    "pregunta": "¿Qué componente de la superestructura de vía soporta directamente el carril?",
+    "opciones": [
+      "Traviesa",
+      "Balasto",
+      "Subbalasto",
+      "Terraplén"
+    ],
+    "correcta": 0
+  },
+  {
+    "pregunta": "¿Qué principio rige el acceso al empleo público según el Estatuto Básico del Empleado Público?",
+    "opciones": [
+      "Igualdad, mérito y capacidad",
+      "Antigüedad y jerarquía",
+      "Edad y experiencia",
+      "Antigüedad y salario"
+    ],
+    "correcta": 0
+  },
+  {
+    "pregunta": "¿Qué ley regula las incompatibilidades del personal al servicio de las Administraciones Públicas?",
+    "opciones": [
+      "Ley 53/1984",
+      "Ley 31/1995",
+      "Ley 3/2007",
+      "Ley 40/2015"
+    ],
+    "correcta": 0
+  },
+  {
+    "pregunta": "¿Qué elemento ferroviario permite el cambio de una vía a otra?",
+    "opciones": [
+      "Desvío",
+      "Traviesa",
+      "Balasto",
+      "Subbalasto"
+    ],
+    "correcta": 0
+  },
+  {
+    "pregunta": "¿Qué elemento de la superestructura ferroviaria transmite las cargas del carril al balasto?",
+    "opciones": ["Traviesa", "Catenaria", "Talud", "Terraplén"],
+    "correcta": 0
+  },
+  {
+    "pregunta": "¿Cuál es la función principal del balasto en la vía ferroviaria?",
+    "opciones": [
+      "Distribuir las cargas y estabilizar la vía",
+      "Conducir electricidad",
+      "Aumentar la velocidad de los trenes",
+      "Reducir el peso del tren"
+    ],
+    "correcta": 0
+  },
+  {
+    "pregunta": "¿Qué máquina ferroviaria se utiliza para compactar el balasto bajo las traviesas?",
+    "opciones": ["Bateadora", "Perfiladora", "Desguarnecedora", "Amoladora"],
+    "correcta": 0
+  },
+  {
+    "pregunta": "¿Qué máquina se utiliza para renovar el balasto bajo la vía?",
+    "opciones": ["Desguarnecedora", "Bateadora", "Perfiladora", "Estabilizadora"],
+    "correcta": 0
+  },
+  {
+    "pregunta": "¿Qué máquina se utiliza para dar forma al perfil de la banqueta de balasto?",
+    "opciones": ["Perfiladora", "Bateadora", "Desguarnecedora", "Estabilizadora"],
+    "correcta": 0
+  },
+  {
+    "pregunta": "¿Cuál es el ancho de vía tradicional de la red ferroviaria española?",
+    "opciones": ["Ancho ibérico", "Ancho métrico", "Ancho estándar", "Ancho reducido"],
+    "correcta": 0
+  },
+  {
+    "pregunta": "¿Qué organismo gestiona la infraestructura ferroviaria en España?",
+    "opciones": ["ADIF", "RENFE", "AENA", "INE"],
+    "correcta": 0
+  },
+  {
+    "pregunta": "¿Qué ley regula la prevención de riesgos laborales en España?",
+    "opciones": ["Ley 31/1995", "Ley 3/2007", "Ley 53/1984", "Ley 40/2015"],
+    "correcta": 0
+  },
+  {
+    "pregunta": "Según la Ley de Prevención de Riesgos Laborales, ¿quién debe garantizar la seguridad de los trabajadores?",
+    "opciones": ["El empresario", "El trabajador", "El sindicato", "La mutua"],
+    "correcta": 0
+  },
+  {
+    "pregunta": "¿Qué tipo de soldadura se emplea habitualmente para unir carriles en vía?",
+    "opciones": [
+      "Soldadura aluminotérmica",
+      "Soldadura plástica",
+      "Soldadura doméstica",
+      "Soldadura por tornillos"
+    ],
+    "correcta": 0
+  },
+  {
+    "pregunta": "¿Qué máquina ferroviaria se utiliza para rectificar el perfil del carril?",
+    "opciones": ["Tren de amolado", "Bateadora", "Perfiladora", "Desguarnecedora"],
+    "correcta": 0
+  },
+  {
+    "pregunta": "¿Qué componente fija el carril a la traviesa?",
+    "opciones": ["Sujeción", "Balasto", "Subbalasto", "Terraplén"],
+    "correcta": 0
+  },
+  {
+    "pregunta": "¿Qué elemento permite el cambio de una vía a otra?",
+    "opciones": ["Desvío", "Traviesa", "Balasto", "Catenaria"],
+    "correcta": 0
+  },
+  {
+    "pregunta": "¿Qué ley regula la igualdad efectiva entre mujeres y hombres en España?",
+    "opciones": [
+      "Ley Orgánica 3/2007",
+      "Ley 31/1995",
+      "Ley 53/1984",
+      "Ley 39/2015"
+    ],
+    "correcta": 0
+  },
+  {
+    "pregunta": "¿Qué ley regula las incompatibilidades del personal de las Administraciones Públicas?",
+    "opciones": [
+      "Ley 53/1984",
+      "Ley 31/1995",
+      "Ley 3/2007",
+      "Ley 39/2015"
+    ],
+    "correcta": 0
+  },
+
+  {
+    "pregunta": "¿Cuál es el objetivo del mantenimiento de la geometría de vía?",
+    "opciones": [
+      "Garantizar seguridad y confort en la circulación",
+      "Reducir el número de trenes",
+      "Aumentar la longitud de los trenes",
+      "Reducir el peso del balasto"
+    ],
+    "correcta": 0
+  },
+  {
+    "pregunta": "¿Qué máquina se usa para compactar el balasto tras el bateo?",
+    "opciones": ["Estabilizadora", "Perfiladora", "Desguarnecedora", "Amoladora"],
+    "correcta": 0
+  },
+  {
+    "pregunta": "¿Qué elemento forma parte de la superestructura de vía?",
+    "opciones": ["Carril", "Talud", "Terraplén", "Zanja"],
+    "correcta": 0
+  },
+  {
+    "pregunta": "¿Qué material compone normalmente el balasto ferroviario?",
+    "opciones": ["Piedra triturada", "Arena", "Tierra", "Arcilla"],
+    "correcta": 0
+  },
+  {
+    "pregunta": "¿Qué organismo autoriza los vehículos ferroviarios para circular por la red?",
+    "opciones": [
+      "Agencia Estatal de Seguridad Ferroviaria",
+      "ADIF",
+      "RENFE",
+      "Ministerio de Defensa"
+    ],
+    "correcta": 0
+  },
+
+  {
+    "pregunta": "¿Qué proceso elimina irregularidades en la superficie del carril?",
+    "opciones": ["Amolado", "Bateo", "Perfilado", "Desguarnecido"],
+    "correcta": 0
+  },
+  {
+    "pregunta": "¿Qué elemento distribuye la carga del tren hacia el terreno?",
+    "opciones": ["Balasto", "Carril", "Catenaria", "Aguja"],
+    "correcta": 0
+  },
+  {
+    "pregunta": "¿Qué tipo de vía utiliza una losa de hormigón en lugar de balasto?",
+    "opciones": ["Vía en placa", "Vía en balasto", "Vía métrica", "Vía convencional"],
+    "correcta": 0
+  },
+  {
+    "pregunta": "¿Qué componente conduce las ruedas del tren?",
+    "opciones": ["Carril", "Traviesa", "Balasto", "Subbalasto"],
+    "correcta": 0
+  },
+  {
+    "pregunta": "¿Qué elemento evita el desplazamiento lateral de la vía?",
+    "opciones": ["Balasto", "Carril", "Traviesa", "Catenaria"],
+    "correcta": 0
+  },
+
+  {
+    "pregunta": "¿Cuál es el principio básico del acceso al empleo público?",
+    "opciones": [
+      "Igualdad, mérito y capacidad",
+      "Antigüedad y salario",
+      "Edad mínima",
+      "Experiencia laboral"
+    ],
+    "correcta": 0
+  },
+  {
+    "pregunta": "¿Qué ley regula el Estatuto Básico del Empleado Público?",
+    "opciones": [
+      "Real Decreto Legislativo 5/2015",
+      "Ley 31/1995",
+      "Ley 3/2007",
+      "Ley 53/1984"
+    ],
+    "correcta": 0
+  },
+
+  {
+    "pregunta": "¿Qué tipo de máquina se usa para fresar carriles?",
+    "opciones": [
+      "Vehículo de fresado de carril",
+      "Perfiladora",
+      "Bateadora",
+      "Estabilizadora"
+    ],
+    "correcta": 0
+  },
+
+  {
+    "pregunta": "¿Qué elemento transmite los esfuerzos del carril al balasto?",
+    "opciones": ["Traviesa", "Catenaria", "Desvío", "Aguja"],
+    "correcta": 0
+  },
+
+  {
+    "pregunta": "¿Qué máquina ferroviaria regula la distribución del balasto tras trabajos de mantenimiento?",
+    "opciones": ["Perfiladora", "Bateadora", "Desguarnecedora", "Amoladora"],
+    "correcta": 0
+  },
+
+  {
+    "pregunta": "¿Qué elemento forma parte de un desvío ferroviario?",
+    "opciones": ["Aguja", "Balasto", "Subbalasto", "Traviesa metálica"],
+    "correcta": 0
+  },
+
+  {
+    "pregunta": "¿Qué tipo de mantenimiento corrige la geometría de la vía?",
+    "opciones": ["Bateo", "Soldadura", "Fresado", "Amolado"],
+    "correcta": 0
+  },
+
+  {
+    "pregunta": "¿Qué máquina se usa para estabilizar la vía tras trabajos de mantenimiento?",
+    "opciones": ["Estabilizadora", "Bateadora", "Perfiladora", "Amoladora"],
+    "correcta": 0
+  },
+
+  {
+    "pregunta": "¿Qué elemento permite mantener la distancia entre carriles?",
+    "opciones": ["Traviesa", "Balasto", "Terraplén", "Talud"],
+    "correcta": 0
+  },
+
+  {
+    "pregunta": "¿Qué máquina permite retirar balasto contaminado?",
+    "opciones": ["Desguarnecedora", "Perfiladora", "Estabilizadora", "Amoladora"],
+    "correcta": 0
+  },
+
+  {
+    "pregunta": "¿Qué organismo depende del Ministerio de Transportes en materia ferroviaria?",
+    "opciones": [
+      "ADIF",
+      "Agencia Tributaria",
+      "Correos",
+      "INE"
+    ],
+    "correcta": 0
+  },
+
+  {
+    "pregunta": "¿Qué elemento forma parte del armamento de vía?",
+    "opciones": ["Carril", "Talud", "Terraplén", "Zanja"],
+    "correcta": 0
+  },
+
+  {
+    "pregunta": "¿Qué material compone habitualmente las traviesas modernas?",
+    "opciones": ["Hormigón", "Madera", "Plástico", "Aluminio"],
+    "correcta": 0
+  },
+
+  {
+    "pregunta": "¿Qué componente evita el desplazamiento longitudinal del carril?",
+    "opciones": ["Sujeción", "Balasto", "Traviesa", "Subbalasto"],
+    "correcta": 0
+  },
+
+  {
+    "pregunta": "¿Qué operación mejora el contacto rueda-carril?",
+    "opciones": ["Amolado", "Bateo", "Perfilado", "Desguarnecido"],
+    "correcta": 0
+  },
+
+  {
+    "pregunta": "¿Qué máquina ferroviaria trabaja sobre el carril eliminando defectos superficiales?",
+    "opciones": ["Tren de amolado", "Bateadora", "Perfiladora", "Desguarnecedora"],
+    "correcta": 0
+  },
+
+  {
+    "pregunta": "¿Qué componente mantiene la estabilidad transversal de la vía?",
+    "opciones": ["Balasto", "Carril", "Catenaria", "Subbalasto"],
+    "correcta": 0
+  },
+
+  {
+    "pregunta": "¿Qué elemento forma parte del sistema de sujeción del carril?",
+    "opciones": ["Clip elástico", "Balasto", "Subbalasto", "Traviesa"],
+    "correcta": 0
+  },
+
+  {
+    "pregunta": "¿Qué elemento forma parte de la infraestructura ferroviaria?",
+    "opciones": ["Terraplén", "Carril", "Traviesa", "Balasto"],
+    "correcta": 0
+  },
+
+  {
+    "pregunta": "¿Qué elemento transmite las cargas al terreno natural?",
+    "opciones": ["Infraestructura", "Carril", "Traviesa", "Catenaria"],
+    "correcta": 0
+  },
+  {
+    "pregunta": "¿Qué elemento ferroviario guía las ruedas del tren durante la circulación?",
+    "opciones": ["Carril", "Balasto", "Traviesa", "Subbalasto"],
+    "correcta": 0
+  },
+  {
+    "pregunta": "¿Cuál es la función principal de las traviesas?",
+    "opciones": [
+      "Mantener la separación entre carriles y transmitir cargas al balasto",
+      "Transportar electricidad",
+      "Aumentar la velocidad del tren",
+      "Reducir el ruido del tren"
+    ],
+    "correcta": 0
+  },
+  {
+    "pregunta": "¿Qué elemento se sitúa entre el balasto y el terreno natural?",
+    "opciones": ["Subbalasto", "Carril", "Traviesa", "Catenaria"],
+    "correcta": 0
+  },
+  {
+    "pregunta": "¿Qué operación ferroviaria consiste en compactar el balasto bajo las traviesas?",
+    "opciones": ["Bateo", "Amolado", "Fresado", "Soldadura"],
+    "correcta": 0
+  },
+  {
+    "pregunta": "¿Qué máquina se utiliza para realizar el bateo de vía?",
+    "opciones": ["Bateadora", "Perfiladora", "Desguarnecedora", "Amoladora"],
+    "correcta": 0
+  },
+  {
+    "pregunta": "¿Qué elemento ferroviario permite el cruce o desvío de trenes entre vías?",
+    "opciones": ["Desvío", "Traviesa", "Balasto", "Subbalasto"],
+    "correcta": 0
+  },
+  {
+    "pregunta": "¿Qué máquina ferroviaria se utiliza para estabilizar la vía después del bateo?",
+    "opciones": ["Estabilizadora", "Perfiladora", "Desguarnecedora", "Amoladora"],
+    "correcta": 0
+  },
+  {
+    "pregunta": "¿Qué componente del desvío permite dirigir el tren hacia una vía u otra?",
+    "opciones": ["Aguja", "Balasto", "Traviesa", "Subbalasto"],
+    "correcta": 0
+  },
+  {
+    "pregunta": "¿Qué material se emplea mayoritariamente en las traviesas actuales?",
+    "opciones": ["Hormigón", "Madera", "Hierro", "Plástico"],
+    "correcta": 0
+  },
+  {
+    "pregunta": "¿Qué organismo depende del Ministerio de Transportes para la gestión de la red ferroviaria?",
+    "opciones": ["ADIF", "RENFE", "AENA", "INE"],
+    "correcta": 0
+  },
+  {
+    "pregunta": "¿Qué proceso ferroviario consiste en eliminar irregularidades del carril?",
+    "opciones": ["Amolado", "Bateo", "Perfilado", "Desguarnecido"],
+    "correcta": 0
+  },
+  {
+    "pregunta": "¿Qué elemento ferroviario absorbe vibraciones del paso de trenes?",
+    "opciones": ["Balasto", "Carril", "Catenaria", "Subbalasto"],
+    "correcta": 0
+  },
+  {
+    "pregunta": "¿Qué tipo de mantenimiento corrige defectos en la geometría de la vía?",
+    "opciones": ["Bateo", "Soldadura", "Amolado", "Fresado"],
+    "correcta": 0
+  },
+  {
+    "pregunta": "¿Qué componente fija el carril a la traviesa?",
+    "opciones": ["Sujeción", "Balasto", "Terraplén", "Talud"],
+    "correcta": 0
+  },
+  {
+    "pregunta": "¿Qué máquina distribuye el balasto tras los trabajos de mantenimiento?",
+    "opciones": ["Perfiladora", "Bateadora", "Desguarnecedora", "Estabilizadora"],
+    "correcta": 0
+  },
+  {
+    "pregunta": "¿Qué elemento mantiene el ancho de vía constante?",
+    "opciones": ["Traviesa", "Balasto", "Subbalasto", "Catenaria"],
+    "correcta": 0
+  },
+  {
+    "pregunta": "¿Qué ancho de vía corresponde al estándar europeo?",
+    "opciones": ["1435 mm", "1000 mm", "1668 mm", "1200 mm"],
+    "correcta": 0
+  },
+  {
+    "pregunta": "¿Qué ancho corresponde al ancho ibérico?",
+    "opciones": ["1668 mm", "1435 mm", "1000 mm", "1520 mm"],
+    "correcta": 0
+  },
+  {
+    "pregunta": "¿Qué elemento transmite la carga de la vía al terreno natural?",
+    "opciones": ["Infraestructura ferroviaria", "Carril", "Traviesa", "Catenaria"],
+    "correcta": 0
+  },
+  {
+    "pregunta": "¿Qué proceso une permanentemente dos carriles?",
+    "opciones": ["Soldadura", "Bateo", "Perfilado", "Fresado"],
+    "correcta": 0
+  },
+
+  {
+    "pregunta": "¿Qué máquina elimina balasto deteriorado bajo la vía?",
+    "opciones": ["Desguarnecedora", "Perfiladora", "Bateadora", "Amoladora"],
+    "correcta": 0
+  },
+  {
+    "pregunta": "¿Qué elemento forma parte de la superestructura ferroviaria?",
+    "opciones": ["Carril", "Terraplén", "Talud", "Zanja"],
+    "correcta": 0
+  },
+  {
+    "pregunta": "¿Qué parte de la vía soporta directamente las ruedas del tren?",
+    "opciones": ["Carril", "Traviesa", "Balasto", "Subbalasto"],
+    "correcta": 0
+  },
+  {
+    "pregunta": "¿Qué elemento evita el desplazamiento lateral de la vía?",
+    "opciones": ["Balasto", "Carril", "Traviesa", "Catenaria"],
+    "correcta": 0
+  },
+  {
+    "pregunta": "¿Qué proceso ferroviario mejora la superficie del carril?",
+    "opciones": ["Amolado", "Bateo", "Perfilado", "Desguarnecido"],
+    "correcta": 0
+  },
+  {
+    "pregunta": "¿Qué tipo de vía utiliza losa de hormigón en lugar de balasto?",
+    "opciones": ["Vía en placa", "Vía en balasto", "Vía métrica", "Vía convencional"],
+    "correcta": 0
+  },
+  {
+    "pregunta": "¿Qué operación ferroviaria corrige la posición vertical de la vía?",
+    "opciones": ["Bateo", "Amolado", "Soldadura", "Fresado"],
+    "correcta": 0
+  },
+  {
+    "pregunta": "¿Qué máquina se utiliza para fresar carriles?",
+    "opciones": ["Vehículo de fresado", "Bateadora", "Perfiladora", "Estabilizadora"],
+    "correcta": 0
+  },
+  {
+    "pregunta": "¿Qué elemento ferroviario forma parte del armamento de vía?",
+    "opciones": ["Carril", "Talud", "Terraplén", "Zanja"],
+    "correcta": 0
+  },
+  {
+    "pregunta": "¿Qué material compone habitualmente el balasto?",
+    "opciones": ["Piedra triturada", "Arena", "Arcilla", "Grava fina"],
+    "correcta": 0
+  },
+
+  {
+    "pregunta": "¿Qué principio rige el acceso al empleo público?",
+    "opciones": [
+      "Igualdad, mérito y capacidad",
+      "Antigüedad y salario",
+      "Edad y experiencia",
+      "Antigüedad y jerarquía"
+    ],
+    "correcta": 0
+  },
+  {
+    "pregunta": "¿Qué ley regula la igualdad efectiva entre mujeres y hombres?",
+    "opciones": [
+      "Ley Orgánica 3/2007",
+      "Ley 31/1995",
+      "Ley 53/1984",
+      "Ley 39/2015"
+    ],
+    "correcta": 0
+  },
+  {
+    "pregunta": "¿Qué ley regula las incompatibilidades del personal público?",
+    "opciones": [
+      "Ley 53/1984",
+      "Ley 31/1995",
+      "Ley 3/2007",
+      "Ley 40/2015"
+    ],
+    "correcta": 0
+  },
+  {
+    "pregunta": "¿Qué norma establece el Estatuto Básico del Empleado Público?",
+    "opciones": [
+      "Real Decreto Legislativo 5/2015",
+      "Ley 31/1995",
+      "Ley 3/2007",
+      "Ley 53/1984"
+    ],
+    "correcta": 0
+  },
+
+  {
+    "pregunta": "¿Qué organismo autoriza la circulación de vehículos ferroviarios en la red?",
+    "opciones": [
+      "Agencia Estatal de Seguridad Ferroviaria",
+      "RENFE",
+      "ADIF",
+      "Ministerio de Defensa"
+    ],
+    "correcta": 0
+  },
+
+  {
+    "pregunta": "¿Qué operación permite mejorar la estabilidad de la vía tras el mantenimiento?",
+    "opciones": ["Estabilización dinámica", "Bateo", "Soldadura", "Fresado"],
+    "correcta": 0
+  },
+
+  {
+    "pregunta": "¿Qué elemento permite el cambio de dirección en un desvío?",
+    "opciones": ["Aguja", "Balasto", "Subbalasto", "Traviesa"],
+    "correcta": 0
+  },
+
+  {
+    "pregunta": "¿Qué componente ferroviario mantiene unidos los carriles a las traviesas?",
+    "opciones": ["Sujeciones", "Balasto", "Catenaria", "Subbalasto"],
+    "correcta": 0
+  },
+
+  {
+    "pregunta": "¿Qué operación ferroviaria elimina defectos superficiales del carril?",
+    "opciones": ["Amolado", "Bateo", "Perfilado", "Desguarnecido"],
+    "correcta": 0
+  },
+  {
+    "pregunta": "¿Qué elemento ferroviario soporta directamente la rueda del tren?",
+    "opciones": [
+      "Carril",
+      "Traviesa",
+      "Balasto",
+      "Subbalasto"
+    ],
+    "correcta": 0
+  },
+  {
+    "pregunta": "¿Qué componente de la vía mantiene la distancia correcta entre carriles?",
+    "opciones": [
+      "Traviesa",
+      "Balasto",
+      "Catenaria",
+      "Talud"
+    ],
+    "correcta": 0
+  },
+  {
+    "pregunta": "¿Qué proceso ferroviario corrige defectos longitudinales del carril?",
+    "opciones": [
+      "Amolado",
+      "Bateo",
+      "Perfilado",
+      "Desguarnecido"
+    ],
+    "correcta": 0
+  },
+  {
+    "pregunta": "¿Qué elemento absorbe vibraciones producidas por el paso del tren?",
+    "opciones": [
+      "Balasto",
+      "Carril",
+      "Traviesa",
+      "Catenaria"
+    ],
+    "correcta": 0
+  },
+  {
+    "pregunta": "¿Qué tipo de vía utiliza balasto como elemento de soporte?",
+    "opciones": [
+      "Vía en balasto",
+      "Vía en placa",
+      "Vía urbana",
+      "Vía ligera"
+    ],
+    "correcta": 0
+  },
+  {
+    "pregunta": "¿Qué componente ferroviario fija el carril a la traviesa?",
+    "opciones": [
+      "Sujeción",
+      "Balasto",
+      "Subbalasto",
+      "Talud"
+    ],
+    "correcta": 0
+  },
+  {
+    "pregunta": "¿Qué máquina ferroviaria realiza el bateo de la vía?",
+    "opciones": [
+      "Bateadora",
+      "Perfiladora",
+      "Desguarnecedora",
+      "Estabilizadora"
+    ],
+    "correcta": 0
+  },
+  {
+    "pregunta": "¿Qué máquina se utiliza para redistribuir el balasto?",
+    "opciones": [
+      "Perfiladora",
+      "Bateadora",
+      "Estabilizadora",
+      "Amoladora"
+    ],
+    "correcta": 0
+  },
+  {
+    "pregunta": "¿Qué máquina elimina el balasto deteriorado bajo la vía?",
+    "opciones": [
+      "Desguarnecedora",
+      "Bateadora",
+      "Perfiladora",
+      "Amoladora"
+    ],
+    "correcta": 0
+  },
+  {
+    "pregunta": "¿Qué máquina corrige irregularidades del carril mediante abrasión?",
+    "opciones": [
+      "Tren de amolado",
+      "Bateadora",
+      "Perfiladora",
+      "Desguarnecedora"
+    ],
+    "correcta": 0
+  },
+
+  {
+    "pregunta": "¿Qué elemento permite dirigir un tren hacia una vía diferente?",
+    "opciones": [
+      "Desvío",
+      "Balasto",
+      "Traviesa",
+      "Terraplén"
+    ],
+    "correcta": 0
+  },
+  {
+    "pregunta": "¿Qué componente del desvío mueve el tren hacia otra vía?",
+    "opciones": [
+      "Aguja",
+      "Traviesa",
+      "Carril",
+      "Balasto"
+    ],
+    "correcta": 0
+  },
+  {
+    "pregunta": "¿Qué ancho de vía corresponde al estándar europeo?",
+    "opciones": [
+      "1435 mm",
+      "1668 mm",
+      "1000 mm",
+      "1520 mm"
+    ],
+    "correcta": 0
+  },
+  {
+    "pregunta": "¿Cuál es el ancho ibérico tradicional?",
+    "opciones": [
+      "1668 mm",
+      "1435 mm",
+      "1000 mm",
+      "1520 mm"
+    ],
+    "correcta": 0
+  },
+
+  {
+    "pregunta": "¿Qué ley regula la prevención de riesgos laborales?",
+    "opciones": [
+      "Ley 31/1995",
+      "Ley 3/2007",
+      "Ley 53/1984",
+      "Ley 39/2015"
+    ],
+    "correcta": 0
+  },
+  {
+    "pregunta": "¿Qué ley regula la igualdad efectiva entre mujeres y hombres?",
+    "opciones": [
+      "Ley Orgánica 3/2007",
+      "Ley 31/1995",
+      "Ley 53/1984",
+      "Ley 39/2015"
+    ],
+    "correcta": 0
+  },
+  {
+    "pregunta": "¿Qué ley regula las incompatibilidades del personal de las Administraciones Públicas?",
+    "opciones": [
+      "Ley 53/1984",
+      "Ley 31/1995",
+      "Ley 3/2007",
+      "Ley 39/2015"
+    ],
+    "correcta": 0
+  },
+
+  {
+    "pregunta": "¿Qué organismo gestiona la infraestructura ferroviaria española?",
+    "opciones": [
+      "ADIF",
+      "RENFE",
+      "AENA",
+      "INE"
+    ],
+    "correcta": 0
+  },
+  {
+    "pregunta": "¿Qué organismo autoriza vehículos ferroviarios para circular?",
+    "opciones": [
+      "Agencia Estatal de Seguridad Ferroviaria",
+      "ADIF",
+      "RENFE",
+      "Ministerio del Interior"
+    ],
+    "correcta": 0
+  },
+
+  {
+    "pregunta": "¿Qué operación mejora la estabilidad de la vía tras el bateo?",
+    "opciones": [
+      "Estabilización dinámica",
+      "Soldadura",
+      "Amolado",
+      "Fresado"
+    ],
+    "correcta": 0
+  },
+
+  {
+    "pregunta": "¿Qué material compone normalmente el balasto ferroviario?",
+    "opciones": [
+      "Piedra triturada",
+      "Arena",
+      "Arcilla",
+      "Hormigón"
+    ],
+    "correcta": 0
+  },
+
+  {
+    "pregunta": "¿Qué parte de la vía soporta directamente las ruedas?",
+    "opciones": [
+      "Carril",
+      "Traviesa",
+      "Balasto",
+      "Subbalasto"
+    ],
+    "correcta": 0
+  },
+
+  {
+    "pregunta": "¿Qué elemento forma parte del armamento de vía?",
+    "opciones": [
+      "Carril",
+      "Talud",
+      "Terraplén",
+      "Zanja"
+    ],
+    "correcta": 0
+  },
+
+  {
+    "pregunta": "¿Qué elemento mantiene la estabilidad transversal de la vía?",
+    "opciones": [
+      "Balasto",
+      "Carril",
+      "Catenaria",
+      "Traviesa"
+    ],
+    "correcta": 0
+  },
+
+  {
+    "pregunta": "¿Qué elemento transmite las cargas al terreno natural?",
+    "opciones": [
+      "Infraestructura ferroviaria",
+      "Carril",
+      "Traviesa",
+      "Catenaria"
+    ],
+    "correcta": 0
+  },
+
+  {
+    "pregunta": "¿Qué elemento fija el carril al resto de la vía?",
+    "opciones": [
+      "Sistema de sujeción",
+      "Balasto",
+      "Talud",
+      "Subbalasto"
+    ],
+    "correcta": 0
+  },
+
+  {
+    "pregunta": "¿Qué proceso une permanentemente dos carriles?",
+    "opciones": [
+      "Soldadura",
+      "Bateo",
+      "Amolado",
+      "Perfilado"
+    ],
+    "correcta": 0
+  },
+
+  {
+    "pregunta": "¿Qué máquina ferroviaria corrige la geometría de la vía?",
+    "opciones": [
+      "Bateadora",
+      "Amoladora",
+      "Perfiladora",
+      "Fresadora"
+    ],
+    "correcta": 0
+  },
+
+  {
+    "pregunta": "¿Qué operación ferroviaria mejora el contacto rueda-carril?",
+    "opciones": [
+      "Amolado",
+      "Bateo",
+      "Perfilado",
+      "Desguarnecido"
+    ],
+    "correcta": 0
+  },
+
+  {
+    "pregunta": "¿Qué máquina redistribuye el balasto tras los trabajos?",
+    "opciones": [
+      "Perfiladora",
+      "Bateadora",
+      "Desguarnecedora",
+      "Estabilizadora"
+    ],
+    "correcta": 0
+  },
+
+  {
+    "pregunta": "¿Qué principio rige el acceso al empleo público?",
+    "opciones": [
+      "Igualdad, mérito y capacidad",
+      "Antigüedad y jerarquía",
+      "Edad y experiencia",
+      "Productividad y salario"
+    ],
+    "correcta": 0
+  },
+
+  {
+    "pregunta": "¿Qué norma regula el Estatuto Básico del Empleado Público?",
+    "opciones": [
+      "Real Decreto Legislativo 5/2015",
+      "Ley 31/1995",
+      "Ley 53/1984",
+      "Ley 3/2007"
+    ],
+    "correcta": 0
+  },
+  {
+    "pregunta": "¿Qué elemento ferroviario se encarga de transmitir las cargas del carril al balasto?",
+    "opciones": [
+      "Traviesa",
+      "Catenaria",
+      "Subbalasto",
+      "Terraplén"
+    ],
+    "correcta": 0
+  },
+  {
+    "pregunta": "¿Qué máquina ferroviaria se utiliza principalmente para corregir la posición vertical y horizontal de la vía?",
+    "opciones": [
+      "Bateadora",
+      "Perfiladora",
+      "Desguarnecedora",
+      "Estabilizadora"
+    ],
+    "correcta": 0
+  },
+  {
+    "pregunta": "¿Qué elemento del desvío permite guiar las ruedas hacia una vía u otra?",
+    "opciones": [
+      "Aguja",
+      "Balasto",
+      "Subbalasto",
+      "Traviesa"
+    ],
+    "correcta": 0
+  },
+  {
+    "pregunta": "¿Qué tipo de mantenimiento ferroviario consiste en corregir defectos de alineación y nivelación?",
+    "opciones": [
+      "Bateo",
+      "Soldadura",
+      "Amolado",
+      "Fresado"
+    ],
+    "correcta": 0
+  },
+  {
+    "pregunta": "¿Qué material se utiliza habitualmente para fabricar carriles ferroviarios?",
+    "opciones": [
+      "Acero",
+      "Aluminio",
+      "Hierro fundido",
+      "Cobre"
+    ],
+    "correcta": 0
+  },
+  {
+    "pregunta": "¿Qué elemento permite absorber vibraciones en la vía ferroviaria?",
+    "opciones": [
+      "Balasto",
+      "Carril",
+      "Catenaria",
+      "Traviesa metálica"
+    ],
+    "correcta": 0
+  },
+  {
+    "pregunta": "¿Qué operación se realiza para eliminar irregularidades superficiales en el carril?",
+    "opciones": [
+      "Amolado",
+      "Bateo",
+      "Soldadura",
+      "Perfilado"
+    ],
+    "correcta": 0
+  },
+  {
+    "pregunta": "¿Qué máquina se emplea para redistribuir el balasto tras trabajos de mantenimiento?",
+    "opciones": [
+      "Perfiladora",
+      "Bateadora",
+      "Desguarnecedora",
+      "Estabilizadora"
+    ],
+    "correcta": 0
+  },
+  {
+    "pregunta": "¿Qué máquina ferroviaria compacta el balasto tras el bateo para estabilizar la vía?",
+    "opciones": [
+      "Estabilizadora",
+      "Perfiladora",
+      "Bateadora",
+      "Amoladora"
+    ],
+    "correcta": 0
+  },
+  {
+    "pregunta": "¿Qué componente forma parte del armamento de vía?",
+    "opciones": [
+      "Carril",
+      "Talud",
+      "Terraplén",
+      "Zanja"
+    ],
+    "correcta": 0
+  },
+
+  {
+    "pregunta": "¿Cuál es la función principal de las traviesas?",
+    "opciones": [
+      "Mantener la distancia entre carriles y transmitir cargas al balasto",
+      "Reducir la velocidad de los trenes",
+      "Transportar energía eléctrica",
+      "Evitar la corrosión del carril"
+    ],
+    "correcta": 0
+  },
+  {
+    "pregunta": "¿Qué ancho de vía corresponde al estándar internacional?",
+    "opciones": [
+      "1435 mm",
+      "1668 mm",
+      "1000 mm",
+      "1520 mm"
+    ],
+    "correcta": 0
+  },
+  {
+    "pregunta": "¿Qué operación ferroviaria permite unir permanentemente dos carriles?",
+    "opciones": [
+      "Soldadura",
+      "Bateo",
+      "Amolado",
+      "Perfilado"
+    ],
+    "correcta": 0
+  },
+  {
+    "pregunta": "¿Qué máquina se utiliza para retirar balasto deteriorado bajo la vía?",
+    "opciones": [
+      "Desguarnecedora",
+      "Bateadora",
+      "Perfiladora",
+      "Amoladora"
+    ],
+    "correcta": 0
+  },
+  {
+    "pregunta": "¿Qué organismo gestiona la infraestructura ferroviaria en España?",
+    "opciones": [
+      "ADIF",
+      "RENFE",
+      "AENA",
+      "INE"
+    ],
+    "correcta": 0
+  },
+  {
+    "pregunta": "¿Qué organismo autoriza vehículos ferroviarios para circular por la red?",
+    "opciones": [
+      "Agencia Estatal de Seguridad Ferroviaria",
+      "ADIF",
+      "RENFE",
+      "Ministerio de Industria"
+    ],
+    "correcta": 0
+  },
+  {
+    "pregunta": "¿Qué ley regula la prevención de riesgos laborales en España?",
+    "opciones": [
+      "Ley 31/1995",
+      "Ley 53/1984",
+      "Ley 3/2007",
+      "Ley 39/2015"
+    ],
+    "correcta": 0
+  },
+  {
+    "pregunta": "¿Qué ley regula la igualdad efectiva entre mujeres y hombres?",
+    "opciones": [
+      "Ley Orgánica 3/2007",
+      "Ley 31/1995",
+      "Ley 53/1984",
+      "Ley 40/2015"
+    ],
+    "correcta": 0
+  },
+  {
+    "pregunta": "¿Qué ley regula las incompatibilidades del personal de las Administraciones Públicas?",
+    "opciones": [
+      "Ley 53/1984",
+      "Ley 31/1995",
+      "Ley 3/2007",
+      "Ley 39/2015"
+    ],
+    "correcta": 0
+  },
+  {
+    "pregunta": "¿Qué principio rige el acceso al empleo público?",
+    "opciones": [
+      "Igualdad, mérito y capacidad",
+      "Antigüedad y salario",
+      "Edad y experiencia",
+      "Jerarquía y antigüedad"
+    ],
+    "correcta": 0
+  },
+
+  {
+    "pregunta": "¿Qué material compone normalmente el balasto ferroviario?",
+    "opciones": [
+      "Piedra triturada",
+      "Arena",
+      "Arcilla",
+      "Grava fina"
+    ],
+    "correcta": 0
+  },
+  {
+    "pregunta": "¿Qué elemento transmite las cargas de la vía al terreno natural?",
+    "opciones": [
+      "Infraestructura ferroviaria",
+      "Carril",
+      "Traviesa",
+      "Catenaria"
+    ],
+    "correcta": 0
+  },
+  {
+    "pregunta": "¿Qué elemento permite el cambio de dirección de un tren entre vías?",
+    "opciones": [
+      "Desvío",
+      "Balasto",
+      "Traviesa",
+      "Subbalasto"
+    ],
+    "correcta": 0
+  },
+  {
+    "pregunta": "¿Qué operación ferroviaria mejora el contacto rueda-carril?",
+    "opciones": [
+      "Amolado",
+      "Bateo",
+      "Soldadura",
+      "Fresado"
+    ],
+    "correcta": 0
+  },
+  {
+    "pregunta": "¿Qué máquina corrige la geometría de la vía compactando el balasto?",
+    "opciones": [
+      "Bateadora",
+      "Perfiladora",
+      "Estabilizadora",
+      "Desguarnecedora"
+    ],
+    "correcta": 0
+  },
+  {
+    "pregunta": "¿Qué componente mantiene unidos los carriles a las traviesas?",
+    "opciones": [
+      "Sistema de sujeción",
+      "Balasto",
+      "Subbalasto",
+      "Terraplén"
+    ],
+    "correcta": 0
+  },
+  {
+    "pregunta": "¿Qué tipo de vía utiliza losa de hormigón en lugar de balasto?",
+    "opciones": [
+      "Vía en placa",
+      "Vía convencional",
+      "Vía métrica",
+      "Vía ligera"
+    ],
+    "correcta": 0
+  },
+  {
+    "pregunta": "¿Qué elemento mantiene la estabilidad lateral de la vía?",
+    "opciones": [
+      "Balasto",
+      "Carril",
+      "Traviesa",
+      "Catenaria"
+    ],
+    "correcta": 0
+  },
+  {
+    "pregunta": "¿Qué máquina ferroviaria se utiliza para fresar carriles?",
+    "opciones": [
+      "Vehículo de fresado de carril",
+      "Bateadora",
+      "Perfiladora",
+      "Estabilizadora"
+    ],
+    "correcta": 0
+  },
+  {
+    "pregunta": "¿Qué componente forma parte de la infraestructura ferroviaria?",
+    "opciones": [
+      "Terraplén",
+      "Carril",
+      "Traviesa",
+      "Balasto"
+    ],
+    "correcta": 0
+  },
+  {
+    "pregunta": "¿Qué máquina ferroviaria se utiliza para consolidar la vía mediante vibraciones tras el bateo?",
+    "opciones": [
+      "Estabilizadora dinámica",
+      "Perfiladora",
+      "Desguarnecedora",
+      "Amoladora"
+    ],
+    "correcta": 0
+  },
+  {
+    "pregunta": "¿Qué componente de la vía soporta directamente la carga transmitida por el carril?",
+    "opciones": [
+      "Traviesa",
+      "Catenaria",
+      "Talud",
+      "Subrasante"
+    ],
+    "correcta": 0
+  },
+  {
+    "pregunta": "¿Cuál es la función principal del subbalasto?",
+    "opciones": [
+      "Mejorar el drenaje y repartir cargas",
+      "Conducir electricidad",
+      "Reducir el ruido del tren",
+      "Guiar las ruedas"
+    ],
+    "correcta": 0
+  },
+  {
+    "pregunta": "¿Qué máquina ferroviaria retira balasto contaminado y lo sustituye por nuevo?",
+    "opciones": [
+      "Desguarnecedora",
+      "Bateadora",
+      "Perfiladora",
+      "Estabilizadora"
+    ],
+    "correcta": 0
+  },
+  {
+    "pregunta": "¿Qué elemento del desvío dirige físicamente las ruedas hacia una vía u otra?",
+    "opciones": [
+      "Agujas",
+      "Balasto",
+      "Subbalasto",
+      "Traviesa"
+    ],
+    "correcta": 0
+  },
+  {
+    "pregunta": "¿Qué máquina ferroviaria se utiliza para rectificar el perfil del carril?",
+    "opciones": [
+      "Tren de amolado",
+      "Bateadora",
+      "Perfiladora",
+      "Desguarnecedora"
+    ],
+    "correcta": 0
+  },
+  {
+    "pregunta": "¿Qué material se utiliza habitualmente en los carriles ferroviarios?",
+    "opciones": [
+      "Acero laminado",
+      "Aluminio",
+      "Hierro fundido",
+      "Bronce"
+    ],
+    "correcta": 0
+  },
+  {
+    "pregunta": "¿Qué componente de la vía garantiza la correcta separación entre carriles?",
+    "opciones": [
+      "Traviesa",
+      "Balasto",
+      "Subbalasto",
+      "Terraplén"
+    ],
+    "correcta": 0
+  },
+  {
+    "pregunta": "¿Qué tipo de mantenimiento corrige desviaciones de nivel y alineación?",
+    "opciones": [
+      "Bateo",
+      "Soldadura",
+      "Fresado",
+      "Amolado"
+    ],
+    "correcta": 0
+  },
+  {
+    "pregunta": "¿Qué ancho de vía corresponde al estándar internacional utilizado en alta velocidad?",
+    "opciones": [
+      "1435 mm",
+      "1668 mm",
+      "1000 mm",
+      "1520 mm"
+    ],
+    "correcta": 0
+  },
+  {
+    "pregunta": "¿Qué componente del sistema de sujeción fija el carril a la traviesa?",
+    "opciones": [
+      "Clip elástico",
+      "Balasto",
+      "Subbalasto",
+      "Terraplén"
+    ],
+    "correcta": 0
+  },
+  {
+    "pregunta": "¿Qué máquina redistribuye el balasto después de los trabajos de mantenimiento?",
+    "opciones": [
+      "Perfiladora",
+      "Bateadora",
+      "Estabilizadora",
+      "Amoladora"
+    ],
+    "correcta": 0
+  },
+  {
+    "pregunta": "¿Qué elemento de la infraestructura transmite las cargas al terreno natural?",
+    "opciones": [
+      "Subrasante",
+      "Carril",
+      "Traviesa",
+      "Balasto"
+    ],
+    "correcta": 0
+  },
+  {
+    "pregunta": "¿Qué operación se realiza para eliminar defectos superficiales del carril?",
+    "opciones": [
+      "Amolado",
+      "Bateo",
+      "Soldadura",
+      "Perfilado"
+    ],
+    "correcta": 0
+  },
+  {
+    "pregunta": "¿Qué organismo es responsable de la gestión de la infraestructura ferroviaria española?",
+    "opciones": [
+      "ADIF",
+      "RENFE",
+      "AENA",
+      "CNMC"
+    ],
+    "correcta": 0
+  },
+  {
+    "pregunta": "¿Qué organismo supervisa la seguridad ferroviaria en España?",
+    "opciones": [
+      "Agencia Estatal de Seguridad Ferroviaria",
+      "ADIF",
+      "RENFE",
+      "Ministerio de Defensa"
+    ],
+    "correcta": 0
+  },
+  {
+    "pregunta": "¿Qué material constituye normalmente el balasto ferroviario?",
+    "opciones": [
+      "Piedra triturada",
+      "Arena",
+      "Arcilla",
+      "Grava fina"
+    ],
+    "correcta": 0
+  },
+  {
+    "pregunta": "¿Qué elemento permite cambiar un tren de una vía a otra?",
+    "opciones": [
+      "Desvío",
+      "Traviesa",
+      "Balasto",
+      "Subbalasto"
+    ],
+    "correcta": 0
+  },
+  {
+    "pregunta": "¿Qué operación ferroviaria consiste en compactar el balasto bajo las traviesas?",
+    "opciones": [
+      "Bateo",
+      "Amolado",
+      "Soldadura",
+      "Fresado"
+    ],
+    "correcta": 0
+  },
+  {
+    "pregunta": "¿Qué máquina compacta el balasto tras el bateo para mejorar la estabilidad?",
+    "opciones": [
+      "Estabilizadora dinámica",
+      "Perfiladora",
+      "Bateadora",
+      "Amoladora"
+    ],
+    "correcta": 0
+  },
+  {
+    "pregunta": "¿Qué máquina ferroviaria realiza el levantamiento y alineación de la vía mediante vibración y compactación del balasto?",
+    "opciones": [
+      "Bateadora",
+      "Perfiladora",
+      "Desguarnecedora",
+      "Estabilizadora"
+    ],
+    "correcta": 0
+  },
+  {
+    "pregunta": "¿Qué elemento de la vía sirve como apoyo directo del carril?",
+    "opciones": [
+      "Traviesa",
+      "Balasto",
+      "Subbalasto",
+      "Terraplén"
+    ],
+    "correcta": 0
+  },
+  {
+    "pregunta": "¿Cuál es la principal función del balasto?",
+    "opciones": [
+      "Distribuir cargas y estabilizar la vía",
+      "Conducir electricidad",
+      "Aumentar la velocidad del tren",
+      "Reducir la longitud de la vía"
+    ],
+    "correcta": 0
+  },
+  {
+    "pregunta": "¿Qué operación ferroviaria se realiza para mejorar el contacto rueda-carril eliminando irregularidades?",
+    "opciones": [
+      "Amolado",
+      "Bateo",
+      "Perfilado",
+      "Desguarnecido"
+    ],
+    "correcta": 0
+  },
+  {
+    "pregunta": "¿Qué máquina ferroviaria se encarga de dar forma a la banqueta de balasto?",
+    "opciones": [
+      "Perfiladora",
+      "Bateadora",
+      "Desguarnecedora",
+      "Estabilizadora"
+    ],
+    "correcta": 0
+  },
+  {
+    "pregunta": "¿Qué máquina se utiliza para renovar el balasto deteriorado bajo la vía?",
+    "opciones": [
+      "Desguarnecedora",
+      "Bateadora",
+      "Perfiladora",
+      "Estabilizadora"
+    ],
+    "correcta": 0
+  },
+  {
+    "pregunta": "¿Qué componente del desvío permite dirigir el tren hacia una vía u otra?",
+    "opciones": [
+      "Agujas",
+      "Balasto",
+      "Subbalasto",
+      "Traviesas"
+    ],
+    "correcta": 0
+  },
+  {
+    "pregunta": "¿Qué ancho de vía corresponde al ancho ibérico utilizado en gran parte de la red convencional española?",
+    "opciones": [
+      "1668 mm",
+      "1435 mm",
+      "1000 mm",
+      "1520 mm"
+    ],
+    "correcta": 0
+  },
+  {
+    "pregunta": "¿Qué ancho de vía se utiliza en la red de alta velocidad española?",
+    "opciones": [
+      "1435 mm",
+      "1668 mm",
+      "1000 mm",
+      "1520 mm"
+    ],
+    "correcta": 0
+  },
+  {
+    "pregunta": "¿Qué componente de la vía fija el carril a la traviesa?",
+    "opciones": [
+      "Sistema de sujeción",
+      "Balasto",
+      "Subbalasto",
+      "Terraplén"
+    ],
+    "correcta": 0
+  },
+  {
+    "pregunta": "¿Qué elemento ferroviario transmite las cargas del carril al balasto?",
+    "opciones": [
+      "Traviesa",
+      "Carril",
+      "Catenaria",
+      "Talud"
+    ],
+    "correcta": 0
+  },
+  {
+    "pregunta": "¿Qué material se utiliza habitualmente en la fabricación de carriles?",
+    "opciones": [
+      "Acero",
+      "Aluminio",
+      "Hierro fundido",
+      "Cobre"
+    ],
+    "correcta": 0
+  },
+  {
+    "pregunta": "¿Qué organismo gestiona la infraestructura ferroviaria en España?",
+    "opciones": [
+      "ADIF",
+      "RENFE",
+      "AENA",
+      "CNMC"
+    ],
+    "correcta": 0
+  },
+  {
+    "pregunta": "¿Qué organismo es responsable de la seguridad ferroviaria en España?",
+    "opciones": [
+      "Agencia Estatal de Seguridad Ferroviaria",
+      "RENFE",
+      "ADIF",
+      "Ministerio de Defensa"
+    ],
+    "correcta": 0
+  },
+  {
+    "pregunta": "¿Qué ley regula la prevención de riesgos laborales en España?",
+    "opciones": [
+      "Ley 31/1995",
+      "Ley 53/1984",
+      "Ley 3/2007",
+      "Ley 40/2015"
+    ],
+    "correcta": 0
+  },
+  {
+    "pregunta": "¿Qué ley regula la igualdad efectiva entre mujeres y hombres?",
+    "opciones": [
+      "Ley Orgánica 3/2007",
+      "Ley 31/1995",
+      "Ley 53/1984",
+      "Ley 40/2015"
+    ],
+    "correcta": 0
+  },
+  {
+    "pregunta": "¿Qué ley regula las incompatibilidades del personal al servicio de las Administraciones Públicas?",
+    "opciones": [
+      "Ley 53/1984",
+      "Ley 31/1995",
+      "Ley 3/2007",
+      "Ley 39/2015"
+    ],
+    "correcta": 0
+  },
+  {
+    "pregunta": "¿Qué principio rige el acceso al empleo público según el EBEP?",
+    "opciones": [
+      "Igualdad, mérito y capacidad",
+      "Antigüedad y salario",
+      "Edad y experiencia",
+      "Jerarquía y antigüedad"
+    ],
+    "correcta": 0
+  },
+  {
+    "pregunta": "¿Qué material compone normalmente el balasto ferroviario?",
+    "opciones": [
+      "Piedra triturada",
+      "Arena",
+      "Arcilla",
+      "Hormigón"
+    ],
+    "correcta": 0
+  },
+  {
+    "pregunta": "¿Qué elemento de la infraestructura transmite las cargas al terreno natural?",
+    "opciones": [
+      "Subrasante",
+      "Carril",
+      "Traviesa",
+      "Balasto"
+    ],
+    "correcta": 0
+  },
+  {
+    "pregunta": "¿Qué máquina ferroviaria se utiliza principalmente para corregir la geometría de la vía compactando el balasto bajo las traviesas?",
+    "opciones": [
+      "Bateadora",
+      "Perfiladora",
+      "Desguarnecedora",
+      "Estabilizadora"
+    ],
+    "correcta": 0
+  },
+  {
+    "pregunta": "¿Qué máquina ferroviaria redistribuye el balasto formando correctamente la banqueta tras los trabajos de mantenimiento?",
+    "opciones": [
+      "Perfiladora",
+      "Bateadora",
+      "Desguarnecedora",
+      "Estabilizadora"
+    ],
+    "correcta": 0
+  },
+  {
+    "pregunta": "¿Qué máquina ferroviaria se utiliza para consolidar la vía mediante vibración tras el bateo?",
+    "opciones": [
+      "Estabilizadora dinámica",
+      "Perfiladora",
+      "Desguarnecedora",
+      "Bateadora"
+    ],
+    "correcta": 0
+  },
+  {
+    "pregunta": "¿Qué máquina ferroviaria se emplea para renovar el balasto deteriorado bajo la vía?",
+    "opciones": [
+      "Desguarnecedora",
+      "Perfiladora",
+      "Bateadora",
+      "Estabilizadora"
+    ],
+    "correcta": 0
+  },
+  {
+    "pregunta": "¿Qué máquina ferroviaria se utiliza para rectificar la superficie del carril eliminando irregularidades?",
+    "opciones": [
+      "Tren de amolado",
+      "Bateadora",
+      "Perfiladora",
+      "Desguarnecedora"
+    ],
+    "correcta": 0
+  },
+  {
+    "pregunta": "¿Qué elemento de la vía transmite las cargas del carril al balasto?",
+    "opciones": [
+      "Traviesa",
+      "Catenaria",
+      "Subbalasto",
+      "Terraplén"
+    ],
+    "correcta": 0
+  },
+  {
+    "pregunta": "¿Qué función principal tiene el balasto en la vía ferroviaria?",
+    "opciones": [
+      "Distribuir cargas y estabilizar la vía",
+      "Conducir electricidad",
+      "Reducir la velocidad del tren",
+      "Guiar las ruedas"
+    ],
+    "correcta": 0
+  },
+  {
+    "pregunta": "¿Qué material constituye normalmente el balasto ferroviario?",
+    "opciones": [
+      "Piedra triturada",
+      "Arena",
+      "Arcilla",
+      "Hormigón"
+    ],
+    "correcta": 0
+  },
+  {
+    "pregunta": "¿Qué elemento mantiene la separación correcta entre carriles?",
+    "opciones": [
+      "Traviesa",
+      "Balasto",
+      "Catenaria",
+      "Talud"
+    ],
+    "correcta": 0
+  },
+  {
+    "pregunta": "¿Qué componente fija el carril a la traviesa?",
+    "opciones": [
+      "Sistema de sujeción",
+      "Balasto",
+      "Subbalasto",
+      "Terraplén"
+    ],
+    "correcta": 0
+  },
+  {
+    "pregunta": "¿Qué proceso se utiliza habitualmente para unir carriles en vía?",
+    "opciones": [
+      "Soldadura aluminotérmica",
+      "Soldadura mecánica",
+      "Soldadura por arco manual",
+      "Soldadura plástica"
+    ],
+    "correcta": 0
+  },
+  {
+    "pregunta": "¿Qué operación ferroviaria se realiza para mejorar el contacto rueda-carril?",
+    "opciones": [
+      "Amolado",
+      "Bateo",
+      "Soldadura",
+      "Perfilado"
+    ],
+    "correcta": 0
+  },
+  {
+    "pregunta": "¿Qué elemento del desvío dirige las ruedas hacia una vía u otra?",
+    "opciones": [
+      "Agujas",
+      "Traviesas",
+      "Balasto",
+      "Subbalasto"
+    ],
+    "correcta": 0
+  },
+  {
+    "pregunta": "¿Qué ancho de vía corresponde al ancho ibérico tradicional?",
+    "opciones": [
+      "1668 mm",
+      "1435 mm",
+      "1000 mm",
+      "1520 mm"
+    ],
+    "correcta": 0
+  },
+  {
+    "pregunta": "¿Qué ancho de vía corresponde al estándar europeo utilizado en alta velocidad?",
+    "opciones": [
+      "1435 mm",
+      "1668 mm",
+      "1000 mm",
+      "1520 mm"
+    ],
+    "correcta": 0
+  },
+  {
+    "pregunta": "¿Qué organismo gestiona la infraestructura ferroviaria española?",
+    "opciones": [
+      "ADIF",
+      "RENFE",
+      "AENA",
+      "CNMC"
+    ],
+    "correcta": 0
+  },
+  {
+    "pregunta": "¿Qué organismo supervisa la seguridad ferroviaria en España?",
+    "opciones": [
+      "Agencia Estatal de Seguridad Ferroviaria",
+      "ADIF",
+      "RENFE",
+      "Ministerio del Interior"
+    ],
+    "correcta": 0
+  },
+  {
+    "pregunta": "¿Qué ley regula la prevención de riesgos laborales?",
+    "opciones": [
+      "Ley 31/1995",
+      "Ley 53/1984",
+      "Ley 3/2007",
+      "Ley 40/2015"
+    ],
+    "correcta": 0
+  },
+  {
+    "pregunta": "¿Qué ley regula la igualdad efectiva entre mujeres y hombres?",
+    "opciones": [
+      "Ley Orgánica 3/2007",
+      "Ley 31/1995",
+      "Ley 53/1984",
+      "Ley 39/2015"
+    ],
+    "correcta": 0
+  },
+  {
+    "pregunta": "¿Qué ley regula las incompatibilidades del personal al servicio de las Administraciones Públicas?",
+    "opciones": [
+      "Ley 53/1984",
+      "Ley 31/1995",
+      "Ley 3/2007",
+      "Ley 39/2015"
+    ],
+    "correcta": 0
+  },
+  {
+    "pregunta": "¿Qué elemento de la vía tiene como función principal mantener el ancho entre carriles y transmitir cargas al balasto?",
+    "opciones": [
+      "Traviesa",
+      "Carril",
+      "Subbalasto",
+      "Terraplén"
+    ],
+    "correcta": 0
+  },
+  {
+    "pregunta": "¿Qué máquina ferroviaria realiza simultáneamente el levantamiento y alineación de la vía mediante compactación del balasto?",
+    "opciones": [
+      "Bateadora",
+      "Perfiladora",
+      "Estabilizadora",
+      "Desguarnecedora"
+    ],
+    "correcta": 0
+  },
+  {
+    "pregunta": "¿Cuál es la función principal de la estabilizadora dinámica de vía?",
+    "opciones": [
+      "Consolidar la vía tras el bateo",
+      "Redistribuir el balasto",
+      "Sustituir traviesas",
+      "Amolar carriles"
+    ],
+    "correcta": 0
+  },
+  {
+    "pregunta": "¿Qué operación ferroviaria consiste en eliminar irregularidades superficiales del carril mediante abrasión?",
+    "opciones": [
+      "Amolado",
+      "Bateo",
+      "Soldadura",
+      "Perfilado"
+    ],
+    "correcta": 0
+  },
+  {
+    "pregunta": "¿Qué máquina se utiliza para dar forma a la banqueta de balasto después del mantenimiento?",
+    "opciones": [
+      "Perfiladora",
+      "Bateadora",
+      "Estabilizadora",
+      "Desguarnecedora"
+    ],
+    "correcta": 0
+  },
+  {
+    "pregunta": "¿Qué máquina ferroviaria se utiliza para sustituir el balasto contaminado bajo la vía?",
+    "opciones": [
+      "Desguarnecedora",
+      "Perfiladora",
+      "Bateadora",
+      "Amoladora"
+    ],
+    "correcta": 0
+  },
+  {
+    "pregunta": "¿Qué componente del sistema de sujeción mantiene el carril fijado a la traviesa?",
+    "opciones": [
+      "Clip elástico",
+      "Balasto",
+      "Subbalasto",
+      "Talud"
+    ],
+    "correcta": 0
+  },
+  {
+    "pregunta": "¿Qué material constituye normalmente el carril ferroviario?",
+    "opciones": [
+      "Acero laminado",
+      "Hierro fundido",
+      "Aluminio",
+      "Cobre"
+    ],
+    "correcta": 0
+  },
+  {
+    "pregunta": "¿Qué elemento permite cambiar la trayectoria de un tren entre dos vías?",
+    "opciones": [
+      "Desvío",
+      "Traviesa",
+      "Balasto",
+      "Subbalasto"
+    ],
+    "correcta": 0
+  },
+  {
+    "pregunta": "¿Qué componente del desvío guía las ruedas hacia la vía seleccionada?",
+    "opciones": [
+      "Agujas",
+      "Carriles",
+      "Traviesas",
+      "Balasto"
+    ],
+    "correcta": 0
+  },
+
+  {
+    "pregunta": "¿Qué ancho corresponde al ancho ibérico utilizado en la red convencional española?",
+    "opciones": [
+      "1668 mm",
+      "1435 mm",
+      "1000 mm",
+      "1520 mm"
+    ],
+    "correcta": 0
+  },
+  {
+    "pregunta": "¿Qué ancho corresponde al estándar internacional de vía?",
+    "opciones": [
+      "1435 mm",
+      "1668 mm",
+      "1000 mm",
+      "1520 mm"
+    ],
+    "correcta": 0
+  },
+
+  {
+    "pregunta": "¿Qué material constituye habitualmente el balasto ferroviario?",
+    "opciones": [
+      "Piedra triturada",
+      "Arena",
+      "Arcilla",
+      "Hormigón"
+    ],
+    "correcta": 0
+  },
+  {
+    "pregunta": "¿Qué función tiene el subbalasto en la estructura de la vía?",
+    "opciones": [
+      "Mejorar drenaje y reparto de cargas",
+      "Conducir electricidad",
+      "Guiar las ruedas",
+      "Reducir la longitud de la vía"
+    ],
+    "correcta": 0
+  },
+  {
+    "pregunta": "¿Qué elemento transmite las cargas al terreno natural?",
+    "opciones": [
+      "Subrasante",
+      "Carril",
+      "Traviesa",
+      "Balasto"
+    ],
+    "correcta": 0
+  },
+
+  {
+    "pregunta": "¿Qué organismo público gestiona la infraestructura ferroviaria en España?",
+    "opciones": [
+      "ADIF",
+      "RENFE",
+      "AENA",
+      "CNMC"
+    ],
+    "correcta": 0
+  },
+  {
+    "pregunta": "¿Qué organismo supervisa la seguridad ferroviaria en España?",
+    "opciones": [
+      "Agencia Estatal de Seguridad Ferroviaria",
+      "ADIF",
+      "RENFE",
+      "Ministerio de Defensa"
+    ],
+    "correcta": 0
+  },
+
+  {
+    "pregunta": "¿Qué ley establece la prevención de riesgos laborales en España?",
+    "opciones": [
+      "Ley 31/1995",
+      "Ley 53/1984",
+      "Ley 3/2007",
+      "Ley 40/2015"
+    ],
+    "correcta": 0
+  },
+  {
+    "pregunta": "¿Qué ley regula la igualdad efectiva entre mujeres y hombres?",
+    "opciones": [
+      "Ley Orgánica 3/2007",
+      "Ley 31/1995",
+      "Ley 53/1984",
+      "Ley 39/2015"
+    ],
+    "correcta": 0
+  },
+  {
+    "pregunta": "¿Qué ley regula las incompatibilidades del personal de las Administraciones Públicas?",
+    "opciones": [
+      "Ley 53/1984",
+      "Ley 31/1995",
+      "Ley 3/2007",
+      "Ley 39/2015"
+    ],
+    "correcta": 0
+  },
+
+  {
+    "pregunta": "¿Qué principio rige el acceso al empleo público según el EBEP?",
+    "opciones": [
+      "Igualdad, mérito y capacidad",
+      "Antigüedad y jerarquía",
+      "Edad y experiencia",
+      "Jerarquía y salario"
+    ],
+    "correcta": 0
+  },
+
+  {
+    "pregunta": "¿Qué operación ferroviaria se realiza para corregir defectos de alineación y nivelación?",
+    "opciones": [
+      "Bateo",
+      "Amolado",
+      "Soldadura",
+      "Fresado"
+    ],
+    "correcta": 0
+  },
+  {
+    "pregunta": "¿Qué máquina redistribuye el balasto después del mantenimiento de la vía?",
+    "opciones": [
+      "Perfiladora",
+      "Bateadora",
+      "Estabilizadora",
+      "Desguarnecedora"
+    ],
+    "correcta": 0
   }
 ]
