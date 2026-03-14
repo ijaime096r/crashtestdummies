@@ -4,84 +4,27 @@
 <head>
 
 <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<title>Crash Test Dummies</title>
+<title>Login</title>
 
-<link rel="stylesheet" href="styles.css">
+<link rel="stylesheet" href="style.css">
 
 </head>
 
-
 <body>
 
-<h1>Crash Test Dummies</h1>
+<h1>Acceso al test</h1>
 
+<input id="email" placeholder="Email">
 
-<div id="menu">
+<input id="password" type="password" placeholder="Contraseña">
 
-<button onclick="modoEntrenamiento()">Entrenamiento</button>
+<button onclick="login()">Entrar</button>
 
-<button onclick="modoFalladas()">Falladas</button>
+<p id="error"></p>
 
-<button onclick="modoRepasoInteligente()">Repaso inteligente</button>
-
-<button onclick="mostrarConfigExamen()">Examen</button>
-
-</div>
-
-
-<div id="configExamen" style="display:none">
-
-<p>Duración del examen (minutos)</p>
-
-<input id="tiempoExamen" type="number" value="30">
-
-<button onclick="iniciarExamen()">Comenzar examen</button>
-
-</div>
-
-
-<div id="estadisticas">
-
-<p id="stats"></p>
-
-</div>
-
-
-<div id="timer"></div>
-
-
-<div id="info"></div>
-
-
-<div id="pregunta"></div>
-
-
-<div id="opciones"></div>
-
-
-<div id="controles">
-
-<button onclick="siguiente()">Siguiente</button>
-
-<button onclick="finalizarExamen()">Finalizar test</button>
-
-</div>
-
-
-<div id="navegacion"></div>
-
-
-<script src="stats.js"></script>
-
-<script src="test.js"></script>
-
-<script>
-
-cargarPreguntas()
-
-</script>
-
+<script type="module" src="login.js"></script>
 
 </body>
 
