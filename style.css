@@ -2,39 +2,52 @@ body {
 
 font-family: Arial, sans-serif;
 background-color: #f2f2f2;
-padding: 30px;
+
+display: flex;
+justify-content: center;
+
+}
+
+#contenedor {
+
+width: 500px;
 
 }
 
 h1 {
 
-margin-bottom: 10px;
+text-align: center;
 
 }
 
 #pregunta {
 
-font-size: 20px;
 margin: 20px 0;
+font-size: 20px;
 
 }
 
 button {
 
-display: block;
-margin: 8px 0;
-padding: 10px;
+width: 100%;
+
+padding: 12px;
+
+margin: 6px 0;
 
 font-size: 16px;
+
+border: 1px solid #999;
+
+background-color: #e6e6e6;
 
 cursor: pointer;
 
 }
 
-button:disabled {
+button:hover:not(:disabled) {
 
-opacity: 0.8;
-cursor: default;
+background-color: #dcdcdc;
 
 }
 
@@ -47,11 +60,5 @@ background-color: #8fd694;
 .incorrecta {
 
 background-color: #f28b82;
-
-}
-
-button:hover:not(:disabled) {
-
-background-color: #e8e8e8;
 
 }
