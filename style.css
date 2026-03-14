@@ -65,3 +65,28 @@ background-color: #8fd694;
 background-color: #f28b82;
 
 }
+
+#siguiente {
+
+margin-top: 20px;
+
+background-color: #4a6fa5;
+color: white;
+
+font-weight: bold;
+
+border: none;
+
+}
+
+#siguiente:hover {
+
+background-color: #3c5a85;
+
+}
+
+#siguiente {
+
+margin-top: 30px;
+
+}
