@@ -1,6 +1,6 @@
 [
   {
-    "pregunta": "Si el 6 % del precio de un mueble se debe a los impuestos, ¿cuál sería el coste de los impuestos para un mueble que cuesta 2.800 €? [1]",
+    "pregunta": "Si el 6 % del precio de un mueble se debe a los impuestos, ¿cuál sería el coste de los impuestos para un mueble que cuesta 2.800 €?",
     "opciones": [
       "192 €",
       "158 €",
@@ -10,7 +10,7 @@
     "correcta": 2
   },
   {
-    "pregunta": "En la cultura del antiguo Egipto existían diversas ______ que actualmente se considerarían ______. Uno de estos casos sería el de ______ a sus faraones y sellarlos en pirámides junto a sus ______. [1]",
+    "pregunta": "En la cultura del antiguo Egipto existían diversas ______ que actualmente se considerarían ______. Uno de estos casos sería el de ______ a sus faraones y sellarlos en pirámides junto a sus ______.",
     "opciones": [
       "costumbres / arcaicas / momificar / pertenencias",
       "cultos / difíciles / mantener / alcaldes",
@@ -20,7 +20,7 @@
     "correcta": 0
   },
   {
-    "pregunta": "Según la Ley Orgánica 3/2007, ¿qué se considera discriminación indirecta por razón de sexo? [2]",
+    "pregunta": "Según la Ley Orgánica 3/2007, ¿qué se considera discriminación indirecta por razón de sexo?",
     "opciones": [
       "Situación en que se encuentra una persona tratada de manera menos favorable por su sexo",
       "Comportamiento verbal o físico de naturaleza sexual",
@@ -30,7 +30,7 @@
     "correcta": 2
   },
   {
-    "pregunta": "En la ejecución de soldaduras aluminotérmicas (NAV 3-3-2.1), ¿con qué herramienta se realizarán siempre los cortes de los carriles en vía? [3]",
+    "pregunta": "En la ejecución de soldaduras aluminotérmicas (NAV 3-3-2.1), ¿con qué herramienta se realizarán siempre los cortes de los carriles en vía?",
     "opciones": [
       "Soplete oxiacetilénico",
       "Sierra mecánica",
@@ -40,7 +40,7 @@
     "correcta": 2
   },
   {
-    "pregunta": "De acuerdo con la NAV 7-1-6.0, ¿cuál es la velocidad mínima que debe poder alcanzar una desguarnecedora en modo circulación autopropulsado? [4]",
+    "pregunta": "De acuerdo con la NAV 7-1-6.0, ¿cuál es la velocidad mínima que debe poder alcanzar una desguarnecedora en modo circulación autopropulsado?",
     "opciones": [
       "50 km/h",
       "60 km/h",
@@ -50,7 +50,7 @@
     "correcta": 0
   },
   {
-    "pregunta": "Según el RCF, ¿qué es un Puesto de Bloqueo (PB)? [5]",
+    "pregunta": "Según el RCF, ¿qué es un Puesto de Bloqueo (PB)?",
     "opciones": [
       "Instalación de carácter técnico que permite la banalización de la circulación",
       "Sector de vías, agujas y señales de una estación",
@@ -60,7 +60,7 @@
     "correcta": 2
   },
   {
-    "pregunta": "Según la Ley Orgánica 3/2007, ¿qué porcentaje no debe superarse, ni ser inferior, para entender que hay una composición equilibrada de mujeres y hombres? [6]",
+    "pregunta": "Según la Ley Orgánica 3/2007, ¿qué porcentaje no debe superarse, ni ser inferior, para entender que hay una composición equilibrada de mujeres y hombres?",
     "opciones": [
       "Máximo 50% y mínimo 50%",
       "Máximo 60% y mínimo 40%",
@@ -70,7 +70,7 @@
     "correcta": 1
   },
   {
-    "pregunta": "De acuerdo con el RCF, ¿cuál es la definición de 'Vagones'? [7]",
+    "pregunta": "De acuerdo con el RCF, ¿cuál es la definición de 'Vagones'?",
     "opciones": [
       "Vehículos ferroviarios autopropulsados para mantenimiento",
       "Vehículos ferroviarios sin tracción propia habilitados para el transporte de mercancías",
@@ -80,7 +80,7 @@
     "correcta": 1
   },
   {
-    "pregunta": "En la normativa NAV 7-1-0.7, sobre vía sin balasto, ¿cuándo se utilizarán bloques técnicos? [8]",
+    "pregunta": "En la normativa NAV 7-1-0.7, sobre vía sin balasto, ¿cuándo se utilizarán bloques técnicos?",
     "opciones": [
       "En estaciones de clasificación de mercancías exclusivamente",
       "En zonas críticas de transición entre obra de tierra y estructuras, donde hay riesgo de asientos de la plataforma",
@@ -90,7 +90,7 @@
     "correcta": 1
   },
   {
-    "pregunta": "Según la norma NAV 3-3-2.1 de soldadura, ¿cómo y cuándo se retira la cubeta de recogida de corindón (escoria)? [9]",
+    "pregunta": "Según la norma NAV 3-3-2.1 de soldadura, ¿cómo y cuándo se retira la cubeta de recogida de corindón (escoria)?",
     "opciones": [
       "Una vez iniciada la solidificación del acero y cuando la escoria recogida está totalmente en estado sólido",
       "Inmediatamente tras finalizar la colada, en estado líquido",
@@ -100,7 +100,7 @@
     "correcta": 0
   },
   {
-    "pregunta": "Según el cuadernillo de examen para el perfil Programador, de acuerdo con el Glosario de términos de ciberseguridad (INCIBE), ¿qué es el 'phishing'? [10]",
+    "pregunta": "Según el cuadernillo de examen para el perfil Programador, de acuerdo con el Glosario de términos de ciberseguridad (INCIBE), ¿qué es el 'phishing'?",
     "opciones": [
       "Técnica para aumentar velocidad de red",
       "Método de cifrado asimétrico",
@@ -110,7 +110,7 @@
     "correcta": 2
   },
   {
-    "pregunta": "Según el cuadernillo de examen para Delineante, en el uso del software AutoCAD, ¿qué es una plantilla de dibujo (archivo .DWT)? [11]",
+    "pregunta": "Según el cuadernillo de examen para Delineante, en el uso del software AutoCAD, ¿qué es una plantilla de dibujo (archivo .DWT)?",
     "opciones": [
       "Un archivo de imagen para fondos",
       "Un archivo de configuración de impresión",
@@ -120,7 +120,7 @@
     "correcta": 3
   },
   {
-    "pregunta": "En el RCF, ¿qué significa la marcha 'A la vista'? [12]",
+    "pregunta": "En el RCF, ¿qué significa la marcha 'A la vista'?",
     "opciones": [
       "Avanzar regulando la velocidad de acuerdo con la longitud de vía que se visualiza por delante, para poder detener el tren ante cualquier obstáculo",
       "Circular sin exceder los 30 km/h y bajo responsabilidad del centro de control",
@@ -130,7 +130,7 @@
     "correcta": 0
   },
   {
-    "pregunta": "De acuerdo con el RCF, ¿cuál de los siguientes sistemas es un 'Sistema de repetición de señales en cabina con ciertas funciones de control sobre el tren'? [13]",
+    "pregunta": "De acuerdo con el RCF, ¿cuál de los siguientes sistemas es un 'Sistema de repetición de señales en cabina con ciertas funciones de control sobre el tren'?",
     "opciones": [
       "ATP",
       "ASFA",
@@ -140,7 +140,7 @@
     "correcta": 1
   },
   {
-    "pregunta": "Según la Ley Orgánica 3/2007, todo trato desfavorable a las mujeres relacionado con el embarazo o la maternidad constituye: [14]",
+    "pregunta": "Según la Ley Orgánica 3/2007, todo trato desfavorable a las mujeres relacionado con el embarazo o la maternidad constituye:",
     "opciones": [
       "Acoso por razón de sexo",
       "Discriminación indirecta",
@@ -150,7 +150,7 @@
     "correcta": 2
   },
   {
-    "pregunta": "Según la normativa NAV 7-1-6.0, ¿qué son los 'Estabilizadores'? [15]",
+    "pregunta": "Según la normativa NAV 7-1-6.0, ¿qué son los 'Estabilizadores'?",
     "opciones": [
       "Máquinas que perfilan el balasto y limpian las traviesas",
       "Máquinas que reponen el balasto bajo el emparrillado",
@@ -160,7 +160,7 @@
     "correcta": 2
   },
   {
-    "pregunta": "Según la normativa de soldadura NAV 3-3-2.1, ¿cuál es el tiempo aproximado considerado a efectos de petición de intervalos de trabajo para la ejecución y enfriamiento de la soldadura? [16]",
+    "pregunta": "Según la normativa de soldadura NAV 3-3-2.1, ¿cuál es el tiempo aproximado considerado a efectos de petición de intervalos de trabajo para la ejecución y enfriamiento de la soldadura?",
     "opciones": [
       "30 minutos",
       "1 hora y 20 minutos",
@@ -170,7 +170,7 @@
     "correcta": 1
   },
   {
-    "pregunta": "De acuerdo con la norma de vía sin balasto (NAV 7-1-0.7), si se utiliza un sistema pre-hormigonado de apoyo continuo, el emparrillado de vía se montará con pórticos de nivelación cada: [17]",
+    "pregunta": "De acuerdo con la norma de vía sin balasto (NAV 7-1-0.7), si se utiliza un sistema pre-hormigonado de apoyo continuo, el emparrillado de vía se montará con pórticos de nivelación cada:",
     "opciones": [
       "1,80 metros",
       "5,00 metros",
@@ -180,7 +180,7 @@
     "correcta": 0
   },
   {
-    "pregunta": "Según la Ley Orgánica 3/2007, ¿cuándo es obligatorio elaborar un plan de igualdad en una empresa? (Redacción original de la Ley aplicable al temario) [18]",
+    "pregunta": "Según la Ley Orgánica 3/2007, ¿cuándo es obligatorio elaborar un plan de igualdad en una empresa? (Redacción original de la Ley aplicable al temario)",
     "opciones": [
       "Sólo en empresas de titularidad pública",
       "Siempre, para cualquier empresa independientemente de su tamaño",
@@ -190,7 +190,7 @@
     "correcta": 2
   },
   {
-    "pregunta": "Según el cuadernillo de examen para el perfil Factor de Entrada, en una estación de alta velocidad, ¿cómo se llama el área acotada en el vestíbulo donde se controlan los equipajes? [19]",
+    "pregunta": "Según el cuadernillo de examen para el perfil Factor de Entrada, en una estación de alta velocidad, ¿cómo se llama el área acotada en el vestíbulo donde se controlan los equipajes?",
     "opciones": [
       "De tránsito interior",
       "De intermodalidad",
@@ -200,7 +200,7 @@
     "correcta": 3
   },
   {
-    "pregunta": "En el RCF, ¿qué se entiende por 'Material Rodante Auxiliar'? [20]",
+    "pregunta": "En el RCF, ¿qué se entiende por 'Material Rodante Auxiliar'?",
     "opciones": [
       "Trenes destinados exclusivamente al transporte de mercancías peligrosas",
       "Maquinaria de vía y resto de vehículos utilizados en servicios del mantenimiento de la infraestructura, incluyendo grúas y trenes taller",
@@ -210,7 +210,7 @@
     "correcta": 1
   },
   {
-    "pregunta": "En la soldadura aluminotérmica (NAV 3-3-2.1), antes de utilizar la carga aluminotérmica, se debe: [21]",
+    "pregunta": "En la soldadura aluminotérmica (NAV 3-3-2.1), antes de utilizar la carga aluminotérmica, se debe:",
     "opciones": [
       "Mezclarla con arena húmeda para evitar igniciones espontáneas",
       "Calentarla con un soplete",
@@ -220,7 +220,7 @@
     "correcta": 2
   },
   {
-    "pregunta": "Según la Ley Orgánica 3/2007, ¿qué son las 'Unidades de Igualdad'? [22]",
+    "pregunta": "Según la Ley Orgánica 3/2007, ¿qué son las 'Unidades de Igualdad'?",
     "opciones": [
       "Organismos obligatorios en los comités de empresa de empresas de más de 50 trabajadores",
       "Unidades en cada Ministerio responsables de garantizar el derecho a la igualdad entre mujeres y hombres (relacionado con el Art. 77)",
@@ -230,7 +230,7 @@
     "correcta": 1
   },
   {
-    "pregunta": "Según la NAV 7-1-6.0, ¿cuál es la velocidad mínima que debe poder alcanzar una perfiladora en modo circulación autopropulsado? [4]",
+    "pregunta": "Según la NAV 7-1-6.0, ¿cuál es la velocidad mínima que debe poder alcanzar una perfiladora en modo circulación autopropulsado?",
     "opciones": [
       "50 km/h",
       "60 km/h",
@@ -240,7 +240,7 @@
     "correcta": 1
   },
   {
-    "pregunta": "De acuerdo al cuadernillo de examen de Ayudante Ferroviario, ¿cuáles son las tres partes básicas de una retroexcavadora? [23]",
+    "pregunta": "De acuerdo al cuadernillo de examen de Ayudante Ferroviario, ¿cuáles son las tres partes básicas de una retroexcavadora?",
     "opciones": [
       "Cazo, bivalva y pluma",
       "Tolva, brazo y eje",
@@ -250,7 +250,7 @@
     "correcta": 2
   },
   {
-    "pregunta": "De acuerdo al cuadernillo de examen de Ayudante Ferroviario, ¿qué es un 'bulldozer'? [24]",
+    "pregunta": "De acuerdo al cuadernillo de examen de Ayudante Ferroviario, ¿qué es un 'bulldozer'?",
     "opciones": [
       "Una motoniveladora pequeña",
       "Un tipo de excavadora bivalva",
@@ -260,7 +260,7 @@
     "correcta": 2
   },
   {
-    "pregunta": "De acuerdo con el RCF, ¿cuál es el significado de BCA? [13]",
+    "pregunta": "De acuerdo con el RCF, ¿cuál es el significado de BCA?",
     "opciones": [
       "Bloqueo de Control Automático",
       "Bloqueo Continuo Auxiliar",
@@ -270,7 +270,7 @@
     "correcta": 0
   },
   {
-    "pregunta": "Según la NAV 3-3-2.1, para realizar el precalentamiento con 'aire forzado', ¿qué mezcla de gases se debe utilizar? [25]",
+    "pregunta": "Según la NAV 3-3-2.1, para realizar el precalentamiento con 'aire forzado', ¿qué mezcla de gases se debe utilizar?",
     "opciones": [
       "Aire inducido y propano",
       "Oxígeno y propano",
@@ -280,7 +280,7 @@
     "correcta": 1
   },
   {
-    "pregunta": "En la NAV 7-1-0.7 sobre diseño de vía sin balasto, para asegurar el aislamiento eléctrico carril-tierra y carril-carril, los requisitos se expresan en términos de: [26]",
+    "pregunta": "En la NAV 7-1-0.7 sobre diseño de vía sin balasto, para asegurar el aislamiento eléctrico carril-tierra y carril-carril, los requisitos se expresan en términos de:",
     "opciones": [
       "Resistencia a compresión en megapascales (MPa)",
       "Capacidad en microfaradios (µF)",
@@ -290,7 +290,7 @@
     "correcta": 3
   },
   {
-    "pregunta": "Según el cuadernillo de examen para Oficial de Telecomunicaciones, ¿en qué caso quedará invalidada la orden de marcha de un tren con BLA si se rebasó la señal de salida? [27]",
+    "pregunta": "Según el cuadernillo de examen para Oficial de Telecomunicaciones, ¿en qué caso quedará invalidada la orden de marcha de un tren con BLA si se rebasó la señal de salida?",
     "opciones": [
       "Tren que quede detenido en un apeadero",
       "Tren directo que quede detenido en una estación",
@@ -299,9 +299,8 @@
     ],
     "correcta": 1
   },
-
   {
-    "pregunta": "En una serie lógica de figuras psicotécnicas donde un elemento (como un banderín anclado a un rectángulo) rota 90 grados en sentido horario en cada paso (estando primero a la izquierda, luego arriba, luego a la derecha...), ¿cuál sería la posición correcta esperada en el cuarto paso? [1]",
+    "pregunta": "En una serie lógica de figuras psicotécnicas donde un elemento (como un banderín anclado a un rectángulo) rota 90 grados en sentido horario en cada paso (estando primero a la izquierda, luego arriba, luego a la derecha...), ¿cuál sería la posición correcta esperada en el cuarto paso?",
     "opciones": [
       "En la parte inferior, apuntando hacia abajo",
       "En la parte superior, apuntando hacia arriba",
@@ -311,7 +310,7 @@
     "correcta": 0
   },
   {
-    "pregunta": "Según la Ley Orgánica 3/2007, los actos y las cláusulas de los negocios jurídicos que constituyan o causen discriminación por razón de sexo darán lugar a responsabilidad y se considerarán: [2]",
+    "pregunta": "Según la Ley Orgánica 3/2007, los actos y las cláusulas de los negocios jurídicos que constituyan o causen discriminación por razón de sexo darán lugar a responsabilidad y se considerarán:",
     "opciones": [
       "Anulables a petición de parte",
       "Válidos pero con sanción económica",
@@ -321,7 +320,7 @@
     "correcta": 2
   },
   {
-    "pregunta": "De acuerdo con el artículo 8 de la Ley Orgánica 3/2007, ¿qué constituye todo trato desfavorable a las mujeres relacionado con el embarazo o la maternidad? [3]",
+    "pregunta": "De acuerdo con el artículo 8 de la Ley Orgánica 3/2007, ¿qué constituye todo trato desfavorable a las mujeres relacionado con el embarazo o la maternidad?",
     "opciones": [
       "Acoso laboral de segundo grado",
       "Discriminación indirecta",
@@ -331,7 +330,7 @@
     "correcta": 2
   },
   {
-    "pregunta": "Según la Ley Orgánica 3/2007, ¿cómo se considera el trato adverso o efecto negativo a una persona como consecuencia de haber presentado una queja para impedir su discriminación? [3]",
+    "pregunta": "Según la Ley Orgánica 3/2007, ¿cómo se considera el trato adverso o efecto negativo a una persona como consecuencia de haber presentado una queja para impedir su discriminación?",
     "opciones": [
       "Discriminación por razón de sexo (Indemnidad frente a represalias)",
       "Despido procedente",
@@ -341,7 +340,7 @@
     "correcta": 0
   },
   {
-    "pregunta": "Según el RCF, ¿cómo se denomina al punto de una línea donde comienza otra o confluyen varias, disponiendo de señales de entrada a efectos de gestión y regulación del tráfico? [4]",
+    "pregunta": "Según el RCF, ¿cómo se denomina al punto de una línea donde comienza otra o confluyen varias, disponiendo de señales de entrada a efectos de gestión y regulación del tráfico?",
     "opciones": [
       "Cantonamiento",
       "Puesto de Bloqueo",
@@ -351,7 +350,7 @@
     "correcta": 2
   },
   {
-    "pregunta": "Según el RCF, una infraestructura ferroviaria ajena a la RFIG, pero conectada con esta, se denomina: [5]",
+    "pregunta": "Según el RCF, una infraestructura ferroviaria ajena a la RFIG, pero conectada con esta, se denomina:",
     "opciones": [
       "Vía de mango",
       "Derivación particular",
@@ -361,7 +360,7 @@
     "correcta": 1
   },
   {
-    "pregunta": "Según el RCF, ¿qué significan las siglas LTV? [6]",
+    "pregunta": "Según el RCF, ¿qué significan las siglas LTV?",
     "opciones": [
       "Límite de Tránsito de Vagones",
       "Línea de Tracción Variable",
@@ -371,7 +370,7 @@
     "correcta": 2
   },
   {
-    "pregunta": "En el RCF, ¿a qué corresponden las siglas MRA? [7]",
+    "pregunta": "En el RCF, ¿a qué corresponden las siglas MRA?",
     "opciones": [
       "Material Rodante Auxiliar",
       "Mando de Red de Alta velocidad",
@@ -381,7 +380,7 @@
     "correcta": 0
   },
   {
-    "pregunta": "En el proceso de soldeo aluminotérmico (NAV 3-3-2.1), como norma general, ¿qué procedimiento de cala NO se admitirá salvo casos excepcionales y con visto bueno de la Dirección Técnica? [8]",
+    "pregunta": "En el proceso de soldeo aluminotérmico (NAV 3-3-2.1), como norma general, ¿qué procedimiento de cala NO se admitirá salvo casos excepcionales y con visto bueno de la Dirección Técnica?",
     "opciones": [
       "Cala estrecha",
       "Cala media",
@@ -391,7 +390,7 @@
     "correcta": 2
   },
   {
-    "pregunta": "Según la norma NAV 3-3-2.1, el equipo básico para efectuar el proceso de soldeo aluminotérmico debe estar constituido por un mínimo de: [9]",
+    "pregunta": "Según la norma NAV 3-3-2.1, el equipo básico para efectuar el proceso de soldeo aluminotérmico debe estar constituido por un mínimo de:",
     "opciones": [
       "Un soldador y dos vigilantes de obra",
       "Dos operarios (el soldador habilitado y su ayudante habitual)",
@@ -401,7 +400,7 @@
     "correcta": 1
   },
   {
-    "pregunta": "De acuerdo con la NAV 3-3-2.1, ¿cuál es el intervalo de temperatura ambiente recomendado para la ejecución de las soldaduras aluminotérmicas? [10]",
+    "pregunta": "De acuerdo con la NAV 3-3-2.1, ¿cuál es el intervalo de temperatura ambiente recomendado para la ejecución de las soldaduras aluminotérmicas?",
     "opciones": [
       "Entre 0ºC y +15ºC",
       "Entre +10ºC y +40ºC",
@@ -411,7 +410,7 @@
     "correcta": 2
   },
   {
-    "pregunta": "Según la NAV 7-1-0.7, ¿cómo se transmiten los esfuerzos verticales en los sistemas de vía sin balasto apoyados simplemente sobre el pavimento (Tipología 2)? [11]",
+    "pregunta": "Según la NAV 7-1-0.7, ¿cómo se transmiten los esfuerzos verticales en los sistemas de vía sin balasto apoyados simplemente sobre el pavimento (Tipología 2)?",
     "opciones": [
       "Directamente al pavimento",
       "A través de una gruesa capa de balasto",
@@ -421,7 +420,7 @@
     "correcta": 0
   },
   {
-    "pregunta": "Según la NAV 7-1-0.7 sobre diseño y montaje de vía sin balasto, en las mediciones topográficas de planta, la tolerancia para la desviación de ángulos será de: [12]",
+    "pregunta": "Según la NAV 7-1-0.7 sobre diseño y montaje de vía sin balasto, en las mediciones topográficas de planta, la tolerancia para la desviación de ángulos será de:",
     "opciones": [
       "dα=±1 miligon=10''= 3''",
       "dα=±5 miligon",
@@ -431,7 +430,7 @@
     "correcta": 0
   },
   {
-    "pregunta": "En el montaje de vía sin balasto (NAV 7-1-0.7), para sistemas de apoyo continuo, si el elastómero se presenta como perfiles o tiras prefabricadas que encapsulan el carril, ¿cómo se unen al pavimento? [13]",
+    "pregunta": "En el montaje de vía sin balasto (NAV 7-1-0.7), para sistemas de apoyo continuo, si el elastómero se presenta como perfiles o tiras prefabricadas que encapsulan el carril, ¿cómo se unen al pavimento?",
     "opciones": [
       "De manera solidaria, antes del hormigonado del pavimento",
       "Se fijan con tornillos después del curado",
@@ -441,7 +440,7 @@
     "correcta": 0
   },
   {
-    "pregunta": "Según la NAV 7-1-6.0 sobre maquinaria pesada, ¿qué elementos de una perfiladora de balasto dejan limpias las caras superiores de las traviesas y sus sujeciones? [14]",
+    "pregunta": "Según la NAV 7-1-6.0 sobre maquinaria pesada, ¿qué elementos de una perfiladora de balasto dejan limpias las caras superiores de las traviesas y sus sujeciones?",
     "opciones": [
       "Los arados frontales",
       "Los cepillos",
@@ -451,7 +450,7 @@
     "correcta": 1
   },
   {
-    "pregunta": "De acuerdo con la norma NAV 7-1-6.0, ¿qué tipo de bateadora está diseñada para batear la vía pero no los aparatos de vía, actuando a ambos lados de cada carril en posiciones fijas? [15]",
+    "pregunta": "De acuerdo con la norma NAV 7-1-6.0, ¿qué tipo de bateadora está diseñada para batear la vía pero no los aparatos de vía, actuando a ambos lados de cada carril en posiciones fijas?",
     "opciones": [
       "Bateadora de línea",
       "Bateadora de desvíos",
@@ -461,7 +460,7 @@
     "correcta": 0
   },
   {
-    "pregunta": "Según la NAV 7-1-6.0, ¿qué parámetro de control específico deben registrar digitalmente los estabilizadores o herramientas de compactado para controlar el asiento producido? [16]",
+    "pregunta": "Según la NAV 7-1-6.0, ¿qué parámetro de control específico deben registrar digitalmente los estabilizadores o herramientas de compactado para controlar el asiento producido?",
     "opciones": [
       "La temperatura del aceite hidráulico",
       "El número de inserciones por minuto",
@@ -471,7 +470,7 @@
     "correcta": 2
   },
   {
-    "pregunta": "De acuerdo con la NAV 7-1-6.0, las máquinas desguarnecedoras proyectadas para la depuración del balasto deben ir equipadas con varios sistemas, entre ellos: [17]",
+    "pregunta": "De acuerdo con la NAV 7-1-6.0, las máquinas desguarnecedoras proyectadas para la depuración del balasto deben ir equipadas con varios sistemas, entre ellos:",
     "opciones": [
       "Sistema automático de soldadura eléctrica",
       "Sistema de compactado dinámico lateral",
@@ -511,7 +510,7 @@
     "correcta": 1
   },
   {
-    "pregunta": "De acuerdo con el artículo 69 de la Ley Orgánica 3/2007, la obligación de cumplir el principio de igualdad en el suministro de bienes o servicios afecta a: [23]",
+    "pregunta": "De acuerdo con el artículo 69 de la Ley Orgánica 3/2007, la obligación de cumplir el principio de igualdad en el suministro de bienes o servicios afecta a:",
     "opciones": [
       "Exclusivamente a las Administraciones Públicas",
       "Solo a las empresas privadas con más de 250 trabajadores",
@@ -521,7 +520,7 @@
     "correcta": 2
   },
   {
-    "pregunta": "Según el RCF, ¿qué es un Puesto Local de Operaciones (PLO)? [24]",
+    "pregunta": "Según el RCF, ¿qué es un Puesto Local de Operaciones (PLO)?",
     "opciones": [
       "Instalación desde la que se puede ejercer el mando de varios enclavamientos que forman parte de un CTC",
       "Centro específico encargado de la gestión del tráfico a nivel nacional",
@@ -531,7 +530,7 @@
     "correcta": 2
   },
   {
-    "pregunta": "En la reglamentación ferroviaria (RCF), ¿qué indican las siglas BAB? [25]",
+    "pregunta": "En la reglamentación ferroviaria (RCF), ¿qué indican las siglas BAB?",
     "opciones": [
       "Bloqueo Automático Básico",
       "Bloqueo Automático de vía Banalizada",
@@ -541,7 +540,7 @@
     "correcta": 1
   },
   {
-    "pregunta": "De manera excepcional, si se sueldan por aluminotermia dos carriles de diferente grado de acero (NAV 3-3-2.1), ¿qué carga aluminotérmica se debe utilizar? [26]",
+    "pregunta": "De manera excepcional, si se sueldan por aluminotermia dos carriles de diferente grado de acero (NAV 3-3-2.1), ¿qué carga aluminotérmica se debe utilizar?",
     "opciones": [
       "La correspondiente al acero de mayor grado",
       "La correspondiente al acero de menor grado",
@@ -551,7 +550,7 @@
     "correcta": 1
   },
   {
-    "pregunta": "Según la norma de soldadura NAV 3-3-2.1, el corindón (escoria) caliente recogido en la cubeta puede explosionar proyectándose si entra en contacto con: [27]",
+    "pregunta": "Según la norma de soldadura NAV 3-3-2.1, el corindón (escoria) caliente recogido en la cubeta puede explosionar proyectándose si entra en contacto con:",
     "opciones": [
       "Arena seca",
       "Agua o elementos húmedos",
@@ -561,7 +560,7 @@
     "correcta": 1
   },
   {
-    "pregunta": "En el replanteo para vía sin balasto (NAV 7-1-0.7), en plataforma de tierras, la red secundaria estará formada por hitos de centrado forzoso constituidos por: [28]",
+    "pregunta": "En el replanteo para vía sin balasto (NAV 7-1-0.7), en plataforma de tierras, la red secundaria estará formada por hitos de centrado forzoso constituidos por:",
     "opciones": [
       "Un tubo de PVC de 0,20 m de diámetro y 1,20 m de altura relleno de hormigón",
       "Un pilar de acero inoxidable de 2 metros de altura",
@@ -571,7 +570,7 @@
     "correcta": 0
   },
   {
-    "pregunta": "Durante el montaje de vía sin balasto (metodología top-down), ¿con qué tolerancia se dejarán a escuadra las juntas de los dos hilos de la vía (NAV 7-1-0.7)? [29]",
+    "pregunta": "Durante el montaje de vía sin balasto (metodología top-down), ¿con qué tolerancia se dejarán a escuadra las juntas de los dos hilos de la vía (NAV 7-1-0.7)?",
     "opciones": [
       "± 10 mm",
       "± 20 mm",
@@ -900,7 +899,6 @@
     ],
     "correcta": 0
   },
-  [
   {
     "pregunta": "En una serie lógica donde un triángulo alterna su color interior entre blanco y negro en cada paso, y además se desplaza por las esquinas de un cuadrado en sentido antihorario, si en la primera figura el triángulo es blanco y está en la esquina superior derecha, ¿cómo será y dónde estará en la tercera figura?",
     "opciones": [
@@ -2402,7 +2400,7 @@
     "correcta": 1
   },
   {
-    "pregunta": "Según el Reglamento de Circulación Ferroviaria (RCF), ¿cómo se define el término 'Plena vía'? [7]",
+    "pregunta": "Según el Reglamento de Circulación Ferroviaria (RCF), ¿cómo se define el término 'Plena vía'?",
     "opciones": [
       "Tramo de vía en el que, en condiciones normales, no puede haber más de un tren simultáneamente",
       "Parte de la vía comprendida entre las señales de entrada de dos estaciones colaterales, fuera del dominio de ambas estaciones",
@@ -2412,7 +2410,7 @@
     "correcta": 1
   },
   {
-    "pregunta": "En el RCF, ¿qué característica define a un 'Tren reversible'? [8]",
+    "pregunta": "En el RCF, ¿qué característica define a un 'Tren reversible'?",
     "opciones": [
       "Que dispone de un sistema de tracción que le permite funcionar alternativamente con tracción térmica o eléctrica",
       "Que no efectúa parada en ninguna estación de su recorrido",
@@ -2422,7 +2420,7 @@
     "correcta": 2
   },
   {
-    "pregunta": "Según el artículo 1.5.1.9 del RCF, ¿en cuál de los siguientes casos quedará invalidada la orden de marcha de un tren? [9]",
+    "pregunta": "Según el artículo 1.5.1.9 del RCF, ¿en cuál de los siguientes casos quedará invalidada la orden de marcha de un tren?",
     "opciones": [
       "Tren de mercancías que circula con más de 10 minutos de retraso sobre su horario",
       "Tren directo que quede detenido en una estación",
@@ -2442,7 +2440,7 @@
     "correcta": 3
   },
   {
-    "pregunta": "Según el RCF (artículo 1.5.1.6), ¿cuándo se considera que una parada notificada al Maquinista después de la salida del tren de su estación de origen tiene la consideración de 'prescrita'? [12]",
+    "pregunta": "Según el RCF (artículo 1.5.1.6), ¿cuándo se considera que una parada notificada al Maquinista después de la salida del tren de su estación de origen tiene la consideración de 'prescrita'?",
     "opciones": [
       "Desde el momento de su notificación",
       "Únicamente si la parada dura más de 5 minutos",
@@ -2452,7 +2450,7 @@
     "correcta": 0
   },
   {
-    "pregunta": "En el control geométrico de una soldadura aluminotérmica (NAV 3-3-2.1), ¿cuál es la tolerancia máxima permitida para el escalón lateral en el patín (medición horizontal) para cualquier tipo de carril? [13]",
+    "pregunta": "En el control geométrico de una soldadura aluminotérmica (NAV 3-3-2.1), ¿cuál es la tolerancia máxima permitida para el escalón lateral en el patín (medición horizontal) para cualquier tipo de carril?",
     "opciones": [
       "≤ 0,5 mm",
       "≤ 1,0 mm",
@@ -2462,7 +2460,7 @@
     "correcta": 2
   },
   {
-    "pregunta": "Según la norma de soldadura NAV 3-3-2.1, al realizar el desbaste de la mazarota, ¿a qué altura debe quedar la pipa respecto al cordón de soldadura antes del esmerilado de terminación? [14]",
+    "pregunta": "Según la norma de soldadura NAV 3-3-2.1, al realizar el desbaste de la mazarota, ¿a qué altura debe quedar la pipa respecto al cordón de soldadura antes del esmerilado de terminación?",
     "opciones": [
       "A ras de la superficie de rodadura (0 mm)",
       "Entre 2 y 12 milímetros por encima del cordón de soldadura",
@@ -2472,7 +2470,7 @@
     "correcta": 1
   },
   {
-    "pregunta": "De acuerdo con la NAV 7-1-0.7 sobre vía sin balasto, ¿cuáles son las fases iniciales del replanteo de la vía? [15]",
+    "pregunta": "De acuerdo con la NAV 7-1-0.7 sobre vía sin balasto, ¿cuáles son las fases iniciales del replanteo de la vía?",
     "opciones": [
       "Nivelación longitudinal, alineación, peralte y soldadura",
       "Red básica, red secundaria, comprobación de la traza y encaje del trazado",
@@ -2482,7 +2480,7 @@
     "correcta": 1
   },
   {
-    "pregunta": "En la implantación de la red secundaria de topografía en plataforma de tierras (NAV 7-1-0.7), los hitos de centrado forzoso (HCF) se materializan con un tubo de PVC relleno de hormigón. ¿Cuáles son sus dimensiones? [16]",
+    "pregunta": "En la implantación de la red secundaria de topografía en plataforma de tierras (NAV 7-1-0.7), los hitos de centrado forzoso (HCF) se materializan con un tubo de PVC relleno de hormigón. ¿Cuáles son sus dimensiones?",
     "opciones": [
       "0,10 m de diámetro y 0,50 m de altura",
       "0,20 m de diámetro y 1,20 m de altura",
@@ -2492,7 +2490,7 @@
     "correcta": 1
   },
   {
-    "pregunta": "De acuerdo con el encaje del trazado en vía sin balasto (NAV 7-1-0.7), cuando se genera el listado de coordenadas y geometría, ¿cuándo el signo del radio de curvatura es positivo? [17]",
+    "pregunta": "De acuerdo con el encaje del trazado en vía sin balasto (NAV 7-1-0.7), cuando se genera el listado de coordenadas y geometría, ¿cuándo el signo del radio de curvatura es positivo?",
     "opciones": [
       "Cuando el peralte es superior a 50 mm",
       "Cuando la alineación gira hacia la izquierda en el sentido creciente de la kilometración",
@@ -2502,7 +2500,7 @@
     "correcta": 2
   },
   {
-    "pregunta": "En el diseño de transiciones entre vía de balasto y estructuras soportando vía sin balasto (NAV 7-1-0.7), si se dispone una cuña de transición, ¿cuál se recomienda que sea su longitud mínima? [18]",
+    "pregunta": "En el diseño de transiciones entre vía de balasto y estructuras soportando vía sin balasto (NAV 7-1-0.7), si se dispone una cuña de transición, ¿cuál se recomienda que sea su longitud mínima?",
     "opciones": [
       "5,0 m",
       "10,0 m",
@@ -2512,7 +2510,7 @@
     "correcta": 2
   },
   {
-    "pregunta": "Según la norma NAV 7-1-6.0 sobre maquinaria pesada, ¿cuál es la función principal de las máquinas 'Estabilizadoras'? [19]",
+    "pregunta": "Según la norma NAV 7-1-6.0 sobre maquinaria pesada, ¿cuál es la función principal de las máquinas 'Estabilizadoras'?",
     "opciones": [
       "Retirar los carriles y traviesas antiguos e instalar los nuevos en cadena",
       "Amolar el perfil del carril para eliminar defectos de desgaste",
@@ -2522,7 +2520,7 @@
     "correcta": 3
   },
   {
-    "pregunta": "Según las tablas de pesos de aparatos de vía de la NAV 7-1-6.0 (Anejo 2), ¿qué tipo de carril emplea el desvío tipo DSH-PAV-60E1-1500-0,042-CRM-D-TC? [20]",
+    "pregunta": "Según las tablas de pesos de aparatos de vía de la NAV 7-1-6.0 (Anejo 2), ¿qué tipo de carril emplea el desvío tipo DSH-PAV-60E1-1500-0,042-CRM-D-TC?",
     "opciones": [
       "54E1",
       "60E1",
@@ -2532,7 +2530,7 @@
     "correcta": 1
   },
   {
-    "pregunta": "De acuerdo con el Estatuto de la entidad pública empresarial ADIF (RD 2395/2004), ¿en qué artículo específico se regula el concepto de 'Cuentas anuales'? [21]",
+    "pregunta": "De acuerdo con el Estatuto de la entidad pública empresarial ADIF (RD 2395/2004), ¿en qué artículo específico se regula el concepto de 'Cuentas anuales'?",
     "opciones": [
       "Artículo 41",
       "Artículo 42",
@@ -2552,7 +2550,7 @@
     "correcta": 2
   },
   {
-    "pregunta": "Según el artículo 60 de la Ley Orgánica 3/2007 (Igualdad), en la adjudicación de plazas para participar en los cursos de formación del sector público, ¿qué preferencia se otorga a quienes se hayan incorporado procedentes del permiso de maternidad o paternidad? [24]",
+    "pregunta": "Según el artículo 60 de la Ley Orgánica 3/2007 (Igualdad), en la adjudicación de plazas para participar en los cursos de formación del sector público, ¿qué preferencia se otorga a quienes se hayan incorporado procedentes del permiso de maternidad o paternidad?",
     "opciones": [
       "Preferencia absoluta e indefinida",
       "Preferencia durante un año",
@@ -2562,7 +2560,7 @@
     "correcta": 1
   },
   {
-    "pregunta": "Según la Ley Orgánica 3/2007 (Artículo 222), ¿qué ocurre con la prestación por desempleo si el trabajador pasa a la situación de maternidad o paternidad? [25]",
+    "pregunta": "Según la Ley Orgánica 3/2007 (Artículo 222), ¿qué ocurre con la prestación por desempleo si el trabajador pasa a la situación de maternidad o paternidad?",
     "opciones": [
       "La sigue cobrando simultáneamente junto a la de maternidad/paternidad",
       "Se le suspenderá la prestación por desempleo y pasará a percibir la prestación por maternidad o por paternidad",
@@ -2582,7 +2580,7 @@
     "correcta": 2
   },
   {
-    "pregunta": "Según las Bases de tu Convocatoria de ingreso (PNI25/06), en el procedimiento de admisión, ¿cuál es el plazo otorgado a las personas interesadas para realizar alegaciones o subsanar la falta de documentación tras la publicación de la relación PROVISIONAL de admitidos y excluidos? [5]",
+    "pregunta": "Según las Bases de tu Convocatoria de ingreso (PNI25/06), en el procedimiento de admisión, ¿cuál es el plazo otorgado a las personas interesadas para realizar alegaciones o subsanar la falta de documentación tras la publicación de la relación PROVISIONAL de admitidos y excluidos?",
     "opciones": [
       "3 días hábiles",
       "5 días hábiles",
@@ -2592,7 +2590,7 @@
     "correcta": 2
   },
   {
-    "pregunta": "Según el documento de Preguntas Frecuentes (FAQ) y las Bases de la Convocatoria, ¿qué nivel de idioma castellano deben acreditar las personas cuyo idioma nativo no sea el castellano para ser admitidas? [29]",
+    "pregunta": "Según el documento de Preguntas Frecuentes (FAQ) y las Bases de la Convocatoria, ¿qué nivel de idioma castellano deben acreditar las personas cuyo idioma nativo no sea el castellano para ser admitidas?",
     "opciones": [
       "Nivel A2",
       "Nivel B1 o superior del Marco Común Europeo de Referencia para las Lenguas",
@@ -2602,7 +2600,7 @@
     "correcta": 1
   },
   {
-    "pregunta": "De acuerdo con las Bases de la Convocatoria, en la fase de adjudicación de plazas, ¿quiénes conforman el 'TURNO PREVIO' que tiene prioridad? [6]",
+    "pregunta": "De acuerdo con las Bases de la Convocatoria, en la fase de adjudicación de plazas, ¿quiénes conforman el 'TURNO PREVIO' que tiene prioridad?",
     "opciones": [
       "Los participantes externos con mayor nota en la fase de oposición",
       "Los trabajadores/as cuyo período inicial de excedencia voluntaria sin reserva de puesto haya finalizado",
@@ -2622,7 +2620,7 @@
     "correcta": 1
   },
   {
-    "pregunta": "Extraída de examen oficial (Prueba de idioma inglés): 'They ______ my friends.' [2]",
+    "pregunta": "Extraída de examen oficial (Prueba de idioma inglés): 'They ______ my friends.'",
     "opciones": [
       "is",
       "be",
@@ -2632,7 +2630,7 @@
     "correcta": 2
   },
   {
-    "pregunta": "Extraída de examen oficial (Prueba de idioma inglés): 'I ______ my homework before dinner.' [2]",
+    "pregunta": "Extraída de examen oficial (Prueba de idioma inglés): 'I ______ my homework before dinner.'",
     "opciones": [
       "finishes",
       "finishing",
@@ -2642,7 +2640,7 @@
     "correcta": 2
   },
   {
-    "pregunta": "Extraída de examen oficial (Perfil Delineante): Según el documento de Interpretación de planos mecánicos, el perfil de una rosca puede ser de varios tipos. ¿Cuál es la aplicación de la Rosca con dientes de sierra? [3]",
+    "pregunta": "Extraída de examen oficial (Perfil Delineante): Según el documento de Interpretación de planos mecánicos, el perfil de una rosca puede ser de varios tipos. ¿Cuál es la aplicación de la Rosca con dientes de sierra?",
     "opciones": [
       "Se usa para tubos roscados y accesorios con uniones roscadas sin junta",
       "Se usa para reducir en gran medida la acumulación de tensiones mecánicas y es resistente a los golpes",
@@ -2652,7 +2650,7 @@
     "correcta": 2
   },
   {
-    "pregunta": "Extraída de examen oficial (Perfil Programador): Según los Fundamentos de seguridad Informática (UOC), ¿qué información es necesaria para acceder a las cabeceras de un paquete de datos en claro? [32]",
+    "pregunta": "Extraída de examen oficial (Perfil Programador): Según los Fundamentos de seguridad Informática (UOC), ¿qué información es necesaria para acceder a las cabeceras de un paquete de datos en claro?",
     "opciones": [
       "Ninguna",
       "Clave pública",
@@ -2662,7 +2660,7 @@
     "correcta": 0
   },
   {
-    "pregunta": "Extraída de examen oficial (Perfil Programador): Según el contenido de Fundamentos de informática, ¿qué afirmación sobre el modelo relacional de implementación de bases de datos es correcta? [4]",
+    "pregunta": "Extraída de examen oficial (Perfil Programador): Según el contenido de Fundamentos de informática, ¿qué afirmación sobre el modelo relacional de implementación de bases de datos es correcta?",
     "opciones": [
       "Es un modelo poco habitual de implementación de bases de datos",
       "Se manejan los conceptos de clave primaria (primary key) y clave ajena (foreign key)",
@@ -2672,7 +2670,7 @@
     "correcta": 1
   },
   {
-    "pregunta": "Extraída de examen oficial (Perfil Programador): Según el contenido de Fundamentos de informática, ¿qué definición sobre la dirección IP es correcta? [4]",
+    "pregunta": "Extraída de examen oficial (Perfil Programador): Según el contenido de Fundamentos de informática, ¿qué definición sobre la dirección IP es correcta?",
     "opciones": [
       "Se identifica con cuatro enteros separados por puntos, cada uno entre 0 y 999",
       "Es un entero de 32 bits agrupado en 4 grupos de 8 bits",
@@ -2682,7 +2680,7 @@
     "correcta": 1
   },
   {
-    "pregunta": "Pregunta lógica espacial de entrenamiento psicotécnico: Si un bloque tridimensional se gira 90 grados hacia la derecha sobre su eje vertical, y luego 90 grados hacia adelante sobre su eje horizontal transversal. Si en la posición inicial la cara superior era azul y la frontal roja, ¿qué color tiene ahora la cara superior? [33]",
+    "pregunta": "Pregunta lógica espacial de entrenamiento psicotécnico: Si un bloque tridimensional se gira 90 grados hacia la derecha sobre su eje vertical, y luego 90 grados hacia adelante sobre su eje horizontal transversal. Si en la posición inicial la cara superior era azul y la frontal roja, ¿qué color tiene ahora la cara superior?",
     "opciones": [
       "Azul",
       "Roja",
@@ -2692,7 +2690,7 @@
     "correcta": 3
   },
   {
-    "pregunta": "Según la NAV 7-1-0.7 (Diseño y montaje de vía sin balasto), si se supera la tolerancia geométrica en la nivelación tras el montaje definitivo de la vía (hormigonado), ¿qué estrategia técnica permite corregir el asiento remanente si lo admite el sistema? [34]",
+    "pregunta": "Según la NAV 7-1-0.7 (Diseño y montaje de vía sin balasto), si se supera la tolerancia geométrica en la nivelación tras el montaje definitivo de la vía (hormigonado), ¿qué estrategia técnica permite corregir el asiento remanente si lo admite el sistema?",
     "opciones": [
       "Levantar el carril y verter balasto de nivelación",
       "Usar la capacidad de ajuste en nivelación del sistema de sujeción elástica",
@@ -3001,4 +2999,4 @@
     ],
     "correcta": 2
   }
-]  
+]
