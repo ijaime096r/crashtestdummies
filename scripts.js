@@ -6,7 +6,10 @@ import { db } from "./firebase.js"
 
 import {
 collection,
-addDoc
+addDoc,
+getDocs,
+query,
+where
 } from "https://www.gstatic.com/firebasejs/10.12.2/firebase-firestore.js"
 
 let usuarioActual = null
@@ -251,6 +254,53 @@ pregunta: pregunta
 } catch (error) {
 
 console.log("Error guardando fallo:", error)
+
+}
+
+}
+
+window.repasarFallos = async function() {
+
+let nombreUsuario = usuarioActual.split("@")[0]
+
+try {
+
+let q = query(
+collection(db, "fallos"),
+where("usuario", "==", nombreUsuario)
+)
+
+let snapshot = await getDocs(q)
+
+preguntas = []
+
+snapshot.forEach(doc => {
+
+preguntas.push(doc.data().pregunta)
+
+})
+
+if (preguntas.length === 0) {
+
+alert("No tienes fallos guardados")
+
+return
+
+}
+
+preguntas = mezclar(preguntas)
+
+indice = 0
+aciertos = 0
+
+document.getElementById("modoTest").style.display = "none"
+document.getElementById("test").style.display = "block"
+
+mostrarPregunta()
+
+} catch (error) {
+
+console.log("Error cargando fallos:", error)
 
 }
 
