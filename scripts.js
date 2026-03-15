@@ -113,6 +113,8 @@ mostrarPregunta()
 }
 
 
+// cargar fallos desde firestore
+
 async function cargarFallosUsuario() {
 
 let nombreUsuario = usuarioActual.split("@")[0]
@@ -128,7 +130,14 @@ fallosUsuario = []
 
 snapshot.forEach(doc => {
 
-fallosUsuario.push(doc.data().pregunta)
+let p = doc.data().pregunta
+
+// filtrar preguntas inválidas
+if (p && p.opciones && p.correcta !== undefined) {
+
+fallosUsuario.push(p)
+
+}
 
 })
 
@@ -138,6 +147,25 @@ fallosUsuario.push(doc.data().pregunta)
 // mostrar pregunta
 
 function mostrarPregunta() {
+
+// protección contra preguntas inválidas
+if (!preguntas[indice]) {
+
+console.log("Pregunta inválida en índice:", indice)
+
+indice++
+
+if (indice >= preguntas.length) {
+
+alert("Test terminado")
+return
+
+}
+
+mostrarPregunta()
+return
+
+}
 
 let p = preguntas[indice]
 
@@ -281,7 +309,9 @@ document.addEventListener("keydown", function(event) {
 
 if (event.key === "Enter") {
 
-document.getElementById("siguiente").click()
+let boton = document.getElementById("siguiente")
+
+if (boton) boton.click()
 
 }
 
@@ -332,7 +362,13 @@ preguntas = []
 
 snapshot.forEach(doc => {
 
-preguntas.push(doc.data().pregunta)
+let p = doc.data().pregunta
+
+if (p && p.opciones && p.correcta !== undefined) {
+
+preguntas.push(p)
+
+}
 
 })
 
@@ -374,6 +410,10 @@ document.getElementById("test").style.display = "none"
 document.getElementById("modoTest").style.display = "block"
 
 }
+
+
+// resetear fallos
+
 window.resetearFallos = async function() {
 
 let nombreUsuario = usuarioActual.split("@")[0]
