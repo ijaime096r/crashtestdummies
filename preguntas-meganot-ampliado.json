@@ -1,0 +1,4511 @@
+[
+  {
+    "pregunta": "El backbone de una red convolucional:",
+    "opciones": [
+      "Son los pesos del entrenamiento de un modelo general.",
+      "Es la distribución de sus capas internas.",
+      "Es la parte que se encarga de decodificar la matriz de características."
+    ],
+    "correcta": 0
+  },
+  {
+    "pregunta": "En la segmentación semántica:",
+    "opciones": [
+      "La capa completamente conectada produce una imagen (máscara).",
+      "El decoder está enlazado a las capas del decoder. --> verificar si hay errata y quería poner encoder en el segundo elemento",
+      "Cada objeto es clasificado en una clase distinta, incluso aunque sean del mismo tipo (dos personas dan lugar a dos clases semánticas)."
+    ],
+    "correcta": -1
+  },
+  {
+    "pregunta": "En las arquitecturas deep, el codificador:",
+    "opciones": [
+      "Tiene como salida una matriz de características.",
+      "Codifica la entrada, de forma que SOLO pueda ser leída por otro modelo.",
+      "Convierte los píxeles de la imagen de entrada a clases."
+    ],
+    "correcta": 0
+  },
+  {
+    "pregunta": "En tiempo de testeo, se crean varias imágenes aumentadas y se predice el resultado como la media de predicciones de todas esas imágenes. Es la técnica:",
+    "opciones": [
+      "Aumento de Datos Geométrico.",
+      "Aumento de Datos NO Geométrico.",
+      "Aumentos en Tiempo de Testeo."
+    ],
+    "correcta": 2
+  },
+  {
+    "pregunta": "La arquitectura de una red convolucional:",
+    "opciones": [
+      "Son los pesos del entrenamiento de un modelo general.",
+      "Es la distribución de sus capas internas.",
+      "Es la parte que se encarga de decodificar la matriz de características."
+    ],
+    "correcta": 1
+  },
+  {
+    "pregunta": "La capa pooling de las redes neuronales convolucionales:",
+    "opciones": [
+      "Permite aplicar una función de activación, como la RELU.",
+      "Multiplica la matriz de entrada por un kernel que es fijo.",
+      "Multiplica la matriz de entrada por un kernel cuyos pesos son el resultado del entrenamiento de la red."
+    ],
+    "correcta": 1
+  },
+  {
+    "pregunta": "La técnica de Aumento de Datos NO geométricos:",
+    "opciones": [
+      "SOLO puede aplicarse en segmentación semántica.",
+      "NO es reversible.",
+      "NO puede componerse con otros aumentos."
+    ],
+    "correcta": 1
+  },
+  {
+    "pregunta": "Las técnicas de aumento de datos geométricos en albumentations:",
+    "opciones": [
+      "NO son reversibles.",
+      "Usan técnicas como CutOut o CutMix.",
+      "Permiten aplicar los aumentos con cierta probabilidad."
+    ],
+    "correcta": 2
+  },
+  {
+    "pregunta": "Las técnicas de DropOut y EarlyStopping permiten:",
+    "opciones": [
+      "Evitar el sobreajuste del modelo.",
+      "Modificar el tamaño del dataset.",
+      "Generar datos sintéticos."
+    ],
+    "correcta": 0
+  },
+  {
+    "pregunta": "Las únicas técnicas reversibles de aumento de datos son:",
+    "opciones": [
+      "Los aumentos geométricos.",
+      "Los aumentos NO geométricos.",
+      "La síntesis."
+    ],
+    "correcta": 0
+  },
+  {
+    "pregunta": "Los modelos de clasificación de imagen son del tipo:",
+    "opciones": [
+      "Imagen a Categoría.",
+      "Texto a Imagen.",
+      "Imagen a Texto."
+    ],
+    "correcta": 0
+  },
+  {
+    "pregunta": "NO es una tarea de la Visión por Computador:",
+    "opciones": [
+      "Generar imágenes.",
+      "Clasificar imágenes.",
+      "Segmentar imágenes."
+    ],
+    "correcta": 0
+  },
+  {
+    "pregunta": "PASCAL VOC es un estándar que determina cómo crear:",
+    "opciones": [
+      "Imágenes.",
+      "Máscaras.",
+      "Ficheros de coordenadas."
+    ],
+    "correcta": 2
+  },
+  {
+    "pregunta": "Un autoencoder es un modelo de Inteligencia Artificial que, usado sin otros modelos, puede utilizarse para:",
+    "opciones": [
+      "Eliminar el ruido de una imagen.",
+      "Generar una bounding box alrededor de un objeto determinado.",
+      "Convertir texto en imagen."
+    ],
+    "correcta": 0
+  },
+  {
+    "pregunta": "Un autoencoder, genera una imagen a partir de:",
+    "opciones": [
+      "Una versión alterada de sí misma.",
+      "Varias versiones de sí misma.",
+      "Sí misma."
+    ],
+    "correcta": 2
+  },
+  {
+    "pregunta": "Un backbone, son los pesos asociados a una arquitectura deep:",
+    "opciones": [
+      "En su parte del decodificador.",
+      "En su parte del codificador.",
+      "En toda su estructura."
+    ],
+    "correcta": 1
+  },
+  {
+    "pregunta": "Un batch size más grande:",
+    "opciones": [
+      "Puede provocar un CUDA error.",
+      "Permite procesar menos información a la vez.",
+      "Es menos eficiente."
+    ],
+    "correcta": 0
+  },
+  {
+    "pregunta": "Un modelo del tipo autoencoder sirve, por ejemplo, para:",
+    "opciones": [
+      "Eliminar el ruido de una imagen.",
+      "Determinar las posiciones de los objetos de la imagen.",
+      "Obtener una imagen llamada máscara, con identificadores píxel a píxel."
+    ],
+    "correcta": 0
+  },
+  {
+    "pregunta": "¿Cuál es el propósito de la capa de pooling en una CNN?",
+    "opciones": [
+      "Clasificar las características en categorías.",
+      "Generar etiquetas para cada píxel.",
+      "Reducir la resolución espacial de las características extraídas."
+    ],
+    "correcta": 2
+  },
+  {
+    "pregunta": "¿Cuál es la diferencia entre un autoencoder y un clasificador supervisado?",
+    "opciones": [
+      "El clasificador es no supervisado y agrupa datos sin etiquetas.",
+      "El autoencoder utiliza datos etiquetados para clasificar.",
+      "El autoencoder es no supervisado y se enfoca en la reconstrucción de datos."
+    ],
+    "correcta": 2
+  },
+  {
+    "pregunta": "¿Cuál es la principal diferencia entre un modelo supervisado y uno no supervisado?",
+    "opciones": [
+      "El modelo no supervisado siempre ofrece mayor precisión.",
+      "El modelo supervisado se entrena con datos etiquetados, mientras que el no supervisado no utiliza etiquetas.",
+      "El modelo supervisado no necesita optimización."
+    ],
+    "correcta": 1
+  },
+  {
+    "pregunta": "¿Cuál es una característica clave de las redes neuronales profundas?",
+    "opciones": [
+      "Múltiples capas ocultas.",
+      "Sólo una capa de entrada.",
+      "Basadas en árboles de decisión."
+    ],
+    "correcta": 0
+  },
+  {
+    "pregunta": "¿Qué caracteriza a un modelo generativo en Deep Learning?",
+    "opciones": [
+      "Es un modelo que reduce la dimensionalidad de los datos.",
+      "Es un modelo que genera nuevos datos similares a los de entrenamiento.",
+      "Es un modelo que clasifica datos en categorías predeterminadas."
+    ],
+    "correcta": 1
+  },
+  {
+    "pregunta": "¿Qué es el aprendizaje supervisado?",
+    "opciones": [
+      "Un método en el que el modelo encuentra patrones sin etiquetas.",
+      "Un algoritmo que agrupa datos no etiquetados.",
+      "Un tipo de aprendizaje en el que el modelo se entrena con datos etiquetados."
+    ],
+    "correcta": 2
+  },
+  {
+    "pregunta": "¿Qué es el backpropagation\" en redes neuronales?\"",
+    "opciones": [
+      "Es el algoritmo que ajusta los pesos de la red minimizando el error.",
+      "Es un método para normalizar los datos de entrada.",
+      "Es un algoritmo para reducir la dimensionalidad."
+    ],
+    "correcta": 0
+  },
+  {
+    "pregunta": "¿Qué es el Deep Learning?",
+    "opciones": [
+      "Una técnica de agrupamiento.",
+      "Un método de aprendizaje supervisado.",
+      "Una rama del aprendizaje automático basada en redes neuronales."
+    ],
+    "correcta": 2
+  },
+  {
+    "pregunta": "¿Qué es el entrenamiento\" en una red neuronal?\"",
+    "opciones": [
+      "La generación de predicciones a partir de los datos.",
+      "El proceso de ajustar los pesos para minimizar el error en los datos de entrenamiento.",
+      "La normalización de los datos de entrada."
+    ],
+    "correcta": 1
+  },
+  {
+    "pregunta": "¿Qué es el overfitting\" en el aprendizaje automático?\"",
+    "opciones": [
+      "Cuando el modelo se ajusta demasiado a los datos de entrenamiento y falla en generalizar.",
+      "Cuando el modelo no aprende lo suficiente de los datos de entrenamiento.",
+      "Cuando el modelo no puede procesar los datos debido a su tamaño."
+    ],
+    "correcta": 0
+  },
+  {
+    "pregunta": "¿Qué es la función de activación ReLU\" en redes neuronales?\"",
+    "opciones": [
+      "Es una función que convierte los valores negativos en cero y deja pasar los positivos.",
+      "Es una técnica para normalizar los datos de entrada.",
+      "Es una función que convierte todos los valores en probabilidades."
+    ],
+    "correcta": 0
+  },
+  {
+    "pregunta": "¿Qué es la normalización en el preprocesamiento de datos?",
+    "opciones": [
+      "Reducir el tamaño del conjunto de datos.",
+      "Escalar las características de los datos a un rango común.",
+      "Eliminar valores nulos de los datos."
+    ],
+    "correcta": 1
+  },
+  {
+    "pregunta": "¿Qué es un autoencoder?",
+    "opciones": [
+      "Un tipo de red neuronal utilizada para la compresión y reconstrucción de datos.",
+      "Un algoritmo para la detección de objetos.",
+      "Un modelo de clasificación supervisada."
+    ],
+    "correcta": 0
+  },
+  {
+    "pregunta": "¿Qué es una red neuronal recurrente (RNN)?",
+    "opciones": [
+      "Una red utilizada solo para imágenes.",
+      "Una red neuronal diseñada para trabajar con datos secuenciales.",
+      "Un tipo de red convolucional."
+    ],
+    "correcta": 1
+  },
+  {
+    "pregunta": "¿Qué función tiene el optimizador en el entrenamiento de redes neuronales?",
+    "opciones": [
+      "Ajustar los pesos de la red para minimizar el error.",
+      "Generar la predicción final del modelo.",
+      "Dividir los datos en subconjuntos para entrenamiento."
+    ],
+    "correcta": 0
+  },
+  {
+    "pregunta": "¿Qué función tiene el softmax\" en la capa de salida de una red neuronal?\"",
+    "opciones": [
+      "Aplicar regularización a la red.",
+      "Reducir el error de predicción.",
+      "Convertir las salidas de la red en probabilidades."
+    ],
+    "correcta": 2
+  },
+  {
+    "pregunta": "¿Qué función tiene la capa convolucional en una red neuronal?",
+    "opciones": [
+      "Reducir la dimensionalidad de los datos.",
+      "Clasificar los datos.",
+      "Extraer características espaciales de los datos."
+    ],
+    "correcta": 2
+  },
+  {
+    "pregunta": "¿Qué mide la precisión en un modelo de clasificación?",
+    "opciones": [
+      "La cantidad de falsos positivos.",
+      "El tiempo de entrenamiento del modelo.",
+      "El porcentaje de predicciones correctas."
+    ],
+    "correcta": 2
+  },
+  {
+    "pregunta": "¿Qué representa un mapa de calor en el análisis de redes neuronales?",
+    "opciones": [
+      "Una técnica de inicialización de pesos.",
+      "Muestra las áreas de una imagen donde la red presta más atención.",
+      "Un gráfico que compara el rendimiento de diferentes modelos."
+    ],
+    "correcta": 1
+  },
+  {
+    "pregunta": "¿Qué se entiende por batch\" en el contexto del entrenamiento de redes neuronales?\"",
+    "opciones": [
+      "Un subconjunto de datos utilizado en una iteración de entrenamiento.",
+      "Un conjunto completo de datos de entrenamiento.",
+      "Una técnica de regularización."
+    ],
+    "correcta": 0
+  },
+  {
+    "pregunta": "¿Qué significa aplanar\" una imagen en el contexto de redes neuronales?\"",
+    "opciones": [
+      "Convertir una imagen 2D en un vector 1D para que pueda pasar por capas completamente conectadas.",
+      "Eliminar el color de la imagen.",
+      "Reducir la resolución de la imagen."
+    ],
+    "correcta": 0
+  },
+  {
+    "pregunta": "¿Qué técnica se utiliza comúnmente para prevenir el sobreajuste en redes neuronales?",
+    "opciones": [
+      "Batch normalization.",
+      "Dropout.",
+      "Normalización."
+    ],
+    "correcta": 1
+  },
+  {
+    "pregunta": "¿Qué tipo de redes neuronales se utilizan comúnmente para procesamiento de imágenes?",
+    "opciones": [
+      "Redes neuronales recurrentes (RNN).",
+      "Redes neuronales convolucionales (CNN).",
+      "Redes neuronales feedforward."
+    ],
+    "correcta": 1
+  },
+  {
+    "pregunta": "¿Cuál es la función de un modelo de resumen en NLP?",
+    "opciones": [
+      "Clasificar documentos en categorías.",
+      "Reducir el contenido de un texto manteniendo su significado.",
+      "Extraer entidades nombradas."
+    ],
+    "correcta": 1
+  },
+  {
+    "pregunta": "¿Cuál es la ventaja principal de usar embeddings en modelos de NLP?",
+    "opciones": [
+      "Capturan relaciones semánticas entre palabras.",
+      "Permiten reducir la cantidad de datos necesarios.",
+      "Son más rápidos que los métodos tradicionales."
+    ],
+    "correcta": 0
+  },
+  {
+    "pregunta": "¿Qué es el aprendizaje supervisado en el contexto de NLP?",
+    "opciones": [
+      "Es un tipo de aprendizaje donde el modelo se entrena con datos etiquetados.",
+      "Un método de clustering no supervisado.",
+      "Una técnica para reducir la dimensionalidad."
+    ],
+    "correcta": 0
+  },
+  {
+    "pregunta": "¿Qué es el aprendizaje supervisado en NLP?",
+    "opciones": [
+      "Es el proceso de entrenar un modelo con datos etiquetados para predecir etiquetas en nuevos datos.",
+      "Un modelo de reducción dimensional.",
+      "Un método para encontrar relaciones no visibles en datos sin etiquetar."
+    ],
+    "correcta": 0
+  },
+  {
+    "pregunta": "¿Qué es el preprocesamiento de texto?",
+    "opciones": [
+      "El entrenamiento de un modelo para clasificar texto.",
+      "El proceso de limpiar y transformar texto para hacerlo adecuado para el análisis.",
+      "La técnica de reducir las dimensiones del texto."
+    ],
+    "correcta": 1
+  },
+  {
+    "pregunta": "¿Qué es el preprocesamiento en el análisis de texto?",
+    "opciones": [
+      "El proceso de limpiar, normalizar y transformar el texto para el análisis.",
+      "Un método para clasificar textos.",
+      "Una técnica para dividir los datos en subconjuntos."
+    ],
+    "correcta": 0
+  },
+  {
+    "pregunta": "¿Qué es la matriz de confusión en la evaluación de modelos de clasificación?",
+    "opciones": [
+      "Un modelo supervisado basado en redes neuronales.",
+      "Una tabla que muestra los verdaderos positivos, falsos positivos, verdaderos negativos y falsos negativos.",
+      "Una técnica para clasificar documentos."
+    ],
+    "correcta": 1
+  },
+  {
+    "pregunta": "¿Qué es la regularización en modelos de clasificación?",
+    "opciones": [
+      "Un método para reducir el tamaño del conjunto de datos.",
+      "Una técnica para aumentar el número de características.",
+      "Una técnica para prevenir el sobreajuste del modelo."
+    ],
+    "correcta": 2
+  },
+  {
+    "pregunta": "¿Qué es la tokenización de palabras?",
+    "opciones": [
+      "Es el proceso de dividir el texto en palabras o frases más pequeñas.",
+      "Es una técnica de clasificación no supervisada.",
+      "Es una técnica para reducir el tamaño del conjunto de datos."
+    ],
+    "correcta": 0
+  },
+  {
+    "pregunta": "¿Qué es la tokenización en procesamiento de texto?",
+    "opciones": [
+      "Asignar etiquetas a un conjunto de documentos.",
+      "Dividir el texto en unidades más pequeñas como palabras o frases.",
+      "Extraer entidades nombradas de un texto."
+    ],
+    "correcta": 1
+  },
+  {
+    "pregunta": "¿Qué es un corpus en el procesamiento de lenguaje natural?",
+    "opciones": [
+      "Un conjunto grande y estructurado de textos utilizado para el análisis.",
+      "Una representación numérica de las palabras.",
+      "Una técnica de clasificación supervisada."
+    ],
+    "correcta": 0
+  },
+  {
+    "pregunta": "¿Qué es un embedding en el contexto de NLP?",
+    "opciones": [
+      "Un modelo basado en redes convolucionales.",
+      "Una representación densa de palabras en un espacio continuo.",
+      "Una técnica de clasificación."
+    ],
+    "correcta": 1
+  },
+  {
+    "pregunta": "¿Qué es un modelo de clasificación de texto supervisado?",
+    "opciones": [
+      "Un método para extraer características de los textos.",
+      "Un modelo entrenado con ejemplos etiquetados para clasificar nuevos textos.",
+      "Un modelo que agrupa textos no etiquetados."
+    ],
+    "correcta": 1
+  },
+  {
+    "pregunta": "¿Qué mide el recall en un modelo de clasificación?",
+    "opciones": [
+      "El porcentaje de predicciones correctas.",
+      "La proporción de verdaderos positivos respecto a los positivos reales.",
+      "La cantidad de falsos negativos generados."
+    ],
+    "correcta": 1
+  },
+  {
+    "pregunta": "¿Qué representa la precisión en un modelo de clasificación?",
+    "opciones": [
+      "El número de características utilizadas en el modelo.",
+      "La cantidad de falsos negativos generados.",
+      "El porcentaje de predicciones correctas respecto al total."
+    ],
+    "correcta": 2
+  },
+  {
+    "pregunta": "A la hora de crear un embedding propio, se debe:",
+    "opciones": [
+      "Traducir los textos a inglés.",
+      "Trocear el corpus por tokens.",
+      "Usar la GPU."
+    ],
+    "correcta": 1
+  },
+  {
+    "pregunta": "Al crear un embedding, qué característica de la palabra se tiene en cuenta:",
+    "opciones": [
+      "El significado, según el contexto.",
+      "El significado, sin tener en cuenta el contexto.",
+      "La morfología."
+    ],
+    "correcta": 0
+  },
+  {
+    "pregunta": "En la distribución espacial de un embedding, las palabras:",
+    "opciones": [
+      "Distintas deben estar a la misma distancia entre sí.",
+      "Deben agruparse según su familia semántica.",
+      "Una misma palabra NO debe tener dos representaciones diferentes."
+    ],
+    "correcta": 1
+  },
+  {
+    "pregunta": "Los Modelos Grandes del Lenguaje son entrenados para tareas:",
+    "opciones": [
+      "Generales.",
+      "Múltiples.",
+      "Específicas."
+    ],
+    "correcta": 0
+  },
+  {
+    "pregunta": "NO es una forma de crear un clasificador de textos:",
+    "opciones": [
+      "Utilizar un autoencoder que utilice las mismas matrices de características.",
+      "Utilizar un modelo del lenguaje general.",
+      "Utilizar un modelo clásico cuya entrada es la matriz de características."
+    ],
+    "correcta": 0
+  },
+  {
+    "pregunta": "Un embedding es un tipo de red neuronal que permite:",
+    "opciones": [
+      "Codificar texto.",
+      "Utilizar varias capas (convolucionales, de pooling...) para codificar una imagen.",
+      "Crear una imagen a partir de sí misma."
+    ],
+    "correcta": 0
+  },
+  {
+    "pregunta": "Un embedding es una representación vectorial de un texto donde:",
+    "opciones": [
+      "Cada palabra está cerca de palabras con significados parecidos.",
+      "El contexto de las palabras NO se tiene en cuenta.",
+      "SOLO hay unos en las posiciones asociadas a la palabra."
+    ],
+    "correcta": 0
+  },
+  {
+    "pregunta": "Un modelo general:",
+    "opciones": [
+      "NO puede usar métricas en su entrenamiento.",
+      "Puede resolver cualquier tarea.",
+      "Se ha entrenado con información genérica de la tarea a realizar."
+    ],
+    "correcta": 2
+  },
+  {
+    "pregunta": "Un Modelo Grande del Lenguaje es un modelo:",
+    "opciones": [
+      "Que tiene muchos parámetros en comparación con otros.",
+      "Genérico entrenado para tareas sobre textos.",
+      "Que genera una etiqueta para el texto procesado."
+    ],
+    "correcta": 1
+  },
+  {
+    "pregunta": "¿Qué distribución de valores nos alertaría de una baja variabilidad en una característica categórica de dos posibles valores?",
+    "opciones": [
+      "90% - 10%",
+      "70% - 30%",
+      "50% - 50%"
+    ],
+    "correcta": 0
+  },
+  {
+    "pregunta": "Al analizar una característica, observamos un 3% de nulos. Si en producción NO podemos encontrar nulos, ¿qué hacemos con los nulos?:",
+    "opciones": [
+      "Predecirlos.",
+      "Imputarlos.",
+      "Eliminarlos."
+    ],
+    "correcta": 2
+  },
+  {
+    "pregunta": "Al estandarizar los datos del modelo.",
+    "opciones": [
+      "Es irrelevante usar el mismo rango para todas las variables.",
+      "Pueden utilizarse columnas categóricas sin codificar.",
+      "El resultado deja de ser interpretable."
+    ],
+    "correcta": 2
+  },
+  {
+    "pregunta": "Al tener un 70% de nulos en la etiqueta, necesitaremos aplicar técnicas de tipo:",
+    "opciones": [
+      "Supervisado.",
+      "Semi-supervisado.",
+      "NO supervisado."
+    ],
+    "correcta": 1
+  },
+  {
+    "pregunta": "Al usar un enlace de tipo simple, unimos dos grupos según la distancia entre sus:",
+    "opciones": [
+      "Puntos más cercanos.",
+      "Centroides.",
+      "Puntos más alejados."
+    ],
+    "correcta": 0
+  },
+  {
+    "pregunta": "Analizamos la variabilidad de una columna categórica binaria y observamos que la clase A tiene 25 datos, la clase B tiene 15 y hay 10 valores nulos. ¿Qué hacemos?",
+    "opciones": [
+      "Imputamos los nulos con una estrategia de predicción.",
+      "Eliminamos la columna por baja variabilidad.",
+      "Eliminamos los nulos."
+    ],
+    "correcta": 0
+  },
+  {
+    "pregunta": "Analizamos la variabilidad de una columna categórica binaria y observamos que la clase A tiene 25 datos, la clase B tiene 15 y hay 60 valores nulos. ¿Qué hacemos?",
+    "opciones": [
+      "Imputamos los nulos con una estrategia de predicción.",
+      "Eliminamos la columna por baja variabilidad.",
+      "Imputamos los nulos con una estrategia constante."
+    ],
+    "correcta": 1
+  },
+  {
+    "pregunta": "Aplicamos la técnica t-SNE a nuestro conjunto de datos. Obtenemos una matriz con 10 columnas.",
+    "opciones": [
+      "Las primeras columnas son las más importantes.",
+      "Los datos SÍ son interpretables.",
+      "Los datos NO son interpretables."
+    ],
+    "correcta": 2
+  },
+  {
+    "pregunta": "Aplicamos técnicas de interpretabilidad y la característica de género es la más importante para nuestro modelo. ¿Qué hacemos?",
+    "opciones": [
+      "Eliminamos la característica y volvemos a entrenar el modelo.",
+      "Dependiendo de la tarea del modelo, seguimos trabajando con él.",
+      "Lo notificamos, PERO seguimos usando el modelo."
+    ],
+    "correcta": 1
+  },
+  {
+    "pregunta": "De las propuestas, es la tarea más complicada:",
+    "opciones": [
+      "Segmentación de instancias.",
+      "Detección de objetos.",
+      "Segmentación semántica."
+    ],
+    "correcta": 2
+  },
+  {
+    "pregunta": "Desde pandas, NO podemos cargar un DataFrame desde:",
+    "opciones": [
+      "Una base de datos NO relacional.",
+      "Una API que sirva datos en json.",
+      "Un archivo excel."
+    ],
+    "correcta": 0
+  },
+  {
+    "pregunta": "Durante una época, el modelo trabaja con:",
+    "opciones": [
+      "Un lote de datos.",
+      "Todos los datos de entrenamiento.",
+      "Todos los datos de entrenamiento y de validación."
+    ],
+    "correcta": 1
+  },
+  {
+    "pregunta": "El método de DBSCAN, agrupa los puntos según su:",
+    "opciones": [
+      "Densidad.",
+      "Distancia.",
+      "Centroide."
+    ],
+    "correcta": 0
+  },
+  {
+    "pregunta": "El método del CODO permite encontrar el valor óptimo de clusters para el algoritmo:",
+    "opciones": [
+      "KMeans.",
+      "Agrupamiento jerárquico.",
+      "DBSCAN."
+    ],
+    "correcta": 0
+  },
+  {
+    "pregunta": "El modelo KMeans agrupa los puntos según:",
+    "opciones": [
+      "Dispersión.",
+      "Densidad.",
+      "Distancia."
+    ],
+    "correcta": 2
+  },
+  {
+    "pregunta": "El principal problema de los modelos profundos es que:",
+    "opciones": [
+      "Necesitan cantidades ingentes de información.",
+      "Pueden sobreentrenarse muy fácilmente.",
+      "No son interpretables."
+    ],
+    "correcta": 2
+  },
+  {
+    "pregunta": "En el aprendizaje por refuerzo, la q-tabla:",
+    "opciones": [
+      "Tiene una columna por cada acción realizable.",
+      "Guarda valores enteros en las posiciones de las mejores acciones posibles.",
+      "Se actualiza después de un número de iteraciones llamadas épocas."
+    ],
+    "correcta": 0
+  },
+  {
+    "pregunta": "En el aprendizaje semisupervisado, las pseudoetiquetas se crean con un modelo:",
+    "opciones": [
+      "Reentrenado a lo largo de un proceso iterativo.",
+      "Entrenado con los datos conocidos.",
+      "Entrenado a lo largo de un proceso iterativo."
+    ],
+    "correcta": 1
+  },
+  {
+    "pregunta": "En el modelo Perceptrón, se define la salida como y = ax1 + ax2 + … + ax2 + b. En esta fórmula, el valor de b es:",
+    "opciones": [
+      "El peso del perceptrón.",
+      "El sesgo del modelo.",
+      "La función de activación."
+    ],
+    "correcta": 1
+  },
+  {
+    "pregunta": "En los modelos KNN, NO se usan números pares de vecinos:",
+    "opciones": [
+      "Porque la etiqueta se determina por unanimidad.",
+      "Porque es menos eficiente calcular distancias pares.",
+      "Salvo que los votos estén ponderados por distancias."
+    ],
+    "correcta": 2
+  },
+  {
+    "pregunta": "En un conjunto de datos extremadamente grande, la mejor estrategia de validación es:",
+    "opciones": [
+      "Train-test split.",
+      "Kfold.",
+      "RepeatedKFold."
+    ],
+    "correcta": 0
+  },
+  {
+    "pregunta": "En un conjunto de datos pequeño, la mejor estrategia de validación es:",
+    "opciones": [
+      "Train-test split.",
+      "Kfold.",
+      "RepeatedKFold."
+    ],
+    "correcta": 2
+  },
+  {
+    "pregunta": "En una columna categórica que NO es la etiqueta tenemos tres posibles categorías. La mayoritaria representa un 80% de los datos, la siguiente un 15% y la última un 5%. ¿Qué hacemos?",
+    "opciones": [
+      "Eliminamos los valores de la categoría minoritaria.",
+      "Eliminamos la columna por baja variabilidad.",
+      "Unificamos los valores de las columnas no mayoritarias."
+    ],
+    "correcta": 1
+  },
+  {
+    "pregunta": "En una estrategia de optimización de tipo GridSearch, la cantidad de modelos a entrenar dependiendo de las combinaciones de hiperparámetros crece de forma:",
+    "opciones": [
+      "Lineal.",
+      "Geométrica.",
+      "Exponencial."
+    ],
+    "correcta":2
+  },
+  {
+    "pregunta": "Es especialmente vulnerable a la maldición de la dimensionalidad:",
+    "opciones": [
+      "KMeans.",
+      "Agrupamiento jerárquico.",
+      "DBSCAN."
+    ],
+    "correcta": 2
+  },
+  {
+    "pregunta": "Es invulnerable a la maldición de la dimensionalidad:",
+    "opciones": [
+      "KMeans.",
+      "SVM.",
+      "Regresión logística."
+    ],
+    "correcta": 1
+  },
+  {
+    "pregunta": "Es un modelo interpretable:",
+    "opciones": [
+      "Árbol de decisión.",
+      "SVM.",
+      "Red neuronal."
+    ],
+    "correcta": 0
+  },
+  {
+    "pregunta": "Es un modelo interpretable:",
+    "opciones": [
+      "KNN.",
+      "SMV.",
+      "Perceptrón."
+    ],
+    "correcta": 2
+  },
+  {
+    "pregunta": "Es un modelo interpretable:",
+    "opciones": [
+      "SVM.",
+      "KMeans.",
+      "Una red neuronal que genera pseudoetiquetas para entrenar un árbol de decisión. 5"
+    ],
+    "correcta": 2
+  },
+  {
+    "pregunta": "Es un modelo interpretable:",
+    "opciones": [
+      "SVM.",
+      "Regresión lineal.",
+      "Regresión logística."
+    ],
+    "correcta": 1
+  },
+  {
+    "pregunta": "Es un modelo que puede trabajar con datos NO estandarizados sin sufrir penalización:",
+    "opciones": [
+      "Árbol de decisión.",
+      "Regresor logístico.",
+      "Red neuronal."
+    ],
+    "correcta": 0
+  },
+  {
+    "pregunta": "Es un valor atípico:",
+    "opciones": [
+      "Tener 120 años.",
+      "Llamarse 5353456.",
+      "Poner el horno a 4.000.000 grados."
+    ],
+    "correcta": 0
+  },
+  {
+    "pregunta": "Es un valor atípico:",
+    "opciones": [
+      "Tener 300 años.",
+      "Tener 120 años.",
+      "Tener 40 años."
+    ],
+    "correcta": 1
+  },
+  {
+    "pregunta": "Es un valor SIN sentido:",
+    "opciones": [
+      "Tener 0 años.",
+      "Poner el horno a 400 grados.",
+      "Llamarse 5353456."
+    ],
+    "correcta": 2
+  },
+  {
+    "pregunta": "Es una aplicación del Aprendizaje NO Supervisado:",
+    "opciones": [
+      "Predecir valores.",
+      "Detectar anomalías.",
+      "Clasificar imágenes."
+    ],
+    "correcta": 1
+  },
+  {
+    "pregunta": "Es una estrategia de optimización que usa distribuciones de probabilidad:",
+    "opciones": [
+      "RandomSearch.",
+      "GridSearch.",
+      "Algoritmos genéticos."
+    ],
+    "correcta": 0
+  },
+  {
+    "pregunta": "Este tipo de dato debe eliminarse SIEMPRE:",
+    "opciones": [
+      "Irrelevante.",
+      "Atípico.",
+      "Correlado."
+    ],
+    "correcta": 0
+  },
+  {
+    "pregunta": "Este tipo de dato puede perjudicar el entrenamiento del modelo al mostrar varias veces la misma información:",
+    "opciones": [
+      "Correlado.",
+      "Irrelevante.",
+      "Atípico."
+    ],
+    "correcta": 0
+  },
+  {
+    "pregunta": "Indica que se está sufriendo el problema de la maldición de la dimensionalidad:",
+    "opciones": [
+      "Un DBSCAN etiqueta todos los datos como atípicos.",
+      "Un KNN utiliza como vecinos datos muy diferentes.",
+      "Una red neuronal determina que la etiqueta correcta es siempre la misma."
+    ],
+    "correcta": 0
+  },
+  {
+    "pregunta": "La capa de convolución de las redes neuronales convolucionales:",
+    "opciones": [
+      "Permite aplicar una función de activación, como la ReLu.",
+      "Multiplica la matriz de entrada por un kernel que es fijo.",
+      "Multiplica la matriz de entrada por un kernel cuyos pesos son el resultado del entrenamiento de la red."
+    ],
+    "correcta": 2
+  },
+  {
+    "pregunta": "La característica A es un índice único extraído de una base de datos. ¿Qué hacemos?",
+    "opciones": [
+      "Dejamos la característica para entrenar el modelo.",
+      "Estudiamos la correlación con el resto de características.",
+      "Eliminamos la característica por ser un valor inútil."
+    ],
+    "correcta": 2
+  },
+  {
+    "pregunta": "La característica A tiene el tercer cuartil igual a 3 y el valor máximo igual a 100. Sus datos son:",
+    "opciones": [
+      "Atípicos.",
+      "Correlados.",
+      "Sin sentido."
+    ],
+    "correcta": 0
+  },
+  {
+    "pregunta": "La característica A tiene tres posibles valores en los que el orden no importa. La codificamos usando:",
+    "opciones": [
+      "Una codificación binaria.",
+      "Un embedding.",
+      "Una Biyección con los números naturales."
+    ],
+    "correcta": 0
+  },
+  {
+    "pregunta": "La característica C es igual a 2 * A + B. ¿Qué hacemos?",
+    "opciones": [
+      "Si A o B tiene nulos, el valor de C será un valor sin sentido.",
+      "Estudiamos los atípicos y actuamos acorde.",
+      "Eliminamos C por correlación."
+    ],
+    "correcta": 2
+  },
+  {
+    "pregunta": "La diagonal principal de una matriz de confusión representa los:",
+    "opciones": [
+      "Datos correctamente etiquetados.",
+      "Falsos positivos.",
+      "Falsos negativos."
+    ],
+    "correcta": 0
+  },
+  {
+    "pregunta": "La función de activación denominada ReLu, convierte todos los valores:",
+    "opciones": [
+      "Menores que cero en cero y todos los valores mayores que uno en uno.",
+      "En el resultado de aplicar la función tanh a esos valores.",
+      "Negativos en cero."
+    ],
+    "correcta": 2
+  },
+  {
+    "pregunta": "La técnica de reducción de la dimensionalidad denominada selección:",
+    "opciones": [
+      "Es interpretable.",
+      "NO es interpretable.",
+      "Es agnóstica al modelo."
+    ],
+    "correcta": 0
+  },
+  {
+    "pregunta": "Las capas de pooling de una red neuronal convolucional:",
+    "opciones": [
+      "NO son entrenables.",
+      "Están completamente conectadas.",
+      "Aplican una función de activación."
+    ],
+    "correcta": 0
+  },
+  {
+    "pregunta": "Los Árboles de Decisión:",
+    "opciones": [
+      "Sufren la maldición de la dimensionalidad.",
+      "Crean reglas lógicas asociadas a las características.",
+      "NO son interpretables."
+    ],
+    "correcta": 1
+  },
+  {
+    "pregunta": "Los modelos SVM:",
+    "opciones": [
+      "NO pueden sobreajustarse.",
+      "Se aprovechan de la maldición de la dimensionalidad.",
+      "Tienen un parámetro C que determina el núcleo del modelo."
+    ],
+    "correcta": 1
+  },
+  {
+    "pregunta": "Los resultados de testeo en comparación con los de validación suelen ser:",
+    "opciones": [
+      "Peores.",
+      "Mejores.",
+      "Iguales."
+    ],
+    "correcta": 0
+  },
+  {
+    "pregunta": "NO es afectado por el problema de la maldición de la dimensionalidad.",
+    "opciones": [
+      "SVM.",
+      "Red neuronal.",
+      "Agrupamiento Jerárquico."
+    ],
+    "correcta": 0
+  },
+  {
+    "pregunta": "Observamos que las características A y B tienen una correlación de -0.95.",
+    "opciones": [
+      "Borramos aquella más correlada con la variable objetivo.",
+      "Borramos aquella menos correlada con la variable objetivo.",
+      "Las conservamos porque tienen una correlación inferior a 0.8."
+    ],
+    "correcta": 1
+  },
+  {
+    "pregunta": "Permite codificar columnas con texto no categórico:",
+    "opciones": [
+      "Biyección con los números naturales.",
+      "Embedding encoding.",
+      "Binary encoding."
+    ],
+    "correcta": 1
+  },
+  {
+    "pregunta": "Permite mantener el orden a la hora de codificar una categoría:",
+    "opciones": [
+      "Biyección con los números naturales.",
+      "Embedding encoding.",
+      "Binary encoding."
+    ],
+    "correcta": 0
+  },
+  {
+    "pregunta": "Permite trabajar con datos NO estandarizados:",
+    "opciones": [
+      "Árboles de decisión.",
+      "RandomForest.",
+      "Redes neuronales."
+    ],
+    "correcta": 0
+  },
+  {
+    "pregunta": "Respecto a los modelos que integran un ensemble:",
+    "opciones": [
+      "NO hay requisitos para elegirlos.",
+      "Deben superar el 80% de la métrica utilizada.",
+      "Deben tener una puntuación similar en la métrica utilizada."
+    ],
+    "correcta": 2
+  },
+  {
+    "pregunta": "Se aprovecha de la maldición de la dimensionalidad para separar los datos:",
+    "opciones": [
+      "Perceptrón.",
+      "SVM.",
+      "KNN."
+    ],
+    "correcta": 1
+  },
+  {
+    "pregunta": "Se dice que un ensemble es de tipo stacking si utiliza:",
+    "opciones": [
+      "Distintos tipos de modelos.",
+      "Varias veces el mismo tipo de modelo.",
+      "Distintos tipos de modelos de forma lineal, entrenando los últimos con los resultados de los primeros."
+    ],
+    "correcta": -1
+  },
+  {
+    "pregunta": "Se usa una estrategia estratificada de validación cuando el conjunto de datos:",
+    "opciones": [
+      "Es usado para realizar un problema de regresión.",
+      "Está desbalanceado.",
+      "Es usado para realizar un problema de aprendizaje NO supervisado."
+    ],
+    "correcta": 1
+  },
+  {
+    "pregunta": "Si durante el testeo nos encontramos con una categoría NO utilizada en el entrenamiento, el modelo:",
+    "opciones": [
+      "Lanzará un error.",
+      "Tratará este dato como nulo.",
+      "Utilizará una nueva categoría Unknown."
+    ],
+    "correcta": 0
+  },
+  {
+    "pregunta": "Si existen muy pocos datos atípicos, aplicaremos una estrategia:",
+    "opciones": [
+      "NO permisiva.",
+      "Semipermisiva.",
+      "Permisiva."
+    ],
+    "correcta": 0
+  },
+  {
+    "pregunta": "Si quiero cribar las solicitudes de citas médicas, debo crear un modelo que tenga en cuenta:",
+    "opciones": [
+      "Los verdaderos positivos y los falsos positivos.",
+      "Los verdaderos positivos.",
+      "Los verdaderos positivos y los falsos negativos."
+    ],
+    "correcta": 2
+  },
+  {
+    "pregunta": "Si seleccionamos las características más importantes, obtenemos un conjunto:",
+    "opciones": [
+      "NO interpretable.",
+      "Agnóstico al modelo.",
+      "Interpretable."
+    ],
+    "correcta": 2
+  },
+  {
+    "pregunta": "Si usamos una estrategia de predicción de valores nulos, los valores nulos son:",
+    "opciones": [
+      "Eliminados.",
+      "Sustituidos por una constante matemática, como la media.",
+      "Sustituidos por un valor obtenido a partir de otro modelo de IA."
+    ],
+    "correcta": 2
+  },
+  {
+    "pregunta": "Tenemos un dataset con información climática y queremos predecir el tiempo del 2025. Hacemos una división de tipo train-test split, donde:",
+    "opciones": [
+      "Los datos del 2023 se usan para entrenar y los de 2024 para testear.",
+      "El 80% de los datos son de entrenamiento y el 20% de testeo.",
+      "Debemos usar una estrategia de estratificación."
+    ],
+    "correcta": 0
+  },
+  {
+    "pregunta": "Tener una alta variabilidad en una variable categórica es un escenario:",
+    "opciones": [
+      "Malo.",
+      "Bueno.",
+      "Irrelevante."
+    ],
+    "correcta": 0
+  },
+  {
+    "pregunta": "Un ensemble de tipo boosting, tiene modelos:",
+    "opciones": [
+      "Del mismo tipo.",
+      "De distintos tipos.",
+      "De calidad dispar."
+    ],
+    "correcta": 0
+  },
+  {
+    "pregunta": "Un perceptrón es:",
+    "opciones": [
+      "El conjunto de varias “neuronas artificiales”.",
+      "Un modelo NO interpretable.",
+      "Un modelo matemático de regresión lineal."
+    ],
+    "correcta": 2
+  },
+  {
+    "pregunta": "Una columna tiene un 75% de valores nulos, ¿qué estrategia aplicamos?",
+    "opciones": [
+      "Eliminación de valores nulos.",
+      "Predicción de valores nulos.",
+      "Eliminación de la columna por baja variabilidad."
+    ],
+    "correcta": 2
+  },
+  {
+    "pregunta": "Una estrategia de imputación de valores nulos:",
+    "opciones": [
+      "Requiere entrenar un modelo NO supervisado.",
+      "NO tiene sentido aplicarla si hay más de un 50% de nulos.",
+      "Debe realizarse después del análisis de variabilidad."
+    ],
+    "correcta": 1
+  },
+  {
+    "pregunta": "Una imagen es un tipo de dato.",
+    "opciones": [
+      "NO estructurado.",
+      "Semiestructurado.",
+      "Estructurado."
+    ],
+    "correcta": 0
+  },
+  {
+    "pregunta": "Usando la técnica de reducción de la dimensionalidad denominada extracción, el resultado:",
+    "opciones": [
+      "Es interpretable.",
+      "NO es interpretable.",
+      "Contendrá un número de columnas igual o superior al inicial."
+    ],
+    "correcta": 0
+  },
+  {
+    "pregunta": "¿Cuál de las siguientes opciones es un algoritmo supervisado?",
+    "opciones": [
+      "Regresión logística.",
+      "K-Means.",
+      "DBSCAN."
+    ],
+    "correcta": 0
+  },
+  {
+    "pregunta": "¿Cuál es el objetivo principal de las máquinas de soporte vectorial (SVM)?",
+    "opciones": [
+      "Reducir el número de dimensiones de los datos.",
+      "Encontrar un hiperplano óptimo que separe las clases.",
+      "Generar un modelo con múltiples capas."
+    ],
+    "correcta": 1
+  },
+  {
+    "pregunta": "¿Cuál es el propósito del preprocesamiento\" de datos?\"",
+    "opciones": [
+      "Limpia y transforma los datos para hacerlos más adecuados para los modelos.",
+      "Genera nuevos datos a partir de los existentes.",
+      "Elimina las filas duplicadas de los conjuntos de datos."
+    ],
+    "correcta": 0
+  },
+  {
+    "pregunta": "¿Cuál es la principal diferencia entre clasificación y regresión?",
+    "opciones": [
+      "La clasificación solo utiliza redes neuronales.",
+      "La regresión utiliza árboles de decisión, la clasificación no.",
+      "La clasificación predice categorías, la regresión predice valores numéricos."
+    ],
+    "correcta": 2
+  },
+  {
+    "pregunta": "¿Qué caracteriza a los algoritmos de aprendizaje no supervisado?",
+    "opciones": [
+      "Se entrenan solo con datos etiquetados.",
+      "Utilizan etiquetas para predecir categorías.",
+      "No requieren etiquetas en los datos para aprender."
+    ],
+    "correcta": 2
+  },
+  {
+    "pregunta": "¿Qué caracteriza a los modelos de aprendizaje por refuerzo\"?\"",
+    "opciones": [
+      "Utilizan solo técnicas de clustering.",
+      "Aprenden tomando decisiones en un entorno y recibiendo retroalimentación en forma de recompensas.",
+      "Aprenden usando solo datos etiquetados."
+    ],
+    "correcta": 1
+  },
+  {
+    "pregunta": "¿Qué caracteriza a los modelos ensemble?",
+    "opciones": [
+      "Utilizan un solo modelo optimizado.",
+      "Combinan múltiples modelos para mejorar el rendimiento general.",
+      "Son aplicables solo en problemas de regresión."
+    ],
+    "correcta": 1
+  },
+  {
+    "pregunta": "¿Qué caracteriza a una red neuronal convolucional\"?\"",
+    "opciones": [
+      "Está diseñada para trabajar con datos que tienen una estructura de rejilla, como imágenes.",
+      "Es un método de reducción de dimensionalidad.",
+      "Es un tipo de algoritmo supervisado."
+    ],
+    "correcta": 0
+  },
+  {
+    "pregunta": "¿Qué caracteriza a una red neuronal profunda?",
+    "opciones": [
+      "Es un tipo de modelo ensemble.",
+      "Utiliza sólo una capa de entrada.",
+      "Tiene múltiples capas ocultas."
+    ],
+    "correcta": 2
+  },
+  {
+    "pregunta": "¿Qué es el algoritmo K-Nearest Neighbors (KNN)?",
+    "opciones": [
+      "Un método de reducción de dimensionalidad.",
+      "Un algoritmo que utiliza árboles de decisión.",
+      "Un algoritmo de clasificación basado en la proximidad a los vecinos más cercanos."
+    ],
+    "correcta": 2
+  },
+  {
+    "pregunta": "¿Qué es el hiperplano en SVM?",
+    "opciones": [
+      "Es la frontera de decisión que separa las clases.",
+      "Es un algoritmo de reducción de dimensionalidad.",
+      "Es una técnica de normalización de datos."
+    ],
+    "correcta": 0
+  },
+  {
+    "pregunta": "¿Qué es el sobreajuste\" en un modelo de aprendizaje automático?\"",
+    "opciones": [
+      "Es cuando el modelo aprende patrones específicos del conjunto de entrenamiento que no generalizan bien.",
+      "Es cuando el modelo no es capaz de aprender patrones complejos.",
+      "Es cuando el modelo clasifica incorrectamente el conjunto de datos."
+    ],
+    "correcta": 0
+  },
+  {
+    "pregunta": "¿Qué es un árbol de decisión?",
+    "opciones": [
+      "Un algoritmo basado en redes neuronales.",
+      "Un método de agrupamiento.",
+      "Un modelo predictivo que utiliza una estructura de árbol para tomar decisiones."
+    ],
+    "correcta": 2
+  },
+  {
+    "pregunta": "¿Qué es un perceptrón en el contexto de redes neuronales?",
+    "opciones": [
+      "La unidad básica de una red neuronal.",
+      "Una técnica para reducir el sobreajuste.",
+      "Un modelo de clasificación basado en árboles."
+    ],
+    "correcta": 0
+  },
+  {
+    "pregunta": "¿Qué es una neuronas de entrada\" en una red neuronal?\"",
+    "opciones": [
+      "Son las neuronas que generan la salida final.",
+      "Son las neuronas que calculan la activación.",
+      "Son las neuronas que reciben directamente los datos de entrada."
+    ],
+    "correcta": 2
+  },
+  {
+    "pregunta": "¿Qué función tiene una capa de activación en una red neuronal?",
+    "opciones": [
+      "Reduce el sobreajuste del modelo.",
+      "Introduce no linealidad en el modelo.",
+      "Combina las salidas de las neuronas."
+    ],
+    "correcta": 1
+  },
+  {
+    "pregunta": "¿Qué método utiliza el algoritmo de árboles de decisión para dividir nodos?",
+    "opciones": [
+      "Clasificación por proximidad.",
+      "Criterios como la entropía o el índice Gini.",
+      "Algoritmos de distancia."
+    ],
+    "correcta": 1
+  },
+  {
+    "pregunta": "¿Qué parámetro es clave en el algoritmo KNN?",
+    "opciones": [
+      "La tasa de aprendizaje.",
+      "El número de vecinos k.",
+      "El número de dimensiones."
+    ],
+    "correcta": 1
+  },
+  {
+    "pregunta": "¿Qué se entiende por Máquinas de Vectores Soporte (SVM)?",
+    "opciones": [
+      "Un algoritmo de clasificación que encuentra un hiperplano óptimo para separar clases.",
+      "Una técnica para optimizar redes neuronales.",
+      "Un método de clustering."
+    ],
+    "correcta": 0
+  },
+  {
+    "pregunta": "¿Qué ventaja ofrece el aprendizaje semisupervisado?",
+    "opciones": [
+      "Sólo utiliza datos etiquetados.",
+      "Es aplicable únicamente en tareas de clustering.",
+      "Utiliza tanto datos etiquetados como no etiquetados para mejorar el rendimiento."
+    ],
+    "correcta": 2
+  },
+  {
+    "pregunta": "¿Qué ventaja principal tiene el DBSCAN sobre KMeans?",
+    "opciones": [
+      "No utiliza distancias para agrupar.",
+      "No requiere que se especifique el número de clusters.",
+      "Es más rápido en grandes conjuntos de datos."
+    ],
+    "correcta": 1
+  },
+  {
+    "pregunta": "¿Qué tipo de agrupamiento es KMeans?",
+    "opciones": [
+      "Jerárquico.",
+      "Basado en centroides.",
+      "Por densidad."
+    ],
+    "correcta": 1
+  },
+  {
+    "pregunta": "¿Qué métrica es común en los algoritmos de agrupamiento?",
+    "opciones": [
+      "Distancia Hamming.",
+      "Distancia Manhattan.",
+      "Distancia Jaccard."
+    ],
+    "correcta": 1
+  },
+  {
+    "pregunta": "¿Qué es un dendograma en el contexto del agrupamiento jerárquico?",
+    "opciones": [
+      "Un algoritmo de agrupación basado en centroides.",
+      "Un gráfico que muestra las uniones entre grupos de datos.",
+      "Un tipo de métrica de distancia."
+    ],
+    "correcta": 1
+  },
+  {
+    "pregunta": "¿Qué métrica se usa en DBSCAN para determinar si un punto es parte de un cluster?",
+    "opciones": [
+      "La distancia al centroide.",
+      "La distancia máxima dentro del cluster.",
+      "La densidad de puntos en su vecindad."
+    ],
+    "correcta": 2
+  },
+  {
+    "pregunta": "¿Qué es un agente en el aprendizaje por refuerzo?",
+    "opciones": [
+      "Es el entorno que recibe las decisiones.",
+      "Es una métrica que evalúa el rendimiento.",
+      "Es el modelo que toma decisiones en el entorno."
+    ],
+    "correcta": 2
+  },
+  {
+    "pregunta": "¿Cómo se detectan los valores atípicos en DBSCAN?",
+    "opciones": [
+      "Se eliminan de manera manual.",
+      "Se identifican los puntos que no pertenecen a ningún grupo.",
+      "Se calculan las distancias entre puntos."
+    ],
+    "correcta": 1
+  },
+  {
+    "pregunta": "¿Qué técnica permite medir la distancia entre puntos en KMeans?",
+    "opciones": [
+      "Distancia de Chebyshev.",
+      "Distancia euclidiana.",
+      "Distancia de Hamming."
+    ],
+    "correcta": 1
+  },
+  {
+    "pregunta": "¿Qué caracteriza al aprendizaje no supervisado?",
+    "opciones": [
+      "Depende del refuerzo.",
+      "No requiere ejemplos etiquetados.",
+      "Usa ejemplos con etiquetas."
+    ],
+    "correcta": 1
+  },
+  {
+    "pregunta": "¿Qué ocurre si el número de clusters (k) es demasiado alto en KMeans?",
+    "opciones": [
+      "El modelo puede sobreajustarse.",
+      "Los centroides se calculan más rápido.",
+      "Se obtiene una mejor agrupación."
+    ],
+    "correcta": 0
+  },
+  {
+    "pregunta": "¿Qué ocurre si eps es muy grande en DBSCAN?",
+    "opciones": [
+      "Se agrupan demasiados puntos en un solo cluster.",
+      "Se generan muchos clusters pequeños.",
+      "No se forman clusters."
+    ],
+    "correcta": 0
+  },
+  {
+    "pregunta": "¿Cuál es el objetivo del algoritmo KMeans?",
+    "opciones": [
+      "Eliminar datos atípicos.",
+      "Agrupar datos en k grupos basados en la proximidad.",
+      "Reducir la dimensionalidad de los datos."
+    ],
+    "correcta": 1
+  },
+  {
+    "pregunta": "¿Cuál es una característica clave del agrupamiento jerárquico aglomerativo?",
+    "opciones": [
+      "Comienza con cada punto como un cluster individual y fusiona los más cercanos.",
+      "Separa los clusters hasta que cada punto es un cluster individual.",
+      "Elige un número fijo de clusters al inicio."
+    ],
+    "correcta": 0
+  },
+  {
+    "pregunta": "¿Qué método de enlace en el agrupamiento jerárquico aglomerativo mide la distancia máxima entre puntos de dos clusters?",
+    "opciones": [
+      "Enlace simple.",
+      "Enlace promedio.",
+      "Enlace completo."
+    ],
+    "correcta": 2
+  },
+  {
+    "pregunta": "¿Cuál es el hiperparámetro clave de DBSCAN?",
+    "opciones": [
+      "El número de grupos.",
+      "El rango de aceptación (eps).",
+      "La distancia euclidiana."
+    ],
+    "correcta": 1
+  },
+  {
+    "pregunta": "¿Cuál es el objetivo del agrupamiento jerárquico?",
+    "opciones": [
+      "Reducir la dimensionalidad de los datos.",
+      "Crear una jerarquía de grupos mediante divisiones o fusiones sucesivas.",
+      "Asignar cada dato a su propio cluster inicial."
+    ],
+    "correcta": 1
+  },
+  {
+    "pregunta": "¿Qué representa la \"maldición de la dimensionalidad\"?",
+    "opciones": [
+      "Más dimensiones resultan en mejores agrupaciones.",
+      "A mayor número de dimensiones, más difícil es agrupar correctamente.",
+      "No afecta los modelos de agrupación."
+    ],
+    "correcta": 1
+  },
+  {
+    "pregunta": "¿Qué algoritmo usa DBSCAN para detectar densidad en los datos?",
+    "opciones": [
+      "Algoritmo basado en densidad.",
+      "Algoritmo basado en centroide.",
+      "Algoritmo basado en distancia."
+    ],
+    "correcta": 0
+  },
+  {
+    "pregunta": "¿Qué caracteriza a un \"punto ruido\" en DBSCAN?",
+    "opciones": [
+      "Es parte de un cluster denso.",
+      "Es un punto central de un cluster.",
+      "No pertenece a ningún cluster."
+    ],
+    "correcta": 2
+  },
+  {
+    "pregunta": "¿Qué técnica es útil para reducir la dimensionalidad de los datos sin perder interpretabilidad?",
+    "opciones": [
+      "Selección de características.",
+      "Imputación de valores nulos.",
+      "PCA."
+    ],
+    "correcta": 0
+  },
+  {
+    "pregunta": "¿Qué representa la \"maldición de la dimensionalidad\"?",
+    "opciones": [
+      "El entrenamiento con datos irrelevantes.",
+      "El uso de demasiadas columnas categóricas.",
+      "El incremento de las dimensiones de los datos dificulta el entrenamiento del modelo."
+    ],
+    "correcta": 2
+  },
+  {
+    "pregunta": "¿Cuál es el objetivo principal del preprocesamiento de datos?",
+    "opciones": [
+      "Eliminar los datos no deseados.",
+      "Generar nuevos datos sintéticos.",
+      "Preparar los datos para que los modelos puedan procesarlos de forma óptima."
+    ],
+    "correcta": 2
+  },
+  {
+    "pregunta": "¿Qué se hace con los datos atípicos en una estrategia permisiva?",
+    "opciones": [
+      "Se corrigen manualmente.",
+      "Se eliminan automáticamente.",
+      "Se mantienen y el modelo los tiene en cuenta."
+    ],
+    "correcta": 2
+  },
+  {
+    "pregunta": "¿Cuál es la función de un análisis de variabilidad en un conjunto de datos?",
+    "opciones": [
+      "Eliminar los valores irrelevantes.",
+      "Determinar la cantidad de información contenida en una columna.",
+      "Aumentar la precisión de las predicciones."
+    ],
+    "correcta": 1
+  },
+  {
+    "pregunta": "¿Qué describe mejor el proceso de imputación de valores nulos?",
+    "opciones": [
+      "Predecir los valores nulos usando un modelo.",
+      "Eliminar todas las filas con valores nulos.",
+      "Sustituir los valores faltantes por estadísticos como la media."
+    ],
+    "correcta": 2
+  },
+  {
+    "pregunta": "¿Qué técnica es adecuada para manejar columnas con poca variabilidad?",
+    "opciones": [
+      "Eliminarlas.",
+      "Aumentar su variabilidad artificialmente.",
+      "Imputar valores."
+    ],
+    "correcta": 0
+  },
+  {
+    "pregunta": "¿Cómo se puede tratar un conjunto de datos con muchas columnas categóricas?",
+    "opciones": [
+      "Eliminando las columnas categóricas.",
+      "Convertirlas en variables numéricas sin codificación.",
+      "Aplicando técnicas de codificación."
+    ],
+    "correcta": 2
+  },
+  {
+    "pregunta": "¿Qué representa un outlier o valor atípico en un conjunto de datos?",
+    "opciones": [
+      "Un valor que representa un error de cálculo.",
+      "Un valor que está repetido varias veces.",
+      "Un valor que está significativamente alejado de otros valores de la misma característica."
+    ],
+    "correcta": 2
+  },
+  {
+    "pregunta": "¿Cuál es el principal problema al tener valores nulos en los datos?",
+    "opciones": [
+      "Los modelos no pueden procesarlos correctamente.",
+      "Se sustituyen automáticamente por la media.",
+      "Son interpretados como 0."
+    ],
+    "correcta": 0
+  },
+  {
+    "pregunta": "¿Cuál es el propósito principal de la biblioteca random\" en Python?\"",
+    "opciones": [
+      "Manejo de vectores.",
+      "Manipulación de texto.",
+      "Generar números aleatorios."
+    ],
+    "correcta": 2
+  },
+  {
+    "pregunta": "¿Qué se logra con el uso de la biblioteca \"numpy\"?",
+    "opciones": [
+      "Generar números aleatorios.",
+      "Procesamiento de texto.",
+      "Manejo eficiente de vectores multidimensionales."
+    ],
+    "correcta": 2
+  },
+  {
+    "pregunta": "¿Qué es Google Colab?",
+    "opciones": [
+      "Un lenguaje de programación.",
+      "Un entorno en la nube para ejecutar Python.",
+      "Un IDE local."
+    ],
+    "correcta": 1
+  },
+  {
+    "pregunta": "¿Cuál es la función principal de un modelo de Visión por Computador\"?\"",
+    "opciones": [
+      "Analizar y entender imágenes.",
+      "Detectar anomalías en datos tabulares.",
+      "Procesar lenguaje natural."
+    ],
+    "correcta": 0
+  },
+  {
+    "pregunta": "¿Cuál es la diferencia entre IA débil y IA fuerte?",
+    "opciones": [
+      "IA débil realiza tareas específicas mientras que IA fuerte busca replicar la inteligencia humana completa.",
+      "IA fuerte es más rápida.",
+      "IA débil utiliza menos datos."
+    ],
+    "correcta": 0
+  },
+  {
+    "pregunta": "¿Qué describe mejor el aprendizaje por refuerzo?",
+    "opciones": [
+      "El modelo se entrena con datos etiquetados.",
+      "El modelo no utiliza retroalimentación.",
+      "El modelo recibe retroalimentación para mejorar."
+    ],
+    "correcta": 2
+  },
+  {
+    "pregunta": "¿Qué módulo es esencial para cálculos numéricos en Python?",
+    "opciones": [
+      "numpy.",
+      "math.",
+      "random."
+    ],
+    "correcta": 0
+  },
+  {
+    "pregunta": "¿Qué se describe como aprendizaje por refuerzo?",
+    "opciones": [
+      "El modelo se entrena con un gran volumen de datos sin etiquetar.",
+      "El modelo aprende mediante recompensas y castigos.",
+      "El modelo no utiliza datos etiquetados."
+    ],
+    "correcta": 1
+  },
+  {
+    "pregunta": "¿Cuál es la principal función de \"numpy\" en Python?",
+    "opciones": [
+      "Análisis de texto.",
+      "Manejo de vectores multidimensionales.",
+      "Desarrollo web."
+    ],
+    "correcta": 1
+  },
+  {
+    "pregunta": "¿Qué tipo de problema resuelve principalmente pandas\" en Python?\"",
+    "opciones": [
+      "Generación de gráficos.",
+      "Manipulación y análisis de datos tabulares.",
+      "Procesamiento de texto."
+    ],
+    "correcta": 1
+  },
+  {
+    "pregunta": "¿Qué es \"Google Colab\"?",
+    "opciones": [
+      "Una biblioteca de visualización.",
+      "Un sistema operativo.",
+      "Un entorno de desarrollo en la nube para Python."
+    ],
+    "correcta": 2
+  },
+  {
+    "pregunta": "¿Cuál es la principal diferencia entre aprendizaje supervisado y no supervisado?",
+    "opciones": [
+      "El tipo de problema a resolver.",
+      "El uso de datos etiquetados en el supervisado.",
+      "La cantidad de datos necesarios."
+    ],
+    "correcta": 1
+  },
+  {
+    "pregunta": "¿Qué rama de la IA se enfoca en el análisis de imágenes?",
+    "opciones": [
+      "Visión por Computador.",
+      "IA sobre datos estructurales.",
+      "Procesamiento de Texto."
+    ],
+    "correcta": 0
+  },
+  {
+    "pregunta": "¿Cuál es la principal ventaja de Python en IA?",
+    "opciones": [
+      "Mayor velocidad que C++.",
+      "Simplicidad y amplia biblioteca.",
+      "Mejor manejo de memoria."
+    ],
+    "correcta": 1
+  },
+  {
+    "pregunta": "¿Qué librería de Python se utiliza para trabajar con grandes volúmenes de datos tabulares?",
+    "opciones": [
+      "math.",
+      "pandas.",
+      "random."
+    ],
+    "correcta": 1
+  },
+  {
+    "pregunta": "¿Qué lenguaje de programación es conocido por su facilidad para la inteligencia artificial?",
+    "opciones": [
+      "C++.",
+      "Python.",
+      "Java."
+    ],
+    "correcta": 1
+  },
+  {
+    "pregunta": "¿Qué plataforma en línea se usa comúnmente para ejecutar Python en la nube?",
+    "opciones": [
+      "Google Colab.",
+      "Visual Studio.",
+      "Jupyter Notebook."
+    ],
+    "correcta": 0
+  },
+  {
+    "pregunta": "¿Cuál es el uso principal de la librería \"math\" en Python?",
+    "opciones": [
+      "Manipular arreglos de datos.",
+      "Realizar operaciones matemáticas.",
+      "Generar gráficos."
+    ],
+    "correcta": 1
+  },
+  {
+    "pregunta": "¿Qué es el \"perceptrón\"?",
+    "opciones": [
+      "Un algoritmo de clustering.",
+      "Un modelo de regresión.",
+      "La primera red neuronal."
+    ],
+    "correcta": 2
+  },
+  {
+    "pregunta": "¿Qué es un transformer en el contexto de IA?",
+    "opciones": [
+      "Un tipo de red neuronal convolucional.",
+      "Una técnica de clustering.",
+      "Un modelo avanzado para el procesamiento de lenguaje natural."
+    ],
+    "correcta": 2
+  },
+  {
+    "pregunta": "¿Cuál de las siguientes opciones describe mejor el aprendizaje supervisado?",
+    "opciones": [
+      "El modelo se entrena con datos etiquetados.",
+      "El modelo aprende sin datos etiquetados.",
+      "El modelo se basa en la retroalimentación de sus decisiones."
+    ],
+    "correcta": 0
+  },
+  {
+    "pregunta": "¿Qué es \"pandas\"?",
+    "opciones": [
+      "Un entorno de programación.",
+      "Una herramienta de desarrollo web.",
+      "Una biblioteca para manipulación de datos en Python."
+    ],
+    "correcta": 2
+  },
+  {
+    "pregunta": "¿Qué tipo de red se considera el \"perceptrón\"?",
+    "opciones": [
+      "Una técnica de reducción dimensional.",
+      "Una red neuronal simple.",
+      "Un modelo de clustering."
+    ],
+    "correcta": 1
+  },
+  {
+    "pregunta": "¿Qué módulo es utilizado para crear gráficos y manejar datos en IA?",
+    "opciones": [
+      "pandas.",
+      "numpy.",
+      "Google Colab."
+    ],
+    "correcta": 0
+  },
+  {
+    "pregunta": "¿Cuál es el principal lenguaje de programación utilizado en IA?",
+    "opciones": [
+      "Java.",
+      "R.",
+      "Python."
+    ],
+    "correcta": 2
+  },
+  {
+    "pregunta": "¿Qué se entiende por aprendizaje no supervisado?",
+    "opciones": [
+      "El modelo encuentra patrones sin etiquetas.",
+      "El modelo usa etiquetas para aprender.",
+      "El modelo aprende mediante recompensas y castigos."
+    ],
+    "correcta": 0
+  },
+  {
+    "pregunta": "¿Qué maneja principalmente la biblioteca \"pandas\" en Python?",
+    "opciones": [
+      "Desarrollo web.",
+      "Manipulación de datos.",
+      "Programación de sistemas."
+    ],
+    "correcta": 1
+  },
+  {
+    "pregunta": "¿Cuál de las siguientes opciones es una librería para la manipulación de datos en Python?",
+    "opciones": [
+      "numpy.",
+      "random.",
+      "pandas."
+    ],
+    "correcta": 2
+  },
+  {
+    "pregunta": "¿Qué se describe como aprendizaje semi-supervisado?",
+    "opciones": [
+      "Un modelo que se basa en recompensas y castigos.",
+      "Una combinación de datos etiquetados y no etiquetados.",
+      "Aprendizaje únicamente con datos etiquetados."
+    ],
+    "correcta": 1
+  },
+  {
+	 "pregunta": "Si una columna tiene más del 50% de valores nulos:",
+	 "opciones": [
+	  "Eliminación de valores nulos.",
+	  "Predicción de valores nulos.",
+	  "Eliminación de la columna por baja variabilidad."
+    ],
+    "correcta": 2
+  },
+	{
+	  "pregunta": "Si la cantidad de nulos es inferior al 5%:",
+	  "opciones": [
+		"Eliminar datos nulos.",
+		"Imputar.",
+		"Eliminar columna."
+	  ],
+    "correcta": 0
+  },
+{
+	  "pregunta": "Si Media > Mediana:",
+	  "opciones": [
+		"Sesgo positivo.",
+		"Sesgo negativo.",
+		"Distribución uniforme."
+	  ],
+    "correcta": 0
+  },
+{
+	  "pregunta": "Si Media < Mediana:",
+	  "opciones": [
+		"Sesgo positivo.",
+		"Sesgo negativo.",
+		"Distribución uniforme."
+	  ],
+    "correcta": 1
+  },
+{
+	  "pregunta": "Si desviación típica > 1/3 de la media",
+	  "opciones": [
+		"La media representa bien los datos.",
+		"La media no representa bien los datos.",
+		"No afecta."
+	  ],
+    "correcta": 1
+  },
+  {
+    "pregunta": "Según los criterios de variabilidad explicados en los apuntes, ¿cuál es el valor ideal (límite de repetición) para considerar sospechosa una columna numérica?",
+    "opciones": [
+      "10% (0.1).",
+      "20% (0.2).",
+      "80% (0.8)."
+    ],
+    "correcta": 0
+  },
+  {
+    "pregunta": "Para una columna categórica binaria (Sí/No), el límite para considerar que tiene una variabilidad sospechosamente baja (casi una constante) es:",
+    "opciones": [
+      "10% (0.1).",
+      "20% (0.2).",
+      "80% (0.8)."
+    ],
+    "correcta": 2
+  },
+  {
+    "pregunta": "En la librería FastAI, ¿cuál es la función principal del objeto DataBlock?",
+    "opciones": [
+      "Definir la arquitectura interna de las capas ocultas de la red.",
+      "Definir un bloque de datos a partir del cual poder crear un cargador de datos (DataLoader).",
+      "Optimizar los pesos de la matriz Jacobiana durante el entrenamiento."
+    ],
+    "correcta": 1
+  },
+  {
+    "pregunta": "Dentro de los aumentos de imagen NO geométricos utilizados en segmentación semántica, la técnica CutMix se caracteriza por:",
+    "opciones": [
+      "Rellenar el área seleccionada exclusivamente con vacío (color negro).",
+      "Aplicar un giro o rotación sobre la máscara asociada a la imagen.",
+      "Rellenar el hueco de la imagen con información extraída de otra imagen."
+    ],
+    "correcta": 2
+  },
+  {
+    "pregunta": "La técnica de especialización conocida como \"Progressive resizing\" consiste en:",
+    "opciones": [
+      "Aumentar progresivamente la cantidad de capas ocultas de la red neuronal.",
+      "Entrenar al modelo, cada vez, con imágenes de un tamaño y resolución mayor.",
+      "Eliminar características de la imagen de entrada en cada nueva época."
+    ],
+    "correcta": 1
+  },
+  {
+    "pregunta": "Al aplicar la estrategia de \"fine tuning\" sobre una arquitectura deep, una época congelada (freeze epoch) significa que:",
+    "opciones": [
+      "Durante esa época, algunos pesos de la red NO se actualizan.",
+      "El modelo detiene su entrenamiento por falta de memoria en la GPU.",
+      "El conjunto de validación se utiliza erróneamente para entrenar la red."
+    ],
+    "correcta": 0
+  },
+  {
+    "pregunta": "En el Procesamiento del Lenguaje Natural (NLP), un token se define como:",
+    "opciones": [
+      "La unidad mínima de información de un texto.",
+      "Una matriz de características extraída directamente de una imagen.",
+      "Una métrica de regresión exclusiva para evaluar modelos de lenguaje."
+    ],
+    "correcta": 0
+  },
+  {
+    "pregunta": "Para conseguir una buena codificación (embedding) de un texto, es fundamental que el modelo:",
+    "opciones": [
+      "No utilice nunca redes neuronales profundas para ahorrar procesamiento.",
+      "Tenga en cuenta el contexto para capturar correctamente los distintos significados de una palabra.",
+      "Asigne exactamente la misma representación vectorial a palabras que suenan igual."
+    ],
+    "correcta": 1
+  },
+  {
+    "pregunta": "Un modelo de resumen en NLP, como puede ser BART, se caracteriza por tener una estructura del tipo:",
+    "opciones": [
+      "Texto a etiqueta.",
+      "Imagen a texto.",
+      "Texto a texto."
+    ],
+    "correcta": 2
+  },
+  {
+    "pregunta": "La tarea de segmentación semántica en Visión por Computador se diferencia de la clasificación de imágenes tradicional en que:",
+    "opciones": [
+      "La segmentación clasifica cada píxel individual de la imagen en una clase o etiqueta.",
+      "La segmentación sólo detecta de forma global cuántos objetos hay en la imagen.",
+      "La segmentación devuelve exclusivamente una lista de coordenadas para pintar cajas (bboxes)."
+    ],
+    "correcta": 0
+  },
+  {
+    "pregunta": "En el entrenamiento de modelos, la técnica de EarlyStopping se aplica mediante un objeto Callback para:",
+    "opciones": [
+      "Aumentar progresivamente el ratio de aprendizaje.",
+      "Detener el entrenamiento automáticamente si los resultados de validación no mejoran tras unas épocas.",
+      "Descartar directamente las imágenes con píxeles nulos al inicio del batch."
+    ],
+    "correcta": 1
+  },
+  {
+    "pregunta": "En problemas de segmentación semántica con múltiples clases o máscaras (donde una clase puede superar en exceso a las demás), una métrica de evaluación muy común es:",
+    "opciones": [
+      "DiceMulti.",
+      "RMSE.",
+      "Accuracy."
+    ],
+    "correcta": 0
+  },
+  {
+    "pregunta": "Al tokenizar textos para procesarlos con modelos del lenguaje, el token especial \"xxbos\" indica:",
+    "opciones": [
+      "Que una palabra es desconocida.",
+      "Que empieza el texto.",
+      "Que un carácter o palabra se repite n veces."
+    ],
+    "correcta": 1
+  },
+  {
+    "pregunta": "La técnica de interpretabilidad Grad-CAM para arquitecturas deep se basa en:",
+    "opciones": [
+      "Construir un mapa de calor utilizando los gradientes de la última capa convolucional.",
+      "Crear un árbol de decisión con las predicciones aleatorias de una caja negra.",
+      "Eliminar capas ocultas hasta que el resultado de la red sea entendible."
+    ],
+    "correcta": 0
+  },
+  {
+    "pregunta": "La biblioteca \"albumentations\" se utiliza en la visión por computador principalmente para:",
+    "opciones": [
+      "Codificar variables categóricas de texto a binario en DataFrames.",
+      "Aplicar de forma sencilla transformaciones y aumentos de datos geométricos a las imágenes.",
+      "Optimizar los hiperparámetros de los modelos SVM utilizando un GridSearch."
+    ],
+    "correcta": 1
+  },
+  {
+    "pregunta": "En la detección de objetos, la técnica de Non Maximum Suppression se usa para:",
+    "opciones": [
+      "Eliminar las bounding boxes (bboxes) que se pisan entre sí dejando únicamente la mejor de ellas.",
+      "Eliminar de forma estricta las imágenes que no contienen objetos para el entrenamiento.",
+      "Reducir la dimensionalidad de la matriz de características generada por el backbone."
+    ],
+    "correcta": 0
+  },
+  {
+    "pregunta": "En un modelo del tipo Autoencoder utilizado para procesar imágenes, los datos de entrada son la imagen y el resultado o etiqueta esperado es:",
+    "opciones": [
+      "Un vector numérico con la clase mayoritaria de esa imagen.",
+      "Las coordenadas de las bounding boxes centrales.",
+      "La misma imagen (o una variación de sí misma, como ruido)."
+    ],
+    "correcta": 2
+  },
+  {
+    "pregunta": "Respecto a las funciones de pérdida (Loss Functions) utilizadas durante la optimización y descenso del gradiente de una red neuronal:",
+    "opciones": [
+      "Siempre son un problema de minimización.",
+      "Siempre son un problema de maximización.",
+      "Sólo se utilizan en problemas de agrupamiento jerárquico NO supervisado."
+    ],
+    "correcta": 0
+  },
+  {
+    "pregunta": "En FastAI, el método lr_find() tiene como propósito principal:",
+    "opciones": [
+      "Limpiar los valores atípicos del conjunto de datos de forma automática.",
+      "Encontrar el ratio de aprendizaje (learning rate) más adecuado observando el valle de pérdida.",
+      "Determinar el número óptimo de vecinos en un modelo supervisado de tipo KNN."
+    ],
+    "correcta": 1
+  },
+  {
+    "pregunta": "Para interpretar un modelo de caja negra clásico, el uso de la técnica de \"model distillation\" consiste en:",
+    "opciones": [
+      "Limpiar los caracteres extraños del corpus usando un modelo del lenguaje preentrenado.",
+      "Entrenar un modelo de caja blanca más pequeño con las etiquetas generadas por un modelo de caja negra más grande para poder interpretarlo.",
+      "Aumentar el número de dimensiones del embedding resultante mediante la técnica t-SNE."
+    ],
+    "correcta": 1
+  },
+  {
+    "pregunta": "En el procesamiento de textos con FastAI, ¿qué indica el token especial \"xxrep\"?",
+    "opciones": [
+      "Que la palabra es desconocida para el modelo.",
+      "Que el carácter o elemento siguiente se repite un número determinado de veces.",
+      "Que comienza una nueva frase en el texto."
+    ],
+    "correcta": 1
+  },
+  {
+    "pregunta": "En la creación de un modelo Word2Vec, ¿qué parámetro define la cantidad de palabras vecinas que conforman el contexto de un token?",
+    "opciones": [
+      "vector_size.",
+      "min_count.",
+      "window."
+    ],
+    "correcta": 2
+  },
+  {
+    "pregunta": "Un modelo de NLP cuyo objetivo es traducir un texto o crear un resumen del mismo, se considera un modelo de estructura:",
+    "opciones": [
+      "Texto a imagen.",
+      "Texto a texto.",
+      "Texto a etiqueta."
+    ],
+    "correcta": 1
+  },
+  {
+    "pregunta": "Para crear un modelo capaz de colorear imágenes que originalmente están en blanco y negro, la arquitectura de red ideal sería:",
+    "opciones": [
+      "Un Árbol de Decisión.",
+      "Un Autoencoder.",
+      "Un Perceptrón simple."
+    ],
+    "correcta": 1
+  },
+  {
+    "pregunta": "En el entrenamiento de una red neuronal (descenso del gradiente), el parámetro \"momentum\" sirve para:",
+    "opciones": [
+      "Impulsar la variación del gradiente según la inercia anterior, ayudando al modelo a saltar mínimos locales.",
+      "Congelar los pesos de las capas convolucionales durante las primeras épocas de fine tuning.",
+      "Reducir a la mitad el tamaño espacial de la imagen en la fase de pooling."
+    ],
+    "correcta": 0
+  },
+  {
+    "pregunta": "Si aplicamos una estrategia Repeated K-Fold con 5 divisiones (n_splits=5) y 10 repeticiones (n_repeats=10), ¿cuántos modelos se entrenarán en total?",
+    "opciones": [
+      "15",
+      "50",
+      "500"
+    ],
+    "correcta": 1
+  },
+  {
+    "pregunta": "Cuando usamos validación cruzada y observamos que la media de la métrica en el conjunto de validación es inferior a la de entrenamiento, esto:",
+    "opciones": [
+      "Indica siempre un error grave en la estandarización de las etiquetas.",
+      "Es un comportamiento normal, dado que los datos de validación son nuevos y nunca antes vistos por el modelo.",
+      "Significa que el modelo sufre de un infraajuste (underfitting) extremo en todos sus parámetros."
+    ],
+    "correcta": 1
+  },
+  {
+    "pregunta": "Al visualizar un Árbol de Decisión, ¿qué información nos aporta el valor \"gini\" en cada uno de sus nodos?",
+    "opciones": [
+      "La impureza de la división en ese nodo (cómo de bien o mal separadas están las clases).",
+      "La profundidad máxima que puede alcanzar el árbol desde ese nodo hasta sus hojas.",
+      "El número mínimo de instancias requeridas para seguir dividiendo el nodo."
+    ],
+    "correcta": 0
+  },
+  {
+    "pregunta": "En un modelo SVM, el hiperparámetro de regularización C puede tomar infinitos valores reales. Para buscar su valor óptimo, la mejor estrategia es utilizar:",
+    "opciones": [
+      "GridSearch.",
+      "RandomSearch.",
+      "Progressive Resizing."
+    ],
+    "correcta": 1
+  },
+  {
+    "pregunta": "Al utilizar una arquitectura preentrenada como \"ResNet-18\", el número 18 hace referencia a:",
+    "opciones": [
+      "El tamaño o la cantidad de capas de la arquitectura.",
+      "El tamaño obligatorio en píxeles de las imágenes de entrada (18x18).",
+      "El número exacto de clases o etiquetas que es capaz de clasificar."
+    ],
+    "correcta": 0
+  },
+  {
+    "pregunta": "En la tarea de detección de objetos, al aplicar aumentos de datos geométricos (como recortes o giros) a nuestras imágenes:",
+    "opciones": [
+      "Debemos asegurarnos de modificar y reajustar también las bounding boxes (bboxes) asociadas a la imagen.",
+      "La librería albumentations no soporta su uso y lanzará un error de ejecución.",
+      "NO tenemos que modificar las bboxes porque el modelo las reajusta automáticamente durante el backward pass."
+    ],
+    "correcta": 0
+  },
+  {
+    "pregunta": "¿Por qué un modelo preentrenado de Word Embedding puede lanzar un error al consultarle la similitud de una palabra (token)?",
+    "opciones": [
+      "Porque la palabra consultada tiene demasiados caracteres.",
+      "Porque la palabra no pertenece al vocabulario o dataset con el que fue entrenado ese embedding.",
+      "Porque la función de similitud matemática solo es compatible con tensores de imágenes."
+    ],
+    "correcta": 1
+  },
+  {
+    "pregunta": "En la estrategia de aprendizaje semisupervisado, el modelo asume pseudoetiquetas para los datos desconocidos basándose en:",
+    "opciones": [
+      "Que la probabilidad de la predicción supere un \"threshold\" (umbral) de confianza establecido.",
+      "La media aritmética de las clases que ya conoce.",
+      "Las distancias euclídeas de un agrupamiento jerárquico."
+    ],
+    "correcta": 0
+  },
+  {
+    "pregunta": "Si al calcular la desviación típica de una columna numérica observamos que es mayor a un tercio de su media, significa estadísticamente que:",
+    "opciones": [
+      "Los datos tienen una distribución perfectamente uniforme.",
+      "La media nos aporta poca información, ya que la mayoría de los datos NO se concentran en torno a ella.",
+      "La columna está fuertemente desbalanceada y debe imputarse."
+    ],
+    "correcta": 1
+  },
+  {
+    "pregunta": "Al finalizar el Análisis Exploratorio de Datos (AED), si descubrimos que dos columnas miden prácticamente lo mismo y tienen una altísima correlación:",
+    "opciones": [
+      "Mantenemos ambas columnas obligatoriamente para dar el doble de importancia a esa característica.",
+      "Borramos la variable más difícil o cara de conseguir para simplificar el modelo sin perder información.",
+      "Combinamos ambas columnas usando One Hot Encoding."
+    ],
+    "correcta": 1
+  },
+  {
+    "pregunta": "A diferencia de un clasificador KNN, que predice asignando la categoría mayoritaria de sus vecinos, un regresor KNN genera como predicción:",
+    "opciones": [
+      "Valores numéricos dentro de un conjunto infinito de posibilidades (una regresión).",
+      "Únicamente una nueva clase llamada \"Unknown\".",
+      "Una máscara de segmentación para separar los datos atípicos."
+    ],
+    "correcta": 0
+  },
+  {
+    "pregunta": "En el entrenamiento de una red neuronal, el parámetro \"batch_size\" determina:",
+    "opciones": [
+      "La cantidad total de capas ocultas que conforman la arquitectura de la red.",
+      "La cantidad de información (datos) que la red procesa a la vez antes de actualizar sus pesos.",
+      "El número de épocas necesarias para alcanzar la convergencia."
+    ],
+    "correcta": 1
+  },
+  {
+    "pregunta": "En PNL, una de las principales desventajas del \"One Hot Encoding\" frente a la creación de \"Embeddings\" es que:",
+    "opciones": [
+      "El One Hot Encoding no permite representar textos en otros idiomas distintos al inglés.",
+      "El One Hot Encoding aumenta masivamente la dimensionalidad creando columnas muy espaciadas (sparse) y no captura relaciones de contexto.",
+      "El One Hot Encoding solo se puede utilizar para variables numéricas cíclicas."
+    ],
+    "correcta": 1
+  },
+  {
+    "pregunta": "Según los apuntes, una herramienta web muy recomendada para transformar notaciones y gestionar anotaciones (como bboxes) en tareas de Detección de Objetos es:",
+    "opciones": [
+      "Roboflow.",
+      "HuggingFaceChat.",
+      "Pandas."
+    ],
+    "correcta": 0
+  },
+  {
+    "pregunta": "En la segunda fase del entrenamiento de una red neuronal (backward pass o paso hacia atrás), ¿cómo se ajustan los pesos de la red?",
+    "opciones": [
+      "De forma aleatoria mediante el optimizador RandomSearch en cada época.",
+      "Comparando el resultado con el real y aplicando descenso del gradiente empezando desde la capa final y acabando en la de entrada.",
+      "Reescribiendo la matriz Jacobiana exclusivamente en la capa de entrada del modelo."
+    ],
+    "correcta": 1
+  },
+  {
+    "pregunta": "Según los consejos estadísticos para el Análisis Exploratorio, si la media de una variable es estrictamente mayor que su mediana, significa que existe:",
+    "opciones": [
+      "Un sesgo positivo (a la derecha).",
+      "Un sesgo negativo (a la izquierda).",
+      "Una distribución perfectamente uniforme."
+    ],
+    "correcta": 0
+  },
+  {
+    "pregunta": "De acuerdo con los límites de análisis exploratorio, es recomendable eliminar una de las características numéricas si la correlación entre dos de ellas es:",
+    "opciones": [
+      "Mayor o igual al 20%.",
+      "Mayor o igual al 80%.",
+      "Exactamente del 0%."
+    ],
+    "correcta": 1
+  },
+  {
+    "pregunta": "A diferencia de las redes neuronales clásicas, las redes neuronales convolucionales (CNN) agrupan sus neuronas en:",
+    "opciones": [
+      "Vectores unidimensionales obligatoriamente aplanados.",
+      "Filtros rectangulares (kernels) que se desplazan por la imagen.",
+      "Múltiples árboles de decisión interconectados."
+    ],
+    "correcta": 1
+  },
+  {
+    "pregunta": "Al crear un objeto DataBlock en FastAI, ¿para qué sirve el parámetro \"get_y\"?",
+    "opciones": [
+      "Para indicar qué transformaciones geométricas aplicar a la imagen.",
+      "Para dividir el conjunto en datos de entrenamiento y testeo.",
+      "Para proporcionar la función que permite obtener la etiqueta a partir del propio dato."
+    ],
+    "correcta": 2
+  },
+  {
+    "pregunta": "Al aplicar la técnica de \"fine tuning\" (reentrenamiento) a un modelo deep preentrenado, lo que se hace generalmente es:",
+    "opciones": [
+      "Ignorar todos los pesos anteriores y entrenar la arquitectura completamente desde cero.",
+      "Reutilizar el codificador (arquitectura y pesos base) y entrenar una nueva capa completamente conectada particular para nuestro problema.",
+      "Utilizar solo la capa de decodificación y borrar la matriz de características."
+    ],
+    "correcta": 1
+  },
+  {
+    "pregunta": "Al aplicar aumentos de datos geométricos en una tarea de Detección de Objetos (Object Detection), debemos tener especial cuidado con:",
+    "opciones": [
+      "Aplicar los cambios tanto a la imagen como a las bounding boxes (bboxes) asociadas.",
+      "Asegurarnos de transformar los datos exclusivamente en tiempo de testeo (TTA).",
+      "Borrar todos los valores nulos generados en la matriz Jacobiana."
+    ],
+    "correcta": 0
+  },
+  {
+    "pregunta": "La técnica Test Time Augmentation (Aumentos en tiempo de testeo) consiste en:",
+    "opciones": [
+      "Aplicar aumentos geométricos al conjunto de testeo, procesar todos los resultados y hacer un ensemble con ellos para mejorar la predicción.",
+      "Aumentar el número de épocas que dura el testeo para evitar el underfitting.",
+      "Modificar aleatoriamente las etiquetas reales para engañar al modelo y hacerlo más robusto."
+    ],
+    "correcta": 0
+  },
+  {
+    "pregunta": "En FastAI, el uso de objetos \"Callback\" (como EarlyStoppingCallback) nos permite:",
+    "opciones": [
+      "Traducir los textos de un idioma a otro de forma nativa.",
+      "Introducir código adicional entre las fases del entrenamiento (por ejemplo, para detenerlo si no mejora).",
+      "Reducir la dimensionalidad de las imágenes estandarizando sus píxeles."
+    ],
+    "correcta": 1
+  },
+  {
+    "pregunta": "Para mantener la coherencia espacial y estructural en un modelo de segmentación semántica (como la arquitectura UNet), su diseño se basa en que:",
+    "opciones": [
+      "Las capas del codificador están enlazadas y comparten información con las capas del decodificador.",
+      "Se elimina por completo la capa de decodificación.",
+      "La salida del modelo sea un vector unidimensional simple."
+    ],
+    "correcta": 0
+  },
+  {
+    "pregunta": "En un problema de segmentación semántica muy desbalanceado, usar la métrica general DiceMulti puede ser un problema porque:",
+    "opciones": [
+      "Hace explotar el gradiente y lanza un error de coma flotante.",
+      "Aumentará artificialmente si el modelo acierta la clase mayoritaria (ej. el fondo), ocultando que falla en las clases minoritarias.",
+      "Solo funciona para problemas de agrupamiento NO supervisado."
+    ],
+    "correcta": 1
+  },
+  {
+    "pregunta": "A diferencia de los aumentos geométricos, los aumentos de datos NO geométricos (como CutOut o CutMix):",
+    "opciones": [
+      "Solo se pueden usar en modelos clásicos de Machine Learning.",
+      "Son procesos reversibles a partir de productos de matrices.",
+      "Son irreversibles, modifican o destruyen parte de la información original y ayudan a crear modelos más robustos."
+    ],
+    "correcta": 2
+  },
+  {
+    "pregunta": "La arquitectura base de un modelo de tipo Autoencoder está formada conceptualmente por:",
+    "opciones": [
+      "Un Random Forest acoplado a un clasificador KNN.",
+      "Un codificador, una matriz de características intermedia y un decodificador.",
+      "Unicamente un decodificador que toma ruido aleatorio de entrada."
+    ],
+    "correcta": 1
+  },
+  {
+    "pregunta": "Para poder interpretar y explicar las decisiones de un modelo clásico de CAJA NEGRA, la técnica de \"model distillation\" propone:",
+    "opciones": [
+      "Entrenar un modelo de caja blanca utilizando las predicciones generadas por el modelo de caja negra.",
+      "Dibujar un mapa de calor utilizando los gradientes de la última capa convolucional.",
+      "Eliminar aleatoriamente el 50% de las características usando un Dropout."
+    ],
+    "correcta": 0
+  },
+  {
+    "pregunta": "En el contexto del Procesamiento del Lenguaje Natural (NLP), la unidad mínima indivisible de información de un texto se denomina:",
+    "opciones": [
+      "Token.",
+      "Píxel.",
+      "Clúster."
+    ],
+    "correcta": 0
+  },
+  {
+    "pregunta": "Al tokenizar un texto con herramientas como las de FastAI, ¿qué indica el token especial \"xxunk\"?",
+    "opciones": [
+      "Que el texto acaba en ese punto.",
+      "Que el elemento o carácter se repite N veces.",
+      "Que la palabra o token es desconocido (unknown) para el vocabulario del modelo."
+    ],
+    "correcta": 2
+  },
+  {
+    "pregunta": "Para que un modelo de NLP (Embedding) consiga una codificación de palabras de buena calidad, es requisito fundamental que:",
+    "opciones": [
+      "Codifique cada palabra individualmente ignorando por completo el orden.",
+      "Tenga en cuenta el contexto para diferenciar significados de palabras polisémicas.",
+      "Use siempre el mismo peso para todas las capas convolucionales."
+    ],
+    "correcta": 1
+  },
+  {
+    "pregunta": "La tarea principal y más difícil con la que se entrena desde cero a un Modelo General del Lenguaje (como la base de ChatGPT o BART) consiste en:",
+    "opciones": [
+      "Predecir cuál es la siguiente palabra (token) que debe aparecer a partir de un contexto.",
+      "Traducir directamente textos entre diferentes idiomas.",
+      "Clasificar si el sentimiento de una frase es positivo o negativo."
+    ],
+    "correcta": 0
+  },
+  {
+    "pregunta": "Según los ejemplos del temario sobre NLP, al clasificar un texto, la estrategia que suele arrojar los mejores resultados es:",
+    "opciones": [
+      "Usar embeddings genéricos pasados por un RandomForest tradicional.",
+      "Hacer \"fine-tuning\" sobre un Modelo del Lenguaje preentrenado (deep learning), reutilizando su codificador.",
+      "Eliminar todas las vocales para reducir la dimensionalidad de las palabras."
+    ],
+    "correcta": 1
+  },
+  {
+    "pregunta": "En el entrenamiento de modelos deep, reducir la precisión numérica para calcular productos matriciales (ej. pasar de 32 a 16 decimales) tiene como objetivo:",
+    "opciones": [
+      "Que el modelo ocupe menos memoria y se entrene más rápido, aunque puede provocar errores de gradiente.",
+      "Aumentar exponencialmente la interpretabilidad de las neuronas.",
+      "Que la métrica de exactitud (accuracy) suba automáticamente al 100%."
+    ],
+    "correcta": 0
+  },
+  {
+    "pregunta": "Según los apuntes estadísticos iniciales, si calculamos la desviación típica de una variable numérica y comprobamos que es mayor a 1/3 de su media, esto indica que:",
+    "opciones": [
+      "Hay una correlación del 100% con la variable objetivo.",
+      "La media es un dato muy representativo que agrupa a toda la población.",
+      "La media nos dice poca información porque los datos están muy dispersos y no se concentran en torno a ella."
+    ],
+    "correcta": 2
+  },
+  {
+    "pregunta": "En la librería Pandas, para acceder a cada una de las filas de un DataFrame mediante su índice posicional numérico, se utiliza el atributo:",
+    "opciones": [
+      "loc.",
+      "iloc.",
+      "index."
+    ],
+    "correcta": 1
+  },
+  {
+    "pregunta": "Para aplicar una transformación dinámica (como una función lambda) a todos los elementos de una columna en un DataFrame de Pandas, la función adecuada es:",
+    "opciones": [
+      "transform_all().",
+      "apply().",
+      "mutate()."
+    ],
+    "correcta": 1
+  },
+  {
+    "pregunta": "En NLP, al intentar codificar una frase usando un embedding por palabras, si una palabra NO existe en el vocabulario del modelo, ¿cómo se suele proceder para mantener la estructura de la frase?",
+    "opciones": [
+      "Se elimina la frase entera del conjunto de entrenamiento.",
+      "Se captura la excepción y se rellena la fila con datos 'vacíos' para esa palabra.",
+      "El modelo infiere su significado automáticamente buscando la palabra en Wikipedia."
+    ],
+    "correcta": 1
+  },
+  {
+    "pregunta": "Al procesar texto con las herramientas de tokenización de FastAI, ¿qué indica el token especial 'xxbos'?",
+    "opciones": [
+      "Que la palabra siguiente está escrita en mayúsculas.",
+      "Que es una palabra desconocida (unknown).",
+      "Que empieza el texto (Begin Of Stream)."
+    ],
+    "correcta": 2
+  },
+  {
+    "pregunta": "Al crear un DataBlock en FastAI para entrenar un Modelo del Lenguaje de uso general (predictivo), se debe indicar al TextBlock el parámetro:",
+    "opciones": [
+      "is_lm = True.",
+      "language_mode = \"general\".",
+      "text_type = \"predictive\"."
+    ],
+    "correcta": 0
+  },
+  {
+    "pregunta": "En la arquitectura de un Autoencoder, para aumentar la resolución geométrica de la matriz en la fase del decodificador, se utilizan capas de:",
+    "opciones": [
+      "MaxPooling2D.",
+      "UpSampling2D.",
+      "Conv2D con padding 'valid'."
+    ],
+    "correcta": 1
+  },
+  {
+    "pregunta": "En FastAI, la función 'show_batch()' aplicada sobre un objeto DataLoader nos permite:",
+    "opciones": [
+      "Visualizar un pequeño ejemplo de los datos cargados para comprobar que todo está correcto y bien formateado.",
+      "Mostrar el código fuente de las transformaciones que se aplicarán.",
+      "Forzar el inicio del entrenamiento del modelo por lotes (batches) en la GPU."
+    ],
+    "correcta": 0
+  },
+  {
+    "pregunta": "Según los límites establecidos para el análisis exploratorio, existe una alta correlación entre dos variables (y por tanto una de ellas debería eliminarse) si su valor absoluto de correlación es mayor o igual a:",
+    "opciones": [
+      "50% (0.5).",
+      "80% (0.8).",
+      "99% (0.99)."
+    ],
+    "correcta": 1
+  },
+  {
+    "pregunta": "En una estrategia de ensemble tipo Stacking, si queremos utilizar las predicciones de los modelos base para establecer qué peso debe tener cada modelo en la decisión final, el modelo agrupador suele ser:",
+    "opciones": [
+      "Una regresión lineal (como un Perceptrón), que calcule la importancia de cada modelo base.",
+      "Un algoritmo de agrupamiento K-Means.",
+      "Un Autoencoder profundo."
+    ],
+    "correcta": 0
+  },
+  {
+    "pregunta": "Aunque los Árboles de Decisión individuales son modelos de caja blanca, los modelos RandomForest (bosques aleatorios):",
+    "opciones": [
+      "Siguen siendo de caja blanca porque solo suman las reglas lógicas simples de sus árboles.",
+      "NO son modelos de caja blanca, perdiendo la interpretabilidad directa.",
+      "Son de caja blanca únicamente si el número total de árboles (n_estimators) es inferior a 10."
+    ],
+    "correcta": 1
+  },
+  {
+    "pregunta": "Para aplicar la técnica de interpretabilidad Grad-CAM en arquitecturas deep, se utiliza un objeto 'Hook' cuya función principal es:",
+    "opciones": [
+      "Interceptar y capturar temporalmente los gradientes de las activaciones durante las etapas de propagación (forward y backward).",
+      "Detener el entrenamiento automáticamente si el modelo empieza a sobreajustarse.",
+      "Enganchar la salida del codificador directamente a un modelo clásico como RandomForest."
+    ],
+    "correcta": 0
+  },
+  {
+    "pregunta": "En un problema de Detección de Objetos en Visión por Computador, la salida esperada del modelo es:",
+    "opciones": [
+      "Una única etiqueta global que describa el objeto principal de la imagen.",
+      "Una imagen del mismo tamaño que la original coloreada píxel a píxel (máscara).",
+      "Una serie de coordenadas rectangulares (bounding boxes) y sus etiquetas correspondientes."
+    ],
+    "correcta": 2
+  },
+  {
+    "pregunta": "Al evaluar el rendimiento de un Modelo del Lenguaje, además del accuracy, se utiliza una métrica que mide la media de bits por palabra que el modelo necesita para representar la predicción. Esta métrica es:",
+    "opciones": [
+      "Entropía cruzada.",
+      "F1-Score Semántico.",
+      "Perplejidad (Perplexity)."
+    ],
+    "correcta": 2
+  },
+  {
+    "pregunta": "En la compilación de modelos neuronales (solver), el optimizador más comúnmente utilizado por defecto, que adapta dinámicamente cómo aprende la red para hacerlo más rápido, es:",
+    "opciones": [
+      "Adam.",
+      "Gradient Boosting.",
+      "DBSCAN."
+    ],
+    "correcta": 0
+  },
+  {
+    "pregunta": "Para codificar variables categóricas que representan información cíclica (como los días de la semana o los meses del año), la estrategia óptima para NO perder la relación de cercanía es usar:",
+    "opciones": [
+      "One Hot Encoding binario estricto.",
+      "Funciones trigonométricas (seno y coseno) simulando un reloj en la circunferencia unitaria.",
+      "Eliminación directa de la columna por alta correlación temporal."
+    ],
+    "correcta": 1
+  },
+  {
+    "pregunta": "En una Máquina de Vector Soporte (SVM), el hiperparámetro que define la base matemática utilizada para generar las dimensiones extra se denomina:",
+    "opciones": [
+      "Kernel (núcleo).",
+      "C (regularización).",
+      "Epoch."
+    ],
+    "correcta": 0
+  },
+  {
+    "pregunta": "Matemáticamente, la fórmula clásica más restrictiva para determinar si un valor es un dato atípico (outlier) se basa en situar los límites a 1.5 veces el rango intercuartílico (IQR) centrado en:",
+    "opciones": [
+      "La media.",
+      "La desviación típica.",
+      "El valor de la mediana exclusivamente."
+    ],
+    "correcta": 0
+  },
+  {
+    "pregunta": "Al aplicar la técnica de 'fine tuning' en FastAI, el hiperparámetro de épocas congeladas (freeze_epochs) sirve para:",
+    "opciones": [
+      "Pausar el entrenamiento y guardar los pesos del modelo en el disco duro.",
+      "Entrenar primero únicamente la capa final (completamente conectada), impidiendo que se modifiquen los pesos del modelo predecesor (backbone).",
+      "Reducir la temperatura de la GPU omitiendo cálculos complejos de coma flotante."
+    ],
+    "correcta": 1
+  },
+  {
+    "pregunta": "En el procesamiento del lenguaje natural con FastAI, una de las arquitecturas deep predeterminadas proporcionadas para crear clasificadores de texto y modelos de lenguaje es:",
+    "opciones": [
+      "ResNet-50.",
+      "AWD_LSTM.",
+      "YOLOv8."
+    ],
+    "correcta": 1
+  },
+  {
+    "pregunta": "Una de las utilidades secundarias de la técnica 'model distillation' (entrenar un modelo de caja blanca imitando las etiquetas predichas por uno de caja negra) además de la interpretabilidad es:",
+    "opciones": [
+      "Crear pseudoetiquetadores para ayudar en tareas de aprendizaje semi-supervisado.",
+      "Reducir el tiempo de inferencia matemática estrictamente a cero.",
+      "Generar datos sintéticos de tipo imagen mediante ruido gausiano."
+    ],
+    "correcta": 0
+  },
+  {
+    "pregunta": "En Pandas, para cargar un conjunto de datos tabular (como un CSV) directamente desde un archivo en la nube sin descargarlo previamente en local:",
+    "opciones": [
+      "Pasamos la URI o enlace directo del fichero a la función de lectura (read_csv).",
+      "Es obligatorio instalar y usar el módulo web de BeautifulSoup.",
+      "Debemos montar una unidad externa de Google Drive."
+    ],
+    "correcta": 0
+  },
+  {
+    "pregunta": "¿Cuál de las siguientes métricas está diseñada de forma específica para evaluar modelos de regresión y NO de clasificación?",
+    "opciones": [
+      "Accuracy (Precisión o Exactitud).",
+      "RMSE (Raíz del error cuadrático medio).",
+      "Recall (Exhaustividad)."
+    ],
+    "correcta": 1
+  },
+  {
+    "pregunta": "En el algoritmo KMeans de aprendizaje no supervisado, ¿qué determina el hiperparámetro \"n_init\"?",
+    "opciones": [
+      "El número total de grupos (clusters) en los que queremos separar los datos.",
+      "El número de iteraciones máximas antes de que el entrenamiento se detenga obligatoriamente.",
+      "El número de veces que el algoritmo se ejecuta internamente con distintas posiciones iniciales de los centroides."
+    ],
+    "correcta": 2
+  },
+  {
+    "pregunta": "En un algoritmo de Agrupamiento Jerárquico, si seleccionamos el tipo de enlace (linkage) denominado \"ward\", el criterio para unir dos grupos se basará en:",
+    "opciones": [
+      "Buscar el punto que menor varianza tenga respecto al grupo a comparar.",
+      "Medir la distancia máxima entre los dos puntos más alejados de los grupos.",
+      "Medir la distancia mínima geométrica entre los dos grupos."
+    ],
+    "correcta": 0
+  },
+  {
+    "pregunta": "En un entorno de Aprendizaje por Refuerzo, cuando el agente NO es omnisciente y existe información oculta del entorno que desconoce, se dice que el agente recibe:",
+    "opciones": [
+      "Estados.",
+      "Observaciones.",
+      "Recompensas puras."
+    ],
+    "correcta": 1
+  },
+  {
+    "pregunta": "En el entrenamiento de un agente con el algoritmo Q-Learning, si el parámetro \"discount_factor\" (gamma) tiene un valor de 0, significa que el agente:",
+    "opciones": [
+      "Es miope y prioriza al máximo las decisiones que le otorguen recompensas a corto plazo.",
+      "Es optimista y prioriza únicamente las acciones que le den recompensas a largo plazo.",
+      "Se ha quedado estancado en un ciclo infinito de exploración."
+    ],
+    "correcta": 0
+  },
+  {
+    "pregunta": "A la hora de crear un embedding, el temario recomienda usar el codificador \"WordPunctTokenizer\" de la librería NLTK para textos en inglés porque:",
+    "opciones": [
+      "Genera automáticamente la matriz jacobiana del lenguaje.",
+      "Ignora los verbos irregulares para acelerar el procesamiento de la GPU.",
+      "Permite dividir correctamente los textos teniendo en cuenta signos de puntuación especiales como el apóstrofe."
+    ],
+    "correcta": 2
+  },
+  {
+    "pregunta": "En la Visión por Computador, una imagen en color cargada nativamente en formato RGB se representa a nivel matemático como:",
+    "opciones": [
+      "Una matriz en escala de grises aplanada bidimensional.",
+      "Una única lista plana (unidimensional) de píxeles booleanos.",
+      "Un tensor tridimensional, compuesto por una matriz para cada capa de color (R, G, B)."
+    ],
+    "correcta": 2
+  },
+  {
+    "pregunta": "En la arquitectura de las redes encargadas de la Segmentación Semántica, la salida generada por el decodificador (decoder) es:",
+    "opciones": [
+      "Una lista de coordenadas que definen las bounding boxes (bboxes).",
+      "Una nueva imagen del mismo tamaño que la original, llamada máscara.",
+      "Un único valor numérico probabilístico de la clase mayoritaria."
+    ],
+    "correcta": 1
+  },
+  {
+    "pregunta": "El gráfico en forma de árbol que permite visualizar las uniones iterativas de grupos en el algoritmo de Agrupamiento Jerárquico se denomina:",
+    "opciones": [
+      "Dendograma.",
+      "Mapa de calor.",
+      "Red Generativa Adversaria."
+    ],
+    "correcta": 0
+  },
+  {
+    "pregunta": "Al optimizar un Árbol de Decisión, si NO establecemos un límite en el hiperparámetro \"max_depth\" (profundidad máxima) y dejamos que el árbol crezca libremente:",
+    "opciones": [
+      "El modelo tenderá fuertemente al sobreajuste (overfitting).",
+      "El modelo sufrirá invariablemente de infraajuste (underfitting).",
+      "Se reducirá automáticamente la cantidad de dimensiones del conjunto de datos."
+    ],
+    "correcta": 0
+  },
+  {
+    "pregunta": "En el aprendizaje supervisado, el objetivo principal de reservar un porcentaje de datos exclusivamente para el conjunto de \"testeo\" es:",
+    "opciones": [
+      "Balancear automáticamente las clases minoritarias con técnicas de estratificación.",
+      "Evitar que el modelo se aprenda de memoria los datos de entrenamiento y comprobar que es capaz de generalizar sobre datos nuevos.",
+      "Entrenar los parámetros internos (pesos) del modelo antes de pasarlo por la fase de validación."
+    ],
+    "correcta": 1
+  },
+  {
+    "pregunta": "Al filtrar un DataFrame en Pandas encadenando múltiples máscaras booleanas lógicas, existe un requisito de sintaxis estricto:",
+    "opciones": [
+      "Convertir todas las columnas numéricas a valores de texto antes de operar.",
+      "Envolver obligatoriamente cada condición individual entre paréntesis antes de unirlas con los operadores (| o &).",
+      "Utilizar las palabras clave 'and' y 'or' en lugar de los símbolos ampersand y barra vertical."
+    ],
+    "correcta": 1
+  },
+  {
+    "pregunta": "En el modelo no supervisado DBSCAN, ¿qué papel juega el hiperparámetro \"eps\"?",
+    "opciones": [
+      "Define la cantidad mínima de instancias necesarias para consolidar un clúster.",
+      "Fuerza al algoritmo a encontrar exactamente ese número de grupos.",
+      "Define el radio o distancia máxima a la que deben estar dos puntos para considerarse próximos al mismo grupo."
+    ],
+    "correcta": 2
+  },
+  {
+    "pregunta": "Dentro de una red neuronal, la función de activación ReLU tiene como comportamiento principal:",
+    "opciones": [
+      "Mantener inalterados los valores positivos y sustituir todos los valores negativos generados por el perceptrón por ceros.",
+      "Convertir linealmente todas las salidas numéricas a porcentajes entre el 0 y el 1.",
+      "Dividir el valor del gradiente para impedir el efecto de la \"maldición de la dimensionalidad\"."
+    ],
+    "correcta": 0
+  },
+  {
+    "pregunta": "En un modelo de Máquinas de Vector Soporte (SVM), el hiperparámetro de regularización \"C\" se encarga de que, cuanto más elevado sea su valor:",
+    "opciones": [
+      "Más estricto y conservador será el modelo, provocando infraajuste casi inmediato.",
+      "Más laxo será el modelo, aumentando con ello la tendencia al sobreajuste (overfitting).",
+      "Se ignoren temporalmente los hiperplanos y se utilicen métodos de agrupación basados en densidad."
+    ],
+    "correcta": 1
+  },
+  {
+    "pregunta": "En problemas de clasificación binaria, analizar la métrica a través de una Curva ROC (y su área AUC) nos permite visualizar gráficamente la relación que existe entre:",
+    "opciones": [
+      "Los verdaderos positivos frente a los falsos positivos (o negativos).",
+      "La cantidad de vecinos analizados (K) respecto a la profundidad del árbol.",
+      "Las épocas de validación respecto a la tasa de aprendizaje descendente."
+    ],
+    "correcta": 0
+  },
+  {
+    "pregunta": "En la librería FastAI, al construir un objeto DataBlock para un problema de clasificación de imágenes, la configuración de los bloques (ImageBlock, CategoryBlock) especifica que:",
+    "opciones": [
+      "El modelo estará obligado a crear imágenes nuevas guiándose únicamente por textos descriptivos.",
+      "La entrada de la red serán datos en formato imagen y la salida a predecir será una etiqueta categórica.",
+      "Se aplicarán aumentos geométricos tanto a la imagen como a sus correspondientes cajas delimitadoras (bboxes)."
+    ],
+    "correcta": 1
+  },
+  {
+    "pregunta": "En FastAI, para ejecutar inferencia (predicciones) utilizando Aumentos en Tiempo de Testeo (TTA) con el objetivo de mejorar la robustez procesando múltiples variaciones de una imagen, se utiliza el método:",
+    "opciones": [
+      "lr_find()",
+      "fine_tune()",
+      "tta()"
+    ],
+    "correcta": 2
+  },
+  {
+    "pregunta": "En tareas de Detección de Objetos, es muy común que el modelo detecte un mismo elemento creando múltiples rectángulos (bboxes) casi idénticos a su alrededor. Para solucionar esta duplicidad se aplica la técnica:",
+    "opciones": [
+      "Non Maximum Suppression (Supresión de No Máximos), eliminando las bboxes que se pisan dejando solo la mejor.",
+      "Grad-CAM, aplicando un mapa de calor que borra los píxeles solapados fuera del umbral establecido.",
+      "One Hot Encoding, convirtiendo las coordenadas de las cajas a matrices ralas de ceros y unos."
+    ],
+    "correcta": 0
+  },
+  {
+    "pregunta": "En el contexto de la creación de un \"word embedding\", ¿qué representa un token?",
+    "opciones": [
+      "Un conjunto arbitrario de tres caracteres continuos.",
+      "Una palabra completa e indivisible.",
+      "Una frase completa separada por puntos."
+    ],
+    "correcta": 1
+  },
+  {
+    "pregunta": "Al crear un modelo Word2Vec usando la librería \"gensim\", el hiperparámetro \"min_count\" sirve para:",
+    "opciones": [
+      "Definir el tamaño del vector o dimensiones resultantes.",
+      "Establecer la cantidad de palabras vecinas que conforman el contexto.",
+      "Indicar la cantidad mínima de veces que debe aparecer una palabra para ser considerada un token."
+    ],
+    "correcta": 2
+  },
+  {
+    "pregunta": "Si usamos un embedding preentrenado de uso general y le pasamos un texto completo para evaluarlo token a token, ¿qué problema fundamental podemos encontrarnos?",
+    "opciones": [
+      "Que el embedding borre automáticamente los signos de puntuación corrompiendo la matriz.",
+      "Que alguna palabra de nuestro texto NO se encuentre en el vocabulario del embedding lanzando un error.",
+      "Que el modelo devuelva siempre un resultado cíclico infinito."
+    ],
+    "correcta": 1
+  },
+  {
+    "pregunta": "Para poder entrenar un clasificador clásico (como RandomForest) utilizando embeddings de texto, ¿qué técnica se suele aplicar para unificar las longitudes vectoriales de frases distintas?",
+    "opciones": [
+      "Calcular la media de los embeddings de todos los tokens de la frase.",
+      "Eliminar del dataset las frases que tengan más de 5 palabras.",
+      "Multiplicar todos los vectores individuales por la matriz Jacobiana."
+    ],
+    "correcta": 0
+  },
+  {
+    "pregunta": "En FastAI, al crear un clasificador de textos a partir de un DataFrame de Pandas, los bloques que se utilizan al configurar el DataBlock son:",
+    "opciones": [
+      "ImageBlock y MaskBlock.",
+      "TextBlock y CategoryBlock.",
+      "WordBlock y NumberBlock."
+    ],
+    "correcta": 1
+  },
+  {
+    "pregunta": "Al tokenizar un texto con las herramientas de FastAI, ¿qué indica el token especial \"xxrep\"?",
+    "opciones": [
+      "Que comienza un nuevo texto o frase.",
+      "Que una palabra es desconocida.",
+      "Que el carácter o elemento siguiente se repite n veces."
+    ],
+    "correcta": 2
+  },
+  {
+    "pregunta": "En FastAI, al configurar un DataBlock para crear un Modelo del Lenguaje general de tipo predictivo, ¿qué parámetro debemos incluir obligatoriamente en el bloque de texto?",
+    "opciones": [
+      "is_lm = True.",
+      "language_mode = \"predict\".",
+      "generate_text = True."
+    ],
+    "correcta": 0
+  },
+  {
+    "pregunta": "La tarea principal y más difícil con la que se entrena un modelo predictivo del lenguaje de forma general consiste en:",
+    "opciones": [
+      "Traducir un texto de inglés a español de forma nativa.",
+      "Predecir cuál es el siguiente token que debe aparecer dado un contexto previo.",
+      "Determinar la emoción o sentimiento final de un texto."
+    ],
+    "correcta": 1
+  },
+  {
+    "pregunta": "Al evaluar un Modelo del Lenguaje, ¿qué métrica se utiliza comúnmente para medir la media de bits por palabra que el modelo necesita para representar una predicción?",
+    "opciones": [
+      "Perplejidad (Perplexity).",
+      "Precisión (Accuracy).",
+      "Raíz del error cuadrático medio (RMSE)."
+    ],
+    "correcta": 0
+  },
+  {
+    "pregunta": "En FastAI, el paso más crítico para aprovechar un Modelo del Lenguaje general y convertirlo en un buen clasificador de textos particular es:",
+    "opciones": [
+      "Borrar todas las capas convolucionales y dejar solo la capa final de salida.",
+      "Sustituir el codificador del clasificador por el codificador previamente entrenado en el modelo del lenguaje.",
+      "Aplicar aumentos de datos geométricos a las representaciones vectoriales de las palabras."
+    ],
+    "correcta": 1
+  },
+  {
+    "pregunta": "Un modelo diseñado para crear un resumen a partir de un texto original (como BART en HuggingFace), tiene una topología del tipo:",
+    "opciones": [
+      "Texto a etiqueta.",
+      "Texto a imagen.",
+      "Texto a texto."
+    ],
+    "correcta": 2
+  },
+  {
+    "pregunta": "En un conjunto de datos extremadamente desbalanceado, la técnica de \"downsampling\" para balancearlo consiste en:",
+    "opciones": [
+      "Descartar o eliminar datos de la clase mayoritaria de forma que se iguale la cantidad de instancias.",
+      "Duplicar los datos de la clase minoritaria introduciendo ruido aleatorio.",
+      "Estandarizar todas las variables numéricas reduciendo su varianza estadística."
+    ],
+    "correcta": 0
+  },
+  {
+    "pregunta": "Según los consejos de preprocesamiento, si calculamos la matriz de correlación y dos variables numéricas presentan una correlación absoluta mayor o igual al 80% (0.8), lo recomendable es:",
+    "opciones": [
+      "Eliminar ambas columnas inmediatamente por ser redundancia absoluta.",
+      "Eliminar una de las dos columnas (preferiblemente la más difícil o cara de conseguir).",
+      "Multiplicarlas entre sí para crear una única super-característica que sume la información."
+    ],
+    "correcta": 1
+  },
+  {
+    "pregunta": "A diferencia de la alta correlación entre variables de entrada (que es perjudicial para la independencia de los datos), tener una alta correlación entre una variable de entrada y la variable objetivo (la etiqueta a predecir) es:",
+    "opciones": [
+      "Muy interesante y útil para que el modelo acierte.",
+      "Un claro indicador de que debemos borrar obligatoriamente esa variable por hacer trampa.",
+      "Un error estadístico conocido como ruido gausiano."
+    ],
+    "correcta": 0
+  },
+  {
+    "pregunta": "Durante el Análisis Exploratorio de Datos, si detectamos que la media de una variable numérica es estrictamente MAYOR que su mediana, podemos deducir que en su distribución existe:",
+    "opciones": [
+      "Un sesgo negativo (a la izquierda).",
+      "Una distribución perfectamente uniforme.",
+      "Un sesgo positivo (a la derecha)."
+    ],
+    "correcta": 2
+  },
+  {
+    "pregunta": "Por el contrario, si tras el análisis observamos que la media aritmética de los datos numéricos es MENOR que la mediana, estadísticamente existe:",
+    "opciones": [
+      "Un sesgo negativo (a la izquierda).",
+      "Un sesgo positivo (a la derecha).",
+      "Un desbalanceo masivo de clases en la variable objetivo."
+    ],
+    "correcta": 0
+  },
+  {
+    "pregunta": "Según la regla general indicada en el temario para analizar la representatividad de la media, la desviación típica de una variable numérica NO debería ser mayor a:",
+    "opciones": [
+      "Un décimo (1/10) del valor de su media.",
+      "Un tercio (1/3) del valor de su media.",
+      "El triple (3 veces) del valor de su media."
+    ],
+    "correcta": 1
+  },
+  {
+    "pregunta": "En el análisis de variabilidad para una columna categórica que SOLO admite dos opciones (binaria), ¿cuál es el porcentaje límite general a partir del cual deberíamos alarmarnos por baja variabilidad al considerar que la columna actúa casi como una constante?",
+    "opciones": [
+      "Cuando una opción se repite más del 50% de los datos.",
+      "Cuando una opción se repite más del 80% de los datos.",
+      "Cuando ambas opciones están al 50% exacto."
+    ],
+    "correcta": 1
+  },
+  {
+    "pregunta": "Según los consejos estadísticos prácticos genéricos sobre la preparación de la información, tener más de 10 columnas o dimensiones en un conjunto de datos tabulares:",
+    "opciones": [
+      "Es el volumen ideal u objetivo final para entrenar cualquier modelo de IA clásico.",
+      "Son demasiadas columnas, siendo un indicativo de que probablemente tocará borrar o reducir la dimensionalidad.",
+      "Solo supone un problema algorítmico al utilizar técnicas de aprendizaje NO supervisado."
+    ],
+    "correcta": 1
+  },
+  {
+    "pregunta": "Si en un problema de clasificación detectamos un \"desbalance de clases\" (Class Imbalance) severo y NO aplicamos estrategias para corregirlo, el modelo tenderá a:",
+    "opciones": [
+      "Explotar sus gradientes matemáticos y devolver un error de inferencia irrecuperable.",
+      "Predecir equitativamente y de forma aleatoria todas las posibles etiquetas.",
+      "Predecir casi siempre la clase mayoritaria, obteniendo una alta exactitud aparente pero fallando en la clase minoritaria."
+    ],
+    "correcta": 2
+  },
+  {
+    "pregunta": "En los árboles de decisión, el hiperparámetro \"max_depth\" define:",
+    "opciones": [
+      "El número de instancias mínimas requeridas para dividir un nodo.",
+      "La profundidad máxima del árbol.",
+      "El criterio matemático para evaluar la impureza (como Gini o Entropía)."
+    ],
+    "correcta": 1
+  },
+  {
+    "pregunta": "Al entrenar una Máquina de Vector Soporte (SVM) con un kernel polinomial (\"poly\"), ¿qué hiperparámetro determina el grado de dicho polinomio?",
+    "opciones": [
+      "degree.",
+      "gamma.",
+      "C."
+    ],
+    "correcta": 0
+  },
+  {
+    "pregunta": "En el entrenamiento de un Modelo del Lenguaje predictivo con FastAI, ¿qué indica el parámetro \"seq_len\"?",
+    "opciones": [
+      "El número máximo de palabras desconocidas permitidas en el vocabulario.",
+      "La longitud de la secuencia de texto, determinando el contexto de la frase que se considerará.",
+      "La cantidad total de épocas a entrenar antes de aplicar EarlyStopping."
+    ],
+    "correcta": 1
+  },
+  {
+    "pregunta": "Al crear un word embedding desde cero usando la herramienta \"Word2Vec\", el hiperparámetro \"vector_size\" determina:",
+    "opciones": [
+      "El tamaño o número de dimensiones del vector resultante para cada token.",
+      "La cantidad mínima de veces que debe aparecer una palabra para ser incluida.",
+      "El tamaño de la ventana de contexto de palabras cercanas."
+    ],
+    "correcta": 0
+  },
+  {
+    "pregunta": "Según los apuntes sobre NLP, cuando codificamos un texto completo usando un word embedding a nivel de token y necesitamos una única representación vectorial para toda la frase, la técnica más habitual es:",
+    "opciones": [
+      "Calcular la media de los embeddings de todos sus tokens.",
+      "Usar exclusivamente la representación vectorial del primer token de la frase.",
+      "Multiplicar todos los vectores por la matriz Jacobiana."
+    ],
+    "correcta": 0
+  },
+  {
+    "pregunta": "En FastAI, al usar un modelo del lenguaje preentrenado (como AWD_LSTM) y adaptarlo para una tarea de clasificación de texto particular (fine-tuning), nos beneficiamos principalmente de:",
+    "opciones": [
+      "La eliminación de todas las capas convolucionales previas.",
+      "Reutilizar el codificador (arquitectura y pesos) y el conocimiento del lenguaje que el modelo general ya posee.",
+      "Aumentar aleatoriamente la longitud de las palabras usando transformaciones geométricas."
+    ],
+    "correcta": 1
+  },
+  {
+    "pregunta": "Al aplicar la técnica de regularización EarlyStopping a través de un Callback para prevenir el sobreajuste, ¿qué función cumple el parámetro \"patience\"?",
+    "opciones": [
+      "Definir el número de épocas consecutivas permitidas sin mejora antes de detener el entrenamiento.",
+      "Determinar el porcentaje de neuronas que se desactivan de forma aleatoria por cada iteración.",
+      "Modificar la tasa de aprendizaje si el gradiente desaparece."
+    ],
+    "correcta": 0
+  },
+  {
+    "pregunta": "Al realizar aumentos de datos geométricos (como giros o distorsiones) en problemas de Segmentación Semántica, es estrictamente necesario que:",
+    "opciones": [
+      "La transformación se aplique exclusivamente a la imagen original de entrada.",
+      "La transformación se aplique de forma idéntica y simultánea tanto a la imagen original como a su máscara (etiqueta) asociada.",
+      "La transformación se calcule únicamente en la fase de testeo."
+    ],
+    "correcta": 1
+  },
+  {
+    "pregunta": "En la arquitectura de un Autoencoder, las capas de la fase del decodificador encargadas de aumentar la resolución matricial (realizando el proceso inverso al pooling) se denominan:",
+    "opciones": [
+      "MaxPooling2D.",
+      "Conv2D con padding.",
+      "UpSampling2D."
+    ],
+    "correcta": 2
+  },
+  {
+    "pregunta": "Para evaluar problemas de Segmentación Semántica multiclase desbalanceados (ej. muchas hojas vs pocas uvas), usar la métrica global \"DiceMulti\":",
+    "opciones": [
+      "Es la única forma estadísticamente viable de validar el modelo.",
+      "Puede dar resultados engañosamente buenos por acertar masivamente solo la clase mayoritaria (ocultando fallos en la minoritaria).",
+      "Produce un error de división por cero y bloquea la tarjeta gráfica."
+    ],
+    "correcta": 1
+  },
+  {
+    "pregunta": "En visión por computador, la técnica de aumento de datos NO geométrica que fusiona dos o más imágenes conservando el mayor nivel de información posible mediante el concepto de transparencia se denomina:",
+    "opciones": [
+      "CutOutRandom.",
+      "TransparenceMix.",
+      "GridDistortion."
+    ],
+    "correcta": 1
+  },
+  {
+    "pregunta": "En FastAI, si al entrenar observamos que la pérdida de entrenamiento (train_loss) baja constantemente pero la de validación (valid_loss) se estanca y comienza a subir drásticamente, es un síntoma inequívoco de:",
+    "opciones": [
+      "Sobreajuste (Overfitting).",
+      "Infraajuste (Underfitting).",
+      "Convergencia prematura estable."
+    ],
+    "correcta": 0
+  },
+  {
+    "pregunta": "Si tenemos un conjunto de datos con un fuerte factor temporal (ej. predicción de cosechas con años pasados o bolsa), la división correcta en entrenamiento, validación y testeo exige:",
+    "opciones": [
+      "Un reparto completamente aleatorio usando la función train_test_split tradicional.",
+      "Entrenar SIEMPRE con datos del pasado y validar o testear SIEMPRE con datos del futuro respecto al conjunto de entrenamiento.",
+      "Replicar obligatoriamente la técnica Repeated K-Fold."
+    ],
+    "correcta": 1
+  },
+  {
+    "pregunta": "En una matriz de confusión para un problema de clasificación médico sobre el tabaquismo, clasificar erróneamente a un verdadero fumador como \"NO fumador\" se considera un:",
+    "opciones": [
+      "Falso Negativo (FN).",
+      "Falso Positivo (FP).",
+      "Verdadero Negativo (TN)."
+    ],
+    "correcta": 0
+  },
+  {
+    "pregunta": "En scikit-learn (ej. al usar SimpleImputer o StandardScaler), para que el objeto aprenda los estadísticos de los datos de entrenamiento y a la vez devuelva los datos transformados en un solo paso, se invoca a la función:",
+    "opciones": [
+      "fit().",
+      "transform().",
+      "fit_transform()."
+    ],
+    "correcta": 2
+  },
+  {
+    "pregunta": "Respecto a funciones de pérdida como la raíz del error cuadrático medio (RMSE) en redes neuronales, el objetivo matemático durante el descenso del gradiente es:",
+    "opciones": [
+      "Minimizarlas siempre para acercarlas a 0.",
+      "Maximizarlas siempre para acercarlas al 100%.",
+      "Mantenerlas estables y constantes en el valor umbral."
+    ],
+    "correcta": 0
+  },
+  {
+    "pregunta": "En la técnica de ensemble tipo \"Bagging\" (utilizada por los bosques aleatorios o RandomForest), la estrategia principal consiste en:",
+    "opciones": [
+      "Entrenar distintos tipos de modelos (ej. KNN, SVM, MLP) y unificar los resultados de todos.",
+      "Entrenar varios modelos débiles en serie para que los últimos corrijan progresivamente los errores de los primeros.",
+      "Entrenar múltiples copias del mismo tipo de modelo (como cientos de árboles de decisión) y promediar o votar sus resultados."
+    ],
+    "correcta": 2
+  },
+  {
+    "pregunta": "Al calcular distancias en el espacio de características de un algoritmo como KMeans, si usamos una métrica que NO permite trazar diagonales (calculando el valor absoluto de la diferencia en cada componente), estamos usando la:",
+    "opciones": [
+      "Distancia Euclidiana.",
+      "Distancia Manhattan.",
+      "Distancia de Mahalanobis."
+    ],
+    "correcta": 1
+  },
+  {
+    "pregunta": "En la librería de aumentos \"albumentations\", cuando creamos una composición de transformaciones geométricas y queremos asegurarnos de que el aumento se aplique SIEMPRE a la imagen, debemos fijar la probabilidad \"p\" al valor:",
+    "opciones": [
+      "0",
+      "1",
+      "0.5"
+    ],
+    "correcta": 1
+  },
+  {
+    "pregunta": "Un modelo diseñado para el paradigma de \"Aprendizaje Semisupervisado\" se caracteriza por:",
+    "opciones": [
+      "Interactuar de forma aleatoria con un entorno y aprender sólo mediante un sistema de recompensas y castigos.",
+      "Entrenarse con todos los datos sin etiquetas para descubrir únicamente densidades en las variables numéricas.",
+      "Entrenarse inicialmente con los pocos datos etiquetados disponibles para luego pseudoetiquetar iterativamente los datos desconocidos."
+    ],
+    "correcta": 2
+  },
+  {
+    "pregunta": "En la biblioteca pandas, para acceder a la información mediante máscaras booleanas utilizando múltiples condiciones, ¿cómo se debe estructurar la sintaxis?",
+    "opciones": [
+      "Separando cada condición por comas dentro de los corchetes.",
+      "Envolviendo obligatoriamente cada condición entre paréntesis y uniéndolas con los operadores '&' o '|'.",
+      "Usando directamente las palabras clave 'and' y 'or' sin necesidad de paréntesis."
+    ],
+    "correcta": 1
+  },
+  {
+    "pregunta": "Según los apuntes, al detectar valores atípicos de forma analítica utilizando el rango intercuartílico (IQR), la fórmula considerada como \"más restrictiva\" consiste en centrar los límites (1.5 veces el IQR) en:",
+    "opciones": [
+      "El valor mínimo del dataset.",
+      "La media.",
+      "Los cuartiles Q1 y Q3."
+    ],
+    "correcta": 1
+  },
+  {
+    "pregunta": "En una Red Neuronal Convolucional (CNN), si aplicamos un kernel a una imagen y queremos que el resultado de la capa mantenga exactamente sus dimensiones originales (en lugar de encogerse), ¿qué debemos aplicar?",
+    "opciones": [
+      "Padding.",
+      "Pooling.",
+      "DropOut."
+    ],
+    "correcta": 0
+  },
+  {
+    "pregunta": "En el algoritmo de Agrupamiento Jerárquico, si configuramos el tipo de enlace (linkage) como \"complete\", la referencia para medir y unir dos grupos se basará en:",
+    "opciones": [
+      "La distancia mínima entre sus puntos más cercanos.",
+      "La distancia entre sus centros de masas (centroides).",
+      "La distancia máxima entre sus puntos más alejados."
+    ],
+    "correcta": 2
+  },
+  {
+    "pregunta": "El método del CODO se usa para optimizar el hiperparámetro del número de grupos en KMeans. Lo que se busca al graficar este método es un cambio brusco o codo en una métrica denominada:",
+    "opciones": [
+      "Perplejidad.",
+      "Inercia.",
+      "Varianza."
+    ],
+    "correcta": 1
+  },
+  {
+    "pregunta": "En un modelo de Máquinas de Vector Soporte (SVM), ¿cuál de los siguientes hiperparámetros define la base matemática utilizada para generar dimensiones extra de forma inteligente?",
+    "opciones": [
+      "C.",
+      "Gamma.",
+      "Kernel."
+    ],
+    "correcta": 2
+  },
+  {
+    "pregunta": "En FastAI, la técnica de \"fine tuning\" permite reutilizar modelos deep preentrenados. En este proceso, el concepto de \"freeze epoch\" (época congelada) significa que:",
+    "opciones": [
+      "Algunos pesos de la red (generalmente los del codificador) NO se actualizan durante esa época.",
+      "El entrenamiento se detiene por falta de memoria RAM congelando temporalmente el hardware.",
+      "El modelo ignora la capa de entrada al ser la primera iteración."
+    ],
+    "correcta": 0
+  },
+  {
+    "pregunta": "Para codificar variables categóricas que tienen un orden cíclico intrínseco (como los días de la semana o meses del año), la estrategia matemática recomendada es usar:",
+    "opciones": [
+      "La eliminación directa de la columna por baja variabilidad lineal.",
+      "Funciones trigonométricas de seno y coseno para representar la cercanía como en un reloj.",
+      "Codificación binaria simple (Binary encoding)."
+    ],
+    "correcta": 1
+  },
+  {
+    "pregunta": "En procesamiento de lenguaje natural, al usar FastAI para tokenizar textos de forma nativa, ¿qué token especial se inserta para indicar que el modelo se ha encontrado con una palabra desconocida?",
+    "opciones": [
+      "xxbos.",
+      "xxrep.",
+      "xxunk."
+    ],
+    "correcta": 2
+  },
+  {
+    "pregunta": "Un modelo de lenguaje general de tipo predictivo (que será la base para redes como ChatGPT o BART) se entrena resolviendo una tarea principal que consiste en:",
+    "opciones": [
+      "Predecir cuál es la siguiente palabra (token) que debe aparecer en el texto dado su contexto previo.",
+      "Traducir todo el texto del inglés al español de forma simultánea.",
+      "Determinar si la emoción del texto es positiva, negativa o neutra."
+    ],
+    "correcta": 0
+  },
+  {
+    "pregunta": "A diferencia de la simple clasificación, en la tarea de \"Detección de Objetos\" de Visión por Computador, el modelo necesita que le indiquemos explícitamente las coordenadas donde están los elementos usando:",
+    "opciones": [
+      "Bounding boxes (bboxes) o cajas delimitadoras.",
+      "Máscaras de segmentación píxel a píxel (imágenes enteras).",
+      "Un único vector numérico bidimensional anclado al centro de la imagen."
+    ],
+    "correcta": 0
+  },
+  {
+    "pregunta": "Si para construir un modelo 'ensemble' aplicamos la estrategia de entrenar varios modelos débiles en serie de forma que los últimos van aprendiendo progresivamente de los fallos de los anteriores, estamos usando la técnica:",
+    "opciones": [
+      "Bagging.",
+      "Stacking.",
+      "Boosting."
+    ],
+    "correcta": 2
+  },
+  {
+    "pregunta": "Si tenemos un conjunto de datos muy pequeño, la estrategia de validación recomendada (que divide el conjunto en particiones y utiliza todas menos una iterativamente para entrenar y validar múltiples modelos) es:",
+    "opciones": [
+      "K-Fold.",
+      "Train-test split tradicional aleatorio del 20%.",
+      "One Hot Encoding iterativo."
+    ],
+    "correcta": 0
+  },
+  {
+    "pregunta": "Dentro de los aumentos de datos NO geométricos para imágenes aplicables en segmentación, la técnica \"CutMix\" se caracteriza por:",
+    "opciones": [
+      "Rellenar un área seleccionada de la imagen original con píxeles totalmente negros (vacío).",
+      "Rellenar el área seleccionada y suplantarla con información extraída de otra imagen.",
+      "Aplicar una distorsión en forma de cuadrícula asimétrica (GridDistortion)."
+    ],
+    "correcta": 1
+  },
+  {
+    "pregunta": "Una arquitectura de tipo Autoencoder (muy utilizada, por ejemplo, para eliminar ruido de las imágenes) tiene como estructura principal base:",
+    "opciones": [
+      "Un Random Forest entrelazado con una SVM paralela.",
+      "Exclusivamente un codificador que procesa la imagen para transformarla en texto plano.",
+      "Un codificador (encoder) y un decodificador (decoder) separados en el medio por una matriz de características latente."
+    ],
+    "correcta": 2
+  },
+  {
+    "pregunta": "En la librería FastAI, a la hora de configurar el entrenamiento, ¿para qué se utiliza principalmente el objeto Callback denominado \"EarlyStoppingCallback\"?",
+    "opciones": [
+      "Para buscar el mejor ratio de aprendizaje (learning rate) automáticamente dibujando su valle.",
+      "Para detener el entrenamiento automáticamente si la métrica de validación no mejora durante ciertas épocas consecutivas, previniendo el sobreajuste.",
+      "Para cargar los pesos congelados de la época anterior a la GPU."
+    ],
+    "correcta": 1
+  },
+  {
+    "pregunta": "Según los consejos estadísticos de Análisis Exploratorio de Datos (AED), la media nos aporta POCA información y podemos considerar que los datos están sumamente dispersos si la desviación típica es:",
+    "opciones": [
+      "Completamente nula (igual a 0).",
+      "Mayor a un tercio (1/3) del valor de la media.",
+      "Exactamente idéntica al valor de la mediana."
+    ],
+    "correcta": 1
+  },
+  {
+    "pregunta": "En entrenamiento Deep Learning en visión por computador, la técnica de especialización denominada \"Progressive Resizing\" consiste fundamentalmente en:",
+    "opciones": [
+      "Aumentar progresivamente el número de capas convolucionales de la arquitectura en cada iteración.",
+      "Entrenar al modelo comenzando con imágenes de tamaño pequeño e ir aumentando su resolución por fases en entrenamientos sucesivos.",
+      "Eliminar bloques de píxeles aleatorios de la imagen para forzar al modelo a procesar los restantes."
+    ],
+    "correcta": 1
+  },
+  {
+    "pregunta": "En NLP, cuando entrenamos por completo un Modelo General del Lenguaje y queremos aprovechar su estructura para crear nuestro propio clasificador de textos particular y optimizado, ¿qué componente crítico debemos guardar e importar en el nuevo modelo?",
+    "opciones": [
+      "Sólo la función de pérdida del optimizador Adam.",
+      "Únicamente el decodificador de capas completamente conectadas.",
+      "Su codificador (encoder) para extraer adecuadamente las matrices de características de los textos."
+    ],
+    "correcta": 2
+  },
+  {
+    "pregunta": "En algoritmos de aprendizaje NO supervisado que basan su funcionamiento en la densidad, como DBSCAN, los puntos dispersos que el algoritmo no logra asociar a ningún grupo se clasifican como:",
+    "opciones": [
+      "Falsos positivos estadísticos del hiperplano m-dimensional.",
+      "Valores atípicos (outliers), usualmente agrupados bajo la etiqueta o clase -1.",
+      "Centroides temporales de la distancia euclídea (clase 0)."
+    ],
+    "correcta": 1
+  },
+  {
+    "pregunta": "En el tratamiento de valores nulos, si queremos imputarlos utilizando cálculos en memoria RAM (sobre la marcha) en lugar de usar comandos básicos como fillna(), la librería scikit-learn nos proporciona la clase:",
+    "opciones": [
+      "SimpleImputer.",
+      "dropna().",
+      "AutoEncoder."
+    ],
+    "correcta": 0
+  },
+  {
+    "pregunta": "Según los límites estadísticos de los apuntes, al evaluar la variabilidad de una columna categórica NO binaria (con muchas opciones), ¿a partir de qué porcentaje de repetición de una misma palabra debería pitar la alarma?",
+    "opciones": [
+      "10% (0.1).",
+      "20% (0.2).",
+      "80% (0.8)."
+    ],
+    "correcta": 1
+  },
+  {
+    "pregunta": "En la librería HuggingFace, para cargar un modelo preentrenado cuya tarea sea resumir textos (estructura de secuencia a secuencia como BART), se utiliza la clase:",
+    "opciones": [
+      "AutoTokenizer.",
+      "AutoModelForObjectDetection.",
+      "AutoModelForSeq2SeqLM."
+    ],
+    "correcta": 2
+  },
+  {
+    "pregunta": "Al preparar un dataset de detección de objetos aplicando aumentos geométricos, ¿qué parámetro de albumentations se encarga de eliminar las bounding boxes que hayan quedado demasiado pequeñas tras ser recortadas?",
+    "opciones": [
+      "min_visibility.",
+      "max_depth.",
+      "patience."
+    ],
+    "correcta": 0
+  },
+  {
+    "pregunta": "Dentro del Aprendizaje por Refuerzo, a la hora de tomar una acción, el agente puede optar por una estrategia donde toma una decisión NUNCA antes tomada para intentar obtener una recompensa mejor a la conocida. Esto se llama:",
+    "opciones": [
+      "Explotación.",
+      "Exploración.",
+      "Estratificación."
+    ],
+    "correcta": 1
+  },
+  {
+    "pregunta": "En los problemas de segmentación semántica, ¿cómo se denomina a la clase que agrupa la información visual irrelevante que el modelo debe ignorar?",
+    "opciones": [
+      "Background.",
+      "CutOut.",
+      "Padding."
+    ],
+    "correcta": 0
+  },
+  {
+    "pregunta": "En un problema de clasificación médica donde es crucial detectar la enfermedad (minimizando los falsos negativos a toda costa, aunque aumenten los falsos positivos), la métrica más adecuada para evaluar el modelo es:",
+    "opciones": [
+      "Accuracy (Precisión global).",
+      "Recall (Exhaustividad).",
+      "Precision (Precisión de positivos)."
+    ],
+    "correcta": 1
+  },
+  {
+    "pregunta": "¿Qué ventaja principal tiene la estrategia RandomSearch frente a GridSearch a la hora de optimizar modelos como las Máquinas de Vector Soporte (SVM)?",
+    "opciones": [
+      "Garantiza encontrar siempre el máximo global absoluto matemáticamente.",
+      "Permite buscar valores dentro de un rango infinito de posibilidades continuas (como el hiperparámetro C).",
+      "No requiere entrenar ningún modelo para dar el resultado."
+    ],
+    "correcta": 1
+  },
+  {
+    "pregunta": "En NLP, al utilizar la salida de un Word Embedding para alimentar un modelo de clasificación CLÁSICO (como RandomForest), ¿cómo se soluciona el problema de que las frases tengan distinta cantidad de tokens y por ende distinta longitud vectorial?",
+    "opciones": [
+      "Haciendo la media (mean) de todos los embeddings de sus tokens para unificarlos en un solo vector.",
+      "Aplicando One Hot Encoding exclusivamente al primer token de la frase.",
+      "Eliminando las palabras sobrantes hasta igualar a la longitud de la frase más corta del dataset."
+    ],
+    "correcta": 0
+  },
+  {
+    "pregunta": "Las redes neuronales profundas que calculan enormes productos matriciales pueden sufrir un problema por el cual el gradiente explota y la métrica pasa a valer infinito. Para mitigarlo, un truco muy común de rendimiento es:",
+    "opciones": [
+      "Aumentar el batch_size al máximo posible de la RAM.",
+      "Cambiar todas las funciones de activación a regresión lineal pura sin ReLU.",
+      "Reducir la precisión numérica de los cálculos (ej. pasar de float32 a float16 o fp16)."
+    ],
+    "correcta": 2
+  },
+  {
+    "pregunta": "Al descargar conjuntos de datos utilizando la librería 'datasets' de HuggingFace, el objeto principal que agrupa sus particiones internas (train y test) es de la clase:",
+    "opciones": [
+      "DataBlock.",
+      "DatasetDict.",
+      "DataFrame de Pandas."
+    ],
+    "correcta": 1
+  },
+  {
+    "pregunta": "En herramientas como albumentations para tareas de Detección de Objetos, ¿qué formato estándar se suele indicar explícitamente para definir cómo están codificadas las coordenadas de las bounding boxes?",
+    "opciones": [
+      "YOLO.",
+      "PASCAL VOC o COCO.",
+      "SVG."
+    ],
+    "correcta": 1
+  },
+  {
+    "pregunta": "El principal riesgo asociado a utilizar la técnica repetitiva de K-Fold para evaluar el entrenamiento de los modelos es que:",
+    "opciones": [
+      "Podemos caer en sobreajustes, ya que estamos utilizando iterativamente los datos de validación para seleccionar el mejor modelo.",
+      "Es la técnica más rápida de todas y el modelo no tiene tiempo matemático de converger.",
+      "Solo funciona si todas las variables del conjunto de datos son categóricas y cíclicas."
+    ],
+    "correcta": 0
+  },
+  {
+    "pregunta": "En la configuración de un objeto DataBlock de FastAI, ¿para qué sirve la función asignada al parámetro 'get_y'?",
+    "opciones": [
+      "Para aplicar los aumentos de datos geométricos de la librería albumentations a las imágenes.",
+      "Para indicar la función que permite obtener la etiqueta, solución o clase a partir del propio dato original.",
+      "Para dividir el conjunto en datos de entrenamiento y validación de forma estratificada."
+    ],
+    "correcta": 1
+  },
+  {
+    "pregunta": "En un modelo de agrupamiento DBSCAN, si se detecta un grave sobreajuste donde casi todos los puntos terminan en el grupo de atípicos (-1), una solución puramente arbitraria mostrada en los apuntes para corregir la métrica es:",
+    "opciones": [
+      "Cambiar el algoritmo internamente a un KNN de clasificación.",
+      "Introducir en la inercia una penalización haciendo que los valores atípicos se calculen como pertenecientes a todos los grupos a la vez.",
+      "Aplicar la técnica de aumento CutMix sobre los centroides de cada cluster."
+    ],
+    "correcta": 1
+  },
+  {
+    "pregunta": "A diferencia del algoritmo KNN que se guía por la distancia a los vecinos, las Máquinas de Vector Soporte (SVM) separan los datos basándose en:",
+    "opciones": [
+      "Encontrar el centroide medio ponderado de cada clase.",
+      "Crear múltiples reglas lógicas de división binaria en forma de árbol.",
+      "Crear nuevas dimensiones matemáticas y establecer fronteras (hiperplanos) que separen los grupos de forma perfecta."
+    ],
+    "correcta": 2
+  },
+  {
+    "pregunta": "A la hora de tratar los valores nulos, el temario advierte que generar inmensas cantidades de valores sintéticos (predichos o imputados) para rellenarlos:",
+    "opciones": [
+      "Garantiza matemáticamente siempre una mejora lineal de la precisión del modelo.",
+      "Puede malacostumbrar al modelo y empeorar los resultados reales si la mayoría de los datos terminan siendo artificiales.",
+      "Impide el uso de GPU porque los valores sintéticos no admiten tensores multidimensionales."
+    ],
+    "correcta": 1
+  },
+  {
+    "pregunta": "Al construir un Word Embedding desde cero usando la clase Word2Vec de Gensim, el hiperparámetro 'window' determina:",
+    "opciones": [
+      "El tamaño del contexto, es decir, las palabras vecinas más cercanas que el modelo debe tener en cuenta.",
+      "La cantidad mínima de veces que una palabra debe aparecer en el texto para no ser descartada.",
+      "El número exacto de dimensiones matemáticas resultantes para el vector del token."
+    ],
+    "correcta": 0
+  },
+  {
+    "pregunta": "En un problema de Machine Learning que trabaje con información fuertemente temporal (como la predicción meteorológica o bursátil), la forma adecuada de dividir el conjunto de entrenamiento y testeo es:",
+    "opciones": [
+      "Usar un train-test split aleatorio tradicional de 80% / 20%.",
+      "Entrenar SIEMPRE con la información del pasado y validar/testear estrictamente con la información del futuro.",
+      "Aplicar un Repeated Stratified K-Fold con mezcla aleatoria pura (shuffle=True)."
+    ],
+    "correcta": 1
+  },
+  {
+    "pregunta": "Dentro de una arquitectura neuronal profunda de Visión por Computador (CNN), el propósito fundamental de intercalar capas de Pooling (como el MaxPooling) es:",
+    "opciones": [
+      "Añadir padding a los bordes para que la imagen sea más grande y admita filtros más pesados.",
+      "Reducir estáticamente las dimensiones espaciales de la matriz de características.",
+      "Transformar los tensores de color RGB a tensores en escala de grises."
+    ],
+    "correcta": 1
+  },
+  {
+    "pregunta": "Según los apuntes de historia de la IA, la revolución en el procesamiento del lenguaje natural que sentó las bases para modelos como ChatGPT ocurrió en el año 2017 con:",
+    "opciones": [
+      "El invento del perceptrón lineal multicapa.",
+      "El lanzamiento del artículo científico 'Attention is All You Need' (Transformers).",
+      "La creación del primer programa informático para jugar al ajedrez."
+    ],
+    "correcta": 1
+  },
+  {
+    "pregunta": "Si quisiéramos crear un conjunto de datos extrayendo información directamente del código fuente (etiquetas HTML) de una página web, el temario recomienda utilizar la técnica de web scraping con la librería de Python:",
+    "opciones": [
+      "BeautifulSoup.",
+      "FastAI.",
+      "Pandas."
+    ],
+    "correcta": 0
+  },
+  {
+    "pregunta": "En el algoritmo DBSCAN, a diferencia de otros métodos de agrupamiento, los valores atípicos (outliers) son detectados automáticamente y se agrupan:",
+    "opciones": [
+      "En el grupo 0, junto con el centroide de mayor densidad.",
+      "Bajo una clase especial asignada con la etiqueta -1.",
+      "Eliminándose físicamente del DataFrame original para no interferir."
+    ],
+    "correcta": 1
+  },
+  {
+    "pregunta": "En Aprendizaje por Refuerzo, cuando el agente interactúa con un entorno y tiene acceso a TODA la información del mismo de forma omnisciente (como en un tablero de ajedrez), se dice que recibe un:",
+    "opciones": [
+      "Estado.",
+      "Observación.",
+      "Castigo continuo."
+    ],
+    "correcta": 0
+  },
+  {
+    "pregunta": "En el algoritmo de aprendizaje por refuerzo, si el hiperparámetro 'discount_factor' (gamma) se aproxima a 1, significa que el agente:",
+    "opciones": [
+      "Es miope y prioriza al máximo las recompensas inmediatas a corto plazo.",
+      "Es optimista y prioriza las acciones que le den recompensas a largo plazo.",
+      "Detiene su proceso de exploración y pasa directamente a la explotación."
+    ],
+    "correcta": 1
+  },
+  {
+    "pregunta": "Al utilizar la técnica de búsqueda aleatoria (RandomSearch) para optimizar hiperparámetros continuos, se pueden usar diferentes distribuciones. Una de las indicadas para dar probabilidades a 'sucesos altamente improbables' es la distribución de:",
+    "opciones": [
+      "Poisson.",
+      "Gaussiana.",
+      "Gini."
+    ],
+    "correcta": 0
+  },
+  {
+    "pregunta": "Antes de crear nuestro propio 'word embedding', es importante saber que el texto se divide en la unidad mínima que el modelo procesará. En este contexto clásico, un 'token' equivale a:",
+    "opciones": [
+      "Un carácter alfanumérico individual.",
+      "Una palabra completa e indivisible.",
+      "Una frase entera separada por el símbolo de puntuación final."
+    ],
+    "correcta": 1
+  },
+  {
+    "pregunta": "En el entrenamiento de una red neuronal (descenso del gradiente), ¿qué hiperparámetro determina el tamaño del 'paso' o delta que se utiliza para actualizar la matriz de pesos buscando minimizar la función de pérdida?",
+    "opciones": [
+      "El batch_size (tamaño del lote).",
+      "El learning_rate (ratio de aprendizaje).",
+      "El momentum (inercia)."
+    ],
+    "correcta": 1
+  },
+  {
+    "pregunta": "En la biblioteca FastAI para tareas de Segmentación Semántica, la clase homóloga a PILImage que se utiliza específicamente para cargar la imagen de las etiquetas en escala de grises se llama:",
+    "opciones": [
+      "PILMask.",
+      "MaskBlock.",
+      "OpenCV_Layer."
+    ],
+    "correcta": 0
+  },
+  {
+    "pregunta": "Según el temario, una de las librerías y comunidades más importantes actualmente en IA, que destaca como repositorio open source de datasets y modelos preentrenados (y de donde descargamos por ejemplo el modelo BART) es:",
+    "opciones": [
+      "Kaggle.",
+      "HuggingFace.",
+      "Sci-kit Learn."
+    ],
+    "correcta": 1
+  },
+  {
+    "pregunta": "Si al evaluar una red neuronal observamos que la métrica de error en entrenamiento baja constantemente pero en validación empieza a subir o se estanca, es un claro síntoma de:",
+    "opciones": [
+      "Subentrenamiento (Underfitting).",
+      "Sobreajuste (Overfitting).",
+      "Estabilización completa de la Matriz Jacobiana."
+    ],
+    "correcta": 1
+  },
+  {
+    "pregunta": "Desde el punto de vista de las entradas y salidas en modelos Deep Learning, un clasificador de sentimientos de textos (saber si un poema indica alegría o tristeza) se considera un modelo de estructura:",
+    "opciones": [
+      "Texto a imagen.",
+      "Texto a etiqueta.",
+      "Etiqueta a texto."
+    ],
+    "correcta": 1
+  },
+  {
+    "pregunta": "En Pandas, si generamos una consulta a nuestra variable usando dobles corchetes, como por ejemplo: df[['names']], el resultado devuelto será:",
+    "opciones": [
+      "Un nuevo sub-DataFrame que solo contiene esa columna.",
+      "Una estructura unidimensional de tipo 'Serie'.",
+      "Un error sintáctico, porque solo se permite el uso de un corchete."
+    ],
+    "correcta": 0
+  },
+  {
+    "pregunta": "Al aplicar técnicas de síntesis o imputación de datos (como rellenar nulos con la media), es fundamental que el cálculo del estadístico se realice usando EXCLUSIVAMENTE los datos del conjunto de:",
+    "opciones": [
+      "Todo el dataset original al completo.",
+      "Entrenamiento.",
+      "Testeo."
+    ],
+    "correcta": 1
+  },
+  {
+    "pregunta": "¿Cuál de las siguientes métricas está diseñada para evaluar numéricamente cómo de buenos son los resultados en un problema de Regresión y NO de Clasificación?",
+    "opciones": [
+      "MAE (Error absoluto medio).",
+      "Accuracy (Exactitud).",
+      "F1-Score."
+    ],
+    "correcta": 0
+  },
+  {
+    "pregunta": "Al entrenar un modelo profundo del lenguaje (LM) con FastAI para crear matrices de características a partir de textos, el parámetro del TextBlock que indica que es un modelo predictivo general es:",
+    "opciones": [
+      "is_lm = True.",
+      "language_predictive = On.",
+      "seq_len = 0."
+    ],
+    "correcta": 0
+  },
+  {
+    "pregunta": "En tareas de Detección de Objetos, al aplicar aumentos geométricos con la librería albumentations, el parámetro 'min_visibility' asociado a la bounding box sirve para:",
+    "opciones": [
+      "Eliminar las cajas delimitadoras (bboxes) que se hayan quedado demasiado pequeñas o cortadas tras aplicar el aumento.",
+      "Volver completamente transparente la bounding box en el conjunto de testeo para evitar sobreajustes.",
+      "Oscurecer artificialmente los píxeles de la imagen dentro de la caja."
+    ],
+    "correcta": 0
+  },
+  {
+    "pregunta": "En el diagrama exportado para visualizar e interpretar un Árbol de Decisión, la información mostrada en la etiqueta 'samples' de un nodo indica:",
+    "opciones": [
+      "La métrica del error de impureza en ese punto exacto del árbol.",
+      "La cantidad de datos del conjunto original que logran cumplir todas las reglas lógicas previas y llegar hasta ese nodo.",
+      "La clase o etiqueta mayoritaria que domina en ese corte."
+    ],
+    "correcta": 1
+  },
+  {
+    "pregunta": "¿Qué estrategia matemática utiliza una Máquina de Vector Soporte (SVM) para separar datos que en principio NO son divisibles mediante una línea o hiperplano en su estado original?",
+    "opciones": [
+      "Genera nuevas dimensiones extra para alejar los datos entre sí de forma que se vuelvan linealmente separables.",
+      "Elimina dimensiones aleatoriamente iterando hasta encontrar un plano en 2D puro.",
+      "Ignora la frontera matemática y agrupa los puntos por su densidad espacial calculando el radio eps."
+    ],
+    "correcta": 0
+  },
+  {
+    "pregunta": "Si en un conjunto de datos tenemos 1.300.000 comentarios normales y solo 100.000 comentarios tóxicos, y decidimos DESCARTAR gran parte de los datos mayoritarios para balancear el entrenamiento, estamos aplicando la técnica de:",
+    "opciones": [
+      "Upsampling.",
+      "Downsampling.",
+      "Stratified Repeated K-Fold."
+    ],
+    "correcta": 1
+  },
+  {
+    "pregunta": "Al tokenizar textos en inglés para crear un word embedding, el temario recomienda usar el objeto `WordPunctTokenizer` de NLTK principalmente para:",
+    "opciones": [
+      "Tratar y separar correctamente los signos de puntuación especiales del idioma, como el apóstrofe.",
+      "Eliminar automáticamente todas las palabras malsonantes del conjunto de datos.",
+      "Convertir directamente el texto en una imagen de píxeles unidimensionales."
+    ],
+    "correcta": 0
+  },
+  {
+    "pregunta": "Si queremos clasificar un texto completo utilizando un modelo CLÁSICO (como RandomForest) alimentado por un word embedding, ¿cómo resolvemos el problema de que cada frase tenga una longitud distinta de tokens?",
+    "opciones": [
+      "Truncando todos los textos del dataset a un máximo de 5 palabras.",
+      "Calculando la media aritmética de los vectores (embeddings) de todos los tokens de la frase para unificarlos en uno solo.",
+      "Multiplicando todos los vectores por una matriz Jacobiana estática en tiempo de testeo."
+    ],
+    "correcta": 1
+  },
+  {
+    "pregunta": "El objetivo principal y más difícil al entrenar desde cero un Modelo del Lenguaje (Language Model) general, que sirve de base para herramientas generativas como ChatGPT, consiste en:",
+    "opciones": [
+      "Predecir cuál es la siguiente palabra (token) que debe aparecer a partir de un contexto previo.",
+      "Traducir automáticamente textos de inglés a español preservando su semántica.",
+      "Clasificar de forma supervisada si un texto tiene un sentimiento positivo o negativo."
+    ],
+    "correcta": 0
+  },
+  {
+    "pregunta": "En FastAI, al configurar el `DataBlock` para entrenar un Modelo del Lenguaje de uso general, debemos indicarle al `TextBlock` el parámetro explícito:",
+    "opciones": [
+      "is_lm = True.",
+      "language_model = \"predict\".",
+      "seq_len = 0."
+    ],
+    "correcta": 0
+  },
+  {
+    "pregunta": "Un modelo de Procesamiento del Lenguaje Natural (NLP) diseñado específicamente para generar resúmenes automáticos a partir de un texto original (como BART), tiene una topología del tipo:",
+    "opciones": [
+      "Texto a etiqueta.",
+      "Texto a imagen.",
+      "Texto a texto."
+    ],
+    "correcta": 2
+  },
+  {
+    "pregunta": "En Pandas, si queremos crear un nuevo sub-DataFrame que se quede únicamente con las columnas \"names\" y \"ages\", la sintaxis correcta usando la notación de corchetes es:",
+    "opciones": [
+      "df(\"names\", \"ages\")",
+      "df[[\"names\", \"ages\"]]",
+      "df[\"names\" & \"ages\"]"
+    ],
+    "correcta": 1
+  },
+  {
+    "pregunta": "La principal desventaja de usar la técnica GridSearch para optimizar hiperparámetros (como los de una SVM o un Random Forest) es que:",
+    "opciones": [
+      "Solo puede utilizarse en modelos de Aprendizaje NO Supervisado.",
+      "Su tiempo de cómputo crece de forma exponencial y solo probará los valores finitos explícitamente introducidos por el programador.",
+      "Siempre elimina por error la primera dimensión del conjunto de entrenamiento."
+    ],
+    "correcta": 1
+  },
+  {
+    "pregunta": "A diferencia de GridSearch, la técnica de RandomSearch para optimizar modelos es especialmente recomendada cuando:",
+    "opciones": [
+      "Queremos optimizar un hiperparámetro continuo que puede tomar infinitos valores reales dentro de una distribución (como el parámetro C).",
+      "Tenemos un conjunto de datos de imágenes extremadamente desbalanceado.",
+      "Queremos forzar la reducción del número de columnas del dataset a exactamente tres dimensiones."
+    ],
+    "correcta": 0
+  },
+  {
+    "pregunta": "En el algoritmo de aprendizaje no supervisado DBSCAN, el hiperparámetro fundamental \"eps\" (rango de aceptación) define:",
+    "opciones": [
+      "El número exacto de clusters que el algoritmo debe generar sí o sí.",
+      "La distancia máxima a la que debe estar un punto de otro para considerarse próximo y pertenecer a su mismo grupo.",
+      "El número máximo de iteraciones antes de forzar la estabilización del modelo."
+    ],
+    "correcta": 1
+  },
+  {
+    "pregunta": "En el Agrupamiento Jerárquico, si seleccionamos el criterio de enlace (linkage) de tipo \"average\", la distancia utilizada para decidir qué dos grupos se unen se calcula midiendo:",
+    "opciones": [
+      "La distancia media entre los centros de masas (centroides) de ambos grupos.",
+      "La distancia máxima entre los dos puntos más alejados de cada grupo.",
+      "La varianza interna de los puntos que forman los grupos."
+    ],
+    "correcta": 0
+  },
+  {
+    "pregunta": "En una Matriz de Confusión para un problema médico, si el modelo predice y alerta que un paciente ESTÁ enfermo, pero en la realidad médica está completamente SANO, el modelo ha generado un:",
+    "opciones": [
+      "Verdadero Positivo (TP).",
+      "Falso Negativo (FN).",
+      "Falso Positivo (FP)."
+    ],
+    "correcta": 2
+  },
+  {
+    "pregunta": "Según los límites estadísticos de los apuntes para el Análisis Exploratorio de Datos, en una variable categórica objetivo, consideramos que existe un grave \"desbalance de clases\" (Class Imbalance) si la diferencia entre la clase mayoritaria y la siguiente supera el:",
+    "opciones": [
+      "5%.",
+      "20%.",
+      "80%."
+    ],
+    "correcta": 1
+  },
+  {
+    "pregunta": "Para imputar valores nulos sobre la marcha realizando operaciones en la memoria RAM (y poder aplicarlo en pipelines automatizados) en lugar de usar comandos fijos como el fillna() de Pandas, se utiliza la clase de scikit-learn:",
+    "opciones": [
+      "SimpleImputer.",
+      "StandardScaler.",
+      "LabelEncoder."
+    ],
+    "correcta": 0
+  },
+  {
+    "pregunta": "En una arquitectura de red profunda diseñada para la \"Clasificación de Imágenes\" en Visión por Computador, la parte final del modelo que recibe la matriz de características y se encarga de producir la etiqueta es:",
+    "opciones": [
+      "Un decodificador de máscaras semánticas.",
+      "Una capa completamente conectada (fully connected).",
+      "Un filtro convolucional rotatorio de 3x3."
+    ],
+    "correcta": 1
+  },
+  {
+    "pregunta": "En un enfoque de Aprendizaje Semisupervisado, el proceso iterativo asigna etiquetas artificiales (pseudoetiquetas) a los datos desconocidos basándose fundamentalmente en:",
+    "opciones": [
+      "Que la probabilidad de pertenecer a esa clase supere un umbral (threshold) de confianza alto utilizando el método predict_proba().",
+      "La media aritmética de los puntos del conjunto de testeo usando el algoritmo KNN.",
+      "Asignar siempre por defecto la etiqueta de la clase minoritaria para balancear mágicamente el dataset."
+    ],
+    "correcta": 0
+  },
+  {
+    "pregunta": "Si tenemos un dataset de NLP con 1.300.000 datos normales y 100.000 datos tóxicos, y decidimos descartar gran parte de los datos normales mayoritarios para equilibrar el entrenamiento, estamos aplicando la técnica de:",
+    "opciones": [
+      "Downsampling.",
+      "Upsampling.",
+      "Aumento de datos no geométricos (CutMix)."
+    ],
+    "correcta": 0
+  },
+  {
+    "pregunta": "En Visión por Computador, al aplicar aumentos geométricos en una tarea de Detección de Objetos usando la librería 'albumentations', el parámetro 'min_visibility' tiene como propósito crucial:",
+    "opciones": [
+      "Hacer los píxeles de la imagen más oscuros para simular condiciones de baja luminosidad.",
+      "Eliminar las cajas delimitadoras (bboxes) que hayan quedado demasiado pequeñas, estiradas o cortadas tras aplicarse el aumento.",
+      "Ocultar completamente la etiqueta real de la clase en el conjunto de testeo para evitar trampas."
+    ],
+    "correcta": 1
+  },
+  {
+    "pregunta": "En el entrenamiento de modelos con FastAI, un \"Callback\" como \"EarlyStoppingCallback\" nos permite introducir lógica adicional entre las fases del ciclo para:",
+    "opciones": [
+      "Detener automáticamente el entrenamiento si la métrica en el conjunto de validación deja de mejorar durante ciertas épocas, previniendo el sobreajuste.",
+      "Acelerar el proceso de carga de los tensores de imágenes exclusivamente en la memoria caché del procesador.",
+      "Eliminar dinámicamente las capas de pooling si el tamaño de la imagen es impar."
+    ],
+    "correcta": 0
+  },
+  {
+    "pregunta": "En FastAI, el método específico \"lr_find()\" se suele invocar antes de iniciar el reentrenamiento intensivo (fine_tune) con el objetivo de:",
+    "opciones": [
+      "Borrar irreversiblemente los pesos anteriores del backbone de la red convolucional dejándolos a cero.",
+      "Encontrar de forma analítica el ratio de aprendizaje (learning rate) más adecuado identificando el valle en la gráfica de pérdida.",
+      "Forzar al modelo a utilizar descensos de gradiente con penalización L2 pura."
+    ],
+    "correcta": 1
+  },
+  {
+    "pregunta": "Según la historia y evolución de la IA Profunda de los apuntes, la auténtica revolución en el campo del Procesamiento del Lenguaje Natural que sentó las bases para los modelos generativos actuales ocurrió en el año 2017 gracias al artículo \"Attention is All You Need\", que introdujo el uso exclusivo de:",
+    "opciones": [
+      "Perceptrones multicapa con activación tangente hiperbólica.",
+      "Filtros convolucionales para textos en escala de grises.",
+      "Modelos Transformers y mecanismos de auto-atención (self-attention)."
+    ],
+    "correcta": 2
+  },
+  {
+    "pregunta": "En las Máquinas de Vector Soporte (SVM), ¿qué hiperparámetro determina el grado del polinomio si utilizamos el kernel polinomial (\"poly\")?",
+    "opciones": [
+      "C.",
+      "degree.",
+      "gamma."
+    ],
+    "correcta": 1
+  },
+  {
+    "pregunta": "En el entrenamiento de redes neuronales, el intercepto de la ecuación lineal simulada por un perceptrón toma el nombre de:",
+    "opciones": [
+      "Ratio de aprendizaje.",
+      "Sesgo o bias.",
+      "Peso o weight."
+    ],
+    "correcta": 1
+  },
+  {
+    "pregunta": "¿Para qué sirve añadir una \"función de activación\" (como ReLU) a la salida de los perceptrones en una red neuronal?",
+    "opciones": [
+      "Para estandarizar los valores numéricos exclusivamente entre 0 y 1.",
+      "Para reducir la cantidad de dimensiones de entrada automáticamente.",
+      "Para romper la linealidad del modelo, de forma que tenga sentido agruparlos en múltiples capas."
+    ],
+    "correcta": 2
+  },
+  {
+    "pregunta": "En FastAI, la función lr_find() nos ayuda a encontrar el ratio de aprendizaje (learning rate) óptimo analizando la pérdida. El valor ideal que sugiere suele encontrarse:",
+    "opciones": [
+      "En el primer valor absoluto calculado al inicio de la época.",
+      "Próximo al valle obtenido en la gráfica de pérdida.",
+      "En el punto exacto donde el gradiente explota de forma ascendente."
+    ],
+    "correcta": 1
+  },
+  {
+    "pregunta": "La técnica \"DropOut\" utilizada en el entrenamiento de redes neuronales tiene como objetivo principal:",
+    "opciones": [
+      "Rellenar áreas rectangulares de la imagen con píxeles vacíos (negros).",
+      "Detener el entrenamiento de forma temprana si no mejora la validación.",
+      "Desactivar aleatoriamente algunas neuronas para evitar que se especialicen en una sola tarea, previniendo el sobreajuste."
+    ],
+    "correcta": 2
+  },
+  {
+    "pregunta": "En Visión por Computador, ¿qué salida genera típicamente un modelo entrenado para la tarea estricta de Segmentación Semántica?",
+    "opciones": [
+      "Un conjunto de vectores de coordenadas (bounding boxes).",
+      "Una nueva imagen del mismo tamaño que la original llamada \"máscara\".",
+      "Una única etiqueta global que clasifica toda la imagen."
+    ],
+    "correcta": 1
+  },
+  {
+    "pregunta": "¿Qué métrica es la más utilizada habitualmente para evaluar modelos de segmentación semántica multiclase (como el dataset de las vides)?",
+    "opciones": [
+      "RMSE.",
+      "Perplejidad.",
+      "DiceMulti."
+    ],
+    "correcta": 2
+  },
+  {
+    "pregunta": "Al entrenar un modelo de Detección de Objetos, es muy común usar la técnica \"Non Maximum Suppression\" para:",
+    "opciones": [
+      "Eliminar las bounding boxes que se pisan y solapan entre sí dejando únicamente la mejor de ellas.",
+      "Aumentar artificialmente el número de imágenes del conjunto de testeo multiplicando los datos sintéticos.",
+      "Reducir agresivamente la resolución de las imágenes para que entren en la memoria de la GPU."
+    ],
+    "correcta": 0
+  },
+  {
+    "pregunta": "Si aplicamos técnicas de interpretabilidad a un modelo profundo de caja negra (como una arquitectura convolucional), la técnica Grad-CAM funciona:",
+    "opciones": [
+      "Eliminando la mitad de las capas ocultas iterativamente hasta que el resultado sea numéricamente interpretable.",
+      "Entrenando un Árbol de Decisión tradicional con las salidas de las neuronas de la primera capa.",
+      "Construyendo un mapa de calor para representar visualmente la zona más importante utilizando los gradientes recuperados de la última capa."
+    ],
+    "correcta": 2
+  },
+  {
+    "pregunta": "En la interpretabilidad de modelos clásicos, ¿en qué consiste la técnica de \"model distillation\"?",
+    "opciones": [
+      "En calcular el gradiente de las variables de entrada de forma matemática usando validación cruzada.",
+      "En entrenar un modelo de caja blanca más pequeño para que intente mimetizar las etiquetas generadas previamente por un modelo de caja negra.",
+      "En mezclar todos los hiperparámetros de un ensemble RandomSearch seleccionando al azar sus pesos."
+    ],
+    "correcta": 1
+  },
+  {
+    "pregunta": "Un modelo de Procesamiento del Lenguaje Natural (NLP) de uso general diseñado estrictamente para crear resúmenes automáticos de textos originales (como BART) sigue una arquitectura de topología:",
+    "opciones": [
+      "Texto a imagen.",
+      "Texto a etiqueta categórica.",
+      "Texto a texto."
+    ],
+    "correcta": 2
+  },
+  {
+    "pregunta": "Al tokenizar un texto nativamente en FastAI para entrenar un modelo de lenguaje, ¿qué significa el token especial \"xxbos\"?",
+    "opciones": [
+      "Indica que el modelo se ha encontrado una palabra desconocida fuera de vocabulario.",
+      "Indica el comienzo de un texto (Begin Of Stream).",
+      "Indica que una palabra o carácter se repite N veces seguidas."
+    ],
+    "correcta": 1
+  },
+  {
+    "pregunta": "En NLP, la Perplejidad (Perplexity) es una métrica utilizada principalmente para evaluar Modelos del Lenguaje Predictivos. ¿Qué mide de forma conceptual?",
+    "opciones": [
+      "El porcentaje estadístico total de palabras que el modelo ha clasificado erróneamente.",
+      "La cantidad absoluta de palabras desconocidas u omitidas en cada época del entrenamiento.",
+      "La media de bits por palabra que el modelo necesita procesar para representar una predicción."
+    ],
+    "correcta": 2
+  },
+  {
+    "pregunta": "Según el método del codo (Elbow Method) usado para automatizar la elección del hiperparámetro de clusters en algoritmos como KMeans, ¿qué valor se representa en el eje vertical o eje Y?",
+    "opciones": [
+      "La inercia (la cantidad de información explicada o suma de las distancias a los centroides).",
+      "La cantidad exacta de grupos (n_clusters) dividida por la métrica de validación.",
+      "El tiempo de cómputo transcurrido expresado en milisegundos."
+    ],
+    "correcta": 0
+  },
+  {
+    "pregunta": "En el Agrupamiento Jerárquico, si configuramos el tipo de enlace (linkage) como \"complete\", ¿qué referencia se utiliza matemáticamente para unir dos grupos?",
+    "opciones": [
+      "Se mide la distancia mínima directa entre los dos puntos más cercanos de cada grupo.",
+      "Se toma la referencia exclusivamente desde los dos centros de masas (centroides) calculando la varianza.",
+      "Se mide la distancia máxima ubicando la referencia en los dos puntos más alejados entre los grupos."
+    ],
+    "correcta": 2
+  },
+  {
+    "pregunta": "Al utilizar el método \"Repeated K-Fold\" para evaluar nuestro conjunto de datos frente a un clásico \"train_test_split\", el principal inconveniente de esta robusta técnica es:",
+    "opciones": [
+      "Que requiere entrenar docenas de modelos de IA completos, incrementando drásticamente el coste computacional y tiempo de ejecución.",
+      "Que elimina aleatoria e iterativamente columnas del dataset provocando pérdida de datos.",
+      "Que matemáticamente imposibilita aplicar la función de estratificación (stratify) en variables categóricas."
+    ],
+    "correcta": 0
+  },
+  {
+    "pregunta": "¿Qué ocurre conceptualmente al configurar y entrenar la arquitectura de un Autoencoder para procesamiento de imágenes?",
+    "opciones": [
+      "Se toma texto plano del usuario y el modelo produce por inferencia una imagen generativa falsa.",
+      "El modelo toma como entrada una imagen y su solución o etiqueta esperada para entrenar es esa misma imagen.",
+      "El modelo procesa la imagen para transformarla en un vector unidimensional prediciendo únicamente una categoría."
+    ],
+    "correcta": 1
+  },
+  {
+    "pregunta": "En el contexto de los consejos estadísticos para el Análisis de Variabilidad, ¿cuándo consideramos genéricamente que una columna categórica BINARIA (Sí/No) actúa casi como una constante siendo altamente problemática?",
+    "opciones": [
+      "Cuando la relación de clases de la variable está exactamente en un equilibrio del 50/50.",
+      "Cuando presenta una acumulación de valores nulos superior al 5% estricto del dataset.",
+      "Cuando una sola de sus opciones se repite dominando más del 80% (0.8) de todos los datos."
+    ],
+    "correcta": 2
+  },
+  {
+    "pregunta": "En el entrenamiento de clasificadores profundos de visión por computador, la técnica de especialización denominada \"Progressive Resizing\" consiste en:",
+    "opciones": [
+      "Entrenar al modelo inicialmente con imágenes pequeñas e ir aumentando su resolución y tamaño progresivamente por etapas.",
+      "Aumentar progresivamente el número de neuronas conectadas de las capas ocultas y del decodificador en cada época.",
+      "Reducir progresivamente el parámetro del learning_rate de la red multiplicando la matriz por un decremento estocástico."
+    ],
+    "correcta": 0
+  },
+  {
+    "pregunta": "Si descubrimos un severo desbalance de clases (por ejemplo, 1 millón de casos comunes y solo 10.000 atípicos) y optamos por descartar un inmenso bloque de los datos mayoritarios para equilibrar el conjunto, estamos aplicando:",
+    "opciones": [
+      "Upsampling.",
+      "Downsampling.",
+      "EarlyStopping estratificado."
+    ],
+    "correcta": 1
+  },
+  {
+    "pregunta": "Según la historia de la Inteligencia Artificial, el término \"inteligencia artificial\" se acuñó y se sentaron las bases de la disciplina en el año 1956 durante:",
+    "opciones": [
+      "La Conferencia de Dartmouth.",
+      "El desarrollo del primer perceptrón.",
+      "La creación del modelo Transformer."
+    ],
+    "correcta": 0
+  },
+  {
+    "pregunta": "A diferencia de un Autoencoder normal, un Variational Autoencoder (VAE) utilizado en modelos como MidJourney o DALL-E se caracteriza por:",
+    "opciones": [
+      "No utilizar nunca una fase de decodificación.",
+      "Crear un espacio latente basado en distribuciones de características, capaz de definir cualquier objeto aunque no se haya visto en el entrenamiento.",
+      "Aplanar obligatoriamente la imagen en un vector unidimensional en la primera capa."
+    ],
+    "correcta": 1
+  },
+  {
+    "pregunta": "Al aplicar aumentos de datos geométricos en tareas de Detección de Objetos con la librería albumentations, el parámetro 'min_visibility' se utiliza para:",
+    "opciones": [
+      "Eliminar las bounding boxes que se hayan quedado demasiado pequeñas o recortadas tras la transformación.",
+      "Volver la imagen completamente transparente si no se detecta ningún objeto.",
+      "Oscurecer los píxeles de la bounding box simulando sombras."
+    ],
+    "correcta": 0
+  },
+  {
+    "pregunta": "En un Agrupamiento Jerárquico, si seleccionamos el método de enlace (linkage) denominado \"single\", ¿qué criterio matemático se usa para medir la distancia y unir los grupos?",
+    "opciones": [
+      "La distancia máxima entre los puntos más alejados de los grupos.",
+      "La varianza interna entre los centros de masas.",
+      "La distancia mínima entre el punto más cercano de un grupo y el punto más cercano del otro."
+    ],
+    "correcta": 2
+  },
+  {
+    "pregunta": "Tras analizar la matriz de correlación en el Análisis Exploratorio de Datos (AED), descubrimos que dos columnas están inversamente correladas (su valor es muy cercano a -1). ¿Qué debemos hacer?",
+    "opciones": [
+      "Eliminar una de las dos columnas, ya que ambas se comportan de forma contraria pero explican la misma característica.",
+      "Mantener ambas obligatoriamente para balancear el hiperplano del modelo.",
+      "Multiplicar ambas columnas para crear una super-característica combinada."
+    ],
+    "correcta": 0
+  },
+  {
+    "pregunta": "En FastAI, al entrenar un modelo de lenguaje (predictivo) de NLP usando la arquitectura AWD_LSTM, ¿qué función cumple el hiperparámetro 'drop_mult'?",
+    "opciones": [
+      "Traduce automáticamente el corpus al inglés.",
+      "Aplica la técnica de DropOut, desactivando un porcentaje de capas aleatorias para forzar a la red a aprender de forma general y evitar el sobreajuste.",
+      "Multiplica todas las matrices de características por la matriz Jacobiana."
+    ],
+    "correcta": 1
+  },
+  {
+    "pregunta": "En Procesamiento del Lenguaje Natural (NLP), la métrica específica utilizada para evaluar los Modelos del Lenguaje Predictivos (midiendo la media de bits por palabra que el modelo necesita para representar una predicción) se llama:",
+    "opciones": [
+      "Accuracy (Precisión).",
+      "F1-Score Semántico.",
+      "Perplejidad (Perplexity)."
+    ],
+    "correcta": 2
+  },
+  {
+    "pregunta": "En la fórmula matemática para actualizar la q-tabla en Aprendizaje por Refuerzo, el parámetro definido como max[Q(St+1, a)] se conoce también como \"valor optimista\". ¿Qué representa?",
+    "opciones": [
+      "El peor castigo posible que el agente puede recibir en la partida.",
+      "El mejor valor (recompensa) posible que se puede obtener a partir del siguiente estado.",
+      "El factor de descuento o miopía del agente."
+    ],
+    "correcta": 1
+  },
+  {
+    "pregunta": "Respecto a la interpretabilidad de los modelos basados en árboles, el temario especifica que:",
+    "opciones": [
+      "Un Árbol de Decisión individual es un modelo de caja blanca, pero un Bosque Aleatorio (Random Forest) es de caja negra.",
+      "Ambos (Árboles de Decisión y Random Forest) son estrictamente modelos de caja blanca.",
+      "Ambos (Árboles de Decisión y Random Forest) son modelos de caja negra impenetrables."
+    ],
+    "correcta": 0
+  },
+  {
+    "pregunta": "En una Red Neuronal Convolucional (CNN), aplicar la técnica de \"padding\" a la imagen de entrada tiene como efecto:",
+    "opciones": [
+      "Reducir agresivamente a la mitad el tamaño del tensor para ahorrar memoria en la GPU.",
+      "Añadir un margen artificial a los bordes para que, tras aplicar el filtro convolucional, las dimensiones de salida no se reduzcan.",
+      "Eliminar aleatoriamente un 20% de los píxeles de la imagen simulando la técnica CutOut."
+    ],
+    "correcta": 1
+  },
+  {
+    "pregunta": "Al configurar un modelo de agrupamiento DBSCAN, el hiperparámetro \"min_samples\" se encarga de determinar:",
+    "opciones": [
+      "La cantidad mínima de instancias necesarias próximas para poder consolidar y definir un grupo (su densidad).",
+      "El número total y exacto de clusters que el algoritmo debe devolver.",
+      "La distancia euclídea máxima permitida entre el centroide y su punto más alejado."
+    ],
+    "correcta": 0
+  },
+  {
+    "pregunta": "Durante la codificación de columnas categóricas, si una característica posee un orden fuertemente cíclico (como los días de la semana o los meses), la estrategia recomendada en los apuntes para no perder la relación de cercanía temporal es:",
+    "opciones": [
+      "Usar One Hot Encoding.",
+      "Mapear los textos a números en base 2 usando Binary Encoding.",
+      "Reducir el intervalo a [0, 2π] y representar los valores calculando su seno y su coseno en la circunferencia unitaria."
+    ],
+    "correcta": 2
+  },
+  {
+    "pregunta": "En el campo de la interpretabilidad de arquitecturas deep (redes convolucionales), ¿qué es y para qué sirve un \"Hook\" en la técnica Grad-CAM?",
+    "opciones": [
+      "Es un optimizador matemático idéntico a Adam que acelera el descenso del gradiente.",
+      "Es un objeto que permite interceptar y capturar los gradientes y activaciones durante las fases de propagación (forward y backward) para crear el mapa de calor.",
+      "Es la función que dibuja literalmente las bounding boxes sobre los gatos y perros en las imágenes."
+    ],
+    "correcta": 1
+  },
+  {
+    "pregunta": "La técnica \"GridSearch\" es una forma clásica de buscar la mejor combinación de hiperparámetros. ¿Cuál es su mayor desventaja?",
+    "opciones": [
+      "Su tiempo de cómputo crece de forma exponencial y únicamente evaluará los valores finitos introducidos estáticamente por el programador.",
+      "Solo sirve para modelos de aprendizaje no supervisado como DBSCAN.",
+      "Aplica automáticamente RandomSearch por debajo, por lo que nunca garantiza encontrar un máximo global."
+    ],
+    "correcta": 0
+  },
+  {
+    "pregunta": "El temario nos avisa reiteradamente de que SIEMPRE es una buena idea estandarizar nuestros datos numéricos cuando vayamos a entrenar un modelo:",
+    "opciones": [
+      "Basado en árboles de decisión lógicos.",
+      "KNN (K-Vecinos más Cercanos), porque trabaja basándose en distancias métricas y es muy vulnerable a la maldición de la dimensionalidad.",
+      "De Procesamiento de Lenguaje Natural basado en Embeddings textuales."
+    ],
+    "correcta": 1
+  },
+  {
+    "pregunta": "Al trabajar en Visión por Computador definiendo regiones y coordenadas en la Detección de Objetos, existen dos nomenclaturas (formatos) estándar muy famosas para definir las bounding boxes. Éstas son:",
+    "opciones": [
+      "JSON y YAML.",
+      "CSV y DataFrame.",
+      "PASCAL VOC y COCO."
+    ],
+    "correcta": 2
+  },
+  {
+    "pregunta": "Al visualizar el árbol generado tras entrenar un Árbol de Decisión, podemos observar en cada nodo la etiqueta \"gini\". ¿Qué nos indica este valor numérico?",
+    "opciones": [
+      "La impureza de la clasificación en ese nodo (cuanto más abajo y más cerca de 0, mejor separadas están las clases).",
+      "El número total de datos que han llegado hasta ese punto de bifurcación.",
+      "La profundidad exacta a la que se encuentra ese nodo respecto a la raíz principal."
+    ],
+    "correcta": 0
+  },
+  {
+    "pregunta": "En un problema de clasificación médico, nuestro objetivo primordial es asegurarnos de que ninguna persona enferma escape a la detección (es decir, hay que minimizar a toda costa los Falsos Negativos). La métrica que evalúa cuántos positivos reales hemos sido capaces de detectar se llama:",
+    "opciones": [
+      "Accuracy (Exactitud general).",
+      "Precision (Precisión).",
+      "Recall (Exhaustividad)."
+    ],
+    "correcta": 2
+  },
+  {
+    "pregunta": "La Visión por Computador distingue entre varios niveles de segmentación. Si necesitamos que el modelo no solo detecte a qué clase (etiqueta) pertenece cada píxel, sino que además separe visualmente si hay dos entidades distintas de esa misma clase (ej. distinguir la persona 1 de la persona 2), el problema se denomina:",
+    "opciones": [
+      "Generación de Bounding Boxes aisladas.",
+      "Segmentación de Instancias.",
+      "Hiperresolución Semántica."
+    ],
+    "correcta": 1
+  },
+  {
+    "pregunta": "En NLP y Deep Learning moderno, existe una enorme biblioteca y comunidad online que funciona como repositorio de datasets y de modelos transformadores preentrenados (como el modelo BART o los de clasificación tóxica), desde la cual podemos descargar herramientas usando la función \"load_dataset\". Esta librería se llama:",
+    "opciones": [
+      "HuggingFace.",
+      "TensorFlow_Core.",
+      "Scrapy."
+    ],
+    "correcta": 0
+  },
+  {
+    "pregunta": "En Pandas, ¿qué atributo de un DataFrame devuelve un objeto con el nombre de todas sus columnas o cabeceras?",
+    "opciones": [
+      "columns.",
+      "loc.",
+      "names."
+    ],
+    "correcta": 0
+  },
+  {
+    "pregunta": "Según los apuntes, si queremos acceder a las filas de un DataFrame de Pandas mediante su índice posicional numérico, utilizamos el atributo:",
+    "opciones": [
+      "loc.",
+      "iloc.",
+      "index."
+    ],
+    "correcta": 1
+  },
+  {
+    "pregunta": "En el análisis de variabilidad, ¿cuál es el porcentaje (límite) ideal a partir del cual deberíamos considerar sospechosa una columna NUMÉRICA por tener demasiados datos idénticos?",
+    "opciones": [
+      "10% (0.1).",
+      "20% (0.2).",
+      "80% (0.8)."
+    ],
+    "correcta": 0
+  },
+  {
+    "pregunta": "Matemáticamente, la fórmula más estricta vista en los apuntes para detectar un valor atípico (outlier) utiliza el Rango Intercuartílico (IQR) centrado en:",
+    "opciones": [
+      "La mediana.",
+      "La media aritmética.",
+      "El valor mínimo."
+    ],
+    "correcta": 1
+  },
+  {
+    "pregunta": "A la hora de dividir un conjunto de datos grande, los apuntes sugieren como ejemplo una división porcentual típica de:",
+    "opciones": [
+      "50% entrenamiento, 50% testeo.",
+      "75% entrenamiento, 5% validación y 20% testeo.",
+      "90% entrenamiento y 10% validación."
+    ],
+    "correcta": 1
+  },
+  {
+    "pregunta": "Si estamos trabajando con datos que tienen un fuerte factor temporal (como la predicción del clima por años), la división de conjuntos correcta exige:",
+    "opciones": [
+      "Utilizar siempre RandomSplitter para garantizar aleatoriedad.",
+      "Entrenar siempre con datos del pasado y validar o testear con datos del futuro.",
+      "Aplicar la técnica Repeated K-Fold de forma estratificada."
+    ],
+    "correcta": 1
+  },
+  {
+    "pregunta": "Al usar la técnica de validación K-Fold, una de sus principales desventajas es que:",
+    "opciones": [
+      "Solo funciona con modelos de aprendizaje NO supervisado.",
+      "Reduce drásticamente la cantidad de dimensiones del modelo.",
+      "Puede ser muy lenta computacionalmente porque requiere entrenar K modelos distintos."
+    ],
+    "correcta": 2
+  },
+  {
+    "pregunta": "En el modelo K-Nearest Neighbors (KNN), si configuramos el hiperparámetro 'weights' con el valor 'distance':",
+    "opciones": [
+      "Los vecinos más cercanos tendrán más importancia en la decisión en caso de empate.",
+      "Se ignorarán los vecinos que estén fuera del radio epsilon.",
+      "El algoritmo cambiará a un modelo de regresión lineal simple."
+    ],
+    "correcta": 0
+  },
+  {
+    "pregunta": "Al entrenar una Máquina de Vector Soporte (SVM), ¿qué efecto tiene aumentar el hiperparámetro de regularización 'C'?",
+    "opciones": [
+      "El modelo se vuelve más laxo y tenderá a sobreajustarse.",
+      "El modelo se vuelve más estricto y tenderá al infraajuste.",
+      "Se eliminan automáticamente las dimensiones correladas."
+    ],
+    "correcta": 0
+  },
+  {
+    "pregunta": "Al visualizar un Árbol de Decisión, el valor 'gini' mostrado en cada nodo indica:",
+    "opciones": [
+      "El número total de datos que han llegado hasta ese nodo.",
+      "La clase mayoritaria de ese nodo.",
+      "Un índice que mide la impureza del corte (cómo de bien separadas están las clases)."
+    ],
+    "correcta": 2
+  },
+  {
+    "pregunta": "En Procesamiento del Lenguaje Natural (NLP), el codificador 'WordPunctTokenizer' de NLTK es recomendado para textos en inglés porque:",
+    "opciones": [
+      "Traduce automáticamente las palabras a español.",
+      "Permite separar correctamente signos de puntuación especiales del idioma, como el apóstrofe.",
+      "Elimina las vocales para reducir la dimensionalidad."
+    ],
+    "correcta": 1
+  },
+  {
+    "pregunta": "Al tokenizar un texto con FastAI, el token especial 'xxbos' sirve para indicar:",
+    "opciones": [
+      "Que una palabra es desconocida.",
+      "Que el elemento siguiente se repite N veces.",
+      "Que empieza el texto."
+    ],
+    "correcta": 2
+  },
+  {
+    "pregunta": "En el entrenamiento de modelos con FastAI, ¿cuál es el objetivo principal de utilizar el método lr_find()?",
+    "opciones": [
+      "Buscar automáticamente el mejor ratio de aprendizaje (learning rate) identificando un valle en la gráfica de pérdida.",
+      "Encontrar las capas ocultas óptimas para la red convolucional.",
+      "Detener el entrenamiento si el modelo empieza a sobreajustarse."
+    ],
+    "correcta": 0
+  },
+  {
+    "pregunta": "Al utilizar el Callback 'EarlyStopping' para prevenir el sobreajuste en FastAI, el parámetro 'patience' determina:",
+    "opciones": [
+      "El porcentaje de neuronas que se desactivan aleatoriamente.",
+      "El número de épocas que el modelo puede pasar sin mejorar antes de detener el entrenamiento.",
+      "La cantidad de tiempo en segundos antes de pausar la GPU."
+    ],
+    "correcta": 1
+  },
+  {
+    "pregunta": "En Detección de Objetos, al aplicar aumentos de datos geométricos con albumentations, el parámetro 'min_visibility' tiene como función:",
+    "opciones": [
+      "Aclarar los píxeles más oscuros de la imagen.",
+      "Eliminar las bounding boxes que se hayan quedado demasiado pequeñas o cortadas tras aplicar el aumento.",
+      "Hacer transparente el fondo de la imagen."
+    ],
+    "correcta": 1
+  },
+  {
+    "pregunta": "Un modelo de red neuronal del tipo 'Autoencoder' se caracteriza porque:",
+    "opciones": [
+      "Toma una imagen como entrada y produce la misma imagen como salida (la entrada es su propia etiqueta).",
+      "Toma texto plano y genera una imagen completamente nueva.",
+      "Agrupa los datos sin utilizar ninguna etiqueta en un hiperplano."
+    ],
+    "correcta": 0
+  },
+  {
+    "pregunta": "En una tarea de Segmentación Semántica, la clase denominada 'Background' (Fondo) sirve para:",
+    "opciones": [
+      "Añadir ruido gausiano a la imagen.",
+      "Identificar el objeto principal de la imagen.",
+      "Agrupar la información visual irrelevante que el modelo debe ignorar."
+    ],
+    "correcta": 2
+  },
+  {
+    "pregunta": "Los modelos de Inteligencia Artificial diseñados para realizar resúmenes automáticos de textos (como BART) tienen una arquitectura del tipo:",
+    "opciones": [
+      "Texto a imagen.",
+      "Texto a etiqueta.",
+      "Texto a texto."
+    ],
+    "correcta": 2
+  },
+  {
+    "pregunta": "En las estrategias de modelos 'ensemble', la técnica de 'Stacking' consiste en:",
+    "opciones": [
+      "Entrenar varios modelos de un solo tipo (ej. múltiples árboles de decisión).",
+      "Unir modelos de tipos distintos y unificar sus resultados bajo un criterio definido por el programador.",
+      "Entrenar modelos débiles en serie para que los últimos corrijan a los primeros."
+    ],
+    "correcta": 1
+  },
+  {
+    "pregunta": "Para solucionar problemas médicos donde es crítico no dejar escapar a ningún enfermo (minimizando los falsos negativos aunque aumenten los falsos positivos), la métrica de clasificación más adecuada a optimizar es:",
+    "opciones": [
+      "Accuracy (Exactitud).",
+      "Recall (Exhaustividad).",
+      "Precision (Precisión)."
+    ],
+    "correcta": 1
+  }  
+]
