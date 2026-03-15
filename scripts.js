@@ -347,14 +347,19 @@ aciertos = 0
 
 let nombreUsuario = usuarioActual.split("@")[0]
 
-if (nombreUsuario === "megant") {
+if (nombreUsuario === "meganot") {
 
 document.getElementById("test").style.display = "none"
 document.getElementById("modoTest").style.display = "block"
 
 } else {
 
+// para otros usuarios volver directamente al básico
 modoSeleccionado = "basico"
+
+document.getElementById("modoTest").style.display = "none"
+document.getElementById("test").style.display = "block"
+
 cargarPreguntas()
 
 }
