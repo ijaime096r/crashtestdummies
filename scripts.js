@@ -29,21 +29,18 @@ usuarioActual = user.email
   
 let nombreUsuario = usuarioActual.split("@")[0]
 
+// mostrar menú inicial
+document.getElementById("modoTest").style.display = "block"
+document.getElementById("test").style.display = "none"
+
 // solo meganot puede elegir modo
 if (nombreUsuario === "meganot") {
-document.getElementById("modoTest").style.display = "block"
+
 document.getElementById("selectorModo").style.display = "block"
 
 } else {
 
 document.getElementById("selectorModo").style.display = "none"
-
-modoSeleccionado = "basico"
-
-document.getElementById("modoTest").style.display = "none"
-document.getElementById("test").style.display = "block"
-
-cargarPreguntas()
 
 }
 
@@ -54,7 +51,18 @@ cargarPreguntas()
 
 window.seleccionarModo = function(modo) {
 
+let nombreUsuario = usuarioActual.split("@")[0]
+
+// si no es meganot siempre básico
+if (nombreUsuario !== "meganot") {
+
+modoSeleccionado = "basico"
+
+} else {
+
 modoSeleccionado = modo
+
+}
 
 document.getElementById("modoTest").style.display = "none"
 document.getElementById("test").style.display = "block"
@@ -103,6 +111,7 @@ mostrarPregunta()
 
 }
 
+
 async function cargarFallosUsuario() {
 
 let nombreUsuario = usuarioActual.split("@")[0]
@@ -123,6 +132,8 @@ fallosUsuario.push(doc.data().pregunta)
 })
 
 }
+
+
 // mostrar pregunta
 
 function mostrarPregunta() {
@@ -246,17 +257,19 @@ document.getElementById("info").textContent = texto
 
 function mezclar(array) {
 
-for (let i = array.length - 1; i > 0; i--) {
+let copia = [...array]
+
+for (let i = copia.length - 1; i > 0; i--) {
 
 let j = Math.floor(Math.random() * (i + 1))
 
-let temp = array[i]
-array[i] = array[j]
-array[j] = temp
+let temp = copia[i]
+copia[i] = copia[j]
+copia[j] = temp
 
 }
 
-return array
+return copia
 
 }
 
@@ -272,6 +285,9 @@ document.getElementById("siguiente").click()
 }
 
 })
+
+
+// guardar fallo en firestore
 
 async function guardarFallo(pregunta) {
 
@@ -294,6 +310,9 @@ console.log("Error guardando fallo:", error)
 }
 
 }
+
+
+// repasar fallos
 
 window.repasarFallos = async function() {
 
@@ -342,28 +361,15 @@ console.log("Error cargando fallos:", error)
 
 }
 
+
+// volver al menú
+
 window.volverMenu = function() {
 
 indice = 0
 aciertos = 0
 
-let nombreUsuario = usuarioActual.split("@")[0]
-
-if (nombreUsuario === "meganot") {
-
 document.getElementById("test").style.display = "none"
 document.getElementById("modoTest").style.display = "block"
-
-} else {
-
-// para otros usuarios volver directamente al básico
-modoSeleccionado = "basico"
-
-document.getElementById("modoTest").style.display = "none"
-document.getElementById("test").style.display = "block"
-
-cargarPreguntas()
-
-}
 
 }
