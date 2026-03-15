@@ -18,8 +18,6 @@
 
 <h1>Test ferroviario</h1>
 
-<button onclick="repasarFallos()">Repasar fallos</button>
-
 <div id="modoTest">
 
 <button onclick="repasarFallos()">Repasar fallos</button>
@@ -27,19 +25,20 @@
 <h3>Selecciona modo de test</h3>
 
 <button onclick="seleccionarModo('basico')">Básico</button>
-<h3>Selecciona modo de test</h3>
+<button onclick="seleccionarModo('ampliado')">Ampliado</button>
 
 </div>
-
 
 <div id="test" style="display:none;">
 
 <p id="info">Cargando preguntas...</p>
-<p id="info"></p>
 
 <div id="pregunta"></div>
 
-<h3>Selecciona modo de test</h3>
+<div id="respuestas"></div>
+
+<button id="siguiente">Siguiente pregunta</button>
+
 </div>
 
 </div>
