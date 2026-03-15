@@ -345,7 +345,18 @@ window.volverMenu = function() {
 indice = 0
 aciertos = 0
 
+let nombreUsuario = usuarioActual.split("@")[0]
+
+if (nombreUsuario === "megant") {
+
 document.getElementById("test").style.display = "none"
 document.getElementById("modoTest").style.display = "block"
+
+} else {
+
+modoSeleccionado = "basico"
+cargarPreguntas()
+
+}
 
 }
