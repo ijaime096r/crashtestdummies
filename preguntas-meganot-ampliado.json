@@ -9367,5 +9367,185 @@
       "classification_interpretation()"
     ],
     "correcta": 0
+  },
+  {
+    "pregunta": "La técnica de Aumento de Datos NO geométricos: [1]",
+    "opciones": [
+      "SOLO puede aplicarse en segmentación semántica.",
+      "NO es reversible.",
+      "NO puede componerse con otros aumentos."
+    ],
+    "correcta": 1
+  },
+  {
+    "pregunta": "Las únicas técnicas reversibles de aumento de datos son: [1]",
+    "opciones": [
+      "Los aumentos geométricos.",
+      "Los aumentos NO geométricos.",
+      "La síntesis."
+    ],
+    "correcta": 0
+  },
+  {
+    "pregunta": "Un autoencoder, genera una imagen a partir de: [2]",
+    "opciones": [
+      "Una versión alterada de sí misma.",
+      "Varias versiones de sí misma.",
+      "Sí misma."
+    ],
+    "correcta": 2
+  },
+  {
+    "pregunta": "¿Cuál es el propósito de la capa de pooling en una CNN? [3]",
+    "opciones": [
+      "Clasificar las características en categorías.",
+      "Generar etiquetas para cada píxel.",
+      "Reducir la resolución espacial de las características extraídas."
+    ],
+    "correcta": 2
+  },
+  {
+    "pregunta": "¿Cuál es la diferencia entre un autoencoder y un clasificador supervisado? [3]",
+    "opciones": [
+      "El clasificador es no supervisado y agrupa datos sin etiquetas.",
+      "El autoencoder utiliza datos etiquetados para clasificar.",
+      "El autoencoder es no supervisado y se enfoca en la reconstrucción de datos."
+    ],
+    "correcta": 2
+  },
+  {
+    "pregunta": "¿Qué caracteriza a un modelo generativo en Deep Learning? [4]",
+    "opciones": [
+      "Es un modelo que reduce la dimensionalidad de los datos.",
+      "Es un modelo que genera nuevos datos similares a los de entrenamiento.",
+      "Es un modelo que clasifica datos en categorías predeterminadas."
+    ],
+    "correcta": 1
+  },
+  {
+    "pregunta": "¿Qué es el backpropagation en redes neuronales? [5]",
+    "opciones": [
+      "Es el algoritmo que ajusta los pesos de la red minimizando el error.",
+      "Es un método para normalizar los datos de entrada.",
+      "Es un algoritmo para reducir la dimensionalidad."
+    ],
+    "correcta": 0
+  },
+  {
+    "pregunta": "¿Qué es la normalización en el preprocesamiento de datos? [6]",
+    "opciones": [
+      "Reducir el tamaño del conjunto de datos.",
+      "Escalar las características de los datos a un rango común.",
+      "Eliminar valores nulos de los datos."
+    ],
+    "correcta": 1
+  },
+  {
+    "pregunta": "¿Qué es una red neuronal recurrente (RNN)? [7]",
+    "opciones": [
+      "Una red utilizada solo para imágenes.",
+      "Una red neuronal diseñada para trabajar con datos secuenciales.",
+      "Un tipo de red convolucional."
+    ],
+    "correcta": 1
+  },
+  {
+    "pregunta": "¿Qué función tiene el optimizador en el entrenamiento de redes neuronales? [7]",
+    "opciones": [
+      "Ajustar los pesos de la red para minimizar el error.",
+      "Generar la predicción final del modelo.",
+      "Dividir los datos en subconjuntos para entrenamiento."
+    ],
+    "correcta": 0
+  },
+  {
+    "pregunta": "¿Qué función tiene el softmax en la capa de salida de una red neuronal? [7]",
+    "opciones": [
+      "Aplicar regularización a la red.",
+      "Reducir el error de predicción.",
+      "Convertir las salidas de la red en probabilidades."
+    ],
+    "correcta": 2
+  },
+  {
+    "pregunta": "¿Qué representa un mapa de calor en el análisis de redes neuronales? [8]",
+    "opciones": [
+      "Una técnica de inicialización de pesos.",
+      "Muestra las áreas de una imagen donde la red presta más atención.",
+      "Un gráfico que compara el rendimiento de diferentes modelos."
+    ],
+    "correcta": 1
+  },
+  {
+    "pregunta": "¿Qué significa aplanar una imagen en el contexto de redes neuronales? [9]",
+    "opciones": [
+      "Convertir una matriz bidimensional en un vector unidimensional.",
+      "Eliminar el color de la imagen.",
+      "Reducir la resolución de la imagen."
+    ],
+    "correcta": 0
+  },
+  {
+    "pregunta": "¿Qué técnica se utiliza comúnmente para prevenir el sobreajuste en redes neuronales? [10]",
+    "opciones": [
+      "Batch normalization.",
+      "Dropout.",
+      "Normalización."
+    ],
+    "correcta": 1
+  },
+  {
+    "pregunta": "¿Qué es el aprendizaje supervisado en NLP? [10]",
+    "opciones": [
+      "Es el proceso de entrenar un modelo con datos etiquetados para predecir categorías o valores.",
+      "Un método para analizar el sentimiento de un texto.",
+      "Una técnica de tokenización."
+    ],
+    "correcta": 0
+  },
+  {
+    "pregunta": "¿Qué es la regularización en modelos de clasificación? [11]",
+    "opciones": [
+      "Un método para reducir el tamaño del conjunto de datos.",
+      "Una técnica para aumentar el número de características.",
+      "Una técnica para prevenir el sobreajuste del modelo."
+    ],
+    "correcta": 2
+  },
+  {
+    "pregunta": "¿Qué es la tokenización en procesamiento de texto? [11]",
+    "opciones": [
+      "Asignar etiquetas a un conjunto de documentos.",
+      "Dividir el texto en unidades más pequeñas como palabras o frases.",
+      "Extraer entidades nombradas de un texto."
+    ],
+    "correcta": 1
+  },
+  {
+    "pregunta": "¿Qué es un corpus en el procesamiento de lenguaje natural? [11]",
+    "opciones": [
+      "Un conjunto grande y estructurado de textos utilizado para el análisis.",
+      "Una representación numérica de las palabras.",
+      "Una técnica de clasificación supervisada."
+    ],
+    "correcta": 0
+  },
+  {
+    "pregunta": "En la distribución espacial de un embedding, las palabras: [12]",
+    "opciones": [
+      "Distintas deben estar a la misma distancia entre sí.",
+      "Deben agruparse según su familia semántica.",
+      "Una misma palabra NO debe tener dos representaciones diferentes."
+    ],
+    "correcta": 1
+  },
+  {
+    "pregunta": "Un Modelo Grande del Lenguaje es un modelo: [13]",
+    "opciones": [
+      "Que tiene muchos parámetros en comparación con otros.",
+      "Genérico entrenado para tareas sobre textos.",
+      "Que genera una etiqueta para el texto procesado."
+    ],
+    "correcta": 1
   }  
 ]
