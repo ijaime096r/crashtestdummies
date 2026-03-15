@@ -6,7 +6,7 @@
       "Es la distribución de sus capas internas.",
       "Es la parte que se encarga de decodificar la matriz de características."
     ],
-    "correcta": -1
+    "correcta": 1
   },
   {
     "pregunta": "En la segmentación semántica:",
@@ -141,7 +141,7 @@
       "En su parte del codificador.",
       "En toda su estructura."
     ],
-    "correcta": -1
+    "correcta": 1
   },
   {
     "pregunta": "Un batch size más grande:",
