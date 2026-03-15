@@ -2,6 +2,12 @@
 
 import { auth } from "./firebase.js"
 import { onAuthStateChanged } from "https://www.gstatic.com/firebasejs/10.12.2/firebase-auth.js"
+import { db } from "./firebase.js"
+
+import {
+collection,
+addDoc
+} from "https://www.gstatic.com/firebasejs/10.12.2/firebase-firestore.js"
 
 let usuarioActual = null
 let modoSeleccionado = null
@@ -150,7 +156,9 @@ aciertos++
 else {
 
 botonSeleccionado.classList.add("incorrecta")
-
+  
+guardarFallo(preguntas[indice])
+  
 botones.forEach(b => {
 
 if (parseInt(b.dataset.indiceOriginal) === correcta) {
@@ -226,3 +234,24 @@ document.getElementById("siguiente").click()
 }
 
 })
+
+async function guardarFallo(pregunta) {
+
+let nombreUsuario = usuarioActual.split("@")[0]
+
+try {
+
+await addDoc(collection(db, "fallos"), {
+
+usuario: nombreUsuario,
+pregunta: pregunta
+
+})
+
+} catch (error) {
+
+console.log("Error guardando fallo:", error)
+
+}
+
+}
