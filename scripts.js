@@ -29,8 +29,8 @@ usuarioActual = user.email
   
 let nombreUsuario = usuarioActual.split("@")[0]
 
-// solo megant puede elegir modo
-if (nombreUsuario === "megant") {
+// solo meganot puede elegir modo
+if (nombreUsuario === "meganot") {
 
 document.getElementById("modoTest").style.display = "block"
 
