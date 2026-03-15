@@ -30,15 +30,15 @@ usuarioActual = user.email
 let nombreUsuario = usuarioActual.split("@")[0]
 
 // solo meganot puede elegir modo
-if (nombreUsuario === "megant") {
+if (nombreUsuario === "meganot") {
 
-document.getElementById("modoTest").style.display = "block"
+document.getElementById("selectorModo").style.display = "block"
 
 } else {
 
-modoSeleccionado = "basico"
+document.getElementById("selectorModo").style.display = "none"
 
-document.getElementById("modoTest").style.display = "none"
+modoSeleccionado = "basico"
 document.getElementById("test").style.display = "block"
 
 cargarPreguntas()
