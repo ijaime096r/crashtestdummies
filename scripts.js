@@ -14,6 +14,7 @@ where
 
 let usuarioActual = null
 let modoSeleccionado = null
+let fallosUsuario = []
 
 onAuthStateChanged(auth, (user) => {
 
@@ -25,7 +26,7 @@ return
 }
 
 usuarioActual = user.email
-
+  
 let nombreUsuario = usuarioActual.split("@")[0]
 
 // solo megant puede elegir modo
@@ -67,9 +68,11 @@ let aciertos = 0
 
 // cargar preguntas
 
-function cargarPreguntas() {
+async function cargarPreguntas() {
 
 let nombreUsuario = usuarioActual.split("@")[0]
+
+await cargarFallosUsuario()
 
 let archivo = "preguntas-" + nombreUsuario + "-" + modoSeleccionado + ".json"
 
@@ -81,13 +84,40 @@ fetch(archivo)
 
 preguntas = mezclar(data)
 
+// añadir algunos fallos al banco
+preguntas = preguntas.concat(mezclar(fallosUsuario).slice(0, 5))
+
+preguntas = mezclar(preguntas)
+
+indice = 0
+aciertos = 0
+
 mostrarPregunta()
 
 })
 
 }
 
+async function cargarFallosUsuario() {
 
+let nombreUsuario = usuarioActual.split("@")[0]
+
+let q = query(
+collection(db, "fallos"),
+where("usuario", "==", nombreUsuario)
+)
+
+let snapshot = await getDocs(q)
+
+fallosUsuario = []
+
+snapshot.forEach(doc => {
+
+fallosUsuario.push(doc.data().pregunta)
+
+})
+
+}
 // mostrar pregunta
 
 function mostrarPregunta() {
@@ -248,7 +278,8 @@ await addDoc(collection(db, "fallos"), {
 
 usuario: nombreUsuario,
 pregunta: pregunta
-
+fecha: Date.now()
+  
 })
 
 } catch (error) {
