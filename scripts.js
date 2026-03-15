@@ -39,6 +39,8 @@ document.getElementById("selectorModo").style.display = "block"
 document.getElementById("selectorModo").style.display = "none"
 
 modoSeleccionado = "basico"
+
+document.getElementById("modoTest").style.display = "none"
 document.getElementById("test").style.display = "block"
 
 cargarPreguntas()
