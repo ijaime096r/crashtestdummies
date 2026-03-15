@@ -726,7 +726,7 @@
       "Pueden sobreentrenarse muy fácilmente.",
       "No son interpretables."
     ],
-    "correcta": -1
+    "correcta": 2
   },
   {
     "pregunta": "En el aprendizaje por refuerzo, la q-tabla:",
@@ -735,7 +735,7 @@
       "Guarda valores enteros en las posiciones de las mejores acciones posibles.",
       "Se actualiza después de un número de iteraciones llamadas épocas."
     ],
-    "correcta": -1
+    "correcta": 0
   },
   {
     "pregunta": "En el aprendizaje semisupervisado, las pseudoetiquetas se crean con un modelo:",
@@ -744,7 +744,7 @@
       "Entrenado con los datos conocidos.",
       "Entrenado a lo largo de un proceso iterativo."
     ],
-    "correcta": -1
+    "correcta": 1
   },
   {
     "pregunta": "En el modelo Perceptrón, se define la salida como y = ax1 + ax2 + … + ax2 + b. En esta fórmula, el valor de b es:",
@@ -753,7 +753,7 @@
       "El sesgo del modelo.",
       "La función de activación."
     ],
-    "correcta": -1
+    "correcta": 1
   },
   {
     "pregunta": "En los modelos KNN, NO se usan números pares de vecinos:",
@@ -762,7 +762,7 @@
       "Porque es menos eficiente calcular distancias pares.",
       "Salvo que los votos estén ponderados por distancias."
     ],
-    "correcta": -1
+    "correcta": 2
   },
   {
     "pregunta": "En un conjunto de datos extremadamente grande, la mejor estrategia de validación es:",
@@ -771,7 +771,7 @@
       "Kfold.",
       "RepeatedKFold."
     ],
-    "correcta": -1
+    "correcta": 0
   },
   {
     "pregunta": "En un conjunto de datos pequeño, la mejor estrategia de validación es:",
@@ -780,7 +780,7 @@
       "Kfold.",
       "RepeatedKFold."
     ],
-    "correcta": -1
+    "correcta": 2
   },
   {
     "pregunta": "En una columna categórica que NO es la etiqueta tenemos tres posibles categorías. La mayoritaria representa un 80% de los datos, la siguiente un 15% y la última un 5%. ¿Qué hacemos?",
@@ -789,7 +789,7 @@
       "Eliminamos la columna por baja variabilidad.",
       "Unificamos los valores de las columnas no mayoritarias."
     ],
-    "correcta": -1
+    "correcta": 1
   },
   {
     "pregunta": "En una estrategia de optimización de tipo GridSearch, la cantidad de modelos a entrenar dependiendo de las combinaciones de hiperparámetros crece de forma:",
@@ -798,7 +798,7 @@
       "Geométrica.",
       "Exponencial."
     ],
-    "correcta": -1
+    "correcta":2
   },
   {
     "pregunta": "Es especialmente vulnerable a la maldición de la dimensionalidad:",
@@ -807,7 +807,7 @@
       "Agrupamiento jerárquico.",
       "DBSCAN."
     ],
-    "correcta": -1
+    "correcta": 2
   },
   {
     "pregunta": "Es invulnerable a la maldición de la dimensionalidad:",
@@ -816,7 +816,7 @@
       "SVM.",
       "Regresión logística."
     ],
-    "correcta": -1
+    "correcta": 1
   },
   {
     "pregunta": "Es un modelo interpretable:",
@@ -825,7 +825,7 @@
       "SVM.",
       "Red neuronal."
     ],
-    "correcta": -1
+    "correcta": 0
   },
   {
     "pregunta": "Es un modelo interpretable:",
@@ -834,7 +834,7 @@
       "SMV.",
       "Perceptrón."
     ],
-    "correcta": -1
+    "correcta": 2
   },
   {
     "pregunta": "Es un modelo interpretable:",
@@ -843,7 +843,7 @@
       "KMeans.",
       "Una red neuronal que genera pseudoetiquetas para entrenar un árbol de decisión. 5"
     ],
-    "correcta": -1
+    "correcta": 2
   },
   {
     "pregunta": "Es un modelo interpretable:",
@@ -852,7 +852,7 @@
       "Regresión lineal.",
       "Regresión logística."
     ],
-    "correcta": -1
+    "correcta": 1
   },
   {
     "pregunta": "Es un modelo que puede trabajar con datos NO estandarizados sin sufrir penalización:",
@@ -861,7 +861,7 @@
       "Regresor logístico.",
       "Red neuronal."
     ],
-    "correcta": -1
+    "correcta": 0
   },
   {
     "pregunta": "Es un valor atípico:",
@@ -870,7 +870,7 @@
       "Llamarse 5353456.",
       "Poner el horno a 4.000.000 grados."
     ],
-    "correcta": -1
+    "correcta": 0
   },
   {
     "pregunta": "Es un valor atípico:",
@@ -879,7 +879,7 @@
       "Tener 120 años.",
       "Tener 40 años."
     ],
-    "correcta": -1
+    "correcta": 1
   },
   {
     "pregunta": "Es un valor SIN sentido:",
@@ -888,7 +888,7 @@
       "Poner el horno a 400 grados.",
       "Llamarse 5353456."
     ],
-    "correcta": -1
+    "correcta": 2
   },
   {
     "pregunta": "Es una aplicación del Aprendizaje NO Supervisado:",
@@ -897,7 +897,7 @@
       "Detectar anomalías.",
       "Clasificar imágenes."
     ],
-    "correcta": -1
+    "correcta": 1
   },
   {
     "pregunta": "Es una estrategia de optimización que usa distribuciones de probabilidad:",
@@ -906,7 +906,7 @@
       "GridSearch.",
       "Algoritmos genéticos."
     ],
-    "correcta": -1
+    "correcta": 0
   },
   {
     "pregunta": "Este tipo de dato debe eliminarse SIEMPRE:",
@@ -915,7 +915,7 @@
       "Atípico.",
       "Correlado."
     ],
-    "correcta": -1
+    "correcta": 0
   },
   {
     "pregunta": "Este tipo de dato puede perjudicar el entrenamiento del modelo al mostrar varias veces la misma información:",
@@ -924,7 +924,7 @@
       "Irrelevante.",
       "Atípico."
     ],
-    "correcta": -1
+    "correcta": 0
   },
   {
     "pregunta": "Indica que se está sufriendo el problema de la maldición de la dimensionalidad:",
@@ -933,7 +933,7 @@
       "Un KNN utiliza como vecinos datos muy diferentes.",
       "Una red neuronal determina que la etiqueta correcta es siempre la misma."
     ],
-    "correcta": -1
+    "correcta": 0
   },
   {
     "pregunta": "La capa de convolución de las redes neuronales convolucionales:",
@@ -942,7 +942,7 @@
       "Multiplica la matriz de entrada por un kernel que es fijo.",
       "Multiplica la matriz de entrada por un kernel cuyos pesos son el resultado del entrenamiento de la red."
     ],
-    "correcta": -1
+    "correcta": 2
   },
   {
     "pregunta": "La característica A es un índice único extraído de una base de datos. ¿Qué hacemos?",
@@ -951,7 +951,7 @@
       "Estudiamos la correlación con el resto de características.",
       "Eliminamos la característica por ser un valor inútil."
     ],
-    "correcta": -1
+    "correcta": 2
   },
   {
     "pregunta": "La característica A tiene el tercer cuartil igual a 3 y el valor máximo igual a 100. Sus datos son:",
@@ -960,7 +960,7 @@
       "Correlados.",
       "Sin sentido."
     ],
-    "correcta": -1
+    "correcta": 0
   },
   {
     "pregunta": "La característica A tiene tres posibles valores en los que el orden no importa. La codificamos usando:",
@@ -969,7 +969,7 @@
       "Un embedding.",
       "Una Biyección con los números naturales."
     ],
-    "correcta": -1
+    "correcta": 0
   },
   {
     "pregunta": "La característica C es igual a 2 * A + B. ¿Qué hacemos?",
@@ -987,7 +987,7 @@
       "Falsos positivos.",
       "Falsos negativos."
     ],
-    "correcta": -1
+    "correcta": 0
   },
   {
     "pregunta": "La función de activación denominada ReLu, convierte todos los valores:",
@@ -996,7 +996,7 @@
       "En el resultado de aplicar la función tanh a esos valores.",
       "Negativos en cero."
     ],
-    "correcta": -1
+    "correcta": 2
   },
   {
     "pregunta": "La técnica de reducción de la dimensionalidad denominada selección:",
@@ -1005,7 +1005,7 @@
       "NO es interpretable.",
       "Es agnóstica al modelo."
     ],
-    "correcta": -1
+    "correcta": 0
   },
   {
     "pregunta": "Las capas de pooling de una red neuronal convolucional:",
@@ -1014,7 +1014,7 @@
       "Están completamente conectadas.",
       "Aplican una función de activación."
     ],
-    "correcta": -1
+    "correcta": 0
   },
   {
     "pregunta": "Los Árboles de Decisión:",
@@ -1023,7 +1023,7 @@
       "Crean reglas lógicas asociadas a las características.",
       "NO son interpretables."
     ],
-    "correcta": -1
+    "correcta": 1
   },
   {
     "pregunta": "Los modelos SVM:",
@@ -1032,7 +1032,7 @@
       "Se aprovechan de la maldición de la dimensionalidad.",
       "Tienen un parámetro C que determina el núcleo del modelo."
     ],
-    "correcta": -1
+    "correcta": 1
   },
   {
     "pregunta": "Los resultados de testeo en comparación con los de validación suelen ser:",
@@ -1041,7 +1041,7 @@
       "Mejores.",
       "Iguales."
     ],
-    "correcta": -1
+    "correcta": 0
   },
   {
     "pregunta": "NO es afectado por el problema de la maldición de la dimensionalidad.",
@@ -1050,7 +1050,7 @@
       "Red neuronal.",
       "Agrupamiento Jerárquico."
     ],
-    "correcta": -1
+    "correcta": 0
   },
   {
     "pregunta": "Observamos que las características A y B tienen una correlación de -0.95.",
@@ -1068,7 +1068,7 @@
       "Embedding encoding.",
       "Binary encoding."
     ],
-    "correcta": -1
+    "correcta": 1
   },
   {
     "pregunta": "Permite mantener el orden a la hora de codificar una categoría:",
@@ -1077,7 +1077,7 @@
       "Embedding encoding.",
       "Binary encoding."
     ],
-    "correcta": -1
+    "correcta": 0
   },
   {
     "pregunta": "Permite trabajar con datos NO estandarizados:",
@@ -1086,7 +1086,7 @@
       "RandomForest.",
       "Redes neuronales."
     ],
-    "correcta": -1
+    "correcta": 0
   },
   {
     "pregunta": "Respecto a los modelos que integran un ensemble:",
@@ -1095,7 +1095,7 @@
       "Deben superar el 80% de la métrica utilizada.",
       "Deben tener una puntuación similar en la métrica utilizada."
     ],
-    "correcta": -1
+    "correcta": 2
   },
   {
     "pregunta": "Se aprovecha de la maldición de la dimensionalidad para separar los datos:",
@@ -1104,7 +1104,7 @@
       "SVM.",
       "KNN."
     ],
-    "correcta": -1
+    "correcta": 1
   },
   {
     "pregunta": "Se dice que un ensemble es de tipo stacking si utiliza:",
@@ -1122,7 +1122,7 @@
       "Está desbalanceado.",
       "Es usado para realizar un problema de aprendizaje NO supervisado."
     ],
-    "correcta": -1
+    "correcta": 1
   },
   {
     "pregunta": "Si durante el testeo nos encontramos con una categoría NO utilizada en el entrenamiento, el modelo:",
@@ -1131,7 +1131,7 @@
       "Tratará este dato como nulo.",
       "Utilizará una nueva categoría Unknown."
     ],
-    "correcta": -1
+    "correcta": 0
   },
   {
     "pregunta": "Si existen muy pocos datos atípicos, aplicaremos una estrategia:",
@@ -1140,7 +1140,7 @@
       "Semipermisiva.",
       "Permisiva."
     ],
-    "correcta": -1
+    "correcta": 0
   },
   {
     "pregunta": "Si quiero cribar las solicitudes de citas médicas, debo crear un modelo que tenga en cuenta:",
@@ -1149,7 +1149,7 @@
       "Los verdaderos positivos.",
       "Los verdaderos positivos y los falsos negativos."
     ],
-    "correcta": -1
+    "correcta": 2
   },
   {
     "pregunta": "Si seleccionamos las características más importantes, obtenemos un conjunto:",
@@ -1158,7 +1158,7 @@
       "Agnóstico al modelo.",
       "Interpretable."
     ],
-    "correcta": -1
+    "correcta": 2
   },
   {
     "pregunta": "Si usamos una estrategia de predicción de valores nulos, los valores nulos son:",
@@ -1167,7 +1167,7 @@
       "Sustituidos por una constante matemática, como la media.",
       "Sustituidos por un valor obtenido a partir de otro modelo de IA."
     ],
-    "correcta": -1
+    "correcta": 2
   },
   {
     "pregunta": "Tenemos un dataset con información climática y queremos predecir el tiempo del 2025. Hacemos una división de tipo train-test split, donde:",
@@ -1176,7 +1176,7 @@
       "El 80% de los datos son de entrenamiento y el 20% de testeo.",
       "Debemos usar una estrategia de estratificación."
     ],
-    "correcta": -1
+    "correcta": 0
   },
   {
     "pregunta": "Tener una alta variabilidad en una variable categórica es un escenario:",
@@ -1185,7 +1185,7 @@
       "Bueno.",
       "Irrelevante."
     ],
-    "correcta": -1
+    "correcta": 0
   },
   {
     "pregunta": "Un ensemble de tipo boosting, tiene modelos:",
@@ -1194,7 +1194,7 @@
       "De distintos tipos.",
       "De calidad dispar."
     ],
-    "correcta": -1
+    "correcta": 0
   },
   {
     "pregunta": "Un perceptrón es:",
@@ -1203,7 +1203,7 @@
       "Un modelo NO interpretable.",
       "Un modelo matemático de regresión lineal."
     ],
-    "correcta": -1
+    "correcta": 2
   },
   {
     "pregunta": "Una columna tiene un 75% de valores nulos, ¿qué estrategia aplicamos?",
@@ -1221,7 +1221,7 @@
       "NO tiene sentido aplicarla si hay más de un 50% de nulos.",
       "Debe realizarse después del análisis de variabilidad."
     ],
-    "correcta": -1
+    "correcta": 1
   },
   {
     "pregunta": "Una imagen es un tipo de dato.",
@@ -1230,7 +1230,7 @@
       "Semiestructurado.",
       "Estructurado."
     ],
-    "correcta": -1
+    "correcta": 0
   },
   {
     "pregunta": "Usando la técnica de reducción de la dimensionalidad denominada extracción, el resultado:",
@@ -1239,7 +1239,7 @@
       "NO es interpretable.",
       "Contendrá un número de columnas igual o superior al inicial."
     ],
-    "correcta": -1
+    "correcta": 0
   },
   {
     "pregunta": "¿Cuál de las siguientes opciones es un algoritmo supervisado?",
@@ -1779,7 +1779,7 @@
       "Un sistema operativo.",
       "Un entorno de desarrollo en la nube para Python."
     ],
-    "correcta": -1
+    "correcta": 2
   },
   {
     "pregunta": "¿Cuál es la principal diferencia entre aprendizaje supervisado y no supervisado?",
