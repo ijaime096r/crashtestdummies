@@ -9,7 +9,8 @@ collection,
 addDoc,
 getDocs,
 query,
-where
+where,
+deleteDoc
 } from "https://www.gstatic.com/firebasejs/10.12.2/firebase-firestore.js"
 
 let usuarioActual = null
@@ -371,5 +372,46 @@ aciertos = 0
 
 document.getElementById("test").style.display = "none"
 document.getElementById("modoTest").style.display = "block"
+
+}
+window.resetearFallos = async function() {
+
+let nombreUsuario = usuarioActual.split("@")[0]
+
+try {
+
+let q = query(
+collection(db, "fallos"),
+where("usuario", "==", nombreUsuario)
+)
+
+let snapshot = await getDocs(q)
+
+if (snapshot.empty) {
+
+alert("No tienes fallos guardados")
+return
+
+}
+
+let confirmar = confirm("Se borrarán todos tus fallos guardados. ¿Continuar?")
+
+if (!confirmar) return
+
+for (let docSnap of snapshot.docs) {
+
+await deleteDoc(docSnap.ref)
+
+}
+
+fallosUsuario = []
+
+alert("Fallos eliminados")
+
+} catch (error) {
+
+console.log("Error borrando fallos:", error)
+
+}
 
 }
