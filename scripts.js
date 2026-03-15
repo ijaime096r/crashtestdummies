@@ -305,3 +305,13 @@ console.log("Error cargando fallos:", error)
 }
 
 }
+
+window.volverMenu = function() {
+
+indice = 0
+aciertos = 0
+
+document.getElementById("test").style.display = "none"
+document.getElementById("modoTest").style.display = "block"
+
+}
