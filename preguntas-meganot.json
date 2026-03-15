@@ -12,7 +12,7 @@
     "pregunta": "En la segmentación semántica:",
     "opciones": [
       "La capa completamente conectada produce una imagen (máscara).",
-      "El decoder está enlazado a las capas del decoder.",
+      "El decoder está enlazado a las capas del decoder. --> verificar si hay errata y quería poner encoder en el segundo elemento",
       "Cada objeto es clasificado en una clase distinta, incluso aunque sean del mismo tipo (dos personas dan lugar a dos clases semánticas)."
     ],
     "correcta": -1
@@ -24,7 +24,7 @@
       "Codifica la entrada, de forma que SOLO pueda ser leída por otro modelo.",
       "Convierte los píxeles de la imagen de entrada a clases."
     ],
-    "correcta": -1
+    "correcta": 0
   },
   {
     "pregunta": "En tiempo de testeo, se crean varias imágenes aumentadas y se predice el resultado como la media de predicciones de todas esas imágenes. Es la técnica:",
@@ -42,7 +42,7 @@
       "Es la distribución de sus capas internas.",
       "Es la parte que se encarga de decodificar la matriz de características."
     ],
-    "correcta": -1
+    "correcta": 1
   },
   {
     "pregunta": "La capa pooling de las redes neuronales convolucionales:",
@@ -51,7 +51,7 @@
       "Multiplica la matriz de entrada por un kernel que es fijo.",
       "Multiplica la matriz de entrada por un kernel cuyos pesos son el resultado del entrenamiento de la red."
     ],
-    "correcta": -1
+    "correcta": 1
   },
   {
     "pregunta": "La técnica de Aumento de Datos NO geométricos:",
@@ -78,7 +78,7 @@
       "Modificar el tamaño del dataset.",
       "Generar datos sintéticos."
     ],
-    "correcta": -1
+    "correcta": 0
   },
   {
     "pregunta": "Las únicas técnicas reversibles de aumento de datos son:",
@@ -96,7 +96,7 @@
       "Texto a Imagen.",
       "Imagen a Texto."
     ],
-    "correcta": -1
+    "correcta": 0
   },
   {
     "pregunta": "NO es una tarea de la Visión por Computador:",
@@ -105,7 +105,7 @@
       "Clasificar imágenes.",
       "Segmentar imágenes."
     ],
-    "correcta": -1
+    "correcta": 0
   },
   {
     "pregunta": "PASCAL VOC es un estándar que determina cómo crear:",
@@ -132,7 +132,7 @@
       "Varias versiones de sí misma.",
       "Sí misma."
     ],
-    "correcta": -1
+    "correcta": 2
   },
   {
     "pregunta": "Un backbone, son los pesos asociados a una arquitectura deep:",
@@ -150,7 +150,7 @@
       "Permite procesar menos información a la vez.",
       "Es menos eficiente."
     ],
-    "correcta": -1
+    "correcta": 0
   },
   {
     "pregunta": "Un modelo del tipo autoencoder sirve, por ejemplo, para:",
@@ -510,7 +510,7 @@
       "Trocear el corpus por tokens.",
       "Usar la GPU."
     ],
-    "correcta": -1
+    "correcta": 1
   },
   {
     "pregunta": "Al crear un embedding, qué característica de la palabra se tiene en cuenta:",
@@ -519,7 +519,7 @@
       "El significado, sin tener en cuenta el contexto.",
       "La morfología."
     ],
-    "correcta": -1
+    "correcta": 0
   },
   {
     "pregunta": "En la distribución espacial de un embedding, las palabras:",
@@ -528,7 +528,7 @@
       "Deben agruparse según su familia semántica.",
       "Una misma palabra NO debe tener dos representaciones diferentes."
     ],
-    "correcta": -1
+    "correcta": 1
   },
   {
     "pregunta": "Los Modelos Grandes del Lenguaje son entrenados para tareas:",
@@ -537,7 +537,7 @@
       "Múltiples.",
       "Específicas."
     ],
-    "correcta": -1
+    "correcta": 0
   },
   {
     "pregunta": "NO es una forma de crear un clasificador de textos:",
@@ -546,7 +546,7 @@
       "Utilizar un modelo del lenguaje general.",
       "Utilizar un modelo clásico cuya entrada es la matriz de características."
     ],
-    "correcta": -1
+    "correcta": 0
   },
   {
     "pregunta": "Un embedding es un tipo de red neuronal que permite:",
@@ -564,7 +564,7 @@
       "El contexto de las palabras NO se tiene en cuenta.",
       "SOLO hay unos en las posiciones asociadas a la palabra."
     ],
-    "correcta": -1
+    "correcta": 0
   },
   {
     "pregunta": "Un modelo general:",
@@ -582,7 +582,7 @@
       "Genérico entrenado para tareas sobre textos.",
       "Que genera una etiqueta para el texto procesado."
     ],
-    "correcta": -1
+    "correcta": 1
   },
   {
     "pregunta": "¿Qué distribución de valores nos alertaría de una baja variabilidad en una característica categórica de dos posibles valores?",
@@ -591,7 +591,7 @@
       "70% - 30%",
       "50% - 50%"
     ],
-    "correcta": -1
+    "correcta": 0
   },
   {
     "pregunta": "Al analizar una característica, observamos un 3% de nulos. Si en producción NO podemos encontrar nulos, ¿qué hacemos con los nulos?:",
@@ -600,7 +600,7 @@
       "Imputarlos.",
       "Eliminarlos."
     ],
-    "correcta": -1
+    "correcta": 2
   },
   {
     "pregunta": "Al estandarizar los datos del modelo.",
@@ -609,7 +609,7 @@
       "Pueden utilizarse columnas categóricas sin codificar.",
       "El resultado deja de ser interpretable."
     ],
-    "correcta": -1
+    "correcta": 2
   },
   {
     "pregunta": "Al tener un 70% de nulos en la etiqueta, necesitaremos aplicar técnicas de tipo:",
@@ -618,7 +618,7 @@
       "Semi-supervisado.",
       "NO supervisado."
     ],
-    "correcta": -1
+    "correcta": 1
   },
   {
     "pregunta": "Al usar un enlace de tipo simple, unimos dos grupos según la distancia entre sus:",
@@ -627,7 +627,7 @@
       "Centroides.",
       "Puntos más alejados."
     ],
-    "correcta": -1
+    "correcta": 0
   },
   {
     "pregunta": "Analizamos la variabilidad de una columna categórica binaria y observamos que la clase A tiene 25 datos, la clase B tiene 15 y hay 10 valores nulos. ¿Qué hacemos?",
@@ -636,7 +636,7 @@
       "Eliminamos la columna por baja variabilidad.",
       "Eliminamos los nulos."
     ],
-    "correcta": -1
+    "correcta": 0
   },
   {
     "pregunta": "Analizamos la variabilidad de una columna categórica binaria y observamos que la clase A tiene 25 datos, la clase B tiene 15 y hay 60 valores nulos. ¿Qué hacemos?",
@@ -645,7 +645,7 @@
       "Eliminamos la columna por baja variabilidad.",
       "Imputamos los nulos con una estrategia constante."
     ],
-    "correcta": -1
+    "correcta": 1
   },
   {
     "pregunta": "Aplicamos la técnica t-SNE a nuestro conjunto de datos. Obtenemos una matriz con 10 columnas.",
@@ -654,7 +654,7 @@
       "Los datos SÍ son interpretables.",
       "Los datos NO son interpretables."
     ],
-    "correcta": -1
+    "correcta": 2
   },
   {
     "pregunta": "Aplicamos técnicas de interpretabilidad y la característica de género es la más importante para nuestro modelo. ¿Qué hacemos?",
@@ -663,7 +663,7 @@
       "Dependiendo de la tarea del modelo, seguimos trabajando con él.",
       "Lo notificamos, PERO seguimos usando el modelo."
     ],
-    "correcta": -1
+    "correcta": 1
   },
   {
     "pregunta": "De las propuestas, es la tarea más complicada:",
@@ -672,7 +672,7 @@
       "Detección de objetos.",
       "Segmentación semántica."
     ],
-    "correcta": -1
+    "correcta": 2
   },
   {
     "pregunta": "Desde pandas, NO podemos cargar un DataFrame desde:",
@@ -681,7 +681,7 @@
       "Una API que sirva datos en json.",
       "Un archivo excel."
     ],
-    "correcta": -1
+    "correcta": 0
   },
   {
     "pregunta": "Durante una época, el modelo trabaja con:",
@@ -690,7 +690,7 @@
       "Todos los datos de entrenamiento.",
       "Todos los datos de entrenamiento y de validación."
     ],
-    "correcta": -1
+    "correcta": 1
   },
   {
     "pregunta": "El método de DBSCAN, agrupa los puntos según su:",
@@ -699,7 +699,7 @@
       "Distancia.",
       "Centroide."
     ],
-    "correcta": -1
+    "correcta": 0
   },
   {
     "pregunta": "El método del CODO permite encontrar el valor óptimo de clusters para el algoritmo:",
@@ -708,7 +708,7 @@
       "Agrupamiento jerárquico.",
       "DBSCAN."
     ],
-    "correcta": -1
+    "correcta": 0
   },
   {
     "pregunta": "El modelo KMeans agrupa los puntos según:",
@@ -717,7 +717,7 @@
       "Densidad.",
       "Distancia."
     ],
-    "correcta": -1
+    "correcta": 2
   },
   {
     "pregunta": "El principal problema de los modelos profundos es que:",
