@@ -15127,5 +15127,905 @@
       "Es un indicativo de correlación superior al 80%."
     ],
     "correcta": 1
+  },
+  {
+    "pregunta": "En la historia de la Inteligencia Artificial, el período de la década de 1970 caracterizado por la falta de avances y el fracaso al intentar alcanzar unas expectativas irreales y desmedidas se conoce como:",
+    "opciones": [
+      "La segunda ola de la IA.",
+      "El invierno de la IA.",
+      "El renacimiento del perceptrón."
+    ],
+    "correcta": 1
+  },
+  {
+    "pregunta": "Usando la fórmula matemática genérica de Minkowski para el cálculo de distancias, si el valor de la potencia tiende a infinito, la métrica resultante (que mide la distancia más grande posible en cada dimensión para cada punto) se denomina:",
+    "opciones": [
+      "Distancia Manhattan.",
+      "Distancia Euclídea.",
+      "Distancia del Supremo."
+    ],
+    "correcta": 2
+  },
+  {
+    "pregunta": "Según el temario de preprocesamiento, a la hora de afrontar valores nulos, una primera aproximación al problema eliminando absolutamente todos los nulos nos permite crear un modelo base que trabaja en las peores condiciones, conocido como:",
+    "opciones": [
+      "Modelo estocástico residual.",
+      "Modelo Vanilla.",
+      "Modelo de frontera estricta."
+    ],
+    "correcta": 1
+  },
+  {
+    "pregunta": "En el algoritmo de aprendizaje no supervisado KMeans, a la cantidad de información explicada por el modelo (la cual buscamos medir y minimizar visualmente empleando la técnica del Método del CODO) se le llama:",
+    "opciones": [
+      "Inercia (inertia_).",
+      "Varianza latente acumulada.",
+      "Impureza de entropía estocástica."
+    ],
+    "correcta": 0
+  },
+  {
+    "pregunta": "En la librería FastAI, si disponemos de nuestros datos separados nativamente en carpetas cuyos nombres definen el uso del conjunto (por ejemplo, carpeta 'train' y carpeta 'test'), ¿qué particionador usaremos en el DataBlock?",
+    "opciones": [
+      "RandomSplitter.",
+      "ColSplitter.",
+      "GrandparentSplitter."
+    ],
+    "correcta": 2
+  },
+  {
+    "pregunta": "A la hora de entrenar una red neuronal convolucional pura en FastAI comenzando completamente desde cero (es decir, sin aprovechar o congelar los pesos de un modelo preentrenado), el método de entrenamiento directo invocado sobre el Learner es:",
+    "opciones": [
+      "fine_tune()",
+      "fit()",
+      "predict_proba()"
+    ],
+    "correcta": 1
+  },
+  {
+    "pregunta": "Como la técnica del Descenso del Gradiente se basa matemáticamente en la minimización de un error, las Funciones de Pérdida (Loss functions) siempre se minimizan. ¿Qué se debe hacer si nuestra métrica de evaluación es de maximización (como la Exactitud o Accuracy)?",
+    "opciones": [
+      "Invertir la métrica matemáticamente (evaluando cómo de mal clasifica nuestro modelo en vez de cómo de bien lo hace).",
+      "Aplicar obligatoriamente la función de activación ReLU para suprimir los gradientes estocásticos.",
+      "Usar una red neuronal de caja blanca que ignore la Matriz Jacobiana."
+    ],
+    "correcta": 0
+  },
+  {
+    "pregunta": "A la hora de cargar datos predefinidos directamente desde la nube, ¿qué importante librería (famosa por sus Transformers) cuenta con submódulos como 'datasets' o la función 'load_dataset' que nos permiten importarlos de manera nativa?",
+    "opciones": [
+      "scikit-learn.",
+      "HuggingFace.",
+      "KaggleHub Local."
+    ],
+    "correcta": 1
+  },
+  {
+    "pregunta": "En el núcleo de cualquier red neuronal, para determinar matemáticamente cómo de bueno (o de malo) ha sido el resultado de la predicción arrojada tras la fase de propagación hacia adelante (forward pass) y el resultado real esperado, se utiliza una:",
+    "opciones": [
+      "Matriz Gini de Correlación cruzada.",
+      "Función de Pérdida (Loss Function).",
+      "Capa densa Dropout."
+    ],
+    "correcta": 1
+  },
+  {
+    "pregunta": "En los problemas avanzados de Segmentación Semántica (donde se clasifican los píxeles de una máscara), un identificador de clase numérico de valor 0 mapeado con el color negro suele reservarse de forma casi universal para:",
+    "opciones": [
+      "Los bordes delimitadores puros de la imagen (Edge isolation).",
+      "El fondo de la imagen (Background), que engloba toda la información irrelevante.",
+      "Las etiquetas nulas o ambiguas generadas por el algoritmo CutMix."
+    ],
+    "correcta": 1
+  },
+  {
+    "pregunta": "Si decidimos entrenar y utilizar un modelo predictivo de Inteligencia Artificial completo (como el KNNImputer) con el fin único de rellenar los datos nulos de nuestra tabla para luego alimentar con ella a nuestro modelo principal, este curioso concepto se bautiza en los apuntes como:",
+    "opciones": [
+      "Modelception o Matrioska de modelos.",
+      "Stacking algorítmico progresivo descendente.",
+      "Bagging de imputación iterativa estocástica."
+    ],
+    "correcta": 0
+  },
+  {
+    "pregunta": "En el Procesamiento del Lenguaje Natural (NLP), para garantizar que signos de puntuación especiales muy importantes en el idioma inglés (como el apóstrofe) se manejen, aíslen y codifiquen correctamente, el tokenizador de la librería NLTK altamente recomendado es:",
+    "opciones": [
+      "RegexSplitTokenizer.",
+      "WordPunctTokenizer.",
+      "SpaceStandardTokenizer."
+    ],
+    "correcta": 1
+  },
+  {
+    "pregunta": "El entrenamiento profundo de redes neuronales precisa realizar repetitivamente cálculos de derivadas y multiplicaciones inmensas de matrices. ¿Qué componente físico es mucho más rápido y experto optimizando la paralelización inmensa de estas tareas?",
+    "opciones": [
+      "La CPU (Unidad Central de Procesamiento).",
+      "La Memoria RAM dinámica.",
+      "La GPU (Unidad de Procesamiento Gráfico)."
+    ],
+    "correcta": 2
+  },
+  {
+    "pregunta": "En el algoritmo de Agrupamiento Jerárquico, además de establecer la métrica de cálculo (como la distancia euclídea), debemos fijar un criterio de unión o 'enlace' (linkage). ¿Qué comportamiento matemático aplica la opción de enlace 'average'?",
+    "opciones": [
+      "Toma la referencia inicial midiendo y calculando puramente la distancia existente entre los centros de masa (centroides) de los grupos.",
+      "Mide de forma inflexible la distancia máxima y estricta que haya entre los dos puntos más alejados de los clústeres.",
+      "Se fija unívocamente en unir aquellos grupos adyacentes que expongan la menor varianza ponderada posible."
+    ],
+    "correcta": 0
+  },
+  {
+    "pregunta": "Si decidimos aplicar técnicas de extracción de características abstractas (como el Análisis de Componentes Principales o t-SNE) que destruyen por completo la interpretabilidad natural, es una norma estadística indispensable que antes debamos:",
+    "opciones": [
+      "Forzar al algoritmo a generar un Árbol de Decisión profundo y explicable.",
+      "Estandarizar previamente los datos para comprimir y encajar todas las características numéricas originales en un rango reducido y común.",
+      "Eliminar sin concesiones la totalidad de los registros atípicos basándonos rígidamente en el tercer cuartil (Q3)."
+    ],
+    "correcta": 1
+  },
+  {
+    "pregunta": "Para reducir el tiempo y el uso de memoria en el entrenamiento de redes masivas Deep Learning, es común utilizar el método to_fp16() rebajando los tensores a 16 bits de precisión. Sin embargo, acotar tanto los decimales puede desencadenar que el gradiente explote y devuelva valores infinitos, un error fatal que se denomina:",
+    "opciones": [
+      "Vanishing Gradient problem.",
+      "Dropout saturation lock.",
+      "EarlyStopping numeric overflow."
+    ],
+    "correcta": 0
+  },
+  {
+    "pregunta": "Revisando el núcleo de la fórmula analítica para actualizar la Q-Tabla en el algoritmo Q-Learning (Aprendizaje por Refuerzo), al término estricto max_a(Q(S_t+1, a)) que representa el mejor valor posible esperado del siguiente estado, se le denomina frecuentemente:",
+    "opciones": [
+      "Factor de penalización latente estocástico.",
+      "Valor optimista.",
+      "Ratio de aprendizaje inercial inverso."
+    ],
+    "correcta": 1
+  },
+  {
+    "pregunta": "Continuando con la fórmula algorítmica principal del Q-Learning de actualización iterativa, la letra griega alfa minúscula (\u03B1) que multiplica a la corrección del Target TD, representa matemáticamente:",
+    "opciones": [
+      "La recompensa inmediata pura obtenida (R_t+1).",
+      "El factor de descuento egoísta (gamma o \u03B3).",
+      "El ratio de aprendizaje general (Learning Rate)."
+    ],
+    "correcta": 2
+  },
+  {
+    "pregunta": "Al recurrir a los robustos métodos de imputación de valores nulos implementados como estimadores de scikit-learn (tales como SimpleImputer o KNNImputer), la regla inviolable establece que deben entrenarse o calcularse (con la función 'fit') EXCLUSIVAMENTE utilizando los datos pertenecientes al:",
+    "opciones": [
+      "Conjunto completo masivo (mezclando el Entrenamiento, la Validación y el Testeo a la vez).",
+      "Conjunto de Entrenamiento de forma estricta y única.",
+      "Conjunto de Testeo apartado (para evitar corromper la Matriz Jacobiana subyacente)."
+    ],
+    "correcta": 1
+  },
+  {
+    "pregunta": "En la salida del método `plot_tree()` usada para visualizar la estructura lógica generada internamente por un Árbol de Decisión, el atributo denominado numéricamente como 'gini' almacenado en cada uno de los nodos nos sirve para medir:",
+    "opciones": [
+      "La impureza matemática de dicho nodo, dictando que cuanto más bajo sea este índice, mejor divididas y clasificadas están las clases en esa etapa.",
+      "La cantidad total y precisa de registros que están sufriendo sobreajuste estocástico (overfitting) en la hoja en cuestión.",
+      "El peso geométrico global y general que el hiperplano de soporte ostenta sobre la matriz estandarizada."
+    ],
+    "correcta": 0
+  },
+  {
+    "pregunta": "¿Cuál es el objetivo principal de las máquinas de soporte vectorial (SVM)?",
+    "opciones": [
+      "Reducir el número de dimensiones de los datos.",
+      "Encontrar un hiperplano óptimo que separe las clases.",
+      "Generar un modelo con múltiples capas."
+    ],
+    "correcta": 1
+  },
+  {
+    "pregunta": "¿Cuál es el propósito del preprocesamiento de datos?",
+    "opciones": [
+      "Limpiar y transformar los datos para hacerlos más adecuados para que los modelos puedan procesarlos de forma óptima.",
+      "Generar nuevos datos sintéticos a partir de los existentes irremediablemente.",
+      "Eliminar las filas duplicadas de los conjuntos de datos de forma matemática."
+    ],
+    "correcta": 0
+  },
+  {
+    "pregunta": "¿Cuál es la principal diferencia entre clasificación y regresión?",
+    "opciones": [
+      "La clasificación solo utiliza redes neuronales y la regresión árboles de decisión.",
+      "La regresión utiliza árboles de decisión de caja blanca, la clasificación no.",
+      "La clasificación predice categorías o etiquetas, mientras que la regresión predice valores numéricos continuos."
+    ],
+    "correcta": 2
+  },
+  {
+    "pregunta": "¿Qué caracteriza fundamentalmente a los algoritmos de aprendizaje NO supervisado?",
+    "opciones": [
+      "Que se entrenan exclusivamente utilizando datos pre-etiquetados.",
+      "Que utilizan etiquetas conocidas para adivinar y predecir categorías futuras.",
+      "Que no requieren ejemplos de salida ni etiquetas en los datos para encontrar patrones y aprender."
+    ],
+    "correcta": 2
+  },
+  {
+    "pregunta": "¿Qué caracteriza conceptualmente a los modelos de aprendizaje por refuerzo?",
+    "opciones": [
+      "Utilizan solo técnicas estáticas de clustering iterativo.",
+      "Aprenden tomando decisiones e interactuando en un entorno a base de prueba y error, recibiendo retroalimentación en forma de castigos o recompensas.",
+      "Aprenden usando estrictamente grandes volúmenes de datos tabulares etiquetados."
+    ],
+    "correcta": 1
+  },
+  {
+    "pregunta": "¿Qué caracteriza arquitectónicamente a una red neuronal convolucional (CNN)?",
+    "opciones": [
+      "Está diseñada explícitamente para trabajar con datos que tienen una estructura de rejilla o mapa de características, como las imágenes.",
+      "Es un método estadístico puro de reducción de dimensionalidad.",
+      "Se utiliza de manera exclusiva para la generación de resúmenes de textos."
+    ],
+    "correcta": 0
+  },
+  {
+    "pregunta": "¿Qué caracteriza estructuralmente a una red neuronal catalogada como 'profunda' (Deep Learning)?",
+    "opciones": [
+      "Es un tipo de modelo ensemble de votación mayoritaria.",
+      "Utiliza tan sólo una única capa de entrada conectada a la salida.",
+      "Tiene múltiples capas ocultas intercaladas entre su entrada y su salida."
+    ],
+    "correcta": 2
+  },
+  {
+    "pregunta": "¿En qué se basa algorítmicamente el método K-Nearest Neighbors (KNN)?",
+    "opciones": [
+      "Es un método puramente extractivo de reducción de dimensionalidad.",
+      "Es un algoritmo de caja blanca que utiliza árboles de decisión para calcular la entropía.",
+      "Es un algoritmo basado en calcular distancias geométricas y la proximidad a los 'K' vecinos más cercanos."
+    ],
+    "correcta": 2
+  },
+  {
+    "pregunta": "¿Qué describe el problema del 'underfitting' (subajuste) en el entrenamiento de un modelo?",
+    "opciones": [
+      "Es cuando el modelo no es capaz de aprender lo suficiente ni siquiera de los datos de entrenamiento, por lo que falla en generalizar.",
+      "Es cuando el modelo se ha memorizado tan bien los datos que pierde explicabilidad abstracta.",
+      "Es cuando la red neuronal agota la memoria VRAM por un 'batch_size' excesivo."
+    ],
+    "correcta": 0
+  },
+  {
+    "pregunta": "¿Qué es un Árbol de Decisión en la Inteligencia Artificial clásica?",
+    "opciones": [
+      "Un algoritmo de caja negra basado enteramente en redes neuronales.",
+      "Un método de agrupamiento no supervisado impulsado por centroides.",
+      "Un modelo predictivo de caja blanca que utiliza una estructura de árbol binario y reglas lógicas para tomar decisiones."
+    ],
+    "correcta": 2
+  },
+  {
+    "pregunta": "¿Qué es analíticamente un perceptrón en el contexto básico del Machine Learning?",
+    "opciones": [
+      "La unidad básica e indivisible de una red neuronal que simula un modelo matemático de regresión lineal.",
+      "Una técnica reactiva en forma de Callback para reducir el sobreajuste.",
+      "Un modelo de clasificación NO supervisado basado en distancias."
+    ],
+    "correcta": 0
+  },
+  {
+    "pregunta": "¿Qué define a las 'neuronas de entrada' en la arquitectura de una red neuronal?",
+    "opciones": [
+      "Son las neuronas de la última capa que generan e imprimen la salida final de la red.",
+      "Son las neuronas latentes que calculan la activación estocástica.",
+      "Son las neuronas de la primera capa, las cuales reciben directamente los datos en bruto de entrada mapeando el problema."
+    ],
+    "correcta": 2
+  },
+  {
+    "pregunta": "¿Qué función matemática vital cumple una 'capa de activación' en una red neuronal profunda?",
+    "opciones": [
+      "Inicializar estáticamente los pesos inmutables de la red neuronal.",
+      "Introducir no linealidad en el modelo al modificar la salida del perceptrón, permitiendo que la red pueda aprender patrones complejos y no se colapse en una sola regresión.",
+      "Normalizar logarítmicamente los tensores de los datos de entrada."
+    ],
+    "correcta": 1
+  },
+  {
+    "pregunta": "¿Qué hiperparámetro de configuración es clave y fundamental al instanciar el algoritmo KNN?",
+    "opciones": [
+      "La tasa de aprendizaje (learning_rate).",
+      "El número exacto de vecinos consultados (k).",
+      "El número máximo de dimensiones del hiperespacio."
+    ],
+    "correcta": 1
+  },
+  {
+    "pregunta": "¿Qué inmensa ventaja metodológica ofrece el Aprendizaje Semisupervisado?",
+    "opciones": [
+      "Sólo demanda usar conjuntos de datos estrictamente etiquetados por humanos.",
+      "Es aplicable únicamente en tareas de clustering jerárquico.",
+      "Permite usar tanto los datos etiquetados como un modelo iterativo para autoetiquetar los datos no etiquetados, aprovechando toda la información para mejorar el rendimiento."
+    ],
+    "correcta": 2
+  },
+  {
+    "pregunta": "¿Cuál es la característica principal de funcionamiento del algoritmo de 'Agrupamiento Jerárquico Aglomerativo'?",
+    "opciones": [
+      "Comienza tratando a cada punto o instancia como un clúster individual y los va fusionando de forma iterativa con los más cercanos.",
+      "Comienza con un solo grupo gigante y separa los clústeres hasta que cada punto es un grupo aislado.",
+      "Elige un número fijo de clústeres al inicio mediante el Método del Codo."
+    ],
+    "correcta": 0
+  },
+  {
+    "pregunta": "¿Qué método de enlace (linkage) en el agrupamiento jerárquico toma como referencia y mide la distancia MÁXIMA estricta entre los puntos más alejados de dos grupos?",
+    "opciones": [
+      "Enlace simple (simple).",
+      "Enlace promedio (average).",
+      "Enlace completo (complete)."
+    ],
+    "correcta": 2
+  },
+  {
+    "pregunta": "¿Qué representa lógicamente un valor atípico (outlier) dentro del contexto de un conjunto de datos?",
+    "opciones": [
+      "Un valor que representa explícitamente un error de sintaxis.",
+      "Un valor categórico que está repetido excesivas veces sesgando la clase.",
+      "Un valor que es matemáticamente posible pero que está significativamente alejado del resto de valores normales de esa misma característica."
+    ],
+    "correcta": 2
+  },
+  {
+    "pregunta": "Según la normativa general de limpieza del temario, si la cantidad de valores nulos observados en una columna es inferior al 5%:",
+    "opciones": [
+      "Podemos optar por realizar una simple eliminación de esas escasas filas con datos nulos.",
+      "Debemos imputar predeciblemente todos sus valores usando KNNImputer.",
+      "Debemos realizar la eliminación incondicional de toda la columna afectada."
+    ],
+    "correcta": 0
+  },
+  {
+    "pregunta": "De acuerdo con las señales del Análisis de Variabilidad, si calculamos la Desviación Típica de una característica numérica y observamos que es MAYOR que 1/3 (un tercio) de su propia Media:",
+    "opciones": [
+      "Significa que la Media aritmética representa muy bien la homogeneidad central de los datos.",
+      "Significa que la Media nos aporta poquísima información real, porque la mayoría de los datos se encuentran sumamente dispersos y alejados de ella.",
+      "Indica que la característica no es afectada por la dimensionalidad abstracta."
+    ],
+    "correcta": 1
+  },
+  {
+    "pregunta": "En Procesamiento del Lenguaje Natural con FastAI, para crear explícitamente un bloque de datos textual a partir de la columna de un DataFrame, se recomienda instanciar el objeto:",
+    "opciones": [
+      "TextBlock.from_df",
+      "ImageBlock",
+      "CategoryBlock"
+    ],
+    "correcta": 0
+  },
+  {
+    "pregunta": "Al entrenar nuestro propio Word Embedding léxico utilizando la clase 'Word2Vec' de Gensim, ¿qué controla internamente el hiperparámetro 'vector_size'?",
+    "opciones": [
+      "El tamaño de las dimensiones o columnas de la matriz de características (embedding resultante) para cada token.",
+      "El número de repeticiones máximas admisibles de una palabra desconocida.",
+      "El tamaño de las ventanas contextuales o palabras vecinas que el modelo evaluará simultáneamente."
+    ],
+    "correcta": 0
+  },
+  {
+    "pregunta": "De acuerdo con los manuales para el Análisis Exploratorio de Datos tabulares, si observamos que la Media es estrictamente MENOR que la Mediana (Media < Mediana), nos enfrentamos analíticamente a un:",
+    "opciones": [
+      "Sesgo positivo (inclinado asintóticamente hacia la derecha).",
+      "Sesgo negativo (inclinado asintóticamente hacia la izquierda).",
+      "Proceso de distribución estandarizada pura."
+    ],
+    "correcta": 1
+  },
+  {
+    "pregunta": "Según la normativa estadística general expuesta en los apuntes, si la clase mayoritaria de una característica categórica supone más del 60% de los datos (+20 de diferencia sobre el resto), se introduce automáticamente un problema técnico conocido como:",
+    "opciones": [
+      "Desbalance de Clases (Class Imbalance).",
+      "Desvanecimiento del Gradiente.",
+      "Maldición de la Dimensionalidad."
+    ],
+    "correcta": 0
+  },
+  {
+    "pregunta": "¿En qué radica la diferencia procedimental entre la técnica 'CutOut' y la técnica 'CutMix' al aplicar aumentos de datos NO geométricos e irreversibles a una fotografía?",
+    "opciones": [
+      "CutOut recorta un área y la rellena de vacío (negro neutro), mientras que CutMix rellena ese hueco aportando información y píxeles interceptados de otra imagen completamente distinta.",
+      "CutOut inyecta ruido de tipo Gaussiano modificando la transparencia cromática, y CutMix altera la rotación Euclidiana.",
+      "CutOut es un aumento geométrico clásico totalmente reversible, mientras que CutMix es destructivo y muta la etiqueta base al vuelo."
+    ],
+    "correcta": 0
+  },
+  {
+    "pregunta": "En las metodologías de Inteligencia Artificial centradas en Aprendizaje NO Supervisado, ¿cómo se denomina técnicamente a la gráfica de árbol binario empleada para trazar las uniones de un Agrupamiento Jerárquico?",
+    "opciones": [
+      "Histograma de densidades iterativo.",
+      "Dendograma.",
+      "Matriz Jacobiana de calor (Grad-CAM tree)."
+    ],
+    "correcta": 1
+  },
+  {
+    "pregunta": "Las altísimas exigencias del Deep Learning para calcular el descenso del gradiente obligan a procesar simultáneamente derivadas cruzadas y multiplicar inmensas matrices algebraicas. ¿Qué componente físico es especialista y recomendadísimo en paralelizar masivamente estas tareas?",
+    "opciones": [
+      "La CPU (Unidad Central de Procesamiento) monohilo.",
+      "El disco duro de Estado Sólido (SSD NVMe) alojando memoria VRAM.",
+      "La GPU (Unidad de Procesamiento Gráfico o Tarjeta Gráfica)."
+    ],
+    "correcta": 2
+  },
+  {
+    "pregunta": "En el estudio teórico de la Inteligencia Artificial que implementa estructuras 'ensamble' (ensembles), la técnica conocida globalmente como 'Bagging' (cuya piedra angular es el algoritmo RandomForest) se fundamenta en:",
+    "opciones": [
+      "Entrenar una cadena secuencial de modelos muy débiles donde el predecesor es corregido estocásticamente por su modelo sucesor de forma adyacente.",
+      "Entrenar de forma aislada e independiente en paralelo una asamblea masiva de cientos de modelos idénticos del mismo tipo y decidir la predicción final sometiéndolos a mayoría simple o votación.",
+      "Unificar las predicciones de varios modelos base conceptualmente distintos y usar un nuevo regresor logístico secundario en cabecera que logre ponderar analíticamente el resultado."
+    ],
+    "correcta": 1
+  },
+  {
+    "pregunta": "Al intentar optimizar un modelo de clasificación binaria desbalanceado, ¿qué célebre curva o métrica se encarga de puntuar estableciendo un riguroso ratio entre la tasa de 'Verdaderos Positivos' y los 'Falsos Positivos'?",
+    "opciones": [
+      "Perplejidad Logarítmica Condicional (Perplexity).",
+      "Índice multiplicador DiceMulti.",
+      "Área Bajo la Curva ROC (ROC-AUC)."
+    ],
+    "correcta": 2
+  },
+  {
+    "pregunta": "Para forzar a un modelo opaco de caja negra en Visión por Computador a revelar en qué zonas se está fijando visualmente para predecir, la valiosísima técnica de interpretabilidad 'Grad-CAM' se basa orgánicamente en:",
+    "opciones": [
+      "Elaborar un mapa de calor visual al interceptar (usando un hook) y ponderar matemáticamente los gradientes de la última capa de la red calculados durante el paso hacia atrás (backward pass).",
+      "Convertir y transcribir las capas vectoriales de MaxPooling2D conformando un gran bosque aleatorio de árboles Gini.",
+      "Aplicar la función geométrica Supresión de No Máximos para emular el comportamiento central de las bounding boxes a través de un testeo t-SNE."
+    ],
+    "correcta": 0
+  },
+  {
+    "pregunta": "En Procesamiento del Lenguaje Natural (NLP), cuando el tokenizador inyecta en el tensor de entrenamiento la singular cadena etiquetada 'xxrep n e', está alertando al modelo de que:",
+    "opciones": [
+      "El carácter contiguo fue censurado o censurado temporalmente por pertenecer irremediablemente a un alfabeto extranjero.",
+      "Ha finalizado de forma drástica la codificación de un vector debido al desbordamiento máximo de la función de activación.",
+      "El elemento gramatical o carácter 'e' ha sido localizado repitiéndose de manera seguida y consecutiva 'n' veces en la composición de la frase madre."
+    ],
+    "correcta": 2
+  },
+  {
+    "pregunta": "Según la rígida tabla límite para el preprocesamiento o 'Análisis de Variabilidad' tabular, si inspeccionamos concienzudamente una variable catalogada como 'numérica' y presenciamos que la proporción del mismo valor idéntico excede el 10% (0.10) de todo el grueso, debemos preocuparnos porque:",
+    "opciones": [
+      "Los números deberían ser por norma general muy variados; si muchísimos son clónicos e idénticos, la columna es altamente sospechosa por carecer de variabilidad útil.",
+      "Se ha detectado una injerencia estocástica provocando matemáticamente una desviación positiva al correlacionarla con la etiqueta objetivo subyacente.",
+      "Técnicamente sobrepasaría automáticamente la regla empírica que indica que su desviación típica superaría invariablemente a un tercio de su moda estricta."
+    ],
+    "correcta": 0
+  },
+  {
+    "pregunta": "Si optamos por aplicar 'Fine Tuning' y reentrenar un clasificador estadístico NLP en FastAI recurriendo y reciclando el potente conocimiento de un Modelo Grande del Lenguaje (LLM) previamente entrenado, el proceso cardinal para garantizar este trasplante radica en:",
+    "opciones": [
+      "Reducir mecánicamente la métrica de DiceMulti aplicando un escalado StandardScaler unidimensional en los componentes base del WordPunctTokenizer.",
+      "Reemplazar expresamente el codificador nativo inexperto del modelo por el codificador robusto que ha sido extraído de nuestro modelo del lenguaje masivo (mediante el método load_encoder).",
+      "Activar la penalización EarlyStopping imponiendo sistemáticamente una paciencia o tolerancia inercial obligatoria de 10 épocas congeladas (freeze_epochs=10)."
+    ],
+    "correcta": 1
+  },
+  {
+    "pregunta": "Las redes neuronales profundas adolecen de memorizar asintóticamente el ruido y sobreajustarse al aprender. Una utilísima táctica de 'regularización' introducida directamente en la configuración arquitectónica de la red, encargada de apagar y censurar estocásticamente porcentajes de neuronas en cada época para prevenir que se especialicen, se apoda:",
+    "opciones": [
+      "Decodificador Recursivo (Recursive Decoder).",
+      "DropOut.",
+      "Inercia Jacobiana de Momento (Momentum Bias)."
+    ],
+    "correcta": 1
+  },
+  {
+    "pregunta": "Dentro del entrenamiento de algoritmos computacionales con ingentes tensores RGB, ¿qué catástrofe técnica ocurre previsiblemente a nivel de hardware si exigimos a nuestro DataLoader empaquetar conjuntos de datos en un tamaño de lote ('batch_size') colosal e inasumible?",
+    "opciones": [
+      "Obliga al codificador nativo a comprimir destructivamente los mapas de color y transicionarlos irreversiblemente hacia un canal escalar plano de grises monocromáticos opacos.",
+      "El gestor agota físicamente la capacidad de la memoria VRAM provocando inmediatamente la paralización y el cierre letal de la GPU por desbordamiento (Out of Memory / CUDA error).",
+      "Activa de forma ininterrumpida la condición booleana del CallBack 'EarlyStopping' impidiendo permanentemente el cómputo final de los gradientes matemáticos."
+    ],
+    "correcta": 1
+  },
+  {
+    "pregunta": "De acuerdo con el ciclo universal en el entrenamiento de Redes Neuronales de cualquier índole, ¿qué rol vital o fin indispensable ejerce en el esquema la 'Función de Pérdida' (Loss Function)?",
+    "opciones": [
+      "Determinar en un valor escalar la gravedad del error, confrontando estadísticamente el resultado obtenido por la red tras propagar hacia adelante (forward pass) contra la verdad real esperada, con la misión analítica de orientar cómo debe minimizarse dicho fallo.",
+      "Proyectar iterativamente el umbral de detención pura de los nodos interiores de un Árbol de Decisión para bifurcar ramificaciones sin caer en falsos positivos estocásticos.",
+      "Silenciar dinámicamente o censurar de manera aleatoria atípicos en el mapa, transmutándolos analíticamente desde tipo coma flotante (fp32) hacia representaciones lógicas binarias nulas (-1)."
+    ],
+    "correcta": 0
+  },
+  {
+    "pregunta": "Durante el protocolo metodológico del Aprendizaje Semisupervisado iterativo en el cual intentamos autoetiquetar nulos sintéticamente con la ayuda de un modelo propio, es fundamental invocar la directriz analítica 'predict_proba()' en lugar de 'predict()' clásico porque:",
+    "opciones": [
+      "El empaquetado de predict() destruye irreversiblemente las dependencias lineales si es ejecutado por fuera de la regresión iterativa ward.",
+      "Nos otorga un vector íntegro que revela la distribución exacta de probabilidades evaluadas por cada clase, permitiendo pseudoetiquetar prudentemente el registro de datos solo si el nivel porcentual de certeza supera una estricta barrera dictaminada (threshold alto).",
+      "Permite acotar los intervalos estocásticos logrando ser el único envoltorio tolerado estadísticamente en algoritmos KMeans capaces de lidiar con ruidosas agrupaciones espaciales latentes."
+    ],
+    "correcta": 1
+  },
+  {
+    "pregunta": "Estudiando la nomenclatura imperativa y la concepción en el campo del Aprendizaje por Refuerzo, al dictaminar que nuestra IA se desenvuelve frente a un 'estado' analítico absoluto (en contraposición con una escasa 'observación'), estamos reafirmando doctrinalmente que:",
+    "opciones": [
+      "Nuestro Agente transita ejecutando movimientos aversos puramente exploratorios mitigando completamente el factor constante multiplicador de la Recompensa y el Descuento temporal Gini.",
+      "El Agente algorítmico se enfrenta ciegamente a condicionantes o velos estocásticos de tipo 'niebla de guerra' desconociendo parcial e integralmente parcelas o áreas vitales y determinantes del escenario latente subyacente.",
+      "La entidad que modela al Agente se torna formalmente omnisciente al dominar un entorno geométrico totalmente observable en tiempo real con sus entresijos y características al completo (tal y como sucede inalterablemente en las cuadrículas de un tablero analítico de ajedrez puro)."
+    ],
+    "correcta": 2
+  },
+  {
+    "pregunta": "Al afrontar la barrera irresoluble que provocan ciertas distribuciones geométricas de datos imposibles de segregar de manera lineal básica (ej. compuerta XOR), las Máquinas de Vector Soporte (SVM) acuden exitosamente a la metodología del 'Truco del Kernel', cimentado conceptualmente en:",
+    "opciones": [
+      "Aprovechar drásticamente a favor del algoritmo las propiedades ocultas dictaminadas por la 'Maldición de la Dimensionalidad', forzando al modelo a crear matemáticamente nuevas hiperdimensiones espaciales inmensamente más superiores donde innegablemente será factible acomodar un plano separador lícito.",
+      "Detener anticipadamente en seco el entrenamiento algorítmico en la primera iteración inyectando obligatoriamente una regularización DBSCAN de tipo densidad extrema que acabe por depurar los individuos y ruidos conflictivos de forma unilateral y estática sin supervisión.",
+      "Reemplazar imperiosamente y por la fuerza la topología natural de las variables del vector numérico hacia el rango dicotómico One-Hot de forma que se destruya definitivamente la asimetría logarítmica propiciando agrupaciones Gini sin purezas mezcladas latentes."
+    ],
+    "correcta": 0
+  },
+  {
+    "pregunta": "Dentro del preprocesamiento, si aplicamos la restrictiva codificación de texto 'One Hot Encoding' sobre una variable categórica que ampara y custodia centenares de variopintas e infinitas clases en su interior, incurriremos colateral e instantáneamente en el funesto problema de:",
+    "opciones": [
+      "Transformar analíticamente los elementos hacia una representación cíclica de senos y cosenos enclaustrando el espectro algorítmico inútilmente en una circunferencia estática logarítmica polarizada de grado dos.",
+      "Destruir temporal y permanentemente el sesgo topológico secuencial al mapear unívocamente la biyección asincrónica estocástica en base a números naturales primos y discretos inalterables impidiendo así descensos de gradiente ciegos.",
+      "Multiplicar y propulsar explosiva y vertiginosamente la dimensionalidad neta del conjunto al instanciar nuevas características plagadas de matrices 'sparse' huecas (con miles de ceros inservibles e improductivos computacionalmente)."
+    ],
+    "correcta": 2
+  },
+  {
+    "pregunta": "En la librería FastAI, ¿qué objeto informático es considerado la pieza central y fundamental para definir cómo deben construirse los conjuntos de datos, indicando sus transformaciones, bloques de entrada y salida, y la estrategia de división?",
+    "opciones": [
+      "El objeto DataBlock.",
+      "La función predefinida lr_find().",
+      "El compilador estático Tensor Splitter."
+    ],
+    "correcta": 0
+  },
+  {
+    "pregunta": "En el Procesamiento del Lenguaje Natural (NLP), al entrenar un modelo general con la configuración explícita `is_lm = True` dentro de FastAI, le estamos imponiendo al sistema la complicadísima tarea de:",
+    "opciones": [
+      "Traducir secuencias completas de texto entre dos idiomas de forma paralela.",
+      "Adivinar y predecir secuencialmente cuál es la siguiente palabra (token) que debe aparecer basándose en el contexto previo.",
+      "Clasificar con una etiqueta el sentimiento emocional absoluto de todo el párrafo original."
+    ],
+    "correcta": 1
+  },
+  {
+    "pregunta": "En la compleja tarea analítica de 'Detección de Objetos', el algoritmo a menudo genera múltiples recuadros delimitadores (bboxes) que se pisan y solapan para un mismo elemento real. ¿Qué técnica se encarga de mitigar este problema dejando solo la mejor predicción?",
+    "opciones": [
+      "Supresión de No Máximos (Non-Maximum Suppression).",
+      "Progresión Grad-CAM (Gradient Class Activation Mapping).",
+      "Técnica de Redimensionamiento Progresivo (Progressive Resizing)."
+    ],
+    "correcta": 0
+  },
+  {
+    "pregunta": "Para prevenir reactivamente que una red profunda sufra de sobreajuste memorizando los datos, la técnica de 'EarlyStopping' detiene de manera forzosa el entrenamiento si las métricas de validación no mejoran. En FastAI, esta rutina se inyecta programáticamente mediante:",
+    "opciones": [
+      "Una sobreescritura nativa del núcleo del DataBlock estocástico.",
+      "El uso de un objeto interceptor especial llamado Callback (Llamada de retorno).",
+      "La activación de los gradientes en la matriz del paso hacia atrás (backward pass)."
+    ],
+    "correcta": 1
+  },
+  {
+    "pregunta": "Siguiendo los apuntes metodológicos de preprocesamiento, si al someter a nuestro conjunto a un Análisis de Correlación tabular descubrimos que dos columnas presentan una correlación igual o superior al 80% (0.8), la regla estadística aconseja:",
+    "opciones": [
+      "Eliminar sin concesiones una de las dos columnas para no introducir información redundante repetida en el modelo base.",
+      "Multiplicarlas matemáticamente para condensarlas iterativamente en una súper-característica de reducción estática.",
+      "Mantener ambas intactas pero forzar al conjunto a pasar por una regularización DBSCAN de densidad paralela."
+    ],
+    "correcta": 0
+  },
+  {
+    "pregunta": "Al adentrarnos en las tareas más avanzadas de la Visión por Computador, si a un modelo se le entrega una fotografía, ¿cuál es la compleja salida analítica (la Y) que debe arrojar si se trata de un modelo de 'Segmentación Semántica'?",
+    "opciones": [
+      "Una lista plana con coordenadas de cajas delimitadoras.",
+      "Una nueva imagen completa (llamada máscara) donde todos y cada uno de los píxeles están clasificados individualmente en una etiqueta.",
+      "Un resumen de texto narrativo auto-generado identificando la emoción estocástica presente."
+    ],
+    "correcta": 1
+  },
+  {
+    "pregunta": "A la hora de aplicar la genial táctica de 'Fine Tuning' (Reentrenamiento) para aprovechar el conocimiento de una red neuronal preexistente, asignar un valor al argumento `freeze_epochs` obliga operativamente a la red a:",
+    "opciones": [
+      "Abortar el proceso si el optimizador Adam no mejora en ese número de épocas superando el umbral.",
+      "Congelar estáticamente los pesos del codificador heredado impidiendo que se actualicen durante esas primeras épocas, forzando a que solo se entrene inicialmente la nueva cabecera de la red.",
+      "Eliminar los datos atípicos encontrados en los canales RGB durante los ciclos de propagación hacia adelante (forward pass)."
+    ],
+    "correcta": 1
+  },
+  {
+    "pregunta": "A nivel matemático, si decidimos aplicar la fórmula MÁS LAXA para cribar los valores atípicos (outliers) apoyándonos en el Rango Intercuartílico (IQR), consideraremos como un dato ordinario y normal todo valor que resida dentro de las fronteras:",
+    "opciones": [
+      "De la media restándole 1.5 veces el IQR, a la media sumándole 1.5 veces el IQR.",
+      "Del primer cuartil (Q1) menos 1.5 veces el IQR, hasta el tercer cuartil (Q3) sumándole 1.5 veces el IQR.",
+      "Del percentil de la moda negativa, al percentil 90 absoluto de la mediana estandarizada."
+    ],
+    "correcta": 1
+  },
+  {
+    "pregunta": "Si hablamos de la Inteligencia Artificial que aúna las decisiones de múltiples algoritmos ('ensembles'), la potentísima estructura conocida como `RandomForest` (Bosque Aleatorio) pertenece por definición a la estrategia puramente de:",
+    "opciones": [
+      "Bagging (entrenar cientos de modelos del mismo tipo en paralelo y decidir por democracia o votación mayoritaria).",
+      "Boosting (entrenar modelos débiles secuencialmente en cadena para que aprendan iterativamente de los fallos previos).",
+      "Stacking (unir modelos de naturalezas muy dispares en paralelo y poner a un regresor lineal al mando para ponderar sus respuestas)."
+    ],
+    "correcta": 0
+  },
+  {
+    "pregunta": "En el marco práctico del Aprendizaje Semisupervisado, la razón crucial para autoetiquetar la información empleando obligatoriamente la función probabilística `predict_proba()` en lugar de un clásico `predict()` es:",
+    "opciones": [
+      "Porque balancea aritméticamente los pesos de la clase minoritaria sin intervención humana.",
+      "Porque al brindarnos un vector con las probabilidades por clase, nos permite pseudoetiquetar el dato solo si el porcentaje de confianza inferido supera un límite seguro (threshold).",
+      "Porque es exigida internamente por los árboles de decisión para sortear la maldición de la dimensionalidad continua."
+    ],
+    "correcta": 1
+  },
+  {
+    "pregunta": "Al programar un Agente IA guiado por Aprendizaje por Refuerzo, al inicio de sus partidas el agente tenderá fuertemente a priorizar la táctica de 'Exploración' por encima de la 'Explotación', lo cual se traduce en que:",
+    "opciones": [
+      "Inmovilizará sus acciones para recalcular el centroide Gini del entorno en base a una matriz pasiva.",
+      "Ejecutará una acción puramente nueva o aleatoria y nunca antes evaluada con el objeto de intentar hallar recompensas mejores a las ya conocidas.",
+      "Tomará exclusivamente la acción más óptima y segura conocida dentro del estado actual para maximizar su esperanza a corto plazo."
+    ],
+    "correcta": 1
+  },
+  {
+    "pregunta": "Para codificar una columna categórica que entraña un fortísimo e intrínseco orden CÍCLICO temporal (por ejemplo, los días de la semana, que se reinician), la técnica topológica idónea dictaminada por el temario sugiere:",
+    "opciones": [
+      "Comprimir analíticamente su intervalo sobre una circunferencia unitaria (usando radianes) y mapear el ciclo empleando dos nuevas columnas con las funciones de su seno y coseno.",
+      "Enclaustrar el orden secuencial asíncrono aplicando un método drástico de binarización progresiva (Binary Encoding).",
+      "Generar tantas columnas con valores puros de ceros y unos como etapas cíclicas existan (One Hot Encoding)."
+    ],
+    "correcta": 0
+  },
+  {
+    "pregunta": "Enfrentándonos a la arquitectura abstracta de un modelo 'Autoencoder' genérico, ¿qué insólita característica estructural dictamina el objetivo de sus predicciones en el entrenamiento no supervisado?",
+    "opciones": [
+      "Se le presenta un tensor multicanal de entrada (X) y se le obliga a vomitar una máscara semántica catalogada a su salida (Y).",
+      "Se le suministra un texto o etiqueta codificada de entrada (X) y se le impone inventar una imagen sintética en alta definición (Y).",
+      "Se le introduce un dato puro como entrada (X) y se le exige algorítmicamente reproducir y devolver exactamente el mismo dato idéntico a su salida (Y)."
+    ],
+    "correcta": 2
+  },
+  {
+    "pregunta": "Al parametrizar el algoritmo de densidad 'DBSCAN' para agrupamientos automáticos, el vital hiperparámetro matemático denominado 'eps' se encarga de determinar estocásticamente:",
+    "opciones": [
+      "La cantidad finita y obligatoria de clústeres que se deben conformar antes del final de ciclo iterativo.",
+      "La distancia o el rango de aceptación máxima a la que deben situarse obligatoriamente dos puntos para que el motor los asimile como vecinos próximos.",
+      "La penalización abstracta impuesta de manera reactiva sobre aquellos individuos que fuesen catalogados estáticamente como atípicos (outliers)."
+    ],
+    "correcta": 1
+  },
+  {
+    "pregunta": "Al escindir un conjunto de datos tabulares para someterlo a validación cruzada en un problema estricto de CLASIFICACIÓN, si invocamos iterativamente las versiones 'Estratificadas' (Stratified) aseguramos algorítmicamente que:",
+    "opciones": [
+      "Todos los flotantes nulos sean reemplazados mediante una interpolación paralela generada vía KNNImputer.",
+      "Se neutralice el desvanecimiento puro del gradiente transmutando la variable objetivo en un hiperplano.",
+      "En absolutamente todos y cada uno de los subconjuntos generados se proteja y respete la mismísima proporción natural de clases preexistente en el conjunto original."
+    ],
+    "correcta": 2
+  },
+  {
+    "pregunta": "Para poder obligar a un gigantesco modelo convolucional (caja negra) a volverse 'interpretable' y revelar qué zonas de la imagen impulsan su decisión, la técnica 'Grad-CAM' forja su mágico mapa de calor interceptando y escrutando:",
+    "opciones": [
+      "El número exacto de falsos positivos atrapados por un regresor de Bosque Aleatorio anexo a la capa final.",
+      "Los gradientes analíticos computados durante la fase del paso hacia atrás (backward pass) mediante un 'hook' acoplado a la última capa convolucional.",
+      "El factor multiplicador que inyectan los Callbacks al frenar el momentum de la validación."
+    ],
+    "correcta": 1
+  },
+  {
+    "pregunta": "En las entrañas matemáticas del Procesamiento del Lenguaje Natural, si un tokenizador de FastAI expulsa en la matriz el extraño token identificativo `xxunk`, el modelo nos lanza un aviso inequívoco de que:",
+    "opciones": [
+      "La letra que precede al token se repite consecutivamente repetidas veces engrosando el vocabulario.",
+      "La narración textual entra en modo censura por haber desbordado un carácter ajeno al alfabeto UTF-8.",
+      "La palabra o unidad aislada que acaba de interceptarse resulta completamente desconocida (Unknown) para el acervo del modelo."
+    ],
+    "correcta": 2
+  },
+  {
+    "pregunta": "Si concebimos desde un prisma conceptual la creación pura de un 'Word Embedding', el objetivo estricto radica en conseguir forjar algorítmicamente:",
+    "opciones": [
+      "Una inmensa matriz repleta de ceros estáticos donde cada palabra en inglés posea forzosamente un solo uno (Sparse matrix representation).",
+      "Una tupida representación vectorial profunda e insertada en un espacio matemático continuo que posea la capacidad latente de retener la gramática y agrupar semánticamente el contexto humano.",
+      "Un algoritmo biyectivo que traslade letras de un idioma natural hacia una codificación en números racionales de base dos asíncrona."
+    ],
+    "correcta": 1
+  },
+  {
+    "pregunta": "Al contrastar los fallos emitidos por un modelo binario contra una 'Matriz de Confusión', si la directiva nos obliga a calcular rígidamente su 'Exhaustividad' o 'Recall', deberemos sondear la proporción que indique:",
+    "opciones": [
+      "El porcentaje general e inquebrantable de aciertos totales respecto a la suma absoluta de casos aportados por el dataset ciego de testeo.",
+      "De todas las ocasiones en que el algoritmo exclamó afirmativamente 'es positivo', cuántas de ellas resultaron ser empíricamente reales y acertadas.",
+      "De todos los casos positivos reales y palpables que de verdad existían y moraban en el entorno, cuántos ha sido verdaderamente capaz de olfatear o descubrir nuestra IA."
+    ],
+    "correcta": 2
+  },
+  {
+    "pregunta": "Investigando en el universo abstracto del entrenamiento Deep Learning, ¿con qué intención primordial se dota de regularización a la red inyectándole el hiperparámetro o técnica de 'DropOut'?",
+    "opciones": [
+      "Para desactivar y apagar ciegamente al azar un porcentaje prefijado de sus neuronas durante cada época, obligando a las restantes a hacer el trabajo de las caídas, evitando así que el modelo se especialice y padezca de sobreajuste letal.",
+      "Para precipitar opacamente la métrica EarlyStopping deteniendo en seco los gradientes si la GPU acusa una saturación alarmante en los bancos VRAM limitando el batch_size.",
+      "Para condensar geométricamente la exactitud métrica interceptando los atípicos gaussianos de las imágenes CutOut."
+    ],
+    "correcta": 0
+  },
+  {
+    "pregunta": "En el Procesamiento del Lenguaje Natural (NLP), la aparición del token especial 'xxrep' generado por el tokenizador de FastAI nos indica explícitamente que:",
+    "opciones": [
+      "Ese bloque gramatical es totalmente desconocido y no existe en el diccionario del modelo general.",
+      "Se ha alcanzado el límite máximo de longitud de la secuencia, cortando el vector.",
+      "El carácter o elemento indicado a continuación se repite consecutivamente 'n' veces en el texto original."
+    ],
+    "correcta": 2
+  },
+  {
+    "pregunta": "Al enfrentarnos a un problema de Segmentación Semántica fuertemente desbalanceado (ej. muchísimos píxeles de hojas y muy pocos de uvas), la métrica 'DiceMulti' presenta el inconveniente de que:",
+    "opciones": [
+      "Al calcular una media conjunta, puede enmascarar los errores cometidos en las clases minoritarias si el modelo acierta fácilmente la clase superpoblada.",
+      "Reduce drásticamente el tamaño del batch impidiendo que la GPU pueda almacenar más de dos clases simultáneamente.",
+      "Lanza una excepción CUDA Out of Memory al intentar procesar el canal de Background en escala de grises."
+    ],
+    "correcta": 0
+  },
+  {
+    "pregunta": "A partir del año 2017, la irrupción de las arquitecturas 'Transformers' (como la que impulsa a ChatGPT) revolucionó el Deep Learning gracias a que:",
+    "opciones": [
+      "Eliminaron completamente el uso de GPUs para basarse exclusivamente en árboles de decisión aleatorios.",
+      "Aplicaron mecanismos de 'auto-atención' (self-attention) permitiendo a las capas detectar qué características son las más importantes y corregirse a sí mismas.",
+      "Fueron los primeros modelos en implementar estrictamente regresiones lineales con la función de activación Softmax."
+    ],
+    "correcta": 1
+  },
+  {
+    "pregunta": "En el contexto de aprendizaje No Supervisado, ¿qué inmensa ventaja automática ostenta el algoritmo basado en densidad DBSCAN frente al clásico KMeans?",
+    "opciones": [
+      "Es capaz de detectar por sí solo los valores atípicos (outliers) y aislarlos bajo la etiqueta de grupo -1 sin intervención humana.",
+      "Garantiza encontrar siempre el valle óptimo del hiperparámetro 'eps' calculando el Método del CODO iterativamente.",
+      "No requiere bajo ningún concepto que los datos sean estandarizados o escalados previamente."
+    ],
+    "correcta": 0
+  },
+  {
+    "pregunta": "A la hora de configurar un objeto DataBlock en FastAI para afrontar una compleja tarea de Segmentación Semántica, los bloques de entrada y salida (blocks) requeridos obligatoriamente son:",
+    "opciones": [
+      "(ImageBlock, CategoryBlock).",
+      "(TextBlock, CategoryBlock).",
+      "(ImageBlock, MaskBlock)."
+    ],
+    "correcta": 2
+  },
+  {
+    "pregunta": "Durante el entrenamiento de una red neuronal, la técnica de aceleración 'to_fp16()' reduce el tamaño de la memoria utilizando menos decimales (16 bits). ¿Qué fallo letal puede originar esta práctica si los valores son muy extremos?",
+    "opciones": [
+      "Que el modelo de caja blanca se vuelva completamente opaco impidiendo utilizar herramientas como Grad-CAM.",
+      "Que se produzcan errores de coma flotante provocando que el gradiente explote o se desvanezca (Vanishing gradient problem).",
+      "Que las funciones de activación RELU comiencen a transformar los valores positivos en ceros."
+    ],
+    "correcta": 1
+  },
+  {
+    "pregunta": "Haciendo uso de la poderosa librería HuggingFace, si instanciamos un modelo del tipo 'AutoModelForSeq2SeqLM' (como el modelo BART), lo aplicaremos con el fin de resolver tareas del tipo:",
+    "opciones": [
+      "De Imagen a Etiqueta (Clasificación pura de fotografías).",
+      "De Texto a Texto (Generación de resúmenes automáticos o traducciones).",
+      "De Sonido a Texto (Reconocimiento del habla y transcripción)."
+    ],
+    "correcta": 1
+  },
+  {
+    "pregunta": "Dentro de las estrategias de aumentos de imágenes NO geométricos (irreversibles), la diferencia fundamental de la técnica 'CutOut' respecto a 'CutMix' estriba en que:",
+    "opciones": [
+      "CutOut recorta un área y simplemente la rellena de vacío (color negro), mientras que CutMix rellena ese hueco aportando información y píxeles interceptados de una imagen distinta.",
+      "CutOut inyecta ruidos Gaussianos en el canal Alpha de transparencia, mientras que CutMix aplica una rotación de perspectiva aleatoria.",
+      "CutOut es un proceso conservador y siempre reversible matemáticamente, mientras que CutMix destruye el tensor RGB permanentemente."
+    ],
+    "correcta": 0
+  },
+  {
+    "pregunta": "Al inspeccionar la etiqueta o máscara generada por un modelo de Segmentación Semántica, es un estándar universal que el identificador numérico 0 (mapeado visualmente con el color negro) represente:",
+    "opciones": [
+      "El fondo de la imagen (Background), englobando toda la información que es irrelevante para nuestro problema.",
+      "El primer objeto detectado por la caja delimitadora (bbox) de la Supresión de No Máximos.",
+      "Los valores numéricos atípicos (outliers) censurados por la función de activación ReLU."
+    ],
+    "correcta": 0
+  },
+  {
+    "pregunta": "Programando la limpieza de datos en la librería Pandas, ¿cuál es la sintaxis o comando estricto para desechar y borrar permanentemente una característica (columna) del DataFrame?",
+    "opciones": [
+      "df.delete(column='nombre_columna')",
+      "df.drop(columns=['nombre_columna'])",
+      "df.remove_cols(name='nombre_columna')"
+    ],
+    "correcta": 1
+  },
+  {
+    "pregunta": "Al desglosar la fórmula matemática con la que el algoritmo Q-Learning actualiza su q-tabla, ¿qué rol analítico asume el término exacto 'max_a Q(S_t+1, a)'?",
+    "opciones": [
+      "Representa la penalización inmediata pura calculada tras ejecutar una acción inválida.",
+      "Se denomina 'valor optimista' y representa algorítmicamente el mejor valor posible esperado del siguiente estado.",
+      "Es el factor de descuento (gamma) que decide si el agente será miope o extremadamente optimista."
+    ],
+    "correcta": 1
+  },
+  {
+    "pregunta": "Si empleamos un Word Embedding general preentrenado (a nivel de token) pero necesitamos forzosamente alimentar un clasificador clásico obteniendo una única representación matricial que simbolice la FRASE entera, la metodología recomendada es:",
+    "opciones": [
+      "Calcular matemáticamente la media (mean) de todos los tensores correspondientes a los tokens individuales que integran esa frase.",
+      "Multiplicar consecutivamente todos los vectores de los tokens hasta saturar y comprimir la matriz jacobiana.",
+      "Añadir columnas adicionales al DataFrame concatenando ciegamente cada tensor hasta encajar con la longitud de la frase más extensa."
+    ],
+    "correcta": 0
+  },
+  {
+    "pregunta": "En las estrategias 'ensemble' de Inteligencia Artificial conocidas como Stacking (Apilamiento), al intentar lograr una 'mayoría ponderada' que mejore la decisión, los apuntes indican que se puede recurrir creativamente a:",
+    "opciones": [
+      "Entrenar un modelo de Regresión Lineal en la cabecera tomando las predicciones de los modelos base como entrada, para que éste establezca el peso o importancia real de cada uno.",
+      "Forzar una votación unánime pura, de forma que si un solo modelo discrepa, la predicción final se anula automáticamente.",
+      "Aplicar la métrica DiceMulti al conjunto de Random Forests para aglomerar jerárquicamente sus resultados."
+    ],
+    "correcta": 0
+  },
+  {
+    "pregunta": "Frente a un dataset minúsculo y con poquísima información, ¿por qué es algorítmicamente preferible y mucho más robusto recurrir a una validación cruzada 'K-Fold' que a un clásico 'Train-Test Split'?",
+    "opciones": [
+      "Porque el Train-Test Split exige que todos los valores categóricos hayan sido previamente convertidos a vectores Embedding profundos.",
+      "Porque al entrenar y testear cíclicamente sobre absolutamente todas las porciones (pliegues) del dataset y promediar el final, difuminamos el sesgo provocado por el azar de una única partición.",
+      "Porque es el único método aceptado nativamente por la GPU para paralelizar el Descenso del Gradiente estocástico."
+    ],
+    "correcta": 1
+  },
+  {
+    "pregunta": "Analizando problemas de clasificación binaria altamente desbalanceados, ¿por qué la métrica ROC-AUC (Área Bajo la Curva ROC) resulta un indicador superior e idóneo para evaluar el modelo?",
+    "opciones": [
+      "Porque contabiliza únicamente el volumen absoluto de Verdaderos Positivos sin penalizar bajo ningún concepto la aparición de Falsos Negativos.",
+      "Porque establece matemáticamente un riguroso ratio entre la tasa de Verdaderos Positivos y la de Falsos Positivos, dictaminando que cuanto más se acerque su área a 1, más robusto y limpio es el modelo.",
+      "Porque su fórmula extrae logarítmicamente la pureza Gini garantizando la interpretabilidad natural del resultado."
+    ],
+    "correcta": 1
+  },
+  {
+    "pregunta": "Al estructurar la arquitectura base subyacente al Aprendizaje por Refuerzo, la entidad programada capaz de tomar decisiones interactuando en el tablero recibe el nombre técnico de:",
+    "opciones": [
+      "Entorno (Environment).",
+      "Agente (Agent).",
+      "Observación Estocástica."
+    ],
+    "correcta": 1
+  },
+  {
+    "pregunta": "Al implementar programáticamente la técnica defensiva de 'EarlyStopping' para cortar el entrenamiento de una IA y frenar el sobreajuste, ¿qué define concretamente su hiperparámetro 'patience'?",
+    "opciones": [
+      "El umbral mínimo exigido a la Exactitud (Accuracy) antes de considerarlo un modelo validado.",
+      "El número límite de épocas consecutivas que el algoritmo tolerará sin lograr ninguna mejora en la métrica de validación antes de abortar forzosamente.",
+      "El tiempo máximo medido en segundos que se autoriza a la GPU para resolver un 'forward pass' completo."
+    ],
+    "correcta": 1
+  },
+  {
+    "pregunta": "Si logramos destapar las decisiones de nuestro Árbol de Clasificación recurriendo al método visual 'plot_tree', ¿qué vitales datos estadísticos y operacionales custodia internamente cada uno de sus nodos?",
+    "opciones": [
+      "La matriz inversa del gradiente propagada y el peso exacto del perceptrón.",
+      "La regla lógica de corte de la variable, el cálculo de impureza (gini/entropía), el volumen de muestras presentes y la distribución de clases asignadas.",
+      "Las coordenadas de la caja delimitadora (bbox) y el grado de Perplejidad en lenguaje natural."
+    ],
+    "correcta": 1
+  },
+  {
+    "pregunta": "Dentro del flujo avanzado en Visión por Computador, existe una técnica de robustez predictiva llamada 'TTA' (Aumentos en Tiempo de Testeo), cuyo procedimiento consiste algorítmicamente en:",
+    "opciones": [
+      "Desechar las fotografías originales y evaluar al modelo usando exclusivamente imágenes sintéticas generadas por Autoencoders.",
+      "Aplicar a la misma imagen de testeo varios aumentos geométricos, predecir el resultado sobre todas esas variaciones y realizar una predicción conjunta media que otorgue un veredicto más seguro.",
+      "Invertir los canales de color (de RGB a BGR) durante la fase del backward pass para penalizar a los falsos positivos."
+    ],
+    "correcta": 1
+  },
+  {
+    "pregunta": "A la hora de aplicar en el preprocesamiento el riguroso objeto analítico 'StandardScaler', el procedimiento algebraico con el que reescala y normaliza nuestra característica operativamente es:",
+    "opciones": [
+      "Elevando todos y cada uno de los números a la potencia infinita del supremo de Minkowski.",
+      "Restando a cada valor individual la media aritmética global de su columna, y procediendo a dividirlo entre su desviación típica.",
+      "Redondeando al número entero más próximo para forzar la compresión discreta del tipo Int8."
+    ],
+    "correcta": 1
   }  
 ]
