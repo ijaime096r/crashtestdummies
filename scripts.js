@@ -277,7 +277,7 @@ try {
 await addDoc(collection(db, "fallos"), {
 
 usuario: nombreUsuario,
-pregunta: pregunta
+pregunta: pregunta,
 fecha: Date.now()
   
 })
