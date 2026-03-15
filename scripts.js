@@ -4,6 +4,7 @@ import { auth } from "./firebase.js"
 import { onAuthStateChanged } from "https://www.gstatic.com/firebasejs/10.12.2/firebase-auth.js"
 
 let usuarioActual = null
+let modoSeleccionado = null
 
 onAuthStateChanged(auth, (user) => {
 
@@ -16,9 +17,36 @@ return
 
 usuarioActual = user.email
 
+let nombreUsuario = usuarioActual.split("@")[0]
+
+// solo megant puede elegir modo
+if (nombreUsuario === "megant") {
+
+document.getElementById("modoTest").style.display = "block"
+
+} else {
+
+modoSeleccionado = "basico"
+document.getElementById("test").style.display = "block"
 cargarPreguntas()
 
+}
+
 })
+
+
+// seleccionar modo
+
+window.seleccionarModo = function(modo) {
+
+modoSeleccionado = modo
+
+document.getElementById("modoTest").style.display = "none"
+document.getElementById("test").style.display = "block"
+
+cargarPreguntas()
+
+}
 
 
 // variables del test
@@ -34,7 +62,7 @@ function cargarPreguntas() {
 
 let nombreUsuario = usuarioActual.split("@")[0]
 
-let archivo = "preguntas-" + nombreUsuario + ".json"
+let archivo = "preguntas-" + nombreUsuario + "-" + modoSeleccionado + ".json"
 
 fetch(archivo)
 
@@ -67,7 +95,7 @@ indiceOriginal: i
 
 })
 
-// mezclar
+// mezclar respuestas
 opciones = mezclar(opciones)
 
 document.getElementById("pregunta").textContent = p.pregunta
@@ -76,7 +104,7 @@ let contenedor = document.getElementById("respuestas")
 
 contenedor.innerHTML = ""
 
-opciones.forEach((op, posicion) => {
+opciones.forEach((op) => {
 
 let boton = document.createElement("button")
 
@@ -167,6 +195,7 @@ document.getElementById("info").textContent = texto
 
 }
 
+
 // mezclar preguntas
 
 function mezclar(array) {
@@ -185,7 +214,9 @@ return array
 
 }
 
-// Pasar a la siguiente pregunta con intro
+
+// pasar a la siguiente pregunta con intro
+
 document.addEventListener("keydown", function(event) {
 
 if (event.key === "Enter") {
